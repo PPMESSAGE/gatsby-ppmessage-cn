@@ -50,7 +50,7 @@ export default () => (
         </h3>
         <div style={{height:'20px'}}>
         </div>
-        <img src="https://upload-images.jianshu.io/upload_images/12406336-d26937c73c1ba7ec.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" height="500em" />
+        <img src="https://upload-images.jianshu.io/upload_images/12406336-2e490c25d1c6b1ce.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"  width="800px" />
       </div>            
     </section>
     <section>
