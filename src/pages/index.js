@@ -1,6 +1,6 @@
 import React from "react"
 import styles from "./about-css-modules.module.css"
-
+import EnterYourMobile from "../components/enteryourmobile"
 export default () => (
   <div>
     <div style={{height:'72px'}}></div>
@@ -16,15 +16,8 @@ export default () => (
             </h3>
             <div style={{height:"20px"}}>            
             </div>
-            <form>
-              <div className={styles.cta__large}>
-                <input type="email" placeholder="输入邮箱" className={styles.inoupbig} />
-                <div className={styles.cta__btn}>
-                  <botton type="submit" className={styles.butttonbig} ><font color="white">进入</font>
-                  </botton>
-                </div>
-              </div>
-            </form>
+            <EnterYourMobile size="middle"/> 
+            
             <div>
             </div>
             <div className={styles.t__small}>
@@ -50,11 +43,11 @@ export default () => (
         </h3>
         <div style={{height:'20px'}}>
         </div>
-        <img src="https://upload-images.jianshu.io/upload_images/12406336-2e490c25d1c6b1ce.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"  width="800px" />
+        <img src="https://upload-images.jianshu.io/upload_images/12406336-bb3d3de7eccfff1b.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"  />
       </div>            
     </section>
     <section>
-      <div style={{height:"80px"}}>
+      <div style={{height:"40px"}}>
       </div>
       <div className={styles.container__narrower}>
         <h3 className={styles.f__center}>
@@ -139,14 +132,15 @@ export default () => (
           <h5 className={styles.f__center1}><font>网页、电话、邮件、社交媒体的客户对话集中到一个工作台界面处理，精准把握客户特征
           </font></h5>
         </div>
+        <div style={{height:'30px'}}></div>
         <div className={styles.tupian}>
-          <img src="https://upload-images.jianshu.io/upload_images/12406336-679c1ca039efa1dd.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"  />
+          <img src="https://upload-images.jianshu.io/upload_images/12406336-6ab3ef657b1ecea4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" height="480px"  />
         </div>
       </div>      
     </section>
 
     <section>
-      <div style={{height:"20em"}}></div>
+      <div style={{height:"10em"}}></div>
       <div className={styles.container__narrower}>
         <h3 className={styles.f__center}>
           <font>强大统计报表，完善数据分析</font>
@@ -158,13 +152,13 @@ export default () => (
           </font></h5>
         </div>
         <div className={styles.tupian}>
-          <img src="https://upload-images.jianshu.io/upload_images/12406336-679c1ca039efa1dd.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"  />
+          <img src="https://upload-images.jianshu.io/upload_images/12406336-6b1b583e817c24af.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"  height="380px" />
         </div>
       </div>      
     </section>
 
     <section>
-      <div style={{height:"20em"}}></div>
+      <div style={{height:"10em"}}></div>
       <div className={styles.container__narrower}>
         <h3 className={styles.f__center}>
           <font>独有的拖拽式流程设计器和APP Store,实现业务快速定制</font>
@@ -172,11 +166,11 @@ export default () => (
         <div style={{height:"30px"}}></div>
         <div className={styles.container__narrower}>
           <h5 className={styles.f__center1}><font>
-            ...
+            完美帮您实现各种新奇想法，实现业务的快速定制
           </font></h5>
         </div>
         <div className={styles.tupian}>
-          <img src="https://upload-images.jianshu.io/upload_images/12406336-679c1ca039efa1dd.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"   />
+          <img src="https://upload-images.jianshu.io/upload_images/12406336-41927f3b2d6faee3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240 " height="500px"   />
         </div>
       </div>      
     </section>
@@ -231,47 +225,10 @@ export default () => (
         </div>
       </div>
     </section>
-    <div style={{height:"200px"}}></div>
     
-    <div className={styles.container}>
-      <div className={styles.cta__footer}>        
-        <div className={styles.g__row}>
-          <h2 className={styles.t__h2}>开始你的免费试用</h2>
 
-          <div className={styles.weiba}>
-            <form>
-              <div className={styles.cta__large}>
-                <input type="email" placeholder="输入邮箱" className={styles.inoupbig} />
-                <div className={styles.cta__btn}>
-                  <botton type="submit" className={styles.butttonbig} ><font color="white">进入</font>
-                  </botton>
-                </div>
-              </div>
-            </form>
-            <div>
-            </div>
-            <div className={styles.t__small}>
-              <div className={styles.list__bulletinline}>
-                <font style={{color:'#888'}}>易于安装·随时取消·已是客户？<a href="" className={styles.link__arrow}>登陆</a>
-                </font>        
-              </div>
-            </div>
-          </div>
-
-
-          
-        </div>
-        <div className={styles.g__row}>
-          <div className={styles.max__470}>
-            <font>早期公司？符合条件的申请人每月仅需49美元即可获得我们的所有产品 <a href="" className={styles.link__arrow}>了解更多信息 →</a></font>
-          </div>          
-          <div className={styles.g__c6}>
-            <div>
-            </div>
-          </div>          
-        </div>        
-      </div>
-    </div>
+    
+    
     <div style={{height:"5em"}}></div>
   </div>
 );

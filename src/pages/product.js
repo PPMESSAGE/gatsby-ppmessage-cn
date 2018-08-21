@@ -569,58 +569,12 @@ export default () => (
                     </div>
                   </div>
                 </div>
-              </div>   
-              
-              
+              </div>              
             </div>            
-          </div>
-          
+          </div>          
         </div>        
       </div>              
-    </section>
-
-    <div style={{height:"70px"}}></div>
-    <div className={styles.container}>
-      <div className={styles.cta__footer}>        
-        <div className={styles.g__row}>
-          <h2 className={styles.t__h2}>开始你的免费试用</h2>
-
-          <div className={styles.weiba}>
-            <form>
-              <div className={styles.cta__large}>
-                <input type="email" placeholder="输入邮箱" className={styles.inoupbig} />
-                <div className={styles.cta__btn}>
-                  <botton type="submit" className={styles.butttonbig} ><font color="white">进入</font>
-                  </botton>
-                </div>
-              </div>
-            </form>
-            <div>
-            </div>
-            <div className={styles.t__small}>
-              <div className={styles.list__bulletinline}>
-                <font style={{color:'#888'}}>易于安装·随时取消·已是客户？<a href="" className={styles.link__arrow}>登陆</a>
-                </font>        
-              </div>
-            </div>
-          </div>
-
-
-          
-        </div>
-        <div className={styles.g__row}>
-          <div className={styles.max__470}>
-            <font>早期公司？符合条件的申请人每月仅需49美元即可获得我们的所有产品 <a href="" className={styles.link__arrow}>了解更多信息 →</a></font>
-          </div>          
-          <div className={styles.g__c6}>
-            <div>
-            </div>
-          </div>          
-        </div>        
-      </div>
-    </div>
-    <div style={{height:"5em"}}></div>
-
-    
+    </section> 
+    <div style={{height:"5em"}}></div>    
   </div>
 );
