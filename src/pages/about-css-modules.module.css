@@ -1,13 +1,13 @@
 .nav {
-  height: 72px;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 1000;
-  background: white;
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
-  position:fixed;      
+    height: 72px;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background: white;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    position:fixed;      
 }
 .container {
   margin-left: auto;
@@ -50,18 +50,19 @@
 }
 
 .nav__link {
-  position: relative;
-  padding: 24px 20px;
-  display: inline-block;
-  text-decoration: none;
-  text-decoration-line: none;
-  text-decoration-style: initial;
-  text-decoration-color: initial;
-  cursor: pointer;
-  height: 72px;
-  color:#000;
-  font-size:15px;
-  padding-right:25px;
+    box-sizing: border-box;
+    position: relative;
+    padding: 24px 20px;
+    display: inline-block;
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+    cursor: pointer;
+    height: 72px;
+    color:#000;
+    font-size:15px;
+    padding-right:25px;
 }
 .nav__link1 {
   position: relative;
