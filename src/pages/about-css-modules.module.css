@@ -1,13 +1,13 @@
 .nav {
-    height: 72px;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1000;
-    background: white;
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
-    position:fixed;      
+  height: 72px;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background: white;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  position:fixed;      
 }
 .container {
   margin-left: auto;
@@ -50,19 +50,18 @@
 }
 
 .nav__link {
-    box-sizing: border-box;
-    position: relative;
-    padding: 24px 20px;
-    display: inline-block;
-    text-decoration: none;
-    text-decoration-line: none;
-    text-decoration-style: initial;
-    text-decoration-color: initial;
-    cursor: pointer;
-    height: 72px;
-    color:#000;
-    font-size:15px;
-    padding-right:25px;
+  position: relative;
+  padding: 24px 20px;
+  display: inline-block;
+  text-decoration: none;
+  text-decoration-line: none;
+  text-decoration-style: initial;
+  text-decoration-color: initial;
+  cursor: pointer;
+  height: 72px;
+  color:#000;
+  font-size:15px;
+  padding-right:25px;
 }
 .nav__link1 {
   position: relative;
@@ -1303,4 +1302,105 @@ text-align:center;
   right: -80px;
   position: absolute;
   max-width: 100%;
+}
+.intergration__card__logo{
+
+}
+.integration_card{
+  background: #fff;
+  border: 1px solid #dde5ed;
+  border-radius: 4px;
+  padding: 20px;
+  display: block;
+  text-decoration: none;
+  -webkit-transition: border-color .3s,-webkit-box-shadow .3s;
+  transition: border-color .3s,-webkit-box-shadow .3s;
+  transition: box-shadow .3s,border-color .3s;
+  transition: box-shadow .3s,border-color .3s,-webkit-box-shadow .3s;
+  font-size: 14px;
+  height: 100%;
+}
+.u__zfix{
+  position: relative;
+  z-index: 2;
+}
+.container__integrations_container{
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  max-width: 940px;
+  z-index: 1;
+}
+.g__row_9{
+  display: flex;
+  -webkit-box-flex: 0;
+  flex: 0 1 auto;
+  flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-direction: row;
+  margin: -20px;
+}
+.integration_card:hover{
+  border: 1px solid blue;
+}
+.intergration__card__logo{
+  height: 36px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+}
+.f__bold_7{
+  font-weight: 600;
+  color: #000;
+}
+.f__left_7{
+  font-weight: 300;
+}
+.g__c4_z{
+  width: 33.33333%;
+  min-width: 33.33333%;
+  max-width: 33.33333%;
+  flex-basis: 33.33333%;
+  flex: 0 0 auto;
+  padding: 20px;.
+  -webkit-box-flex: 0;
+}
+.zidonghua{
+ color:#888;
+}
+.zidonghua:hover{
+ color:blue;
+}
+.guimo{
+ color:#888;
+}
+.guimo:hover{
+  color:#ffb948;
+}
+.tigao{
+  color:#888;
+}
+.tigao:hover{
+  color:#c701f1;
+}
+.hezuo{
+ color:#888;
+}
+.hezuo:hover{
+  color:#17c65d;
+}
+.hezuo1{
+  color:#17c65d;
+}
+.zidonghua1{
+color:blue;
+}
+.guimo1{
+  color:#ffb948;
+}
+.tigao1{
+  color:#c701f1;
 }

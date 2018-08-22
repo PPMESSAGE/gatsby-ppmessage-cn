@@ -60,7 +60,7 @@ export default () => (
             <div className={styles.g__row_o__tight__large}>
               <div className={styles.g__c12}>
                 <img src="https://marketing.intercomassets.com/assets/live-chat/v2/tradeshift-df891c67ad1a6cf837436c487908dbadfd60b9511b5794a39534495b1852c6ac.png" width="145px" />
-                <div styles={{height:'10px'}}></div>
+                <div style={{height:'10px'}}></div>
                 <div>
                   <font>
                     合格销售额增加32％，销售周期缩短18天
@@ -94,12 +94,12 @@ export default () => (
           <div className={styles.g__c3}>
 
             <div className={styles.chuangjian} style={{margin:"22px"}}>
-              <a href="#huode" className={styles.lianjie}>
+              <a href="#hezuo" className={styles.lianjie}>
                 <div className={styles.product__breakdown__image}>
                   <img src="https://marketing.intercomassets.com/assets/live-chat/v2/capture-6cd1e65484e3cc8bc579ae4ba69db31ad254a0db01313b47191f131567fbc2b6.png" width="91px" /></div>
                   <div style={{height:"10px"}}></div>
                   <div className={styles.t__h3}>
-                    <font>获得</font>
+                    <font>合作</font>
                   </div>
                   <div className={styles.t__small_s}>
                     <font>开始正确的对话，找到您网站上最好的潜在客户</font>
@@ -113,12 +113,12 @@ export default () => (
             </div>
 
             <div className={styles.chuangjian} style={{margin:"22px"}}>
-              <a href="#huode" className={styles.lianjie}>
+              <a href="#zidonghua" className={styles.lianjie}>
                 <div className={styles.product__breakdown__image}>
                   <img src="https://marketing.intercomassets.com/assets/live-chat/v2/capture-6cd1e65484e3cc8bc579ae4ba69db31ad254a0db01313b47191f131567fbc2b6.png" width="91px" /></div>
                   <div style={{height:"10px"}}></div>
                   <div className={styles.t__h3}>
-                    <font>测量</font>
+                    <font>自动化</font>
                   </div>
                   <div className={styles.t__small_s}>
                     <font>实时了解商机转化数量，商机来源等信息，评估营销质量</font>
@@ -133,12 +133,12 @@ export default () => (
             
 
             <div className={styles.chuangjian} style={{margin:"22px"}}>
-              <a href="#" className={styles.lianjie}>
+              <a href="#guimo" className={styles.lianjie}>
                 <div className={styles.product__breakdown__image}>
                   <img src="https://marketing.intercomassets.com/assets/live-chat/v2/capture-6cd1e65484e3cc8bc579ae4ba69db31ad254a0db01313b47191f131567fbc2b6.png" width="91px" /></div>
                   <div style={{height:"10px"}}></div>
                   <div className={styles.t__h3}>
-                    <font>评价</font>
+                    <font>规模</font>
                   </div>
                   <div className={styles.t__small_s}>
                     <font>通过机器学习自动评估商机质量，并将合适的商机转给合适的销售人员，安排销售会议或与您的CRM系统同步信息
@@ -155,12 +155,12 @@ export default () => (
 
 
             <div className={styles.chuangjian} style={{margin:"22px"}}>
-              <a href="#huode" className={styles.lianjie}>
+              <a href="#tigao" className={styles.lianjie}>
                 <div className={styles.product__breakdown__image}>
                   <img src="https://marketing.intercomassets.com/assets/live-chat/v2/capture-6cd1e65484e3cc8bc579ae4ba69db31ad254a0db01313b47191f131567fbc2b6.png" width="91px" /></div>
                   <div style={{height:"10px"}}></div>
                   <div className={styles.t__h3}>
-                    <font>转化</font>
+                    <font>提高</font>
                   </div>
                   <div className={styles.t__small_s}>
                     <font>通过实时聊天和消息互动完成商机转化</font>
@@ -180,22 +180,23 @@ export default () => (
       </div>
     </section>
 
-    <section name="#">
+    <section >
+      <a name="hezuo"></a>
       <div className={styles.container_z}>
         <div className={styles.g__row}>
           <div className={styles.g__c6}>
             <div className={styles.u__inline}>
               <div className={styles.g__row}>
                 <div className={styles.g__c}>
-                  <a href="" className={styles.f__no_und_always}>
-                    <font >
+                  <a href=" " className={styles.f__no_und_always}>
+                    <font className={styles.hezuo1}>
                       合作
                     </font>
                   </a>
                 </div>
 
                 <div className={styles.g__c}>
-                  <a href="" className={styles.f__no_und_always}>
+                  <a href="#zidonghua" className={styles.f__no_und_always}>
                     <font className={styles.zidonghua}>
                       自动化
                     </font>
@@ -203,7 +204,7 @@ export default () => (
                 </div>
 
                 <div className={styles.g__c}>
-                  <a href="" className={styles.f__no_und_always}>
+                  <a href="#guimo" className={styles.f__no_und_always}>
                     <font className={styles.guimo}>
                       规模
                     </font>
@@ -211,7 +212,7 @@ export default () => (
                 </div>
 
                 <div className={styles.g__c}>
-                  <a href="" className={styles.f__no_und_always}>
+                  <a href="#tigao" className={styles.f__no_und_always}>
                     <font className={styles.tigao}>
                       提高
                     </font>
@@ -330,6 +331,7 @@ export default () => (
     </section>
 
     <section className={styles.section}>
+      <a name="zidonghua"></a>
       <div className={styles.container_z}>
         <div className={styles.support_automate}>
 
@@ -337,23 +339,23 @@ export default () => (
             <div className={styles.u__inline}>
               <div className={styles.g__row}>
                 <div className={styles.g__c}>
-                  <a href="" className={styles.f__no_und_always}>
-                    <font >
+                  <a href="#hezuo" className={styles.f__no_und_always}>
+                    <font className={styles.hezuo}>
                       合作
                     </font>
                   </a>
                 </div>
 
                 <div className={styles.g__c}>
-                  <a href="" className={styles.f__no_und_always}>
-                    <font className={styles.zidonghua}>
+                  <a href=" " className={styles.f__no_und_always}>
+                    <font className={styles.zidonghua1}>
                       自动化
                     </font>
                   </a>
                 </div>
 
                 <div className={styles.g__c}>
-                  <a href="" className={styles.f__no_und_always}>
+                  <a href="#guimo" className={styles.f__no_und_always}>
                     <font className={styles.guimo}>
                       规模
                     </font>
@@ -361,7 +363,7 @@ export default () => (
                 </div>
 
                 <div className={styles.g__c}>
-                  <a href="" className={styles.f__no_und_always}>
+                  <a href="#tigao" className={styles.f__no_und_always}>
                     <font className={styles.tigao}>
                       提高
                     </font>
@@ -463,6 +465,7 @@ export default () => (
     </section>
 
     <section className={styles.section}>
+      <a name="guimo"></a>
       <div className={styles.container_z}>
         <div className={styles.g__row_z}>
           <div className={styles.g__c6}>
@@ -474,15 +477,15 @@ export default () => (
             <div className={styles.u__inline}>
               <div className={styles.g__row}>
                 <div className={styles.g__c}>
-                  <a href="" className={styles.f__no_und_always}>
-                    <font >
+                  <a href="#hezuo" className={styles.f__no_und_always}>
+                    <font className={styles.hezuo}>
                       合作
                     </font>
                   </a>
                 </div>
 
                 <div className={styles.g__c}>
-                  <a href="" className={styles.f__no_und_always}>
+                  <a href="#zidonghua" className={styles.f__no_und_always}>
                     <font className={styles.zidonghua}>
                       自动化
                     </font>
@@ -490,15 +493,15 @@ export default () => (
                 </div>
 
                 <div className={styles.g__c}>
-                  <a href="" className={styles.f__no_und_always}>
-                    <font className={styles.guimo}>
+                  <a href=" " className={styles.f__no_und_always}>
+                    <font className={styles.guimo1}>
                       规模
                     </font>
                   </a>
                 </div>
 
                 <div className={styles.g__c}>
-                  <a href="" className={styles.f__no_und_always}>
+                  <a href="#tigao" className={styles.f__no_und_always}>
                     <font className={styles.tigao}>
                       提高
                     </font>
@@ -617,22 +620,23 @@ export default () => (
     </section>
     <div style={{height:"50px"}}></div>
     
-    <section name="#">
+    <section>
+      <a name="tigao"></a>
       <div className={styles.container_z}>
         <div className={styles.g__row}>
           <div className={styles.g__c6}>
             <div className={styles.u__inline}>
               <div className={styles.g__row}>
                 <div className={styles.g__c}>
-                  <a href="" className={styles.f__no_und_always}>
-                    <font >
+                  <a href="#hezuo" className={styles.f__no_und_always}>
+                    <font className={styles.guimo}>
                       合作
                     </font>
                   </a>
                 </div>
 
                 <div className={styles.g__c}>
-                  <a href="" className={styles.f__no_und_always}>
+                  <a href="#zidonghua" className={styles.f__no_und_always}>
                     <font className={styles.zidonghua}>
                       自动化
                     </font>
@@ -640,7 +644,7 @@ export default () => (
                 </div>
 
                 <div className={styles.g__c}>
-                  <a href="" className={styles.f__no_und_always}>
+                  <a href="#guimo" className={styles.f__no_und_always}>
                     <font className={styles.guimo}>
                       规模
                     </font>
@@ -648,8 +652,8 @@ export default () => (
                 </div>
 
                 <div className={styles.g__c}>
-                  <a href="" className={styles.f__no_und_always}>
-                    <font className={styles.tigao}>
+                  <a href=" " className={styles.f__no_und_always}>
+                    <font className={styles.tigao1}>
                       提高
                     </font>
                   </a>
@@ -785,11 +789,109 @@ export default () => (
           <img width="290" className={styles.tu1} src="https://marketing.intercomassets.com/assets/support/v2/bg-3-2x-e4d3b8ca63fcdb8a79662a8be7c51500e6c42844b1e4b4e71a5302f22ae2c7d0.png" />
         </div>
         <div className={styles.u__zfix}>
-          
+          <div style={{height:"40px"}}></div>          
+          <div className={styles.g__row_9}>
+            <div className={styles.g__c4_z}>
+              <a className={styles.integration_card} href="#">
+                <div className={styles.intergration__card__logo}>
+                  <img src="https://marketing.intercomassets.com/demand-generation/direct-response/1510274491-_facebook.svg" />
+                </div>
+                
+                <div className={styles.f__bold_7}>
+                  <font>Facebook的</font>
+                </div>
+                <div style={{height:"5px"}}></div>
+                <div className={styles.f__light_7}>
+                  <font>查看并回复团队收件箱中的Facebook消息</font>
+                </div>
+              </a>
+            </div>
+
+            <div className={styles.g__c4_z}>
+              <a className={styles.integration_card} href="#">
+                <div className={styles.intergration__card__logo}>
+                  <img src="https://marketing.intercomassets.com/demand-generation/direct-response/1510274738-_slack.svg" />
+                </div>
+                
+                <div className={styles.f__bold_7}>
+                  <font>松弛</font>
+                </div>
+                <div style={{height:"5px"}}></div>
+                <div className={styles.f__light_7}>
+                  <font>转换Slack最热门的潜在客户。</font>
+                </div>
+              </a>
+            </div>
+
+            <div className={styles.g__c4_z}>
+              <a className={styles.integration_card} href="#">
+                <div className={styles.intergration__card__logo}>
+                  <img src="https://marketing.intercomassets.com/demand-generation/direct-response/1510274838-_twitter.svg" />
+                </div>
+                
+                <div className={styles.f__bold_7}>
+                  <font>推特</font>
+                </div>
+                <div style={{height:"5px"}}></div>
+                <div className={styles.f__light_7}>
+                  <font>查看并回复您的团队邮箱中的Twitter DM。</font>
+                </div>
+              </a>
+            </div>
+
+            <div className={styles.g__c4_z}>
+              <a className={styles.integration_card} href="#">
+                <div className={styles.intergration__card__logo}>
+                  <img src="https://marketing.intercomassets.com/demand-generation/direct-response/1510274705-_salesforce.svg" />
+                </div>
+                
+                <div className={styles.f__bold_7}>
+                  <font>销售队伍</font>
+                </div>
+                <div style={{height:"5px"}}></div>
+                <div className={styles.f__light_7}>
+                  <font>创建潜在客户并将对话发送到Salesforce，并在Intercom中使用Salesforce数据。</font>
+                </div>
+              </a>
+            </div>
+            <div className={styles.g__c4_z}>
+              <a className={styles.integration_card} href="#">
+                <div className={styles.intergration__card__logo}>
+                  <img src="https://marketing.intercomassets.com/demand-generation/direct-response/1510274857-_zapier.svg" />
+                </div>
+                
+                <div className={styles.f__bold_7}>
+                  <font>Zapier</font>
+                </div>
+                <div style={{height:"5px"}}></div>
+                <div className={styles.f__light_7}>
+                  <font>易于自动化的繁忙人士</font>
+                </div>
+              </a>
+            </div>
+            <div className={styles.g__c4_z}>
+              <a className={styles.integration_card} href="#">
+                <div className={styles.intergration__card__logo}>
+                  <img src="https://marketing.intercomassets.com/demand-generation/direct-response/1510274517-_github.svg" />
+                </div>
+                
+                <div className={styles.f__bold_7}>
+                  <font>Github上</font>
+                </div>
+                <div style={{height:"5px"}}></div>
+                <div className={styles.f__light_7}>
+                  <font>从内部通信创建GitHub问题，并在问题关闭时通过内部通信通知。</font>
+                </div>
+              </a>
+            </div>            
+          </div>
+          <div style={{height:"30px"}}></div>
+          <a href="#" ><font>查看更多应用</font></a>
+          <div className={styles.f__center}>
+            
+          </div>
         </div>
       </div>
-    </section>
-
-    
+    </section>   
   </div>
 );
