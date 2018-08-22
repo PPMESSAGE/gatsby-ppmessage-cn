@@ -10,7 +10,7 @@ export default ({ children }) => (
         <div className={styles.nav}>
             <div className={styles.container}>
                 <a href="/" className={styles.brand__logo} >
-                    <img style={{'maxWidth':'100%'}} src="https://upload-images.jianshu.io/upload_images/12406336-2715eb7d8701e9c1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" />   
+                    <img style={{'maxWidth':'100%'}} src="https://upload-images.jianshu.io/upload_images/1452741-3bd58a14d08042cc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" />   
                 </a>
                 <div className={styles.nav__content}>
                     <div className={styles.nav__link}>
@@ -264,7 +264,7 @@ export default ({ children }) => (
                     <a href="#" className={styles.nav__link}><font className={styles.zizi}>登陆</font>
                     </a>
                     <div className={styles.nav__cta}>
-                        <div style={{margin:"20px 0px 0px 0px"}}>
+                        <div>
                             <EnterYourMobile size="small"/>
                         </div>
                     </div>
