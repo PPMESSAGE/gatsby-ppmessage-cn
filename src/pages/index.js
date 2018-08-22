@@ -8,7 +8,7 @@ export default () => (
       <div className={styles.g__row}>
         <div className={styles.g__c6}>
           <div className={styles.sp__5}>
-            <h2 style={{margin:'5rem 0rem 0rem 0rem'}}>获得，吸引和留住客户的新方法
+            <h2>获得，吸引和留住客户的新方法
             </h2>
             <div style={{height:"10px"}}>
             </div>
