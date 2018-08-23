@@ -107,7 +107,7 @@ const Footer = props => (
           </div>
 
           <div className={styles.footer__link}>
-            <a href=" " className={styles.lianjie}>
+            <a href="/guide-attract-customers" className={styles.lianjie}>
               <font>引导和吸引用户</font>
             </a>
           </div>

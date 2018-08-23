@@ -8,7 +8,6 @@
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
   border-right: none;
-
   font-family: IntercomText,Helvetica Neue,Helvetica,Arial,sans-serif;
   padding: .4em .7em;
   font-size: 18px;
@@ -19,8 +18,7 @@
   margin: 0;
   outline: none;
   -webkit-box-shadow: none;
-  box-shadow: none;
-  
+  box-shadow: none;  
 }
 
 button {

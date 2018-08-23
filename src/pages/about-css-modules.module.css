@@ -572,7 +572,7 @@
 }
 .main1:hover{
   background:rgba(255,255,255,0);
-  opacity:1 ;
+  
   transform: scale(1.1);
   box-shadow:0 3px 13px 3px rgba(90,122,190,.08);
 }
@@ -582,10 +582,28 @@
 }
 .g__row:hover .main1:hover{
   opacity:1;
-} 
+}
+
+.g__row:hover .holiday{
+  opacity:0.3;
+}
+.g__row:hover .holiday:hover{
+  opacity:1;
+}
+
+
+
+.holiday{
+    color:#888;
+    padding-bottom:30px;
+}
+
+.holiday:hover{
+    color:blue;
+}
 .section {
-  padding-top: 80px;
-  padding-bottom: 80px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 .device__grey{
   padding: 50px;
@@ -747,7 +765,7 @@
   opacity: 0;
   transition: opacity .3s;
   text-align: center;
-  margin:100px;
+  margin:30px;
 }
 .chuangjian:hover .product__learn_more{
   opacity:0.8;
@@ -951,12 +969,8 @@
   bottom: -200px;
   right: -150px;
 }
-.heise{
-  color:#888;
-}
-.heise:hover{
-  color:blue;
-}
+
+
 .f__medium{
   font-weight: 500;
 }
@@ -1353,7 +1367,7 @@ text-align:center;
   align-items: center;
 }
 .f__bold_7{
-  font-weight: 600;
+  font-weight: 900;
   color: #000;
 }
 .f__left_7{
@@ -1403,4 +1417,75 @@ color:blue;
 }
 .tigao1{
   color:#c701f1;
+}
+.g__row_center{
+    -webkit-box-pack: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    -webkit-box-flex: 0;
+    flex: 0 1 auto;
+    flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    margin: -20px;
+}
+.g__c7{
+    -webkit-box-flex: 0;
+    width: 58.33333%;
+    min-width: 58.33333%;
+    max-width: 58.33333%;
+    flex-basis: 58.33333%;
+    flex: 0 0 auto;
+    -webkit-box-pack:center;
+    justify-content: center;
+    padding: 20px;
+}
+.g__c6_s{
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    padding:31px;
+    text-align:center;
+    -webkit-box-flex: 0;
+}
+.customer_engagement_a{
+    margin-right: 50px;
+
+}
+.customer_engagement_b{
+    margin-top: -60px;
+    margin-left: 50px;
+}
+.device__shadow{
+    box-shadow: 0 4px 15px rgba(90,122,190,.2);
+    display: inline-block;
+    max-width: 100%;
+}
+.f__no_und_aways{
+    text-decoration: none;
+    
+}
+.t__h4{
+    font-family: IntercomText,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: -.05px;
+    line-height: 1.5;
+    text-align: left;
+    color:black;
+   
+}
+.g__c6_yetou{
+    width: 50%;
+    min-width:50%;
+    max-width: 50%;
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    padding-left:20px;
 }
