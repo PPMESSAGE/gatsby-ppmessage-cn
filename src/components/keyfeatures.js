@@ -30,14 +30,16 @@ class KeyFeatures extends React.Component {
         
         let feature_desc_list = this.props.features.map((feature, i)=> {
             let _class = "";
+            let _title_class = "feature-title"
 
             if (this.state.highlight_item == i) {
-                _class = "active";
+                _class = "active"
+                _title_class = "feature-title active"
             }
 
             return (
                 <div onClick={this.clickFeature.bind(this, feature)} className={_class} key={i} value={i}>
-                    <div>{feature.title}</div>
+                    <div className={_title_class}>{feature.title}</div>
                     <div>{feature.desc}</div>
                 </div>
             )

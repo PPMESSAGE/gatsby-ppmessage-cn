@@ -8,6 +8,14 @@
 .key-features-right {
 }
 
+.feature-title {
+}
+
+.feature-title.active {
+    color: blue;
+}
+
+
 .feature-image {
     display: none;
 }
