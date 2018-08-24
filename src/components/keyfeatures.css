@@ -1,0 +1,18 @@
+.key-features {
+    text-decoration: none;
+}
+
+.key-features-left {
+}
+
+.key-features-right {
+}
+
+.feature-image {
+    display: none;
+}
+
+.feature-image.active {
+    display: block;
+}
+
