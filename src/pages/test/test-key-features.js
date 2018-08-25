@@ -37,12 +37,9 @@ export default () => {
             <div style={{height:`72px`}}></div>
             <div className={styles.container__narrower}>
                 <div className={styles.g__row}>
-                    <div className={styles.g__c6}>
-                        <h1>test key features</h1>
-                        <KeyFeatures features={_features}>
-                            
-                        </KeyFeatures>
-                    </div>
+                    <h1>test key features</h1>
+                    <KeyFeatures features={_features}>
+                    </KeyFeatures>
                 </div>  
             </div>
         </div>

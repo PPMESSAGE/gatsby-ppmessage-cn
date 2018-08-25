@@ -10,6 +10,7 @@ class KeyFeatures extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
+            highlight_item: 0
         }
 
         this.clickFeature = this.clickFeature.bind(this);
@@ -61,7 +62,12 @@ class KeyFeatures extends React.Component {
         return (
             <div className="key-features">
                 <div className="key-features-left">
-                    {feature_desc_list}
+                    <div class="key-feature-title">
+                        关键特性
+                    </div>
+                    <div>
+                        {feature_desc_list}
+                    </div>
                 </div>
                 <div className="key-features-right">
                     {feature_image_list}
