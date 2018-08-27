@@ -49,13 +49,16 @@
     padding: 20px;
     position:relative;
     color: #000;
+    cursor:pointer;
 }
 
 .feature-title {
     color: #000;
     font-weight: 600;
 }
-
+.feature-title:hover{
+    color:blue; 
+}
 .feature-title.active {
     color: blue;
 }

@@ -1,0 +1,34 @@
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    z-index: 2;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 1200px;
+}
+.t__h1{
+    font-family: IntercomGrot,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    font-size: 56px;
+    letter-spacing: -.2px;
+    line-height: 1.21;
+    color: #000;
+    margin: 0 0 10px;
+    text-align: center;
+    padding-bottom: 0;
+    margin-bottom: 20px;
+}
+.t__h3_center{
+    margin: 0 0 10px;
+    line-height: 1.5;
+    letter-spacing: -.1px;
+    font-size: 24px;
+    font-family: IntercomText,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #888;
+    font-weight: 300;
+    text-align:center;
+}
+.t__h3{
+
+}

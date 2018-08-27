@@ -1489,3 +1489,88 @@ color:blue;
     flex: 0 0 auto;
     padding-left:20px;
 }
+.u__absolute{
+    position: absolute;
+    bottom: -50px;
+    left: -20px;
+    max-width: 100%;
+}
+.sp__left_3{
+    height: 100%;
+    padding-left: 30px;
+    box-sizing: inherit;
+}
+.t__h2__40{
+    font-family: IntercomGrot,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 1.44;
+    color: #000;
+    margin: 0 0 10px;
+    padding-top:40px;
+    font-size:40px;
+}
+.c__black{
+    color:#000;
+    font-size:20px;
+    font-weight:100;
+}
+.messages__bg_3{
+    bottom: -100px;
+    left: -80px;
+    position: absolute;
+    width:275px;
+}
+.messages__bg_4{
+    right: -100px;
+    bottom: -80px;
+    position: absolute;
+}
+.container__1300{
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    z-index: 2;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 1300px;
+    height: 100%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    position:relative;
+    align-items: center;
+
+}
+.g__c4_s{
+    width: 33.33333%;
+    min-width: 33.33333%;
+    max-width: 33.33333%;
+    -ms-flex-preferred-size: 33.33333%;
+    flex-basis: 33.33333%;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    font-size: 14px;
+    letter-spacing: .15px;
+    color: #888;
+    -webkit-box-flex: 0;
+}
+.g__row_s{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    margin: -20px;
+
+}

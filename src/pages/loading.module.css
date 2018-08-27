@@ -1,0 +1,89 @@
+.l__full__row, .l__full__col {
+    overflow: auto;
+    flex: 1;
+}
+
+.start {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    padding-top: 140px;
+    font-family: 'Intercom Grot', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    position: absolute !important;
+    left: 0 !important;
+    right: 0 !important;
+    top: 0 !important;
+    bottom: 0 !important;
+    overflow: auto !important;
+}
+.m__login__main_login {
+    width: 100%;
+    max-width: 950px;
+    padding: 0 15px;
+}
+.m__login__page__inner_with{
+    display: flex;
+}
+.start__h2{
+    color: #000000;
+    letter-spacing: 0.5px;
+    line-height: 40px;
+    font-size: 30px;
+    font-weight: 300;
+    max-width: 425px;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    display: block;
+}
+.m__login_main_login_ad{
+    padding: 20px;
+    width: 400px;
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    box-shadow: 0px 3px 0px #e5e5e5;
+    background-image: url(https://upload-images.jianshu.io/upload_images/12406336-236551e0b227692b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240);
+    background-repeat: no-repeat;
+    background-size: 190px;
+    background-position: -34px -46px;    
+}
+.start__h3{
+    font-weight: 300;
+    font-size: 18px;
+    color: #000000;
+    font-family: 'Intercom Text', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+.layout__media__center{
+    display: flex;
+}
+.t__em_link{
+    color: #1f8ceb;
+    text-decoration: none;
+    cursor: pointer;
+}
+.t__em_link:hover{
+    color:#1f8ceb;
+    cursor:pointer;
+    text-decoration:underline;
+}
+
+.start__new__design_title{
+    font-size: 18px;
+    color: #000000;
+    font-weight: 500;
+    font-family: 'Intercom Text', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    cursor: pointer;
+}
+.layout__media__ext{
+    padding-left: 100px;
+    flex: 1;
+    min-width: 0;
+}

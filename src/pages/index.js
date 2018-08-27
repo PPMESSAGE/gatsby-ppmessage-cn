@@ -70,7 +70,7 @@ export default () => (
                                         <div>
                                             <font>智能客服·营销自动化·语音机器人</font></div>
                                         <div style={{height:"10px"}}></div>
-                                        <a href=" " className={styles.ziti1}>了解更多
+                                        <a href="/conversion-businese" className={styles.ziti1}>了解更多
                                         </a>  
                                     </div>                                
                                 </div>              
@@ -88,7 +88,7 @@ export default () => (
                                         <div style={{height:"15px"}}></div>
                                         <div><font>营销自动化·智能语音机器人</font></div>
                                         <div style={{height:"10px"}}></div>
-                                        <a href=" " className={styles.ziti1}>了解更多
+                                        <a href="/guide-attract-customers" className={styles.ziti1}>了解更多
                                         </a>  
                                     </div>                                
                                 </div>
