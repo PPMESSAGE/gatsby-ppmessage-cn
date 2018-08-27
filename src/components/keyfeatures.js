@@ -30,11 +30,11 @@ class KeyFeatures extends React.Component {
         });
         
         let feature_desc_list = this.props.features.map((feature, i)=> {
-            let _class = "";
+            let _class = "feature-item";
             let _title_class = "feature-title"
 
             if (this.state.highlight_item == i) {
-                _class = "active"
+                _class = "feature-item active"
                 _title_class = "feature-title active"
             }
 
@@ -62,7 +62,7 @@ class KeyFeatures extends React.Component {
         return (
             <div className="key-features">
                 <div className="key-features-left">
-                    <div class="key-feature-title">
+                    <div className="key-feature-title">
                         关键特性
                     </div>
                     <div>

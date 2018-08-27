@@ -45,6 +45,12 @@
 }
 
 
+.feature-item {
+    padding: 20px;
+    position:relative;
+    color: #000;
+}
+
 .feature-title {
     color: #000;
     font-weight: 600;
@@ -54,6 +60,17 @@
     color: blue;
 }
 
+
+.feature-item.active::before {
+    content: "";
+    position: absolute;
+    left: -5px;
+    top: 32px;
+    width: 10px;
+    height: 26px;
+    background: url(../images/chevron.svg) no-repeat top;
+    background-size: 100%;
+}
 
 .feature-desc {
 
