@@ -63,7 +63,7 @@ class KeyFeatures extends React.Component {
             <div className="key-features">
                 <div className="key-features-left">
                     <div className="key-feature-title">
-                        关键特性
+                        关键特征
                     </div>
                     <div>
                         {feature_desc_list}

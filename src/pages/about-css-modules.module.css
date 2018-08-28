@@ -1574,3 +1574,104 @@ color:blue;
     margin: -20px;
 
 }
+.t__h1_s{
+    font-family: IntercomGrot,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    font-size: 56px;
+    letter-spacing: -.2px;
+    line-height: 1.21;
+    color: #000;
+
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    max-width: 570px;
+}
+.t__h3_d{
+    font-family: IntercomText,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    letter-spacing: -.1px;
+    line-height: 1.5;
+    color: #000;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    max-width:570px;
+}
+.live_chat__qualify__inner{
+    width: 100%;
+    width: 1300px;
+    margin: 0 auto;
+}
+.g__c4__relative{
+    width: 33.33333%;
+    min-width: 33.33333%;
+    max-width: 33.33333%;
+    flex-basis: 33.33333%;
+    flex: 0 0 auto;
+    position: relative;
+}
+.live_chat__label{
+    background: #fff;
+    border-radius: 4px;
+    padding: 2px 8px 1px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+}
+.live_chat__qualify_content{
+    margin-bottom:-200px;
+}
+.live_chat__qualify__arrow{
+    transform: none;
+    position: absolute;
+    top: 50%;
+    right: -10px;
+    transition: transform .3s cubic-bezier(.145,.56,.015,1.335),-webkit-transform .3s cubic-bezier(.145,.56,.015,1.335);
+}
+.u__center{
+    margin-left: auto;
+    margin-right: auto;
+}
+.g__row_fill_pink{
+    display: flex;
+    -webkit-box-flex: 0;
+    flex: 0 1 auto;
+    flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    margin: -20px;
+}
+.f__left{
+    text-align: left;
+}
+.g__c4_5{
+    width: 33.33333%;
+    min-width: 33.33333%;
+    max-width: 33.33333%;
+    -ms-flex-preferred-size: 33.33333%;
+    flex-basis: 33.33333%;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    font-size: 14px;
+    letter-spacing: .15px;
+    padding-left:5em;
+    -webkit-box-flex: 0;
+}
+.g__c2{
+    width: 16.66667%;
+    min-width: 16.66667%;
+    max-width: 16.66667%;
+    flex-basis: 16.66667%;
+    flex: 0 0 auto;
+}
+.g__c7_s{
+    -webkit-box-flex: 0;
+    width: 58.33333%;
+    min-width: 58.33333%;
+    max-width: 58.33333%;
+    flex-basis: 58.33333%;
+    flex: 0 0 auto;
+}

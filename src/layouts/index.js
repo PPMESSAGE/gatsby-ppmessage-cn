@@ -113,7 +113,7 @@ export default ({ children }) =>
 <NavDropdown title="应用场景">
 <div className={styles.g__row}>
 <div style={{marginLeft:"20px"}}>
-<a href="/conversion-businese" className={styles.f__no_und_aways}>
+<a href="/transform-customs" className={styles.f__no_und_aways}>
 <div className={styles.holiday}>
 <div className={styles.t__h4}>
 <font style={{color:"black"}}>获取和转化商机</font>
@@ -134,7 +134,7 @@ export default ({ children }) =>
 
 <div style={{height:"10px"}}></div>
 
-<a href="#" style={{textDecoration:"none"}}>
+<a href="/conversion-businese" style={{textDecoration:"none"}}>
 <div className={styles.holiday}>
 <div className={styles.t__h4}><font style={{color:"black"}}>客户支持并提高客户满意度</font></div>
 <div >通过集成多个渠道，自助服务和强大自动化的现代服务台提高客户满意度并提高效率</div>

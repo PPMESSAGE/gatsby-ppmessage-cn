@@ -185,10 +185,10 @@ export default () => (
                                         <div>
                                             <div className={styles.g__row}>
                                                 <div className="g__c3 g__c12--md">
-                                                    <h2 className="t__h3 f__center--md u__reset">发送</h2>
+                                                    <h2 className="t__h3 f__center--md u__reset"></h2>
                                                     <div className="sp__1"></div>
                                                     <div>
-                                                        <div className="c__black f__bold f__center--md">xxx</div>
+                                                        <div className="c__black f__bold f__center--md"></div>
                                                         <div className="sp__05"></div>
                                                         <div className="t__small f__center--sm f__center--md"></div>
                                                         <div className="sp__3--md sp__3--sm"></div>
@@ -208,46 +208,89 @@ export default () => (
 
                             <div className={styles.g__c6}>
                                 <div className={styles.features__block}>
-                                    <embed src="https://marketing.intercomassets.com/assets/_svg/icons/facebook-d127d681b8da22c0bd10c193318904e25ec29271f1e7649fc0b0e5e9b7c890cd.svg"  height="30" />
-                                    <div style={{height:'10px'}}></div>
-                                    <div className={styles.sp__right-6}>
-                                        <div className={styles.t__small}>
-                                            <font className={styles.t__smallfont}>呼叫中心</font>
+
+                                    <FeatherModal abstract={{title: "呼叫中心", icon: "https://marketing.intercomassets.com/assets/_svg/icons/smart-campaigns-9b8fd8bfaae4a87872e1af63f8cd201467cd5e5ffbdb70cb2a7fa9f71f870754.svg", desc: "可以通过座席工作台直接接打客户电话，发送查收短信，查看客户资料和录音信息"}}>
+                                        <div>
+                                            <div className={styles.g__row}>
+                                                <div className="g__c3 g__c12--md">
+                                                    <h2 className="t__h3 f__center--md u__reset">{/*图片标题*/}</h2>
+                                                    <div className="sp__1"></div>
+                                                    <div>
+                                                        <div className="c__black f__bold f__center--md">{/* 图片内容介绍*/}</div>
+                                                        <div className="sp__05"></div>
+                                                        <div className="t__small f__center--sm f__center--md"></div>
+                                                        <div className="sp__3--md sp__3--sm"></div>
+                                                    </div>
+                                                </div>
+                                                <div className="g__c9 g__c12--md f__center u__static">
+                                                    <div className="browser device__shadow">
+                                                        <img height="auto" width="650" data-large="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-6b555d9c492811f6a1bafd80506ba6407ee82d2022239b3e290b0cf121fca2b2.png" data-medium="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-6b555d9c492811f6a1bafd80506ba6407ee82d2022239b3e290b0cf121fca2b2.png" data-large2x="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-2x-f253684e86a5d6bd87c47b97895347b6ca557c481eb15e934789ede91b0bf34d.png" data-medium2x="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-2x-f253684e86a5d6bd87c47b97895347b6ca557c481eb15e934789ede91b0bf34d.png" data-lazy-load="true" alt="" src="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-6b555d9c492811f6a1bafd80506ba6407ee82d2022239b3e290b0cf121fca2b2.png"/><noscript><img height="auto" width="650" alt="" src="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-6b555d9c492811f6a1bafd80506ba6407ee82d2022239b3e290b0cf121fca2b2.png" /></noscript>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div className={styles.t__small}>
-                                            <font className={styles.huise3}>可以通过座席工作台直接接打客户电话，发送查收短信，查看客户资料和录音信息</font>
-                                        </div>
-                                    </div>
+                                    </FeatherModal>
+
+
+                                    
                                 </div>
                             </div>
 
                             <div className={styles.g__c6}>
                                 <div className={styles.features__block}>
-                                    <embed src="https://marketing.intercomassets.com/assets/_svg/icons/facebook-d127d681b8da22c0bd10c193318904e25ec29271f1e7649fc0b0e5e9b7c890cd.svg"  height="30" />
-                                    <div style={{height:'10px'}}></div>
-                                    <div className={styles.sp__right-6}>
-                                        <div className={styles.t__small}>
-                                            <font className={styles.t__smallfont}>微信小程序和公众号</font>
+
+                                    <FeatherModal abstract={{title: "微信小程序和公众号", icon: "https://marketing.intercomassets.com/assets/_svg/icons/smart-campaigns-9b8fd8bfaae4a87872e1af63f8cd201467cd5e5ffbdb70cb2a7fa9f71f870754.svg", desc: "通过座席工作台应答微信访客咨询"}}>
+                                        <div>
+                                            <div className={styles.g__row}>
+                                                <div className="g__c3 g__c12--md">
+                                                    <h2 className="t__h3 f__center--md u__reset"></h2>
+                                                    <div className="sp__1"></div>
+                                                    <div>
+                                                        <div className="c__black f__bold f__center--md"></div>
+                                                        <div className="sp__05"></div>
+                                                        <div className="t__small f__center--sm f__center--md"></div>
+                                                        <div className="sp__3--md sp__3--sm"></div>
+                                                    </div>
+                                                </div>
+                                                <div className="g__c9 g__c12--md f__center u__static">
+                                                    <div className="browser device__shadow">
+                                                        <img height="auto" width="650" data-large="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-6b555d9c492811f6a1bafd80506ba6407ee82d2022239b3e290b0cf121fca2b2.png" data-medium="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-6b555d9c492811f6a1bafd80506ba6407ee82d2022239b3e290b0cf121fca2b2.png" data-large2x="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-2x-f253684e86a5d6bd87c47b97895347b6ca557c481eb15e934789ede91b0bf34d.png" data-medium2x="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-2x-f253684e86a5d6bd87c47b97895347b6ca557c481eb15e934789ede91b0bf34d.png" data-lazy-load="true" alt="" src="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-6b555d9c492811f6a1bafd80506ba6407ee82d2022239b3e290b0cf121fca2b2.png"/><noscript><img height="auto" width="650" alt="" src="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-6b555d9c492811f6a1bafd80506ba6407ee82d2022239b3e290b0cf121fca2b2.png" /></noscript>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div className={styles.t__small}>
-                                            <font className={styles.huise3}>通过座席工作台应答微信访客咨询</font>
-                                        </div>
-                                    </div>
+                                    </FeatherModal>
+
+                                    
                                 </div>
                             </div>
 
                             <div className={styles.g__c6}>
                                 <div className={styles.features__block}>
-                                    <embed src="https://marketing.intercomassets.com/assets/_svg/icons/facebook-d127d681b8da22c0bd10c193318904e25ec29271f1e7649fc0b0e5e9b7c890cd.svg"  height="30" />
-                                    <div style={{height:'10px'}}></div>
-                                    <div className={styles.sp__right-6}>
-                                        <div className={styles.t__small}>
-                                            <font className={styles.t__smallfont}>邮件转发</font>
+
+                                    <FeatherModal abstract={{title: "邮件转发", icon: "https://marketing.intercomassets.com/assets/_svg/icons/smart-campaigns-9b8fd8bfaae4a87872e1af63f8cd201467cd5e5ffbdb70cb2a7fa9f71f870754.svg", desc: "将电子邮件从任何地址转发至座席工作台"}}>
+                                        <div>
+                                            <div className={styles.g__row}>
+                                                <div className="g__c3 g__c12--md">
+                                                    <h2 className="t__h3 f__center--md u__reset"></h2>
+                                                    <div className="sp__1"></div>
+                                                    <div>
+                                                        <div className="c__black f__bold f__center--md"></div>
+                                                        <div className="sp__05"></div>
+                                                        <div className="t__small f__center--sm f__center--md"></div>
+                                                        <div className="sp__3--md sp__3--sm"></div>
+                                                    </div>
+                                                </div>
+                                                <div className="g__c9 g__c12--md f__center u__static">
+                                                    <div className="browser device__shadow">
+                                                        <img height="auto" width="650" data-large="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-6b555d9c492811f6a1bafd80506ba6407ee82d2022239b3e290b0cf121fca2b2.png" data-medium="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-6b555d9c492811f6a1bafd80506ba6407ee82d2022239b3e290b0cf121fca2b2.png" data-large2x="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-2x-f253684e86a5d6bd87c47b97895347b6ca557c481eb15e934789ede91b0bf34d.png" data-medium2x="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-2x-f253684e86a5d6bd87c47b97895347b6ca557c481eb15e934789ede91b0bf34d.png" data-lazy-load="true" alt="" src="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-6b555d9c492811f6a1bafd80506ba6407ee82d2022239b3e290b0cf121fca2b2.png"/><noscript><img height="auto" width="650" alt="" src="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-6b555d9c492811f6a1bafd80506ba6407ee82d2022239b3e290b0cf121fca2b2.png" /></noscript>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div className={styles.t__small}>
-                                            <font className={styles.huise3}>将电子邮件从任何地址转发至座席工作台</font>
-                                        </div>
-                                    </div>
+                                    </FeatherModal>
+
+                                    
                                 </div>
                             </div>              
                         </div>            
@@ -282,61 +325,109 @@ export default () => (
 
                             <div className={styles.g__c6}>
                                 <div className={styles.features__block}>
-                                    <embed src="https://marketing.intercomassets.com/assets/_svg/icons/facebook-d127d681b8da22c0bd10c193318904e25ec29271f1e7649fc0b0e5e9b7c890cd.svg"  height="30" />
-                                    <div style={{height:'10px'}}></div>
-                                    <div className={styles.sp__right-6}>
-                                        <div className={styles.t__small}>
-                                            <font className={styles.t__smallfont}>消息汇聚</font>
+                                    <FeatherModal abstract={{title: "消息汇聚", icon: "https://marketing.intercomassets.com/assets/_svg/icons/smart-campaigns-9b8fd8bfaae4a87872e1af63f8cd201467cd5e5ffbdb70cb2a7fa9f71f870754.svg", desc: "将网页、移动端、社交媒体、邮件、电话等渠道的会话转入统一座席工作台"}}>
+                                        <div>
+                                            <div className={styles.g__row}>
+                                                <div className="g__c3 g__c12--md">
+                                                    <h2 className="t__h3 f__center--md u__reset"></h2>
+                                                    <div className="sp__1"></div>
+                                                    <div>
+                                                        <div className="c__black f__bold f__center--md"></div>
+                                                        <div className="sp__05"></div>
+                                                        <div className="t__small f__center--sm f__center--md"></div>
+                                                        <div className="sp__3--md sp__3--sm"></div>
+                                                    </div>
+                                                </div>
+                                                <div className="g__c9 g__c12--md f__center u__static">
+                                                    <div className="browser device__shadow">
+                                                        <img height="auto" width="650" data-large="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-6b555d9c492811f6a1bafd80506ba6407ee82d2022239b3e290b0cf121fca2b2.png" data-medium="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-6b555d9c492811f6a1bafd80506ba6407ee82d2022239b3e290b0cf121fca2b2.png" data-large2x="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-2x-f253684e86a5d6bd87c47b97895347b6ca557c481eb15e934789ede91b0bf34d.png" data-medium2x="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-2x-f253684e86a5d6bd87c47b97895347b6ca557c481eb15e934789ede91b0bf34d.png" data-lazy-load="true" alt="" src="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-6b555d9c492811f6a1bafd80506ba6407ee82d2022239b3e290b0cf121fca2b2.png"/><noscript><img height="auto" width="650" alt="" src="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-6b555d9c492811f6a1bafd80506ba6407ee82d2022239b3e290b0cf121fca2b2.png" /></noscript>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div className={styles.t__small}>
-                                            <font className={styles.huise3}>将网页、移动端、社交媒体、邮件、电话等渠道的会话转入统一座席工作台</font>
-                                        </div>
-                                    </div>
+                                    </FeatherModal>
+
                                 </div>
                             </div>
 
                             <div className={styles.g__c6}>
                                 <div className={styles.features__block}>
-                                    <embed src="https://marketing.intercomassets.com/assets/_svg/icons/facebook-d127d681b8da22c0bd10c193318904e25ec29271f1e7649fc0b0e5e9b7c890cd.svg"  height="30" />
-                                    <div style={{height:'10px'}}></div>
-                                    <div className={styles.sp__right-6}>
-                                        <div className={styles.t__small}>
-                                            <font className={styles.t__smallfont}>客户信息</font>
+                                    <FeatherModal abstract={{title: "客户信息", icon: "https://marketing.intercomassets.com/assets/_svg/icons/smart-campaigns-9b8fd8bfaae4a87872e1af63f8cd201467cd5e5ffbdb70cb2a7fa9f71f870754.svg", desc: "同步展示客户的基本信息，并可实时更新，支持字段自定义及检索排序"}}>
+                                        <div>
+                                            <div className={styles.g__row}>
+                                                <div className="g__c3 g__c12--md">
+                                                    <h2 className="t__h3 f__center--md u__reset"></h2>
+                                                    <div className="sp__1"></div>
+                                                    <div>
+                                                        <div className="c__black f__bold f__center--md"></div>
+                                                        <div className="sp__05"></div>
+                                                        <div className="t__small f__center--sm f__center--md"></div>
+                                                        <div className="sp__3--md sp__3--sm"></div>
+                                                    </div>
+                                                </div>
+                                                <div className="g__c9 g__c12--md f__center u__static">
+                                                    <div className="browser device__shadow">
+                                                        <img height="auto" width="650" data-large="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-6b555d9c492811f6a1bafd80506ba6407ee82d2022239b3e290b0cf121fca2b2.png" data-medium="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-6b555d9c492811f6a1bafd80506ba6407ee82d2022239b3e290b0cf121fca2b2.png" data-large2x="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-2x-f253684e86a5d6bd87c47b97895347b6ca557c481eb15e934789ede91b0bf34d.png" data-medium2x="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-2x-f253684e86a5d6bd87c47b97895347b6ca557c481eb15e934789ede91b0bf34d.png" data-lazy-load="true" alt="" src="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-6b555d9c492811f6a1bafd80506ba6407ee82d2022239b3e290b0cf121fca2b2.png"/><noscript><img height="auto" width="650" alt="" src="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-6b555d9c492811f6a1bafd80506ba6407ee82d2022239b3e290b0cf121fca2b2.png" /></noscript>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div className={styles.t__small}>
-                                            <font className={styles.huise3}>同步展示客户的基本信息，并可实时更新，支持字段自定义及检索排序</font>
-                                        </div>
-                                    </div>
+                                    </FeatherModal>
+
                                 </div>
                             </div>
 
                             <div className={styles.g__c6}>
                                 <div className={styles.features__block}>
-                                    <embed src="https://marketing.intercomassets.com/assets/_svg/icons/facebook-d127d681b8da22c0bd10c193318904e25ec29271f1e7649fc0b0e5e9b7c890cd.svg"  height="30" />
-                                    <div style={{height:'10px'}}></div>
-                                    <div className={styles.sp__right-6}>
-                                        <div className={styles.t__small}>
-                                            <font className={styles.t__smallfont}>用户轨迹</font>
+                                    <FeatherModal abstract={{title: "用户轨迹", icon: "https://marketing.intercomassets.com/assets/_svg/icons/smart-campaigns-9b8fd8bfaae4a87872e1af63f8cd201467cd5e5ffbdb70cb2a7fa9f71f870754.svg", desc: "用户历史访问记录，实时查询"}}>
+                                        <div>
+                                            <div className={styles.g__row}>
+                                                <div className="g__c3 g__c12--md">
+                                                    <h2 className="t__h3 f__center--md u__reset"></h2>
+                                                    <div className="sp__1"></div>
+                                                    <div>
+                                                        <div className="c__black f__bold f__center--md"></div>
+                                                        <div className="sp__05"></div>
+                                                        <div className="t__small f__center--sm f__center--md"></div>
+                                                        <div className="sp__3--md sp__3--sm"></div>
+                                                    </div>
+                                                </div>
+                                                <div className="g__c9 g__c12--md f__center u__static">
+                                                    <div className="browser device__shadow">
+                                                        <img height="auto" width="650" data-large="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-6b555d9c492811f6a1bafd80506ba6407ee82d2022239b3e290b0cf121fca2b2.png" data-medium="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-6b555d9c492811f6a1bafd80506ba6407ee82d2022239b3e290b0cf121fca2b2.png" data-large2x="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-2x-f253684e86a5d6bd87c47b97895347b6ca557c481eb15e934789ede91b0bf34d.png" data-medium2x="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-2x-f253684e86a5d6bd87c47b97895347b6ca557c481eb15e934789ede91b0bf34d.png" data-lazy-load="true" alt="" src="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-6b555d9c492811f6a1bafd80506ba6407ee82d2022239b3e290b0cf121fca2b2.png"/><noscript><img height="auto" width="650" alt="" src="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-6b555d9c492811f6a1bafd80506ba6407ee82d2022239b3e290b0cf121fca2b2.png" /></noscript>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div className={styles.t__small}>
-                                            <font className={styles.huise3}>用户历史访问记录，实时查询</font>
-                                        </div>
-                                    </div>
+                                    </FeatherModal>
+
                                 </div>
                             </div>
 
                             <div className={styles.g__c6}>
                                 <div className={styles.features__block}>
-                                    <embed src="https://marketing.intercomassets.com/assets/_svg/icons/facebook-d127d681b8da22c0bd10c193318904e25ec29271f1e7649fc0b0e5e9b7c890cd.svg"  height="30" />
-                                    <div style={{height:'10px'}}></div>
-                                    <div className={styles.sp__right-6}>
-                                        <div className={styles.t__small}>
-                                            <font className={styles.t__smallfont}>团队协作</font>
+                                    <FeatherModal abstract={{title: "团队协作", icon: "https://marketing.intercomassets.com/assets/_svg/icons/smart-campaigns-9b8fd8bfaae4a87872e1af63f8cd201467cd5e5ffbdb70cb2a7fa9f71f870754.svg", desc: "直接从团队成员处获取相关信息，而不干扰用户"}}>
+                                        <div>
+                                            <div className={styles.g__row}>
+                                                <div className="g__c3 g__c12--md">
+                                                    <h2 className="t__h3 f__center--md u__reset"></h2>
+                                                    <div className="sp__1"></div>
+                                                    <div>
+                                                        <div className="c__black f__bold f__center--md"></div>
+                                                        <div className="sp__05"></div>
+                                                        <div className="t__small f__center--sm f__center--md"></div>
+                                                        <div className="sp__3--md sp__3--sm"></div>
+                                                    </div>
+                                                </div>
+                                                <div className="g__c9 g__c12--md f__center u__static">
+                                                    <div className="browser device__shadow">
+                                                        <img height="auto" width="650" data-large="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-6b555d9c492811f6a1bafd80506ba6407ee82d2022239b3e290b0cf121fca2b2.png" data-medium="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-6b555d9c492811f6a1bafd80506ba6407ee82d2022239b3e290b0cf121fca2b2.png" data-large2x="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-2x-f253684e86a5d6bd87c47b97895347b6ca557c481eb15e934789ede91b0bf34d.png" data-medium2x="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-2x-f253684e86a5d6bd87c47b97895347b6ca557c481eb15e934789ede91b0bf34d.png" data-lazy-load="true" alt="" src="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-6b555d9c492811f6a1bafd80506ba6407ee82d2022239b3e290b0cf121fca2b2.png"/><noscript><img height="auto" width="650" alt="" src="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-6b555d9c492811f6a1bafd80506ba6407ee82d2022239b3e290b0cf121fca2b2.png" /></noscript>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div className={styles.t__small}>
-                                            <font className={styles.huise3}>直接从团队成员处获取相关信息，而不干扰用户</font>
-                                        </div>
-                                    </div>
+                                    </FeatherModal>
+
                                 </div>
                             </div>              
                         </div>            
@@ -380,81 +471,119 @@ export default () => (
 
                             <div className={styles.g__c6}>
                                 <div className={styles.features__block}>
-                                    <embed src="https://marketing.intercomassets.com/assets/_svg/icons/facebook-d127d681b8da22c0bd10c193318904e25ec29271f1e7649fc0b0e5e9b7c890cd.svg"  height="30" />
-                                    <div style={{height:'10px'}}></div>
-                                    <div className={styles.sp__right-6}>
-                                        <div className={styles.t__small}>
-                                            <font className={styles.t__smallfont}>会话分配流程</font>
+
+                                    <FeatherModal abstract={{title: "会话分配流程", icon: "https://marketing.intercomassets.com/assets/_svg/icons/smart-campaigns-9b8fd8bfaae4a87872e1af63f8cd201467cd5e5ffbdb70cb2a7fa9f71f870754.svg", desc: "根据访客的属性和行为将会话根据随机、循环等分配策略分配给对应客服或客服组"}}>
+                                        <div>
+                                            <div className={styles.g__row}>
+                                                <div className="g__c3 g__c12--md">
+                                                    <h2 className="t__h3 f__center--md u__reset"></h2>
+                                                    <div className="sp__1"></div>
+                                                    <div>
+                                                        <div className="c__black f__bold f__center--md"></div>
+                                                        <div className="sp__05"></div>
+                                                        <div className="t__small f__center--sm f__center--md"></div>
+                                                        <div className="sp__3--md sp__3--sm"></div>
+                                                    </div>
+                                                </div>
+                                                <div className="g__c9 g__c12--md f__center u__static">
+                                                    <div className="browser device__shadow">
+                                                        <img height="auto" width="650" data-large="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-6b555d9c492811f6a1bafd80506ba6407ee82d2022239b3e290b0cf121fca2b2.png" data-medium="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-6b555d9c492811f6a1bafd80506ba6407ee82d2022239b3e290b0cf121fca2b2.png" data-large2x="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-2x-f253684e86a5d6bd87c47b97895347b6ca557c481eb15e934789ede91b0bf34d.png" data-medium2x="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-2x-f253684e86a5d6bd87c47b97895347b6ca557c481eb15e934789ede91b0bf34d.png" data-lazy-load="true" alt="" src="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-6b555d9c492811f6a1bafd80506ba6407ee82d2022239b3e290b0cf121fca2b2.png"/><noscript><img height="auto" width="650" alt="" src="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-6b555d9c492811f6a1bafd80506ba6407ee82d2022239b3e290b0cf121fca2b2.png" /></noscript>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div className={styles.t__small}>
-                                            <font className={styles.huise3}>根据访客的属性和行为将会话根据随机、循环等分配策略分配给对应客服或客服组</font>
-                                        </div>
-                                    </div>
+                                    </FeatherModal>
+                                    
                                 </div>
                             </div>
 
                             <div className={styles.g__c6}>
                                 <div className={styles.features__block}>
-                                    <embed src="https://marketing.intercomassets.com/assets/_svg/icons/facebook-d127d681b8da22c0bd10c193318904e25ec29271f1e7649fc0b0e5e9b7c890cd.svg"  height="30" />
-                                    <div style={{height:'10px'}}></div>
-                                    <div className={styles.sp__right-6}>
-                                        <div className={styles.t__small}>
-                                            <font className={styles.t__smallfont}>预置话术</font>
+
+
+                                    <FeatherModal abstract={{title: "预置话术", icon: "https://marketing.intercomassets.com/assets/_svg/icons/smart-campaigns-9b8fd8bfaae4a87872e1af63f8cd201467cd5e5ffbdb70cb2a7fa9f71f870754.svg", desc: "预置的回答常见问题的标准答案"}}>
+                                        <div>
+                                            <div className={styles.g__row}>
+                                                <div className="g__c3 g__c12--md">
+                                                    <h2 className="t__h3 f__center--md u__reset"></h2>
+                                                    <div className="sp__1"></div>
+                                                    <div>
+                                                        <div className="c__black f__bold f__center--md"></div>
+                                                        <div className="sp__05"></div>
+                                                        <div className="t__small f__center--sm f__center--md"></div>
+                                                        <div className="sp__3--md sp__3--sm"></div>
+                                                    </div>
+                                                </div>
+                                                <div className="g__c9 g__c12--md f__center u__static">
+                                                    <div className="browser device__shadow">
+                                                        <img height="auto" width="650" data-large="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-6b555d9c492811f6a1bafd80506ba6407ee82d2022239b3e290b0cf121fca2b2.png" data-medium="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-6b555d9c492811f6a1bafd80506ba6407ee82d2022239b3e290b0cf121fca2b2.png" data-large2x="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-2x-f253684e86a5d6bd87c47b97895347b6ca557c481eb15e934789ede91b0bf34d.png" data-medium2x="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-2x-f253684e86a5d6bd87c47b97895347b6ca557c481eb15e934789ede91b0bf34d.png" data-lazy-load="true" alt="" src="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-6b555d9c492811f6a1bafd80506ba6407ee82d2022239b3e290b0cf121fca2b2.png"/><noscript><img height="auto" width="650" alt="" src="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-6b555d9c492811f6a1bafd80506ba6407ee82d2022239b3e290b0cf121fca2b2.png" /></noscript>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div className={styles.t__small}>
-                                            <font className={styles.huise3}>预置的回答常见问题的标准答案</font>
-                                        </div>
-                                    </div>
+                                    </FeatherModal>
+                                    
                                 </div>
                             </div>
 
                             <div className={styles.g__c6}>
                                 <div className={styles.features__block}>
-                                    <embed src="https://marketing.intercomassets.com/assets/_svg/icons/facebook-d127d681b8da22c0bd10c193318904e25ec29271f1e7649fc0b0e5e9b7c890cd.svg"  height="30" />
-                                    <div style={{height:'10px'}}></div>
-                                    <div className={styles.sp__right-6}>
-                                        <div className={styles.t__small}>
-                                            <font className={styles.t__smallfont}>智能提示</font>
+
+                                    <FeatherModal abstract={{title: "智能提示", icon: "https://marketing.intercomassets.com/assets/_svg/icons/smart-campaigns-9b8fd8bfaae4a87872e1af63f8cd201467cd5e5ffbdb70cb2a7fa9f71f870754.svg", desc: "根据历史谈话记录，智能建议问题答案"}}>
+                                        <div>
+                                            <div className={styles.g__row}>
+                                                <div className="g__c3 g__c12--md">
+                                                    <h2 className="t__h3 f__center--md u__reset"></h2>
+                                                    <div className="sp__1"></div>
+                                                    <div>
+                                                        <div className="c__black f__bold f__center--md"></div>
+                                                        <div className="sp__05"></div>
+                                                        <div className="t__small f__center--sm f__center--md"></div>
+                                                        <div className="sp__3--md sp__3--sm"></div>
+                                                    </div>
+                                                </div>
+                                                <div className="g__c9 g__c12--md f__center u__static">
+                                                    <div className="browser device__shadow">
+                                                        <img height="auto" width="650" data-large="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-6b555d9c492811f6a1bafd80506ba6407ee82d2022239b3e290b0cf121fca2b2.png" data-medium="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-6b555d9c492811f6a1bafd80506ba6407ee82d2022239b3e290b0cf121fca2b2.png" data-large2x="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-2x-f253684e86a5d6bd87c47b97895347b6ca557c481eb15e934789ede91b0bf34d.png" data-medium2x="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-2x-f253684e86a5d6bd87c47b97895347b6ca557c481eb15e934789ede91b0bf34d.png" data-lazy-load="true" alt="" src="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-6b555d9c492811f6a1bafd80506ba6407ee82d2022239b3e290b0cf121fca2b2.png"/><noscript><img height="auto" width="650" alt="" src="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-6b555d9c492811f6a1bafd80506ba6407ee82d2022239b3e290b0cf121fca2b2.png" /></noscript>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div className={styles.t__small}>
-                                            <font className={styles.huise3}>根据历史谈话记录，智能建议问题答案</font>
-                                        </div>
-                                    </div>
+                                    </FeatherModal>
+                                    
                                 </div>
                             </div>
 
                             <div className={styles.g__c6}>
                                 <div className={styles.features__block}>
-                                    <embed src="https://marketing.intercomassets.com/assets/_svg/icons/facebook-d127d681b8da22c0bd10c193318904e25ec29271f1e7649fc0b0e5e9b7c890cd.svg"  height="30" />
-                                    <div style={{height:'10px'}}></div>
-                                    <div className={styles.sp__right-6}>
-                                        <div className={styles.t__small}>
-                                            <font className={styles.t__smallfont}>会话评级</font>
+
+                                    <FeatherModal abstract={{title: "会话评级", icon: "https://marketing.intercomassets.com/assets/_svg/icons/smart-campaigns-9b8fd8bfaae4a87872e1af63f8cd201467cd5e5ffbdb70cb2a7fa9f71f870754.svg", desc: "自动收集客户满意度打分"}}>
+                                        <div>
+                                            <div className={styles.g__row}>
+                                                <div className="g__c3 g__c12--md">
+                                                    <h2 className="t__h3 f__center--md u__reset"></h2>
+                                                    <div className="sp__1"></div>
+                                                    <div>
+                                                        <div className="c__black f__bold f__center--md"></div>
+                                                        <div className="sp__05"></div>
+                                                        <div className="t__small f__center--sm f__center--md"></div>
+                                                        <div className="sp__3--md sp__3--sm"></div>
+                                                    </div>
+                                                </div>
+                                                <div className="g__c9 g__c12--md f__center u__static">
+                                                    <div className="browser device__shadow">
+                                                        <img height="auto" width="650" data-large="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-6b555d9c492811f6a1bafd80506ba6407ee82d2022239b3e290b0cf121fca2b2.png" data-medium="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-6b555d9c492811f6a1bafd80506ba6407ee82d2022239b3e290b0cf121fca2b2.png" data-large2x="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-2x-f253684e86a5d6bd87c47b97895347b6ca557c481eb15e934789ede91b0bf34d.png" data-medium2x="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-2x-f253684e86a5d6bd87c47b97895347b6ca557c481eb15e934789ede91b0bf34d.png" data-lazy-load="true" alt="" src="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-6b555d9c492811f6a1bafd80506ba6407ee82d2022239b3e290b0cf121fca2b2.png"/><noscript><img height="auto" width="650" alt="" src="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-6b555d9c492811f6a1bafd80506ba6407ee82d2022239b3e290b0cf121fca2b2.png" /></noscript>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div className={styles.t__small}>
-                                            <font className={styles.huise3}>自动收集客户满意度打分
-                                            </font>
-                                        </div>
-                                    </div>
+                                    </FeatherModal>
+                                    
                                 </div>
                             </div>
 
 
-                            <div className={styles.g__c6}>
-                                <div className={styles.features__block}>
-                                    <embed src="https://marketing.intercomassets.com/assets/_svg/icons/facebook-d127d681b8da22c0bd10c193318904e25ec29271f1e7649fc0b0e5e9b7c890cd.svg"  height="30" />
-                                    <div style={{height:'10px'}}></div>
-                                    <div className={styles.sp__right-6}>
-                                        <div className={styles.t__small}>
-                                            <font className={styles.t__smallfont}>第五张卡片</font>
-                                        </div>
-                                        <div className={styles.t__small}>
-                                            <font className={styles.huise3}>xxx
-                                            </font>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>   
+                            
 
                             
                             
@@ -489,96 +618,158 @@ export default () => (
 
                             <div className={styles.g__c6}>
                                 <div className={styles.features__block}>
-                                    <embed src="https://marketing.intercomassets.com/assets/_svg/icons/facebook-d127d681b8da22c0bd10c193318904e25ec29271f1e7649fc0b0e5e9b7c890cd.svg"  height="30" />
-                                    <div style={{height:'10px'}}></div>
-                                    <div className={styles.sp__right-6}>
-                                        <div className={styles.t__small}>
-                                            <font className={styles.t__smallfont}>响应时间</font>
+                                    <FeatherModal abstract={{title: "响应时间", icon: "https://marketing.intercomassets.com/assets/_svg/icons/smart-campaigns-9b8fd8bfaae4a87872e1af63f8cd201467cd5e5ffbdb70cb2a7fa9f71f870754.svg", desc: "统计座席对客户咨询的平均响应时间"}}>
+                                        <div>
+                                            <div className={styles.g__row}>
+                                                <div className="g__c3 g__c12--md">
+                                                    <h2 className="t__h3 f__center--md u__reset"></h2>
+                                                    <div className="sp__1"></div>
+                                                    <div>
+                                                        <div className="c__black f__bold f__center--md"></div>
+                                                        <div className="sp__05"></div>
+                                                        <div className="t__small f__center--sm f__center--md"></div>
+                                                        <div className="sp__3--md sp__3--sm"></div>
+                                                    </div>
+                                                </div>
+                                                <div className="g__c9 g__c12--md f__center u__static">
+                                                    <div className="browser device__shadow">
+                                                        <img height="auto" width="650" data-large="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-6b555d9c492811f6a1bafd80506ba6407ee82d2022239b3e290b0cf121fca2b2.png" data-medium="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-6b555d9c492811f6a1bafd80506ba6407ee82d2022239b3e290b0cf121fca2b2.png" data-large2x="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-2x-f253684e86a5d6bd87c47b97895347b6ca557c481eb15e934789ede91b0bf34d.png" data-medium2x="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-2x-f253684e86a5d6bd87c47b97895347b6ca557c481eb15e934789ede91b0bf34d.png" data-lazy-load="true" alt="" src="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-6b555d9c492811f6a1bafd80506ba6407ee82d2022239b3e290b0cf121fca2b2.png"/><noscript><img height="auto" width="650" alt="" src="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-6b555d9c492811f6a1bafd80506ba6407ee82d2022239b3e290b0cf121fca2b2.png" /></noscript>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div className={styles.t__small}>
-                                            <font className={styles.huise3}>统计座席对客户咨询的平均响应时间</font>
-                                        </div>
-                                    </div>
+                                    </FeatherModal>
                                 </div>
                             </div>
 
                             <div className={styles.g__c6}>
                                 <div className={styles.features__block}>
-                                    <embed src="https://marketing.intercomassets.com/assets/_svg/icons/facebook-d127d681b8da22c0bd10c193318904e25ec29271f1e7649fc0b0e5e9b7c890cd.svg"  height="30" />
-                                    <div style={{height:'10px'}}></div>
-                                    <div className={styles.sp__right-6}>
-                                        <div className={styles.t__small}>
-                                            <font className={styles.t__smallfont}>会话量</font>
+                                    <FeatherModal abstract={{title: "会话量", icon: "https://marketing.intercomassets.com/assets/_svg/icons/smart-campaigns-9b8fd8bfaae4a87872e1af63f8cd201467cd5e5ffbdb70cb2a7fa9f71f870754.svg", desc: "统计一段时间的线上及电话会话量"}}>
+                                        <div>
+                                            <div className={styles.g__row}>
+                                                <div className="g__c3 g__c12--md">
+                                                    <h2 className="t__h3 f__center--md u__reset"></h2>
+                                                    <div className="sp__1"></div>
+                                                    <div>
+                                                        <div className="c__black f__bold f__center--md"></div>
+                                                        <div className="sp__05"></div>
+                                                        <div className="t__small f__center--sm f__center--md"></div>
+                                                        <div className="sp__3--md sp__3--sm"></div>
+                                                    </div>
+                                                </div>
+                                                <div className="g__c9 g__c12--md f__center u__static">
+                                                    <div className="browser device__shadow">
+                                                        <img height="auto" width="650" data-large="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-6b555d9c492811f6a1bafd80506ba6407ee82d2022239b3e290b0cf121fca2b2.png" data-medium="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-6b555d9c492811f6a1bafd80506ba6407ee82d2022239b3e290b0cf121fca2b2.png" data-large2x="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-2x-f253684e86a5d6bd87c47b97895347b6ca557c481eb15e934789ede91b0bf34d.png" data-medium2x="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-2x-f253684e86a5d6bd87c47b97895347b6ca557c481eb15e934789ede91b0bf34d.png" data-lazy-load="true" alt="" src="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-6b555d9c492811f6a1bafd80506ba6407ee82d2022239b3e290b0cf121fca2b2.png"/><noscript><img height="auto" width="650" alt="" src="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-6b555d9c492811f6a1bafd80506ba6407ee82d2022239b3e290b0cf121fca2b2.png" /></noscript>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div className={styles.t__small}>
-                                            <font className={styles.huise3}>统计一段时间的线上及电话会话量</font>
-                                        </div>
-                                    </div>
+                                    </FeatherModal>
                                 </div>
                             </div>
 
                             <div className={styles.g__c6}>
                                 <div className={styles.features__block}>
-                                    <embed src="https://marketing.intercomassets.com/assets/_svg/icons/facebook-d127d681b8da22c0bd10c193318904e25ec29271f1e7649fc0b0e5e9b7c890cd.svg"  height="30" />
-                                    <div style={{height:'10px'}}></div>
-                                    <div className={styles.sp__right-6}>
-                                        <div className={styles.t__small}>
-                                            <font className={styles.t__smallfont}>客服工作量</font>
+                                    <FeatherModal abstract={{title: "客服工作量", icon: "https://marketing.intercomassets.com/assets/_svg/icons/smart-campaigns-9b8fd8bfaae4a87872e1af63f8cd201467cd5e5ffbdb70cb2a7fa9f71f870754.svg", desc: "统计客服组或客服在一段时间的工作量"}}>
+                                        <div>
+                                            <div className={styles.g__row}>
+                                                <div className="g__c3 g__c12--md">
+                                                    <h2 className="t__h3 f__center--md u__reset"></h2>
+                                                    <div className="sp__1"></div>
+                                                    <div>
+                                                        <div className="c__black f__bold f__center--md"></div>
+                                                        <div className="sp__05"></div>
+                                                        <div className="t__small f__center--sm f__center--md"></div>
+                                                        <div className="sp__3--md sp__3--sm"></div>
+                                                    </div>
+                                                </div>
+                                                <div className="g__c9 g__c12--md f__center u__static">
+                                                    <div className="browser device__shadow">
+                                                        <img height="auto" width="650" data-large="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-6b555d9c492811f6a1bafd80506ba6407ee82d2022239b3e290b0cf121fca2b2.png" data-medium="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-6b555d9c492811f6a1bafd80506ba6407ee82d2022239b3e290b0cf121fca2b2.png" data-large2x="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-2x-f253684e86a5d6bd87c47b97895347b6ca557c481eb15e934789ede91b0bf34d.png" data-medium2x="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-2x-f253684e86a5d6bd87c47b97895347b6ca557c481eb15e934789ede91b0bf34d.png" data-lazy-load="true" alt="" src="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-6b555d9c492811f6a1bafd80506ba6407ee82d2022239b3e290b0cf121fca2b2.png"/><noscript><img height="auto" width="650" alt="" src="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-6b555d9c492811f6a1bafd80506ba6407ee82d2022239b3e290b0cf121fca2b2.png" /></noscript>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div className={styles.t__small}>
-                                            <font className={styles.huise3}>统计客服组或客服在一段时间的工作量
-                                            </font>
-                                        </div>
-                                    </div>
+                                    </FeatherModal>
                                 </div>
                             </div>
 
                             <div className={styles.g__c6}>
                                 <div className={styles.features__block}>
-                                    <embed src="https://marketing.intercomassets.com/assets/_svg/icons/facebook-d127d681b8da22c0bd10c193318904e25ec29271f1e7649fc0b0e5e9b7c890cd.svg"  height="30" />
-                                    <div style={{height:'10px'}}></div>
-                                    <div className={styles.sp__right-6}>
-                                        <div className={styles.t__small}>
-                                            <font className={styles.t__smallfont}>商机数</font>
+                                    <FeatherModal abstract={{title: "商机数", icon: "https://marketing.intercomassets.com/assets/_svg/icons/smart-campaigns-9b8fd8bfaae4a87872e1af63f8cd201467cd5e5ffbdb70cb2a7fa9f71f870754.svg", desc: "统计一段时间生成的商机数"}}>
+                                        <div>
+                                            <div className={styles.g__row}>
+                                                <div className="g__c3 g__c12--md">
+                                                    <h2 className="t__h3 f__center--md u__reset"></h2>
+                                                    <div className="sp__1"></div>
+                                                    <div>
+                                                        <div className="c__black f__bold f__center--md"></div>
+                                                        <div className="sp__05"></div>
+                                                        <div className="t__small f__center--sm f__center--md"></div>
+                                                        <div className="sp__3--md sp__3--sm"></div>
+                                                    </div>
+                                                </div>
+                                                <div className="g__c9 g__c12--md f__center u__static">
+                                                    <div className="browser device__shadow">
+                                                        <img height="auto" width="650" data-large="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-6b555d9c492811f6a1bafd80506ba6407ee82d2022239b3e290b0cf121fca2b2.png" data-medium="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-6b555d9c492811f6a1bafd80506ba6407ee82d2022239b3e290b0cf121fca2b2.png" data-large2x="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-2x-f253684e86a5d6bd87c47b97895347b6ca557c481eb15e934789ede91b0bf34d.png" data-medium2x="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-2x-f253684e86a5d6bd87c47b97895347b6ca557c481eb15e934789ede91b0bf34d.png" data-lazy-load="true" alt="" src="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-6b555d9c492811f6a1bafd80506ba6407ee82d2022239b3e290b0cf121fca2b2.png"/><noscript><img height="auto" width="650" alt="" src="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-6b555d9c492811f6a1bafd80506ba6407ee82d2022239b3e290b0cf121fca2b2.png" /></noscript>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div className={styles.t__small}>
-                                            <font className={styles.huise3}>统计一段时间生成的商机数
-                                            </font>
-                                        </div>
-                                    </div>
+                                    </FeatherModal>
                                 </div>
                             </div>
 
 
                             <div className={styles.g__c6}>
                                 <div className={styles.features__block}>
-                                    <embed src="https://marketing.intercomassets.com/assets/_svg/icons/facebook-d127d681b8da22c0bd10c193318904e25ec29271f1e7649fc0b0e5e9b7c890cd.svg"  height="30" />
-                                    <div style={{height:'10px'}}></div>
-                                    <div className={styles.sp__right-6}>
-                                        <div className={styles.t__small}>
-                                            <font className={styles.t__smallfont}>访客转化率</font>
+                                    <FeatherModal abstract={{title: "访客转化率", icon: "https://marketing.intercomassets.com/assets/_svg/icons/smart-campaigns-9b8fd8bfaae4a87872e1af63f8cd201467cd5e5ffbdb70cb2a7fa9f71f870754.svg", desc: "xyz"}}>
+                                        <div>
+                                            <div className={styles.g__row}>
+                                                <div className="g__c3 g__c12--md">
+                                                    <h2 className="t__h3 f__center--md u__reset"></h2>
+                                                    <div className="sp__1"></div>
+                                                    <div>
+                                                        <div className="c__black f__bold f__center--md"></div>
+                                                        <div className="sp__05"></div>
+                                                        <div className="t__small f__center--sm f__center--md"></div>
+                                                        <div className="sp__3--md sp__3--sm"></div>
+                                                    </div>
+                                                </div>
+                                                <div className="g__c9 g__c12--md f__center u__static">
+                                                    <div className="browser device__shadow">
+                                                        <img height="auto" width="650" data-large="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-6b555d9c492811f6a1bafd80506ba6407ee82d2022239b3e290b0cf121fca2b2.png" data-medium="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-6b555d9c492811f6a1bafd80506ba6407ee82d2022239b3e290b0cf121fca2b2.png" data-large2x="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-2x-f253684e86a5d6bd87c47b97895347b6ca557c481eb15e934789ede91b0bf34d.png" data-medium2x="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-2x-f253684e86a5d6bd87c47b97895347b6ca557c481eb15e934789ede91b0bf34d.png" data-lazy-load="true" alt="" src="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-6b555d9c492811f6a1bafd80506ba6407ee82d2022239b3e290b0cf121fca2b2.png"/><noscript><img height="auto" width="650" alt="" src="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-6b555d9c492811f6a1bafd80506ba6407ee82d2022239b3e290b0cf121fca2b2.png" /></noscript>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div className={styles.t__small}>
-                                            <font className={styles.huise3}>xxx
-                                            </font>
-                                        </div>
-                                    </div>
+                                    </FeatherModal>
                                 </div>
                             </div>   
 
                             <div className={styles.g__c6}>
                                 <div className={styles.features__block}>
-                                    <embed src="https://marketing.intercomassets.com/assets/_svg/icons/facebook-d127d681b8da22c0bd10c193318904e25ec29271f1e7649fc0b0e5e9b7c890cd.svg"  height="30" />
-                                    <div style={{height:'10px'}}></div>
-                                    <div className={styles.sp__right-6}>
-                                        <div className={styles.t__small}>
-                                            <font className={styles.t__smallfont}>客户满意度</font>
+                                    <FeatherModal abstract={{title: "客户满意度", icon: "https://marketing.intercomassets.com/assets/_svg/icons/smart-campaigns-9b8fd8bfaae4a87872e1af63f8cd201467cd5e5ffbdb70cb2a7fa9f71f870754.svg", desc: "yzx"}}>
+                                        <div>
+                                            <div className={styles.g__row}>
+                                                <div className="g__c3 g__c12--md">
+                                                    <h2 className="t__h3 f__center--md u__reset"></h2>
+                                                    <div className="sp__1"></div>
+                                                    <div>
+                                                        <div className="c__black f__bold f__center--md"></div>
+                                                        <div className="sp__05"></div>
+                                                        <div className="t__small f__center--sm f__center--md"></div>
+                                                        <div className="sp__3--md sp__3--sm"></div>
+                                                    </div>
+                                                </div>
+                                                <div className="g__c9 g__c12--md f__center u__static">
+                                                    <div className="browser device__shadow">
+                                                        <img height="auto" width="650" data-large="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-6b555d9c492811f6a1bafd80506ba6407ee82d2022239b3e290b0cf121fca2b2.png" data-medium="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-6b555d9c492811f6a1bafd80506ba6407ee82d2022239b3e290b0cf121fca2b2.png" data-large2x="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-2x-f253684e86a5d6bd87c47b97895347b6ca557c481eb15e934789ede91b0bf34d.png" data-medium2x="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-2x-f253684e86a5d6bd87c47b97895347b6ca557c481eb15e934789ede91b0bf34d.png" data-lazy-load="true" alt="" src="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-6b555d9c492811f6a1bafd80506ba6407ee82d2022239b3e290b0cf121fca2b2.png"/><noscript><img height="auto" width="650" alt="" src="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-6b555d9c492811f6a1bafd80506ba6407ee82d2022239b3e290b0cf121fca2b2.png" /></noscript>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div className={styles.t__small}>
-                                            <font className={styles.huise3}>xxx
-                                            </font>
-                                        </div>
-                                    </div>
+                                    </FeatherModal>
                                 </div>
                             </div>              
                         </div>            

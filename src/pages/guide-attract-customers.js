@@ -25,7 +25,7 @@ export default () => (
                 </div>
                 <div className={styles.u__zfix}>
                     <h1 className={styles.t__h1}>
-                        将更多注册用户转变为活跃的付费客户
+                        促进增长的个人客户参与
                     </h1>
                     <div style={{height:"10px"}}></div>
                     <h2 className={styles.t__h3}><font>向目标新用户发送有针对性的消息，提高参与度，宣布新功能等
