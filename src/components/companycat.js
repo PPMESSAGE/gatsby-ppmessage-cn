@@ -35,7 +35,7 @@ class CompanyCat extends React.Component {
 
         let _cat_names = Object.keys(cats);
 
-        let _cat_list = _cat_names.map((_cat) => {
+        let cat_list = _cat_names.map((_cat) => {
             return (
                 <div onClick={this.clickCat.bind(this, cats[_cat])} key={_cat}>{_cat}</div>
             );
