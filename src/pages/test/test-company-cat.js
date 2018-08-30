@@ -1,7 +1,7 @@
 import React from "react";
 
 import styles from "../about-css-modules.module.css";
-import KeyFeatures from "../../components/keyfeatures"
+import CompanyCat from "../../components/companycat"
 
 
 export default () => {
