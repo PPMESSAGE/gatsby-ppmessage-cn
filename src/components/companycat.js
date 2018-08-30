@@ -9,7 +9,7 @@ class CompanyCat extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            highlight_item: 0
+            highlight_item: null
         }
     }
 
@@ -41,7 +41,16 @@ class CompanyCat extends React.Component {
             );
         });
 
-        let _company_list = cats[this.state.highlight_item].companies;
+        let _company_list = null;
+
+        let _highlight_item = null;
+        if (!this.state.highlight_item) {
+            this.setState({highlight_item: this.props.companies[0].cat});
+            _highlight_item = this.props.companies[0].cat;
+        } else {
+            _highlight_item = this.state.highlight_item;
+        }
+        _company_list = cats[_highlight_item].companies;
 
         let cat_companies = _company_list.map((_company) => {
             return (
