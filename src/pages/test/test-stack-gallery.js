@@ -1,7 +1,9 @@
 import React from "react";
 
 import styles from "../about-css-modules.module.css";
-import StackGallery from "../../components/stackgallery"
+import StackGallery from "../../components/stackgallery";
+
+import TabsControl from "../../components/tabscontrol";
 
 
 export default () => {
@@ -34,6 +36,37 @@ export default () => {
                     </StackGallery>
                 </div>  
             </div>
+            <TabsControl>
+                <div name = "价格">
+                    <div style={{width:"539px"}}></div>
+                    <table className={styles.pricing__table}>
+                        <thead>
+                            <tr>
+                                <th><font>积极的人</font>
+                                </th>
+                                <th><font>必要</font>
+                                </th>
+                                <th><font>临</font>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><font>最多200人</font>
+                                </td>
+                                <td><font>$ 49 /月</font>
+                                </td>
+                                <td><font>$ 75 /月</font>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div name = "查看功能">
+                    第二帧
+                </div>
+                
+            </TabsControl>
         </div>
     )
 

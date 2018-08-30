@@ -2,6 +2,16 @@
 # yarn lockfile v1
 
 
+"@babel/runtime@^7.0.0":
+  version "7.0.0"
+  resolved "http://registry.npm.taobao.org/@babel/runtime/download/@babel/runtime-7.0.0.tgz#adeb78fedfc855aa05bc041640f3f6f98e85424c"
+  dependencies:
+    regenerator-runtime "^0.12.0"
+
+"@tanem/svg-injector@^1.2.1":
+  version "1.2.1"
+  resolved "http://registry.npm.taobao.org/@tanem/svg-injector/download/@tanem/svg-injector-1.2.1.tgz#3120e90246d0eb3c4fc6c61586a6f028a3c658ae"
+
 "@types/configstore@^2.1.1":
   version "2.1.1"
   resolved "http://registry.npm.taobao.org/@types/configstore/download/@types/configstore-2.1.1.tgz#cd1e8553633ad3185c3f2f239ecff5d2643e92b6"
@@ -1650,6 +1660,10 @@ class-utils@^0.3.5:
     define-property "^0.2.5"
     isobject "^3.0.0"
     static-extend "^0.1.1"
+
+classnames@^2.2.0, classnames@^2.2.5:
+  version "2.2.6"
+  resolved "http://registry.npm.taobao.org/classnames/download/classnames-2.2.6.tgz#43935bffdd291f326dad0a205309b38d00f650ce"
 
 cli-boxes@^1.0.0:
   version "1.0.0"
@@ -6071,7 +6085,7 @@ promise@^7.1.1:
   dependencies:
     asap "~2.0.3"
 
-prop-types@^15.5.10, prop-types@^15.5.4, prop-types@^15.5.8, prop-types@^15.6.0, prop-types@^15.6.1:
+prop-types@^15.5.0, prop-types@^15.5.10, prop-types@^15.5.4, prop-types@^15.5.8, prop-types@^15.6.0, prop-types@^15.6.1, prop-types@^15.6.2:
   version "15.6.2"
   resolved "http://registry.npm.taobao.org/prop-types/download/prop-types-15.6.2.tgz#05d5ca77b4453e985d60fc7ff8c859094a497102"
   dependencies:
@@ -6326,6 +6340,28 @@ react-side-effect@^1.1.0:
     exenv "^1.2.1"
     shallowequal "^1.0.1"
 
+react-svg@^6.0.4:
+  version "6.0.4"
+  resolved "http://registry.npm.taobao.org/react-svg/download/react-svg-6.0.4.tgz#fb55201f0667258525163530ec92d0e9c0f2b857"
+  dependencies:
+    "@babel/runtime" "^7.0.0"
+    "@tanem/svg-injector" "^1.2.1"
+    prop-types "^15.6.2"
+
+react-tabs@^2.2.2:
+  version "2.2.2"
+  resolved "http://registry.npm.taobao.org/react-tabs/download/react-tabs-2.2.2.tgz#2f2935da379889484751d1df47c1b639e5ee835d"
+  dependencies:
+    classnames "^2.2.0"
+    prop-types "^15.5.0"
+
+react-tooltip@^3.6.1:
+  version "3.6.1"
+  resolved "http://registry.npm.taobao.org/react-tooltip/download/react-tooltip-3.6.1.tgz#2ca993baa50d7e0271b8d13c6024445a883842eb"
+  dependencies:
+    classnames "^2.2.5"
+    prop-types "^15.6.0"
+
 react-typography@^0.16.1:
   version "0.16.13"
   resolved "http://registry.npm.taobao.org/react-typography/download/react-typography-0.16.13.tgz#94bdd2a9448823bc74d8ebf7465d86c7dbe20dcf"
@@ -6491,6 +6527,10 @@ regenerator-runtime@^0.10.5:
 regenerator-runtime@^0.11.0:
   version "0.11.1"
   resolved "http://registry.npm.taobao.org/regenerator-runtime/download/regenerator-runtime-0.11.1.tgz#be05ad7f9bf7d22e056f9726cee5017fbf19e2e9"
+
+regenerator-runtime@^0.12.0:
+  version "0.12.1"
+  resolved "http://registry.npm.taobao.org/regenerator-runtime/download/regenerator-runtime-0.12.1.tgz#fa1a71544764c036f8c49b13a08b2594c9f8a0de"
 
 regenerator-transform@^0.10.0:
   version "0.10.1"
