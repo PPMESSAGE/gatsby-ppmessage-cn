@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./about-css-modules.module.css";
-
+import EnterYourMobile from "../components/enteryourmobile";
 
 
 export default () => (
@@ -20,17 +20,8 @@ export default () => (
                         </h3>
                         <div style={{height:"20px"}}>            
                         </div>
-                        <form>
-                            <div className={styles.cta__large}>
-                                <input type="email" placeholder="输入邮箱" className={styles.inoupbig} />
-                                <div className={styles.cta__btn}>
-                                    <botton type="submit" className={styles.butttonbig} ><font color="white">进入</font>
-                                    </botton>
-                                </div>
-                            </div>
-                        </form>
-                        <div>
-                        </div>
+
+                        <EnterYourMobile size="middle" />                       
                         <div className={styles.t__small}>
                             <div className={styles.list__bulletinline}>
                                 <font style={{color:'#888'}}>免费试用 · 易于安装

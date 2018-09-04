@@ -118,7 +118,7 @@ export default () => {
 
                         <div style={{height:"300px"}}>
 
-                            <div className={styles.chuangjian} style={{margin:"22px"}}>
+                            <div className={styles.chuangjian} style={{margin:"22px",paddingRight:"0"}}>
                                 <a href="#huode" className={styles.lianjie}>
                                     <div className={styles.product__breakdown__image}>
                                         <img src="https://marketing.intercomassets.com/assets/live-chat/v2/capture-6cd1e65484e3cc8bc579ae4ba69db31ad254a0db01313b47191f131567fbc2b6.png" width="91px" /></div>
@@ -137,7 +137,7 @@ export default () => {
                                 </a>
                             </div>
 
-                            <div className={styles.chuangjian} style={{margin:"22px 50px"}}>
+                            <div className={styles.chuangjian} style={{margin:"22px 50px",paddingRight:"0"}}>
                                 <a href="#xiushi" className={styles.lianjie}>
                                     <div className={styles.product__breakdown__image}>
                                         <img src="https://marketing.intercomassets.com/assets/live-chat/v2/qualify-2cde0bea6a097ea7de52c892e75dd0e311360680497721521d05eb12d9622994.png" width="91px" /></div>
@@ -157,7 +157,7 @@ export default () => {
                             </div>
                             
 
-                            <div className={styles.chuangjian} style={{margin:"22px 50px"}}>
+                            <div className={styles.chuangjian} style={{margin:"22px 50px",paddingRight:"0"}}>
                                 <a href="#duihuan" className={styles.lianjie}>
                                     <div className={styles.product__breakdown__image}>
                                         <img src="https://marketing.intercomassets.com/assets/live-chat/v2/convert-2f21b347ebaf5cdd5454fbcbb817658899487f69a088d9d06f5bef68dcf0c7cf.png" width="91px" /></div>
@@ -179,7 +179,7 @@ export default () => {
 
 
 
-                            <div className={styles.chuangjian} style={{margin:"22px"}}>
+                            <div className={styles.chuangjian} style={{margin:"22px",paddingRight:"0"}}>
                                 <a href="#celiang" className={styles.lianjie}>
                                     <div className={styles.product__breakdown__image}>
                                         <img src="https://marketing.intercomassets.com/assets/live-chat/v2/measure-2fc6b218e130f27b61f8bd2868fe6585d790bb542c307358a4c160933a3c661b.png" width="91px" /></div>

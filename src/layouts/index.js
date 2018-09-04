@@ -68,6 +68,20 @@ export default ({ children }) =>
 </div>
 <div className={styles.g__c6_yetou}>
 
+
+<a href="/robot-of-sale" className={styles.f__no_und_aways}>
+<div className={styles.holiday}>
+<div className={styles.t__h4}>
+<font>销售机器人</font>
+</div>
+<div>
+<font> d </font>
+</div>
+</div>
+</a>
+
+
+
 <a href="" className={styles.f__no_und_aways}>
 <div className={styles.holiday}>
 <div className={styles.t__h4}>

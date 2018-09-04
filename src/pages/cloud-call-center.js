@@ -46,7 +46,7 @@ export default () => (
                     <div style={{height:"300px"}}>
 
                         <div className={styles.chuangjian} style={{margin:"22px",paddingRight:"0em"}}>
-                            <a href="#hezuo" className={styles.lianjie}>
+                            <a href="#quanqiuhua" className={styles.lianjie}>
                                 <div className={styles.t__h3}>
                                     <font>全球化</font>
                                 </div>
@@ -62,7 +62,7 @@ export default () => (
                         </div>
 
                         <div className={styles.chuangjian} style={{margin:"22px 35px",paddingRight:"0em"}}>
-                            <a href="#zidonghua" className={styles.lianjie}>
+                            <a href="#quanqudao" className={styles.lianjie}>
                                 <div style={{height:"10px"}}></div>
                                 <div className={styles.t__h3}>
                                     <font>全渠道</font>
@@ -81,7 +81,7 @@ export default () => (
                         
 
                         <div className={styles.chuangjian} style={{margin:"22px 50px",paddingRight:"0em"}}>
-                            <a href="#guimo" className={styles.lianjie}>
+                            <a href="#kedingzhi" className={styles.lianjie}>
                                 <div className={styles.t__h3}>
                                     <font>可定制</font>
                                 </div>
@@ -100,7 +100,7 @@ export default () => (
 
 
                         <div className={styles.chuangjian} style={{margin:"22px 50px",paddingRight:"0em"}}>
-                            <a href="#guimo" className={styles.lianjie}>
+                            <a href="#darongliang" className={styles.lianjie}>
                                 <div className={styles.t__h3}>
                                     <font>大容量</font>
                                 </div>
@@ -121,7 +121,7 @@ export default () => (
 
 
                         <div className={styles.chuangjian} style={{margin:"22px",paddingRight:"0em"}}>
-                            <a href="#tigao" className={styles.lianjie}>
+                            <a href="#rengongzhineng" className={styles.lianjie}>
                                 <div className={styles.t__h3}>
                                     <font>人工智能</font>
                                 </div>
@@ -130,6 +130,7 @@ export default () => (
                                         多轮对话
                                         智能质检</font>
                                 </div>
+                                <a name="quanqiuhua"></a>
                                 <div className={styles.product__learn_more}  style={{margin:"80px"}}>
                                     <span>
                                         <font className={styles.smallerbiaoti}>了解更多</font>
@@ -171,7 +172,8 @@ export default () => (
                             <div className={styles.u__inline}>
                                 <div className={styles.gallery}>
                                     <div className={styles.gallery__img}>
-                                        <img width="280" src="https://upload-images.jianshu.io/upload_images/12406336-92a940c80adf523b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" />
+                                        <img width="400" src="https://upload-images.jianshu.io/upload_images/12406336-a7a0d2180ad98b4b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" />
+                                        <a name="quanqudao"></a>
                                     </div>                    
                                 </div>
                             </div>
@@ -189,6 +191,7 @@ export default () => (
                 <div className={styles.g__row_center}>
                     <div className={styles.g__c6}>
                         <img width="500" src="https://upload-images.jianshu.io/upload_images/12406336-ee5c492b9c28ea5e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" />
+                        
                     </div>
                     <div className={styles.g__c5_z}>
 
@@ -199,11 +202,15 @@ export default () => (
                             </font>
                         </h3>
                         <div style={{height:"10px"}}></div>
+                        <a name="kedingzhi"></a>
+                        
                         <div>
                             <font className={styles.tigongzhichi}>电话、网页、应用、邮件、社交媒体通过一个界面统一管理，客户通过各个渠道的访问信息统一检索
 
                             </font>
-                        </div>                                    
+                            
+                        </div>
+                        
                     </div>          
                 </div>
                 
@@ -225,6 +232,7 @@ export default () => (
                         </h3>
                         <div style={{height:"10px"}}></div>
                         <div className={styles.max__600}>
+                            <a name="darongliang"></a>
                             <font className={styles.tigongzhichi}>
                                 电话与其他渠道消息通过统一流程集中处理，不仅仅是IVR
                                 通过流程及开发接口快速实现企业业务定制
@@ -238,7 +246,8 @@ export default () => (
                             <div className={styles.u__inline}>
                                 <div className={styles.gallery}>
                                     <div className={styles.gallery__img}>
-                                        <img width="280" src="https://upload-images.jianshu.io/upload_images/12406336-92a940c80adf523b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" />
+                                        <img width="500" src="https://upload-images.jianshu.io/upload_images/12406336-ee5c492b9c28ea5e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" />
+                                        
                                     </div>                    
                                 </div>
                             </div>
@@ -252,9 +261,9 @@ export default () => (
         <section className={styles.section}>
             
             <div className={styles.container_z}>
-                <div className={styles.g__row_center}>
-                    <div className={styles.g__c6}>
-                        <img width="500" src="https://qiyukf.nosdn.127.net/main/res/img/worksheet/intro-2@2x_039b498ba37faaceed6e6e357521a58c.png" />
+                <div className={styles.g__row_center} >{/*有时间修一下配图不能用手截*/}
+                    <div className={styles.g__c6} >
+                        <img width="9000" src="https://upload-images.jianshu.io/upload_images/12406336-53a600bc79211f0c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" />
                     </div>
                     <div className={styles.g__c5_z}>
 
@@ -279,6 +288,27 @@ export default () => (
             </div>
         </section>
         
+
+
+        <section className={styles.section}>
+            <a name="rengongzhineng"></a>
+            <div className={styles.container_z} style={{maxWidth:"1300px"}}>
+                <div className={styles.support_automate} style={{background:"white"}}>
+                    <div className={styles.g__c7_q}>  
+                        <div className={styles.g__c6_s}>
+                            <img width="500" src="http://www.ti-net.com.cn/images/ai/ai_11.png" />
+                            <div style={{height:"10px"}}></div>
+                            <h3 className={styles.t__h2}>
+                                <font>
+                                    智能语音交互 ASR语音识别，自然语言处理，智能TTS
+                                </font>
+                            </h3>
+                        </div>                        
+                    </div>
+                </div>                                             
+            </div>                  
+        </section>
+
         
     </div>
 );

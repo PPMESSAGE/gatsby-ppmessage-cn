@@ -1,6 +1,6 @@
-import React from "react"
-import styles from "./about-css-modules.module.css"
-import EnterYourMobile from "../components/enteryourmobile"
+import React from "react";
+import styles from "./about-css-modules.module.css";
+import EnterYourMobile from "../components/enteryourmobile";
 export default () => (
     <div>
         <div style={{height:'72px'}}></div>
@@ -19,9 +19,6 @@ export default () => (
                         <div style={{height:"20px"}}>            
                         </div>
                         <EnterYourMobile size="middle"/> 
-                        
-                        <div>
-                        </div>
                         <div className={styles.t__small}>
                             <div className={styles.list__bulletinline}>
                                 <font style={{color:'#888'}}>免费试用 、 易于安装
