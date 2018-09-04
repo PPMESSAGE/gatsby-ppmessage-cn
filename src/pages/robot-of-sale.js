@@ -72,7 +72,7 @@ export default () => (
 
                         <div style={{height:"300px"}}>
 
-                            <div className={styles.chuangjian} style={{margin:"22px"}}>
+                            <div className={styles.chuangjian} style={{margin:"22px 22px 22px 55px"}}>
                                 <a href="#huode" className={styles.lianjie}>
                                     <div className={styles.product__breakdown__image}>
                                         <img className={styles.ceshi_z} src="https://marketing.intercomassets.com/assets/custom-bots/anchor-leads-2x-15cf996ae442dc5ae1b4e70b0b71a426ab5a2d8d65eedd6a44124dfa14e6a907.png" width="91px" />
@@ -125,7 +125,7 @@ export default () => (
 
 
 
-                        <div className={styles.chuangjian} style={{margin:"22px"}}>
+                        <div className={styles.chuangjian} style={{margin:"22px 0px 22px 22px"}}>
                             <a href="#celiang" className={styles.lianjie}>
                                 <div className={styles.product__breakdown__image}>
                                     <img src="https://marketing.intercomassets.com/assets/live-chat/v2/measure-2fc6b218e130f27b61f8bd2868fe6585d790bb542c307358a4c160933a3c661b.png" width="91px" /></div>

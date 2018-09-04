@@ -45,7 +45,7 @@ export default () => (
             <div className={styles.container}>
                 <div className={styles.g__row}>
                     <div className={styles.g__c3}>
-                        <div className={styles.chuangjian}>
+                        <div className={styles.chuangjian} style={{marginLeft:"2em"}}>
                             <a href="#qudao" className={styles.lianjie}>
                                 <div>                
                                 </div>

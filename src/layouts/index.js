@@ -316,7 +316,7 @@ export default ({ children }) =>
 <a href="#" className={styles.nav__link}><font className={styles.zizi}>登陆</font>
 </a>
 <div className={styles.nav__cta}>
-<div style={{margin:"20px 0px 0px 0px"}}>
+<div >
 <EnterYourMobile size="small"/>
 </div>
 </div>
