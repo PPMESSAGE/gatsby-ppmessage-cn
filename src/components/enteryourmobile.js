@@ -4,30 +4,48 @@ import "./enteryourmobile.css"
 
 // size -> small middle large
 
-const EnterYourMobile = ({ size }) => {
-  
-  let layoutClass = "input-row"
-  
-  if (size == "large") {
-    layoutClass = "input-column"
+class EnterYourMobile extends React.Component {
+
+  constructor(props) {
+    super(props);
+    this.state = {size: props.size}
+    this.submitMobile = this.submitMobile.bind(this)
   }
+  
+
+  submitMobile() {
+      let signup_url = "https://ppmessage.cn/ppkefu/#!/app/signup"
+      if (this.refs.mobile.value && this.refs.mobile.value.length) {
+          signup_url=signup_url + "?as=" + this.refs.mobile.value 
+      }
+      window.open(signup_url, "_blank")
+  }
+
+  render() {
+  
+    let layoutClass = "input-row"
+  
+    if (this.state.size == "large") {
+      layoutClass = "input-column"
+    }
+
   
   return (        
     <div>
-      <form>
         <div className={layoutClass}>
           <div>
-            <input className={size} type="text" placeholder="输入手机号码" />
+            <input className={this.state.size} type="text" placeholder="输入手机号码" ref="mobile" />
           </div>
           <div>
-            <button type="submit" className={size}>
+            <button type="button" className={this.state.size} onClick={this.submitMobile}>
              开始使用
             </button>
           </div>
         </div>
-      </form>
     </div>
   )
+}
+
 }
 
 export default EnterYourMobile

@@ -286,7 +286,7 @@ export default ({ children }) =>
 <NavDropdown title="产品资源">
 <div className={styles.g__row}>
 <div style={{marginLeft:"20px"}}>
-<a href="#" style={{textDecoration:"none"}}>
+<a href="/tutorial/" style={{textDecoration:"none"}}>
 <div className={styles.holiday}>
 <div className={styles.t__h4}>
 <font style={{color:"black"}}>帮助中心</font>
@@ -299,7 +299,7 @@ export default ({ children }) =>
 
 <div style={{height:"10px"}}></div>
 
-<a href="#" style={{textDecoration:"none"}}>
+<a href="/manual/" style={{textDecoration:"none"}}>
 <div className={styles.holiday}>
 <div className={styles.t__h4}><font style={{color:"black"}}>开发者文档</font></div>
 <div>使用PPMessage API和流程生成工具与第三方服务进行集成</div>
