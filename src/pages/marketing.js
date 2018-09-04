@@ -92,7 +92,7 @@ export default () => (
                                 </div>                
                             </a>
                         </div>
-                        <div className={styles.chuangjian} style={{paddingRight:"15em"}}>
+                        <div className={styles.chuangjian} >
                             <a href="#youhua" className={styles.lianjie}>
                                 <div>                
                                 </div>
