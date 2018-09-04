@@ -272,7 +272,7 @@ export default ({ children }) =>
 <NavDropdown title="产品资源">
 <div className={styles.g__row}>
 <div style={{marginLeft:"20px"}}>
-<a href="/tutorials/" style={{textDecoration:"none"}}>
+<a href="/tutorial/" style={{textDecoration:"none"}}>
 <div className={styles.holiday}>
 <div className={styles.t__h4}>
 <font style={{color:"black"}}>帮助中心</font>
