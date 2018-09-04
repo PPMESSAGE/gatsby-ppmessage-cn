@@ -54,7 +54,7 @@ export default ({ children }) =>
 </div>
 </a>
 
-<a href="" className={styles.f__no_und_aways}>
+<a href="/cloud-call-center" className={styles.f__no_und_aways}>
 <div className={styles.holiday}>
 <div className={styles.t__h4}>
 <font>云呼叫中心</font>
@@ -116,7 +116,7 @@ export default ({ children }) =>
 <a href="/transform-customs" className={styles.f__no_und_aways}>
 <div className={styles.holiday}>
 <div className={styles.t__h4}>
-<font style={{color:"black"}}>获取和转化商机</font>
+<font style={{color:"black"}}>获取和转化销售线索</font>
 </div>
 <div className={styles.t__small}>获取更多商机并达成更多交易</div>
 </div>
@@ -137,7 +137,7 @@ export default ({ children }) =>
 <a href="/conversion-businese" style={{textDecoration:"none"}}>
 <div className={styles.holiday}>
 <div className={styles.t__h4}><font style={{color:"black"}}>客户支持并提高客户满意度</font></div>
-<div >通过集成多个渠道，自助服务和强大自动化的现代服务台提高客户满意度并提高效率</div>
+<div >通过集成多个渠道，自助服务和自动化的现代服务台提高客户满意度并提高效率</div>
 </div>
 </a>
 </div>
@@ -176,7 +176,7 @@ export default ({ children }) =>
 <div className={styles.t__h4}>
 <font>金融保险解决方案</font>
 </div>
-<font>索到成单一步到位的智能外呼和客服机器人解决方案，大幅降低人工成本</font>
+<font>销售线索到成单一步到位的智能外呼和客服机器人解决方案，大幅降低人工成本</font>
 </div>
 </a>
 
@@ -185,7 +185,7 @@ export default ({ children }) =>
 <div className={styles.t__h4}>
 <font>医疗健康解决方案</font>
 </div>
-<font>集“全渠道客服系统、患者管理系统、数据分析系统”为一体的对话预约管理系统</font>
+<font>集“全渠道客服系统、患者管理系统、数据分析系统”为一体的新一代医疗、美容解决方案</font>
 </div>
 </a>
 
@@ -197,6 +197,17 @@ export default ({ children }) =>
 <font>从产品、订单到客户支持的大容量、全渠道呼叫中心解决方案</font>
 </div>
 </a>
+
+<a href="" className={styles.f__no_und_aways}>
+<div className={styles.holiday}>
+<div className={styles.t__h4}>
+<font>政务解决方案</font>
+</div>
+<font>可定制可私有部署的全渠道智能云客服和内部沟通解决方案，保护政务机关数据安全，为市民提供方便快捷的市民服务</font>
+</div>
+</a>
+
+
 
 </div>
 <div className={styles.g__c6_yetou}>
@@ -264,20 +275,12 @@ export default ({ children }) =>
 <a href="#" style={{textDecoration:"none"}}>
 <div className={styles.holiday}>
 <div className={styles.t__h4}>
-<font style={{color:"black"}}>产品之旅</font>
+<font style={{color:"black"}}>帮助中心</font>
 </div>
-<div>xxx</div>
+<div>详细介绍如何安装、配置和使用PPMessage 各种产品</div>
 </div>
 </a>
 
-<div style={{height:"10px"}}></div>
-
-<a href="#" style={{textDecoration:"none"}}>
-<div className={styles.holiday}>
-<div className={styles.t__h4}><font style={{color:"black"}}>产品文档</font></div>
-<div>xxx</div>
-</div>
-</a>
 
 
 <div style={{height:"10px"}}></div>
@@ -285,7 +288,7 @@ export default ({ children }) =>
 <a href="#" style={{textDecoration:"none"}}>
 <div className={styles.holiday}>
 <div className={styles.t__h4}><font style={{color:"black"}}>开发者文档</font></div>
-<div>xxx</div>
+<div>使用PPMessage API和流程生成工具与第三方服务进行集成</div>
 </div>
 </a>    
 </div>
@@ -294,7 +297,7 @@ export default ({ children }) =>
 
 
 </div>
-<a href="#" className={styles.nav__link}><font className={styles.zizi}>定价</font>
+<a href="/pricing" className={styles.nav__link}><font className={styles.zizi}>定价</font>
 </a>
 <a href="#" className={styles.nav__link}><font className={styles.zizi}>登陆</font>
 </a>

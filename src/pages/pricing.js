@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./pricing.module.css";
 import EnterYourMobile from "../components/enteryourmobile";
 import TabsControl from "../components/tabscontrol";
-
+import ReactTooltip from 'react-tooltip';
 
 export default () => (
     <div>
@@ -22,7 +22,7 @@ export default () => (
                 <div style={{height:"50px"}}></div>
                 <div className={styles.g__row_h_center}>
                     <div className={styles.g__c4}>
-                        <a  href=""  className={styles.c__black}>
+                        <a  href="#xiaoxi"  className={styles.c__black}>
                             <div className={styles.t__h3}>
                                 <font>
                                     消息
@@ -50,7 +50,7 @@ export default () => (
                     </div>
 
                     <div className={styles.g__c4}>
-                        <a  href=""  className={styles.c__black}>
+                        <a  href="#shoujianxiang"  className={styles.c__black}>
                             <div className={styles.t__h3}>
                                 <font>
                                     收件箱
@@ -79,7 +79,7 @@ export default () => (
 
 
                     <div className={styles.g__c4}>
-                        <a  href=""  className={styles.c__black}>
+                        <a  href="#yongpin"  className={styles.c__black}>
                             <div className={styles.t__h3}>
                                 <font>
                                     用品
@@ -124,11 +124,12 @@ export default () => (
                     
                     <div className={styles.t__small}>
                         <div className={styles.list__bulletinline}>
-                            <font style={{color:'#888'}}>免费试用 · 易于安装 · 随时取消
+                            <font style={{color:'#888'}}>免费试用 · 易于安装 
                             </font>        
                         </div>
                     </div>
                 </div>
+                <a name="xiaoxi"></a>
                 <div style={{height:"80px"}}></div>
                 <div className={styles.pricing__product_box}>
                     <div className={styles.g__row}>
@@ -255,6 +256,14 @@ export default () => (
                                                 <td>
                                                     <font>自动和手动信息
                                                     </font>
+
+                                                    <a data-tip data-for='happyFace'>1</a>
+                                                    <ReactTooltip place="right" id='happyFace' type='error' type ="light" effect ="solid">
+                                                        <span>Show happy face
+                                                        </span>
+                                                    </ReactTooltip>
+
+                                                    
                                                 </td>
                                                 <td>
                                                     <img src="https://upload-images.jianshu.io/upload_images/12406336-5d3b6fe78815da25.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" style={{marginBottom:"0"}} />
@@ -326,7 +335,7 @@ export default () => (
                             </div>
                             <div className={styles.t__small}>
                                 <div className={styles.list__bulletinline}>
-                                    <font>免费试用14天 随时取消</font>
+                                    <font>免费试用14天 </font>
                                 </div>
                             </div>
                             <div style={{height:"20px"}}></div>
@@ -347,25 +356,25 @@ export default () => (
 
 
 
-
+                <a name="shoujianxiang"></a>
                 <div style={{height:"80px"}}></div>
                 <div className={styles.pricing__product_box}>
                     <div className={styles.g__row}>
                         <div className={styles.g__c3} style={{padding:"40px"}}>
                             <div className={styles.g__row}>
                                 <div className={styles.t__h3}>
-                                    <span ><font>消息</font>
+                                    <span ><font>收件箱</font>
                                     </span>
                                 </div>
                                 <div className={styles.g__c12}>
-                                    <font>向潜在客户和客户发送有针对性的电子邮件，应用内消息和推送消息</font>
+                                    <font>以团队形式管理，回复和解决与潜在客户和客户的对话</font>
                                 </div>
                                 <div className={styles.g__c12}>
                                     <div className={styles.t__p3}>
-                                        <font>在开始</font>
+                                        <font>每个座位的价格</font>
                                     </div>
                                     <span className={styles.t__h2}>
-                                        <font>$ 49
+                                        <font>$ 19
                                         </font>
                                     </span>
                                     <font className={styles.vertical}>/月
@@ -511,7 +520,7 @@ export default () => (
                             </div>
                             <div className={styles.t__small}>
                                 <div className={styles.list__bulletinline}>
-                                    <font>免费试用14天 随时取消</font>
+                                    <font>免费试用14天</font>
                                 </div>
                             </div>
                             <div style={{height:"20px"}}></div>
@@ -529,7 +538,7 @@ export default () => (
                         
                     </div>
                 </div>
-
+                <a name="yongpin"></a>
                 <div style={{height:"80px"}}></div>
                 <div className={styles.pricing__product_box}>
                     <div className={styles.g__row}>
@@ -724,7 +733,7 @@ export default () => (
                             </div>
                             <div className={styles.t__small}>
                                 <div className={styles.list__bulletinline}>
-                                    <font>免费试用14天 随时取消</font>
+                                    <font>免费试用14天 </font>
                                 </div>
                             </div>
                             {/*<div style={{height:"20px"}}></div>
@@ -761,15 +770,152 @@ export default () => (
                     <font>推荐用例
                     </font>
                 </div>
+                <div style={{height:"20px"}}></div>
                 <p className={styles.t__h3_center} style={{fontWeight:"100"}}>
                     <font>为您的企业选择一个用例，我们将推荐您需要的产品
                     </font>
                 </p>
             </div>
+
+
+            <div className={styles.container_q}>
+                <div className={styles.g__row3}>
+                    <div className={styles.g__row}>
+                        <div className={styles.g__c4}>            
+                            <div className={styles.u__flex}>
+                                <div className={styles.main1}>
+                                    <div className={styles.sp__2}></div>
+                                    <div className={styles.label}>
+                                        <h3>获取和转化商机
+                                        </h3>
+                                        <font className={styles.ziti}> 使用营销自动化工具和智能外呼获取客户，通过AI工具评估和分配商机，提高客户转化率
+                                        </font>
+                                        <div style={{height:"15px"}}></div>
+                                        <div>
+                                            <font>智能客服·营销自动化·语音机器人</font></div>
+                                        <div style={{height:"10px"}}></div>
+                                        <a href="/transform-customs" className={styles.ziti1}>了解更多
+                                        </a>  
+                                    </div>                                
+                                </div>              
+                            </div>  
+                        </div>
+                        <div className={styles.g__c4}>
+                            <div className={styles.u__flex}>
+                                <div className={styles.main1}>
+                                    <div className={styles.sp__2}></div>
+                                    <div className={styles.label}>
+                                        <h3>引导和吸引客户
+                                        </h3>
+                                        <font className={styles.ziti}> 发送有针对性的电子邮件，短信，应用内推送消息和智能语音将更多注册用户转化为付费用户
+                                        </font>
+                                        <div style={{height:"15px"}}></div>
+                                        <div><font>营销自动化·智能语音机器人</font></div>
+                                        <div style={{height:"10px"}}></div>
+                                        <a href="/guide-attract-customers" className={styles.ziti1}>了解更多
+                                        </a>  
+                                    </div>                                
+                                </div>
+                            </div>
+                        </div>
+                        <div className={styles.g__c4}>
+                            <div className={styles.u__flex}>
+                                <div className={styles.main1}>
+                                    <div className={styles.sp__2}></div>
+                                    <div className={styles.label}>
+                                        <h3>客户支持并提高客户满意度
+                                        </h3>
+                                        <font className={styles.ziti}>云呼叫中心，客服机器人及与业务无缝集成的工单系统，在有效降低成本的同时更快的解决客户问题
+                                        </font>
+                                        <div style={{height:"15px"}}></div>
+                                        <div><font>云呼叫中心·工单·客服机器人</font></div>
+                                        <div style={{height:"10px"}}></div>
+                                        <a href="/conversion-businese" className={styles.ziti1}>了解更多
+                                        </a>  
+                                    </div>                                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style={{height:"140px"}}></div>
+            <p className={styles.t__h3_grey}>
+                <font>为全球发展最快的企业每月提供500,000,000次对话
+                </font>
+            </p>
+            <div style={{height:"40px"}}></div>
+            <div className={styles.g__row_center3}>
+                <img src="https://upload-images.jianshu.io/upload_images/12406336-5fd5bc8dcbc3b852.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" />
+            </div>
         </section>
 
+        <section>
+            <div className={styles.container__narrower}>
+                <div style={{height:"150px"}}></div>
+                <div className={styles.g__row_center3}>
+                    <p className={styles.t__h2}><font style={{fontWeight:"300"}}>经常问的问题</font>
+                    </p>
+                </div>
+                <div style={{height:"40px"}}></div>
+                <div className={styles.g__row}>
+                    <div className={styles.g__c4}>
+                        <div className={styles.f__bold}>
+                            <font style={{color:"black",fontWeight:"400",fontSize:"18px"}}>我可以免费试用对讲吗？</font>
+                        </div>
+                        <div style={{height:"10px"}}></div>
+                        <div>
+                            <font style={{fontWeight:"100",fontSize:"18px"}}>您可以免费试用任何产品14天。您可以随时购买，升级或取消。
+                            </font>
+                        </div>
+                    </div>
+                    
+                    <div className={styles.g__c4}>
+                        <div className={styles.f__bold}>
+                            <font style={{color:"black",fontWeight:"400",fontSize:"18px"}}>我可以免费试用对讲吗？</font>
+                        </div>
+                        <div style={{height:"10px"}}></div>
+                        <div>
+                            <font style={{fontWeight:"100",fontSize:"18px"}}>您可以免费试用任何产品14天。您可以随时购买，升级或取消。
+                            </font>
+                        </div>
+                    </div>
+
+
+                    <div className={styles.g__c4}>
+                        <div className={styles.f__bold}>
+                            <font style={{color:"black",fontWeight:"400",fontSize:"18px"}}>我可以免费试用对讲吗？</font>
+                        </div>
+                        <div style={{height:"10px"}}></div>
+                        <div>
+                            <font style={{fontWeight:"100",fontSize:"18px"}}>您可以免费试用任何产品14天。您可以随时购买，升级或取消。
+                            </font>
+                        </div>
+                    </div>
+
+
+                    <div className={styles.g__c4}>
+                        <div className={styles.f__bold}>
+                            <font style={{color:"black",fontWeight:"400",fontSize:"18px"}}>我可以免费试用对讲吗？</font>
+                        </div>
+                        <div style={{height:"10px"}}></div>
+                        <div>
+                            <font style={{fontWeight:"100",fontSize:"18px"}}>您可以免费试用任何产品14天。您可以随时购买，升级或取消。
+                            </font>
+                        </div>
+                    </div>
+
+
+
+
+                    {/*在此处添加常见问题*/}
+                    
+                </div>
+            </div>
+        </section>
+        
         {/*做完网站删除*/}
-        <div style={{height:"500px"}}></div>
+        <div style={{height:"60px"}}></div> 
         {/*做完网站删除*/}
         
     </div>

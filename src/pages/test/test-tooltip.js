@@ -1,8 +1,8 @@
 import React from "react";
 
 import styles from "../about-css-modules.module.css";
-import CompanyCat from "../../components/companycat"
 
+import ReactTooltip from 'react-tooltip';
 
 export default () => {
 

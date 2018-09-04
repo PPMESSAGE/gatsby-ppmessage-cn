@@ -1,5 +1,5 @@
 import React from "react";
-
+import EnterYourMobile from "../components/enteryourmobile";
 import styles from "./about-css-modules.module.css";
 import FeatherModal from "../components/feathermodal"
 
@@ -21,20 +21,12 @@ export default () => (
                         </h3>
                         <div style={{height:"20px"}}>            
                         </div>
-                        <form>
-                            <div className={styles.cta__large}>
-                                <input type="email" placeholder="输入邮箱" className={styles.inoupbig} />
-                                <div className={styles.cta__btn}>
-                                    <botton type="submit" className={styles.butttonbig} ><font color="white">进入</font>
-                                    </botton>
-                                </div>
-                            </div>
-                        </form>
                         <div>
+                            <EnterYourMobile size="middle"/>                            
                         </div>
                         <div className={styles.t__small}>
                             <div className={styles.list__bulletinline}>
-                                <font style={{color:'#888'}}>免费试用 · 易于安装 · 随时取消
+                                <font style={{color:'#888'}}>免费试用 · 易于安装 · 
                                 </font>        
                             </div>
                         </div>
@@ -58,12 +50,12 @@ export default () => (
                                 <div>                
                                 </div>
                                 <div style={{height:'5em'}}></div>                           
-                                <div className={styles.f__light}>
-                                    <font className={styles.smallerbiaoti}>多渠道
+                                <div className={styles.t__h3}>
+                                    <font >多渠道
                                     </font>
                                 </div>
                                 <div style={{height:'5px'}}></div>
-                                <div className={styles.max__300}>
+                                <div className={styles.t__small_s}>
                                     <font className={styles.smallerbiaoti}>网页、移动端、社交媒体、电话、邮件等多渠道接入客户对话
                                     </font>                  
                                 </div>
@@ -82,12 +74,12 @@ export default () => (
                                 <div>                
                                 </div>
                                 <div style={{height:'5em'}}></div>                           
-                                <div className={styles.f__light}>
-                                    <font className={styles.smallerbiaoti}>单一界面
+                                <div className={styles.t__h3}>
+                                    <font >单一界面
                                     </font>
                                 </div>
                                 <div style={{height:'5px'}}></div>
-                                <div className={styles.max__300}>
+                                <div className={styles.t__small_s}>
                                     <font className={styles.smallerbiaoti}>为团队配备统一的全渠道桌面，提供所有背景信息以及相关知识
                                     </font>
                                 </div>
@@ -106,12 +98,12 @@ export default () => (
                                 <div>                
                                 </div>
                                 <div style={{height:'5em'}}></div>                           
-                                <div className={styles.f__light}>
-                                    <font className={styles.smallerbiaoti}>多渠道自动化工作流程
+                                <div className={styles.t__h3}>
+                                    <font >多渠道自动化工作流程
                                     </font>
                                 </div>
                                 <div style={{height:'5px'}}></div>
-                                <div className={styles.max__302}>
+                                <div className={styles.t__small_s}>
                                     <font className={styles.smallerbiaoti}>减少重复性工作花费的时间
                                     </font>
                                 </div>
@@ -131,13 +123,13 @@ export default () => (
                                 <div>                
                                 </div>
                                 <div style={{height:'5em'}}></div>                           
-                                <div className={styles.f__light}>
-                                    <font className={styles.smallerbiaoti}>实时绩效评估
+                                <div className={styles.t__h3}>
+                                    <font >实时绩效评估
                                     </font>
                                 </div>
                                 <div style={{height:'5px'}}></div>
-                                <div className={styles.max__301}>
-                                    <font className={styles.smallerbiaoti}>实时了解团队绩效并提前采取行动
+                                <div className={styles.t__small_s}>
+                                    <font >实时了解团队绩效并提前采取行动
                                     </font>
                                 </div>
 

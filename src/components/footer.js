@@ -71,7 +71,7 @@ const Footer = props => (
                     </div>
 
                     <div className={styles.footer__link}>
-                        <a href=" " className={styles.lianjie}>
+                        <a href="/cloud-call-center" className={styles.lianjie}>
                             <font>云呼叫中心</font>
                         </a>
                     </div>
@@ -208,7 +208,7 @@ const Footer = props => (
                         <font color="#888">公司介绍</font>
                     </h4>
                     <div className={styles.footer__link}>
-                        <a href=" " className={styles.lianjie}>
+                        <a href="/about-us" className={styles.lianjie}>
                             <font>关于我们</font>
                         </a>
                     </div>

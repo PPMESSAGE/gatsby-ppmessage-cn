@@ -94,7 +94,7 @@ export default () => (
 
                     <div className={styles.g__c3}>
 
-                        <div className={styles.chuangjian} style={{margin:"22px"}}>
+                        <div className={styles.chuangjian} style={{margin:"22px",width:"300px" }}>
                             <a href="#xifen" className={styles.lianjie}>
                                 <div className={styles.product__breakdown__image}>
                                     <img src="https://marketing.intercomassets.com/assets/customer-engagement/v2/breakdown/target-f96c9064c98b54c0e9fe298d0baa639663cdbadb32a0b6913867e73fb666a56d.png" width="91px" /></div>
@@ -113,7 +113,7 @@ export default () => (
                             </a>
                         </div>
 
-                        <div className={styles.chuangjian} style={{margin:"22px"}}>
+                        <div className={styles.chuangjian} style={{margin:"22px",width:"300px"}}>
                             <a href="#yindao" className={styles.lianjie}>
                                 <div className={styles.product__breakdown__image}>
                                     <img src="https://marketing.intercomassets.com/assets/customer-engagement/v2/breakdown/onboard-f0e494daf9532d50b086cc327af36a81f0dff11aaa8a9fc0bdf157f84e7664be.png" width="91px" /></div>
@@ -133,7 +133,7 @@ export default () => (
                         </div>
                         
 
-                        <div className={styles.chuangjian} style={{margin:"22px"}}>
+                        <div className={styles.chuangjian} style={{margin:"22px",width:"300px"}}>
                             <a href="#fabu" className={styles.lianjie}>
                                 <div className={styles.product__breakdown__image}>
                                     <img src="https://marketing.intercomassets.com/assets/customer-engagement/v2/breakdown/announce-67630a5d3bc4b21498f87c58fa4b82d55c99ae042c3014b7acd30872e4d3cb28.png" width="91px" /></div>
@@ -155,7 +155,7 @@ export default () => (
 
 
 
-                        <div className={styles.chuangjian} style={{margin:"22px"}}>
+                        <div className={styles.chuangjian} style={{margin:"22px",width:"300px"}}>
                             <a href="#pinggu" className={styles.lianjie}>
                                 <div className={styles.product__breakdown__image}>
                                     <img src="https://marketing.intercomassets.com/assets/customer-engagement/v2/breakdown/measure-313c6beda960cad1dcc4f55802724d75a03219e22aebcea5f8390c7c7188e1e7.png" width="91px" /></div>

@@ -6,13 +6,15 @@ export default () => (
         <div style={{height:'72px'}}></div>
         <div className={styles.container__narrower}>
             <div className={styles.g__row}>
+                
                 <div className={styles.g__c6}>
+                    <div style={{height:"100px"}}></div>
                     <div className={styles.sp__5}>
-                        <h2>获得，吸引和留住客户的新方法
+                        <h2 style={{fontSize:"36px",fontWeight:"150"}}>获取，转化和留存客户的新方法
                         </h2>
                         <div style={{height:"10px"}}>
                         </div>
-                        <h3 style={{color:'#888'}}>现代产品用于销售，营销和支持，以便与客户建立联系并更快的发展。
+                        <h3 style={{color:'#888',fontWeight:"100"}}>跨数字化及语音渠道，将网页、电话、邮件、社交媒体和应用内对话转化为标准消息，并通过消息进行销售，营销和客户支持，打造卓越客户历程，促进企业成长
                         </h3>
                         <div style={{height:"20px"}}>            
                         </div>
@@ -22,7 +24,7 @@ export default () => (
                         </div>
                         <div className={styles.t__small}>
                             <div className={styles.list__bulletinline}>
-                                <font style={{color:'#888'}}>免费试用 · 易于安装 · 随时取消
+                                <font style={{color:'#888'}}>免费试用 、 易于安装
                                 </font>        
                             </div>
                         </div>
@@ -38,7 +40,7 @@ export default () => (
         <section>
             <div className={styles.f__center}>
                 <h3 className={styles.f__h3}>
-                    <font style={{color:"#888"}}>受到全球最具创新精神的企业信赖- 无论大小
+                    <font style={{color:"#888",fontSize:"24px",fontWeight:"300"}}>受到全球最具创新精神的企业信赖- 无论大小
                     </font>
                 </h3>
                 <div style={{height:'20px'}}></div>
@@ -62,9 +64,13 @@ export default () => (
                                 <div className={styles.main1}>
                                     <div className={styles.sp__2}></div>
                                     <div className={styles.label}>
-                                        <h3>获取和转化商机
+
+                                        
+
+                                        
+                                        <h3>获取和转化线索
                                         </h3>
-                                        <font className={styles.ziti}> 使用营销自动化工具和智能外呼获取客户，通过AI工具评估和分配商机，提高客户转化率
+                                        <font className={styles.ziti}> 通过与网站访客实时互动获取销售线索，通过AI工具评估和分配线索，通过全渠道自动化营销工具将线索转化为商机
                                         </font>
                                         <div style={{height:"15px"}}></div>
                                         <div>
@@ -81,7 +87,7 @@ export default () => (
                                 <div className={styles.main1}>
                                     <div className={styles.sp__2}></div>
                                     <div className={styles.label}>
-                                        <h3>引导和吸引客户
+                                        <h3>培育和吸引客户
                                         </h3>
                                         <font className={styles.ziti}> 发送有针对性的电子邮件，短信，应用内推送消息和智能语音将更多注册用户转化为付费用户
                                         </font>
@@ -96,29 +102,24 @@ export default () => (
                         </div>
                         <div className={styles.g__c4}>
                             <div className={styles.u__flex}>
-                                <div className={styles.main1}>
-                                    <div className={styles.sp__2}></div>
-                                    <div className={styles.label}>
-                                        <h3>客户支持并提高客户满意度
-                                        </h3>
-                                        <font className={styles.ziti}>云呼叫中心，客服机器人及与业务无缝集成的工单系统，在有效降低成本的同时更快的解决客户问题
-                                        </font>
-                                        <div style={{height:"15px"}}></div>
-                                        <div><font>云呼叫中心·工单·客服机器人</font></div>
-                                        <div style={{height:"10px"}}></div>
-                                        <a href="/conversion-businese" className={styles.ziti1}>了解更多
-                                        </a>  
-                                    </div>                                
+                                <div className={styles.main1}>                                                   <div className={styles.label}>
+                                    <h3>支持并提高客户满意度
+                                    </h3>
+                                    <font className={styles.ziti}>云呼叫中心，客服机器人及与业务无缝集成的工单系统，在有效降低成本的同时更快的解决客户问题
+                                    </font>
+                                    <div style={{height:"15px"}}></div>
+                                    <div><font>云呼叫中心·工单·客服机器人</font></div>
+                                    <div style={{height:"10px"}}></div>
+                                    <a href="/conversion-businese" className={styles.ziti1}>了解更多
+                                    </a>  
+                                </div>                                
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div style={{height:"80px"}}></div>
-                <section className={styles.section}>
-                    <div className={styles.container__narrower}>
-                    </div>
-                </section>
+                
             </div>
         </section>
 
