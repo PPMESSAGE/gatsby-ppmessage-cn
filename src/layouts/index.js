@@ -75,14 +75,14 @@ export default ({ children }) =>
 <font>销售机器人</font>
 </div>
 <div>
-<font> d </font>
+<font> {/*此处写销售机器人介绍*/} </font>
 </div>
 </div>
 </a>
 
 
 
-<a href="" className={styles.f__no_und_aways}>
+<a href="/intelligent-customer-service-robot" className={styles.f__no_und_aways}>
 <div className={styles.holiday}>
 <div className={styles.t__h4}>
 <font>智能客服机器人</font>
@@ -93,7 +93,7 @@ export default ({ children }) =>
 </div>
 </a>
 
-<a href="" className={styles.f__no_und_aways}>
+<a href="/intlligent-speech-robot" className={styles.f__no_und_aways}>
 <div className={styles.holiday}>
 <div className={styles.t__h4}>
 <font>智能语音机器人</font>

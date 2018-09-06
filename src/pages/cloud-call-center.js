@@ -43,7 +43,7 @@ export default () => (
             <div className={styles.container}>
                 <div className={styles.g__row}>
 
-                    <div style={{height:"300px"}}>
+                    <div>
 
                         <div className={styles.chuangjian} style={{margin:"22px",paddingRight:"0em"}}>
                             <a href="#quanqiuhua" className={styles.lianjie}>
