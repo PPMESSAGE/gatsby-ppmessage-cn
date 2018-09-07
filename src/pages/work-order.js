@@ -5,7 +5,6 @@ import EnterYourMobile from "../components/enteryourmobile";
 
 export default () => (
     <div>
-
         <div style={{height:`72px`}}></div>
         <div className={styles.container__narrower}>
             <div className={styles.g__row} style={{paddingLeft:"80px"}}>
@@ -20,9 +19,7 @@ export default () => (
                         </h3>
                         <div style={{height:"20px"}}>            
                         </div>
-
-                        <EnterYourMobile size="middle" />                       
-                        <div className={styles.t__small}>
+                        <EnterYourMobile size="middle" />                                            <div className={styles.t__small}>
                             <div className={styles.list__bulletinline}>
                                 <font style={{color:'#888'}}>免费试用 · 易于安装
                                 </font>        
@@ -66,10 +63,7 @@ export default () => (
                 
             </div>
         </section>
-
-
-        <section >
-            
+        <section >            
             <div className={styles.container_z} style={{textAlign:"center"}}>
                 <div className={styles.g__row}>
                     <div className={styles.g__c6}>

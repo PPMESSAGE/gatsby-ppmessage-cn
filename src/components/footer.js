@@ -77,19 +77,25 @@ const Footer = props => (
                     </div>
 
                     <div className={styles.footer__link}>
-                        <a href=" " className={styles.lianjie}>
+                        <a href="/robot-of-sale" className={styles.lianjie}>
+                            <font>智能销售机器人</font>
+                        </a>
+                    </div>
+
+                    <div className={styles.footer__link}>
+                        <a href="/intelligent-customer-service-robot" className={styles.lianjie}>
                             <font>智能客服机器人</font>
                         </a>
                     </div>
 
                     <div className={styles.footer__link}>
-                        <a href=" " className={styles.lianjie}>
+                        <a href="/intlligent-speech-robot" className={styles.lianjie}>
                             <font>智能语音机器人</font>
                         </a>
                     </div>
 
                     <div className={styles.footer__link}>
-                        <a href=" " className={styles.lianjie}>
+                        <a href="/business-custom" className={styles.lianjie}>
                             <font>业务定制</font>
                         </a>
                     </div>          
@@ -184,14 +190,10 @@ const Footer = props => (
                     <h4 className={styles.footer__heading}>
                         <font color="#888">产品资源</font>
                     </h4>
+                    
                     <div className={styles.footer__link}>
                         <a href=" " className={styles.lianjie}>
-                            <font>产品之旅</font>
-                        </a>
-                    </div>
-                    <div className={styles.footer__link}>
-                        <a href=" " className={styles.lianjie}>
-                            <font>产品文档</font>
+                            <font>帮助中心</font>
                         </a>
                     </div>
                     <div className={styles.footer__link}>
@@ -223,7 +225,7 @@ const Footer = props => (
                         </a>
                     </div>
                     <div className={styles.footer__link}>
-                        <a href=" " className={styles.lianjie}>
+                        <a href="/join-us" className={styles.lianjie}>
                             <font>加入我们</font>
                         </a>
                     </div>

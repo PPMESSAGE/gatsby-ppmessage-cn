@@ -72,10 +72,10 @@ export default ({ children }) =>
 <a href="/robot-of-sale" className={styles.f__no_und_aways}>
 <div className={styles.holiday}>
 <div className={styles.t__h4}>
-<font>销售机器人</font>
+<font>智能销售机器人</font>
 </div>
 <div>
-<font> {/*此处写销售机器人介绍*/} </font>
+<font>24/7随时获取、评估网站上的商机，无需代码定制，加快销售周期，提供超越人类极限的业务增长机会</font>
 </div>
 </div>
 </a>
@@ -105,7 +105,7 @@ export default ({ children }) =>
 </a>
 
 
-<a href="" className={styles.f__no_und_aways}>
+<a href="/business-custom" className={styles.f__no_und_aways}>
 <div className={styles.holiday}>
 <div className={styles.t__h4}>
 <font>业务定制</font>
@@ -165,7 +165,7 @@ export default ({ children }) =>
 <div className={styles.g__row}>
 <div className={styles.g__c6_yetou}>
 
-<a href="" className={styles.f__no_und_aways}>
+<a href="/commerce-solutions" className={styles.f__no_und_aways}>
 <div className={styles.holiday}>
 <div className={styles.t__h4}>
 <font>电商行业解决方案</font>
@@ -176,7 +176,7 @@ export default ({ children }) =>
 
 <div style={{width:"800px"}}></div>
 
-<a href="" className={styles.f__no_und_aways}>
+<a href="/education-training-solutions" className={styles.f__no_und_aways}>
 <div className={styles.holiday}>
 <div className={styles.t__h4}>
 <font>教育培训解决方案</font>
@@ -313,7 +313,7 @@ export default ({ children }) =>
 </div>
 <a href="/pricing" className={styles.nav__link}><font className={styles.zizi}>定价</font>
 </a>
-<a href="#" className={styles.nav__link}><font className={styles.zizi}>登陆</font>
+<a href="#" className={styles.nav__link}><font className={styles.zizi}>登录</font>
 </a>
 <div className={styles.nav__cta}>
 <div >

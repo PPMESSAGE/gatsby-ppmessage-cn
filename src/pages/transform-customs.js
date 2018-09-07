@@ -32,7 +32,7 @@ export default () => {
                 <div className={styles.g__row}>
                     <div className={styles.g__c6}>
                         <span className={styles.f__medium}>
-                            <div style={{width:"200px" }}><h2>获取和转化商机</h2></div>
+                            <div style={{width:"200px" }}><h2>获取和转化销售线索</h2></div>
                         </span>
                     </div>
                 </div>
@@ -50,10 +50,12 @@ export default () => {
 
                         <div style={{width:"1317px"}}></div>
                         <h1 className={styles.t__h1_s}>
-                            增长最快的销售和营销团队通过 PPMESSAGE 达到了他们的数量
+                            获取更多商机并达成更多交易
                         </h1>
                         <div style={{height:"10px"}}></div>
-                        <h2 className={styles.t__h3_d}><font>通过机器人和实时聊天，获得更多潜在用户，自动化资格认证更快地交易。</font>
+                        <h2 className={styles.t__h3_d}>
+                            <font>通过网页主动消息、在线聊天、策略性的推送应用内消息、邮件、短信和智能语音外呼快速获取更多商机；通过机器学习实时评估商机质量并自动分配，提升商机转化率
+                            </font>
                         </h2>
                         <div style={{height:"20px"}}></div>
                         <div className={styles.u__inline}>
@@ -61,7 +63,7 @@ export default () => {
                         </div>
                         <div style={{height:"10px"}}></div>
                         <div className={styles.t__small}>
-                            免费试用14天 易于安装 随时取消
+                            免费试用14天 易于安装 
                         </div>          
                     </div>        
                 </div>
@@ -124,10 +126,10 @@ export default () => {
                                         <img src="https://marketing.intercomassets.com/assets/live-chat/v2/capture-6cd1e65484e3cc8bc579ae4ba69db31ad254a0db01313b47191f131567fbc2b6.png" width="91px" /></div>
                                         <div style={{height:"10px"}}></div>
                                         <div className={styles.t__h3}>
-                                            <font>获得</font>
+                                            <font>获取</font>
                                         </div>
                                         <div className={styles.t__small_s}>
-                                            <font>开始正确的对话，找到您网站上最好的潜在客户</font>
+                                            <font>通过主动对话、应用内消息互动、邮件营销、短信营销、微信 营销和智能外呼获取更多商机</font>
                                         </div>
                                         <div className={styles.product__learn_more} style={{margin:"80px"}}>
                                             <span>
@@ -143,10 +145,11 @@ export default () => {
                                         <img src="https://marketing.intercomassets.com/assets/live-chat/v2/qualify-2cde0bea6a097ea7de52c892e75dd0e311360680497721521d05eb12d9622994.png" width="91px" /></div>
                                         <div style={{height:"10px"}}></div>
                                         <div className={styles.t__h3}>
-                                            <font>修饰</font>
+                                            <font>评价</font>
                                         </div>
                                         <div className={styles.t__small_s}>
-                                            <font>自动化资格认证，清楚购买人群</font>
+                                            <font>通过机器学习自动评估商机质量，并将合适的商机转给合适的销售人员，安排销售会议或与您的CRM系统同步信息
+                                            </font>
                                         </div>
                                         <div className={styles.product__learn_more} style={{margin:"80px"}}>
                                             <span>
@@ -163,10 +166,10 @@ export default () => {
                                         <img src="https://marketing.intercomassets.com/assets/live-chat/v2/convert-2f21b347ebaf5cdd5454fbcbb817658899487f69a088d9d06f5bef68dcf0c7cf.png" width="91px" /></div>
                                         <div style={{height:"10px"}}></div>
                                         <div className={styles.t__h3}>
-                                            <font>兑换</font>
+                                            <font>转化</font>
                                         </div>
                                         <div className={styles.t__small_s}>
-                                            <font>合适的潜在用户会找到合适的销售人员，这样您就可以更快的完成转化。
+                                            <font>通过实时聊天和消息互动完成商机转化
                                             </font>
                                         </div>
                                         <div className={styles.product__learn_more} style={{margin:"80px"}}>
@@ -179,7 +182,7 @@ export default () => {
 
 
 
-                            <div className={styles.chuangjian} style={{margin:"22px",paddingRight:"0"}}>
+                            <div className={styles.chuangjian} style={{margin:"0px",paddingRight:"0"}}>
                                 <a href="#celiang" className={styles.lianjie}>
                                     <div className={styles.product__breakdown__image}>
                                         <img src="https://marketing.intercomassets.com/assets/live-chat/v2/measure-2fc6b218e130f27b61f8bd2868fe6585d790bb542c307358a4c160933a3c661b.png" width="91px" /></div>
@@ -188,7 +191,7 @@ export default () => {
                                             <font>测量</font>
                                         </div>
                                         <div className={styles.t__small_s}>
-                                            <font>查看 PPMESSAGE 为您添加的潜在用户机会和资金</font>
+                                            <font>实时了解商机转化数量，商机来源等信息，评估营销质量</font>
                                         </div>
                                         <div className={styles.product__learn_more} style={{margin:"80px"}}>
                                             <span>
@@ -210,9 +213,9 @@ export default () => {
                             <div className={styles.u__inline}>
                                 <div className={styles.g__row}>
                                     <div className={styles.g__c}>
-                                        <a href=" " className={styles.f__no_und_always}>
+                                        <a href="" className={styles.f__no_und_always}>
                                             <font className={styles.hezuo1}>
-                                                获得
+                                                获取
                                             </font>
                                         </a>
                                     </div>
@@ -220,7 +223,7 @@ export default () => {
                                     <div className={styles.g__c}>
                                         <a href="#xiushi" className={styles.f__no_und_always}>
                                             <font className={styles.zidonghua}>
-                                                修饰
+                                                评价
                                             </font>
                                         </a>
                                     </div>
@@ -228,7 +231,7 @@ export default () => {
                                     <div className={styles.g__c}>
                                         <a href="#duihuan" className={styles.f__no_und_always}>
                                             <font className={styles.guimo}>
-                                                兑换
+                                                转换
                                             </font>
                                         </a>
                                     </div>
@@ -245,12 +248,13 @@ export default () => {
                             <div style={{height:"20px"}}></div>
                             <h3 className={styles.t__h2}>
                                 <font>
-                                    使用合格的潜在用户填写您的渠道
+                                    通过定制化的自动消息转化更多网页访客
                                 </font>
                             </h3>
                             <div style={{height:"10px"}}></div>
                             <div className={styles.max__600}>
-                                <font>自动将消息定位到正确的访问者，并在您的网站上全天候找到最佳潜在客户
+                                <font>通过访客在线时与其实时互动而不是冗长的表单转化客户
+
                                 </font>
                             </div>
                         </div>
@@ -282,27 +286,10 @@ export default () => {
                                         <div style={{height:"10px"}}></div>
                                         <div className={styles.sp__left_4}>
                                             <div className={[styles.t__small,styles.f__bold]}>
-                                                <font>访客定位</font>
+                                                <font>针对目标</font>
                                             </div>
                                             <div className={styles.t__small}>
-                                                <font>通过浏览行为，推介URL和Cle                                                 arbit数据来定位访问者。</font>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div className={styles.g__c6}>
-                                    <div className={styles.f__left}>
-                                        <div className={styles.product__feature_icon}>
-                                            <img src="https://upload-images.jianshu.io/upload_images/12406336-acd7309f5cf61fa5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" />
-                                        </div>
-                                        <div style={{height:"10px"}}></div>
-                                        <div className={styles.sp__left_4}>
-                                            <div className={[styles.t__small,styles.f__bold]}>
-                                                <font>信使能见度</font>
-                                            </div>
-                                            <div className={styles.t__small}>
-                                                <font>选择显示Messager位置，对象和时间
+                                                <font>通过访客的行为和推荐网址定位目标客户
                                                 </font>
                                             </div>
                                         </div>
@@ -317,15 +304,35 @@ export default () => {
                                         <div style={{height:"10px"}}></div>
                                         <div className={styles.sp__left_4}>
                                             <div className={[styles.t__small,styles.f__bold]}>
-                                                <font>数据丰富</font>
+                                                <font>定制化聊天组件</font>
                                             </div>
                                             <div className={styles.t__small}>
-                                                <font>使用Clearbit Reveal等数据集成仅针对最佳潜在客户
+                                                <font>
+                                                    可以针对不同的访客，不同的时间在网页不同的位置显示定制化聊天组件
+
                                                 </font>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+
+                                {/*<div className={styles.g__c6}>
+                                    <div className={styles.f__left}>
+                                    <div className={styles.product__feature_icon}>
+                                    <img src="https://upload-images.jianshu.io/upload_images/12406336-acd7309f5cf61fa5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" />
+                                    </div>
+                                    <div style={{height:"10px"}}></div>
+                                    <div className={styles.sp__left_4}>
+                                    <div className={[styles.t__small,styles.f__bold]}>
+                                    <font>数据丰富</font>
+                                    </div>
+                                    <div className={styles.t__small}>
+                                    <font>使用Clearbit Reveal等数据集成仅针对最佳潜在客户
+                                    </font>
+                                    </div>
+                                    </div>
+                                    </div>
+                                    </div>*/}
 
                                 <div className={styles.g__c6}>
                                     <div className={styles.f__left}>
@@ -338,13 +345,12 @@ export default () => {
                                                 <font>A / B测试</font>
                                             </div>
                                             <div className={styles.t__small}>
-                                                <font>通过测试变体来提高消息的性能
+                                                <font>通过变量测试提高自动消息的效果
                                                 </font>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-
                             </div>
                         </div>
                     </div>
@@ -363,7 +369,7 @@ export default () => {
                                         <div className={styles.g__c}>
                                             <a href="#huode" className={styles.f__no_und_always}>
                                                 <font className={styles.hezuo}>
-                                                    获得
+                                                    获取
                                                 </font>
                                             </a>
                                         </div>
@@ -371,7 +377,7 @@ export default () => {
                                         <div className={styles.g__c}>
                                             <a href="#xiushi" className={styles.f__no_und_always}>
                                                 <font className={styles.zidonghua1}>
-                                                    修饰
+                                                    评价
                                                 </font>
                                             </a>
                                         </div>
@@ -379,7 +385,7 @@ export default () => {
                                         <div className={styles.g__c}>
                                             <a href="#duihuan" className={styles.f__no_und_always}>
                                                 <font className={styles.guimo}>
-                                                    兑换
+                                                    转换
                                                 </font>
                                             </a>
                                         </div>
@@ -396,12 +402,14 @@ export default () => {
                                 <div style={{height:"20px"}}></div>
                                 <h3 className={styles.t__h2}>
                                     <font>
-                                        找到您的销售准备好的潜在客户
+                                        自动评估商机价值和分配
                                     </font>
                                 </h3>
                                 <div style={{height:"10px"}}></div>
                                 <div className={styles.max__600}>
-                                    <font>让销售保持关闭和营销培育。内部通信可帮助您提出合格问题，安排后续步骤，安排会议以及将数据同步到CRM
+                                    <font>
+                                        自动评估商机质量，将其分配给合适的处理部门，自动安排与商机的销售会议，并与CRM系统同步
+
                                     </font>                                
                                 </div>                            
                             </div>                        
@@ -412,7 +420,7 @@ export default () => {
                                 <div className={styles.g__row_center}>
                                     <div className={styles.g__c4__relative}>
                                         <div className={styles.live_chat__label}>
-                                            <font>获得新的资格
+                                            <font>评估商机
                                             </font>
                                         </div>
                                         <div style={{height:"20px"}}></div>
@@ -422,7 +430,8 @@ export default () => {
 
                                     <div className={styles.g__c4__relative}>
                                         <div className={styles.live_chat__label}>
-                                            <font>与您最好的线索进行书籍会议
+                                            <font>
+                                                安排会议
                                             </font>
                                         </div>
                                         <div style={{height:"20px"}}></div>
@@ -432,67 +441,67 @@ export default () => {
 
                                     <div className={styles.g__c4__relative}>
                                         <div className={styles.live_chat__label}>
-                                            <font>使Salesforce保持同步
+                                            <font>使Salesforce保持同步{/*需要改一下*/}
                                             </font>
                                         </div>
                                         <div style={{height:"20px"}}></div>
                                         <img width="340" src="https://marketing.intercomassets.com/assets/live-chat2/qualify/3-2x-6027ed1a6f09fc3ab366754757377c9c1309f85bbce4e6c54c003e655b5a992b.png#341" />                                                             </div>                                   
                                 </div>
 
-                                <div className={styles.u__center}>
+                                {/* <div className={styles.u__center}>
                                     <div className={styles.g__row_fill_pink}>
-                                        <div className={styles.g__c4_5}>
-                                            <div className={styles.f__left}>
-                                                <div className={styles.product__feature_icon}>
-                                                    <img src="https://upload-images.jianshu.io/upload_images/12406336-acd7309f5cf61fa5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" />
-                                                </div>
-                                                
-                                                <div className={styles.sp__left_4}>
-                                                    <div className={[styles.t__small,styles.f__bold]}>
-                                                        <font>资格和路线</font>
-                                                    </div>
-                                                    <div className={styles.t__small}>
-                                                        <font>运营商对潜在用户</font>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
+                                    <div className={styles.g__c4_5}>
+                                    <div className={styles.f__left}>
+                                    <div className={styles.product__feature_icon}>
+                                    <img src="https://upload-images.jianshu.io/upload_images/12406336-acd7309f5cf61fa5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" />
+                                    </div>
+                                    
+                                    <div className={styles.sp__left_4}>
+                                    <div className={[styles.t__small,styles.f__bold]}>
+                                    <font>资格和路线</font>
+                                    </div>
+                                    <div className={styles.t__small}>
+                                    <font>运营商对潜在用户</font>
+                                    </div>
+                                    </div>
+                                    </div>
+                                    </div>
 
-                                        <div className={styles.g__c4_5}>
-                                            <div className={styles.f__left}>
-                                                <div className={styles.product__feature_icon}>
-                                                    <img src="https://upload-images.jianshu.io/upload_images/12406336-acd7309f5cf61fa5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" />
-                                                </div>
-                                                
-                                                <div className={styles.sp__left_4}>
-                                                    <div className={[styles.t__small,styles.f__bold]}>
-                                                        <font>会议安排</font>
-                                                    </div>
-                                                    <div className={styles.t__small}>
-                                                        <font>操作员自动安排销售会议与最佳潜在客户，24 // 7</font>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
+                                    <div className={styles.g__c4_5}>
+                                    <div className={styles.f__left}>
+                                    <div className={styles.product__feature_icon}>
+                                    <img src="https://upload-images.jianshu.io/upload_images/12406336-acd7309f5cf61fa5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" />
+                                    </div>
+                                    
+                                    <div className={styles.sp__left_4}>
+                                    <div className={[styles.t__small,styles.f__bold]}>
+                                    <font>会议安排</font>
+                                    </div>
+                                    <div className={styles.t__small}>
+                                    <font>操作员自动安排销售会议与最佳潜在客户，24 // 7</font>
+                                    </div>
+                                    </div>
+                                    </div>
+                                    </div>
 
 
-                                        <div className={styles.g__c4_5}>
-                                            <div className={styles.f__left}>
-                                                <div className={styles.product__feature_icon}>
-                                                    <img src="https://upload-images.jianshu.io/upload_images/12406336-acd7309f5cf61fa5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" />
-                                                </div>
-                                                
-                                                <div className={styles.sp__left_4}>
-                                                    <div className={[styles.t__small,styles.f__bold]}>
-                                                        <font>CRM整合</font>
-                                                    </div>
-                                                    <div className={styles.t__small}>
-                                                        <font>集成并自动将数据同步到Salesforce，Hubspot等</font>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>                                                                   </div>
-                                </div>
+                                    <div className={styles.g__c4_5}>
+                                    <div className={styles.f__left}>
+                                    <div className={styles.product__feature_icon}>
+                                    <img src="https://upload-images.jianshu.io/upload_images/12406336-acd7309f5cf61fa5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" />
+                                    </div>
+                                    
+                                    <div className={styles.sp__left_4}>
+                                    <div className={[styles.t__small,styles.f__bold]}>
+                                    <font>CRM整合</font>
+                                    </div>
+                                    <div className={styles.t__small}>
+                                    <font>集成并自动将数据同步到Salesforce，Hubspot等</font>
+                                    </div>
+                                    </div>
+                                    </div>
+                                    </div>                                                                   </div>
+                                    </div>*/}
                             </div>
                         </div>
                     </div>                                             
@@ -516,7 +525,7 @@ export default () => {
                                     <div className={styles.g__c}>
                                         <a href="#huode" className={styles.f__no_und_always}>
                                             <font className={styles.hezuo}>
-                                                获得
+                                                获取
                                             </font>
                                         </a>
                                     </div>
@@ -524,7 +533,7 @@ export default () => {
                                     <div className={styles.g__c}>
                                         <a href="#xiushi" className={styles.f__no_und_always}>
                                             <font className={styles.zidonghua}>
-                                                修饰
+                                                评价
                                             </font>
                                         </a>
                                     </div>
@@ -532,7 +541,7 @@ export default () => {
                                     <div className={styles.g__c}>
                                         <a href="#duihuan" className={styles.f__no_und_always}>
                                             <font className={styles.guimo1}>
-                                                兑换
+                                                转换
                                             </font>
                                         </a>
                                     </div>
@@ -549,12 +558,15 @@ export default () => {
                             <div style={{height:"20px"}}></div>
                             <h3 className={styles.t__h2}>
                                 <font>
-                                    在合格的潜在客户上线时与他们联系，以加快销售周期
+                                    通过与最好的商机快速建立联系实现商机转化
+
                                 </font>
                             </h3>
                             <div style={{height:"10px"}}></div>
                             <div className={styles.max__550}>
-                                <font className={styles.tigongzhichi}>合格的潜在客户将被路由到合适的销售人员，这样他们就可以在合适的时刻开始转换合格的潜在客户并更快地创造机会。
+                                <font className={styles.tigongzhichi}>
+                                    机器人将评估合格的商机自动分配给合适的销售人员或销售团队
+
                                 </font>
                             </div>
                             
@@ -565,7 +577,7 @@ export default () => {
                         <div className={styles.g__c2}></div>
                         <div className={styles.g__c7}>
                             <div className={styles.g__row} >
-                                {/* 添加区域*/}
+                                {/* 添加区域 ，下方卡片文字都要改*/}
 
                                 <div className={styles.g__c6}>
                                     <div className={styles.f__left}>
@@ -645,19 +657,21 @@ export default () => {
                         <div className={styles.g__row}>
                             <div className={styles.g__c6}>
                                 <h3 className={styles.t__h2}>
-                                    <font>通过向他们发送个性化的一系列消息，随时间转换更多潜在客户
+                                    <font>通过在一段时间内向目标客户发送一系列定制化消息转化更多客户
                                     </font>
                                 </h3>
                                 <div style={{height:"20px"}}></div>
                                 <div className={styles.u__inline}>
                                     <ul className={styles.list__bullet}>
-                                        <li><font>添加潜在客户的个性化滴水活动
+                                        <li><font>将目标客户添加了一个细流营销计划中
+
                                         </font>
                                         </li>
-                                        <li><font>当潜在客户报名时停止发送消息
+                                        <li><font>微信、短信、电话、邮件、网站全渠道联动营销 
+
                                         </font>
                                         </li>
-                                        <li><font>使用A / B测试测量和优化性能
+                                        <li><font>使用A / B测试测量和优化营销效果
                                         </font>
                                         </li>
                                         
@@ -694,7 +708,7 @@ export default () => {
                                     <div className={styles.g__c}>
                                         <a href="#huode" className={styles.f__no_und_always}>
                                             <font className={styles.hezuo}>
-                                                获得
+                                                获取
                                             </font>
                                         </a>
                                     </div>
@@ -702,7 +716,7 @@ export default () => {
                                     <div className={styles.g__c}>
                                         <a href="#xiushi" className={styles.f__no_und_always}>
                                             <font className={styles.zidonghua}>
-                                                修饰
+                                                评价
                                             </font>
                                         </a>
                                     </div>
@@ -710,7 +724,7 @@ export default () => {
                                     <div className={styles.g__c}>
                                         <a href="#duihuan" className={styles.f__no_und_always}>
                                             <font className={styles.guimo}>
-                                                兑换
+                                                转换
                                             </font>
                                         </a>
                                     </div>
@@ -727,17 +741,23 @@ export default () => {
                             <div style={{height:"20px"}}></div>
                             <h3 className={styles.t__h2}>
                                 <font>
-                                    从漏斗顶部看到关闭/赢了（Beta）
+                                    评估商机转化效果 
                                 </font>
                             </h3>
                             <div style={{height:"10px"}}></div>
                             <div className={styles.max__550}>
                                 <ul className={styles.list__bullet}>
-                                    <li><font>了解哪些消息和目标网页可以产生最多的潜在客户，机会和收入</font>
+                                    <li><font>查看单位时间捕获的商机数量
+                                    </font>
                                     </li>
-                                    <li><font>跟踪您的团队的会话量，第一响应时间和赢得的交易</font>
+                                    <li><font>了解您的响应时间
+                                    </font>
                                     </li>
-                                    <li><font>了解机器人如何加速您的业务增长</font>
+                                    <li><font>了解哪些消息产生了最多商机
+                                    </font>
+                                    </li>
+                                    <li><font>查看向CRM系统发送了多少合格商机
+                                    </font>
                                     </li>
                                 </ul>
                             </div>
@@ -759,10 +779,12 @@ export default () => {
                     <div className={styles.u__relative__inline_block}>
                         <img style={{width:"145px",position:"absolute",top:"-100px",left:"-200px"}} src="https://marketing.intercomassets.com/assets/live-chat/v2/bg-1-93e7e5736917bfdd8b5d2bdd444277fc1cb96447db40b5b2870219c6cb8b5d14.png" />
                         <h2 className={styles.t__h2__center}>
-                            <font>与您现有技术堆栈一起使用的客户参与</font>
+                            <font>通过定制化与您的业务流程无缝集成
+                            </font>
                         </h2>
                         <p className={styles.u__center__f__center}>
-                            <font>我们的集成库和灵活的API意味着您可以轻松地将Intercom融入您的工作方式。</font>
+                            <font>我们的集成库和灵活的API意味着您可以轻松地将PPmessage融入您的业务流程
+                            </font>
                         </p>
                     </div>                 
                 </div>

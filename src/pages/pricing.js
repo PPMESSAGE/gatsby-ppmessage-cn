@@ -259,8 +259,7 @@ export default () => (
 
                                                     <a data-tip data-for='happyFace'>1</a>
                                                     <ReactTooltip place="right" id='happyFace' type='error' type ="light" effect ="solid">
-                                                        <span>Show happy face
-                                                        </span>
+                                                        
                                                     </ReactTooltip>
 
                                                     
