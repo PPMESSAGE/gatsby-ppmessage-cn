@@ -11,11 +11,13 @@ export default () => (
                 <div className={styles.g__c6}>
                     <h1></h1>
                     <div className={styles.sp__5}>
-                        <h2 style={{margin:'5rem 0rem 0rem 0rem'}}>用完美的机器人粉碎你的号码
+                        <h2 style={{margin:'5rem 0rem 0rem 0rem'}}>通过功能强大的销售机器人实现销售数字的快速增长
+
                         </h2>
                         <div style={{height:"10px"}}>
                         </div>
-                        <h3 style={{color:'#888'}}><font className={styles.biaoti}>您的自定义机器人始终打开。获得更多潜在客户资格并全天候预订更多会议 - 每月99美元起</font>
+                        <h3 style={{color:'#888'}}><font className={styles.biaoti}>永久在线的智能销售系统为您源源不断的输送合格的商机信息，自动安排电话或视频会议
+                        </font>
                         </h3>
                         <div style={{height:"20px"}}>            
                         </div>
@@ -60,7 +62,8 @@ export default () => (
                     
                     <div className={styles.u__zfix}>
                         <h1 className={styles.t__h1} style={{fontSize:"36px"}}>
-                            你会喜欢Custom Bots的四个理由
+                            选择销售机器人的四个理由
+
                         </h1>
                     </div>
                 </div>
@@ -80,7 +83,7 @@ export default () => (
                                         <img src="https://marketing.intercomassets.com/assets/custom-bots/anchor-leads-2x-3a51ab4f373249e425e7dea736e38a5b481d3224426a4a94e4a701bec9ccbaff.gif" width="91px" /></div>
                                         <div style={{height:"10px"}}></div>
                                         <div className={styles.t__h3}>
-                                            <font>1.更多的线索，24/7</font>
+                                            <font>1.24/7 无间断获取商机 </font>
                                         </div>
                                         
                                         <div className={styles.product__learn_more} style={{margin:"80px"}}>
@@ -97,7 +100,7 @@ export default () => (
                                         <img className={styles.ceshi_z} src="https://marketing.intercomassets.com/assets/custom-bots/anchor-bots-2x-0355cbcabf7d5a8fce37b27aed651867a05836462afb9c57a02d81347070004e.png" width="91px" />
                                         <img src="https://marketing.intercomassets.com/assets/custom-bots/anchor-bots-2x-77215823e13e141ec0e155f82a1f4f14bf1407b0d8afe8d44630cf8d39e58e64.gif" width="91px" /></div>                                   <div style={{height:"10px"}}></div>
                                         <div className={styles.t__h3}>
-                                            <font>2.无代码定制</font>
+                                            <font>2.无需开发即可定制</font>
                                         </div> 
                                         <div className={styles.product__learn_more} style={{margin:"80px"}}>
                                             <span>
@@ -117,7 +120,7 @@ export default () => (
                                     </div>
                                     <div style={{height:"10px"}}></div>
                                     <div className={styles.t__h3}>
-                                        <font>3.加快销售周期</font>
+                                        <font>3.缩短销售周期</font>
                                     </div>
                                     <div className={styles.product__learn_more} style={{margin:"80px"}}>
                                         <span>
@@ -174,11 +177,13 @@ export default () => (
                         <div style={{height:"10px"}}></div>
                         <div className={styles.t__h2}>
                             <font style={{verticalAlign:"inherit"}}>
-                                更多的线索，24/7
+                                24/7 无间断获取商机
+
                             </font>
                         </div>
                         <div className={styles.c__black}>
-                            <font style={{verticalAlign:"inherit"}}>  您的机器人每天都在工作 - 开始对话，提出正确的问题并向您提供最合格的销售线索。</font>
+                            <font style={{verticalAlign:"inherit"}}> 销售机器人永久在线工作 — 主动联系客户，提出正确问题，评估销售线索，获取最佳商机
+                            </font>
                         </div>
                         
                         <div className={styles.g__c12}>
@@ -192,13 +197,13 @@ export default () => (
                                         <div className={styles.max__400}>
                                             <div className={styles.t__small}>
                                                 <font style={{verticalAlign:"inherit",fontWeight:"750",fontSize:"14px"}}>
-                                                    吸引每一位领导
+                                                    与访客进行个性化互动
                                                 </font>
                                             </div>
                                             <div style={{height:"5px"}}></div>
                                             <div className={styles.t__small}>
                                                 <font style={{verticalAlign:"inherit"}}>
-                                                    机器人通过使用高级定位和丰富数据开始对话。
+                                                    销售机器人可以根据访客的属性和行为发起主动对话
                                                 </font>
                                             </div>
                                         </div>
@@ -214,13 +219,13 @@ export default () => (
                                         <div className={styles.max__400}>
                                             <div className={styles.t__small}>
                                                 <font style={{verticalAlign:"inherit",fontWeight:"750",fontSize:"14px"}}>
-                                                    总是有资格
+                                                    永远在线
                                                 </font>
                                             </div>
                                             <div style={{height:"5px"}}></div>
                                             <div className={styles.t__small}>
                                                 <font style={{verticalAlign:"inherit"}}>
-                                                    你的机器人永远不会感到疲倦，永远不需要度假，也永远不会让人过头。
+                                                    销售机器人永远不会疲倦或需要度假，24/7无间断捕获商机
                                                 </font>
                                             </div>
                                         </div>
@@ -250,11 +255,11 @@ export default () => (
                         <div style={{height:"10px"}}></div>
                         <div className={styles.t__h2}>
                             <font style={{verticalAlign:"inherit"}}>
-                                无代码定制
+                                无需开发即可定制
                             </font>
                         </div>
                         <div className={styles.c__black}>
-                            <font style={{verticalAlign:"inherit"}}>Bots连接到您的技术堆栈，在幕后自动化工作流程，并充当您的销售团队的扩展。</font>
+                            <font style={{verticalAlign:"inherit"}}>销售机器人作为您的销售团队的延展，与您的业务流程和数据紧密结合，无需定制开发即可迅速满足您的需求</font>
                         </div>
                         
                         <div className={styles.g__c12}>
@@ -274,7 +279,8 @@ export default () => (
                                             <div style={{height:"5px"}}></div>
                                             <div className={styles.t__small}>
                                                 <font style={{verticalAlign:"inherit"}}>
-                                                    在几分钟内设计您的机器人，并立即开始寻找潜在客户。
+                                                    PPMessage后台提供简易的配置界面让你迅速完成销售机器人的业务定制并上线获取商机
+
                                                 </font>
                                             </div>
                                         </div>
@@ -290,13 +296,15 @@ export default () => (
                                         <div className={styles.max__400}>
                                             <div className={styles.t__small}>
                                                 <font style={{verticalAlign:"inherit",fontWeight:"750",fontSize:"14px"}}>
-                                                    个性化的道路
+                                                    个性化销售通道
+
                                                 </font>
                                             </div>
                                             <div style={{height:"5px"}}></div>
                                             <div className={styles.t__small}>
                                                 <font style={{verticalAlign:"inherit"}}>
-                                                    提出正确的问题，将潜在客户放在正确的道路上。
+                                                    通过向访客询问正确的问题，将访客引导进入正确的销售通道
+
                                                 </font>
                                             </div>
                                         </div>
@@ -312,13 +320,13 @@ export default () => (
                                         <div className={styles.max__400}>
                                             <div className={styles.t__small}>
                                                 <font style={{verticalAlign:"inherit",fontWeight:"750",fontSize:"14px"}}>
-                                                    自动化行动
+                                                    自动化跟进操作
                                                 </font>
                                             </div>
                                             <div style={{height:"5px"}}></div>
                                             <div className={styles.t__small}>
                                                 <font style={{verticalAlign:"inherit"}}>
-                                                    接下来的步骤将为您完成，例如向您的CRM添加潜在客户，分配给合适的团队成员等等。
+                                                    商机获取后，可以执行自动化跟进操作。例如，将商机推送给您的CRM系统或将商机分配给合适的销售团队
                                                 </font>
                                             </div>
                                         </div>
@@ -367,11 +375,12 @@ export default () => (
                         <div style={{height:"10px"}}></div>
                         <div className={styles.t__h2}>
                             <font style={{verticalAlign:"inherit"}}>
-                                加快销售周期
+                                缩短销售周期
                             </font>
                         </div>
                         <div className={styles.c__black}>
-                            <font style={{verticalAlign:"inherit"}}>自定义机器人有资格获得潜在客户，并在您的网站上发布时将其与最佳网站联系起来。</font>
+                            <font style={{verticalAlign:"inherit"}}>销售机器人自动评估访客是否为合适商机，并让您的团队在他们还在线上时与他们实时联系 
+                            </font>
                         </div>
                         
                         <div className={styles.g__c12}>
@@ -385,13 +394,16 @@ export default () => (
                                         <div className={styles.max__400}>
                                             <div className={styles.t__small}>
                                                 <font style={{verticalAlign:"inherit",fontWeight:"750",fontSize:"14px"}}>
-                                                    立即路线引导
+                                                    实时进行商机分配
+
                                                 </font>
                                             </div>
                                             <div style={{height:"5px"}}></div>
                                             <div className={styles.t__small}>
                                                 <font style={{verticalAlign:"inherit"}}>
-                                                    创建强大的规则，将最佳线索发送给合适的销售人员。
+                                                    PPMessage提供强大的分配流程，可以将销售机器人获取的商机实时分配给合适的团队
+
+
                                                 </font>
                                             </div>
                                         </div>
@@ -407,13 +419,14 @@ export default () => (
                                         <div className={styles.max__400}>
                                             <div className={styles.t__small}>
                                                 <font style={{verticalAlign:"inherit",fontWeight:"750",fontSize:"14px"}}>
-                                                    一直在关闭
+                                                    促进交易完成
                                                 </font>
                                             </div>
                                             <div style={{height:"5px"}}></div>
                                             <div className={styles.t__small}>
                                                 <font style={{verticalAlign:"inherit"}}>
-                                                    每天唤醒您管道中新的合格潜在客户以及日历中预订的会议。
+                                                    时刻跟进商机进展，并通过各种渠道与商机客户保持联系
+
                                                 </font>
                                             </div>
                                         </div>
@@ -447,7 +460,7 @@ export default () => (
                             </font>
                         </div>
                         <div className={styles.c__black}>
-                            <font style={{verticalAlign:"inherit"}}>从1到1,000,000个潜在客户，您的机器人可以为每个人提供即时响应和一致的体验，从而增加您的渠道。</font>
+                            <font style={{verticalAlign:"inherit"}}>永久在线，批量获取和转化商机，不知疲倦</font>
                         </div>
                         
                         <div className={styles.g__c12}>
@@ -461,13 +474,15 @@ export default () => (
                                         <div className={styles.max__400}>
                                             <div className={styles.t__small}>
                                                 <font style={{verticalAlign:"inherit",fontWeight:"750",fontSize:"14px"}}>
-                                                    永远在脚本上
+                                                    时刻准备沟通
+
                                                 </font>
                                             </div>
                                             <div style={{height:"5px"}}></div>
                                             <div className={styles.t__small}>
                                                 <font style={{verticalAlign:"inherit"}}>
-                                                    询问每个领导者是否有正确的问题，他们是否已经准备好在那里购买，或者需要时间来培养。
+                                                    据访客的属性和行为随时准备询问正确的问题，无论是他们准备购买还是需要培育
+
                                                 </font>
                                             </div>
                                         </div>
@@ -483,20 +498,21 @@ export default () => (
                                         <div className={styles.max__400}>
                                             <div className={styles.t__small}>
                                                 <font style={{verticalAlign:"inherit",fontWeight:"750",fontSize:"14px"}}>
-                                                    大规模的关系
+                                                    批量与访客互动
                                                 </font>
                                             </div>
                                             <div style={{height:"5px"}}></div>
                                             <div className={styles.t__small}>
                                                 <font style={{verticalAlign:"inherit"}}>
-                                                    您的机器人始终如一地提供出色的体验，使潜在客户更有可能返回并推荐您。
+                                                    销售机器人提供极佳的客户体验，增加获取回头客的机会
+
                                                 </font>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
 
-                                <div className={styles.g__c6}>
+ {/*                               <div className={styles.g__c6}>
                                     <div className={styles.f__left}>
                                         <div className={styles.product__feature_icon}>
                                             <img width="32" src="https://upload-images.jianshu.io/upload_images/12406336-f9d43c9129406f93.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" />
@@ -517,7 +533,7 @@ export default () => (
                                         </div>
                                     </div>
                                 </div>
-                                
+*/}                               
                                 
                             </div>
 

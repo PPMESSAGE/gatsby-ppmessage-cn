@@ -10,7 +10,8 @@ export default () => (
             <div className={styles.g__row}>
                 <div className={styles.g__c6}>
                     <span className={styles.f__medium}>
-                        <div style={{width:"200px" }}><h2>支持并留住客户</h2></div>
+                        <div style={{width:"200px" }}><h2>支持客户并提高客户满意度
+                        </h2></div>
                     </span>
                 </div>
             </div>
@@ -28,10 +29,11 @@ export default () => (
 
                     <div style={{width:"1317px"}}></div>
                     <h1 className={styles.t__h1_s}>
-                        帮助台软件可以拓展您的团队支持
+                        向客户展示您真正关注他们的体验，改变传统的客户支持方法
+
                     </h1>
                     <div style={{height:"10px"}}></div>
-                    <h2 className={styles.t__h3_d}><font>通过集成多个渠道，自助服务和强大自动化的现代服务台提高客户满意度并提高效率</font>
+                    <h2 className={styles.t__h3_d}><font>通过网页消息、应用内消息、电话、短信、邮件、微信等全渠道快速响应客户问题并提供解决方案，提高客户满意度，将您的满意客户转化为忠实客户，把忠实客户转化为企业拥趸</font>
                     </h2>
                     <div style={{height:"20px"}}></div>
                     <div className={styles.u__inline}>
@@ -39,7 +41,7 @@ export default () => (
                     </div>
                     <div style={{height:"10px"}}></div>
                     <div className={styles.t__small}>
-                        免费试用14天 易于安装 随时取消
+                        免费试用14天 易于安装 
                     </div>          
                 </div>        
             </div>
@@ -74,7 +76,7 @@ export default () => (
                                 <img src="https://marketing.intercomassets.com/assets/live-chat/v2/copper-baa5534d2b8fd524250ad341d620708271059a3cab6ec2ff9e87d3e76fed8240.svg" />
                                 <div>
                                     <font>
-                                        在短短一个月内，使用PPMESSAGE带来了36,000美元
+                                        在短短一个月内，使用PPmessage带来了36,000美元
                                     </font>
                                 </div>
                             </div>
@@ -82,7 +84,7 @@ export default () => (
                     </div>
                     <div className={styles.g__c8}>
                         <div className={styles.max__400}>
-                            <font>“PPMESSAGE 推动40％的销售演示预订，比之前的实时聊天工具提高了8倍”</font>            
+                            <font>“PPmessage 推动40％的销售演示预订，比之前的实时聊天工具提高了8倍”</font>            
                             <div style={{height:"30px"}}></div>
                             <img src="https://marketing.intercomassets.com/assets/live-chat/v2/salesloft-51a4dfb4c79281ea3282851c2f29333de9ff5c9d2c7f8720f6068a3d0d9b149d.png" width="149px" />
                         </div>
@@ -94,7 +96,7 @@ export default () => (
             <div className={styles.container}>
                 <div className={styles.g__row}>
 
-                    <div style={{height:"300px"}}>
+                    <div >
 
                         <div className={styles.chuangjian} style={{margin:"22px",paddingRight:"0em"}}>
                             <a href="#hezuo" className={styles.lianjie}>
@@ -102,10 +104,10 @@ export default () => (
                                     <img src="https://marketing.intercomassets.com/assets/live-chat/v2/capture-6cd1e65484e3cc8bc579ae4ba69db31ad254a0db01313b47191f131567fbc2b6.png" width="91px" /></div>
                                     <div style={{height:"10px"}}></div>
                                     <div className={styles.t__h3}>
-                                        <font>合作</font>
+                                        <font>全渠道客服</font>
                                     </div>
                                     <div className={styles.t__small_s}>
-                                        <font>开始正确的对话，找到您网站上最好的潜在客户</font>
+                                        <font>将网页、移动端、社交媒体、邮件、电话等渠道的会话转入统一座席工作台，并通过团队协作快速处理客户问题</font>
                                     </div>
                                     <div className={styles.product__learn_more} style={{margin:"80px"}}>
                                         <span >
@@ -115,16 +117,16 @@ export default () => (
                             </a>
                         </div>
 
-                        <div className={styles.chuangjian} style={{margin:"22px 35px",paddingRight:"0em"}}>
+                        <div className={styles.chuangjian} style={{margin:"22px 0px",paddingRight:"0em"}}>
                             <a href="#zidonghua" className={styles.lianjie}>
                                 <div className={styles.product__breakdown__image}>
                                     <img src="https://marketing.intercomassets.com/assets/live-chat/v2/qualify-2cde0bea6a097ea7de52c892e75dd0e311360680497721521d05eb12d9622994.png" width="91px" /></div>
                                     <div style={{height:"10px"}}></div>
                                     <div className={styles.t__h3}>
-                                        <font>自动化</font>
+                                        <font>全球呼叫中心</font>
                                     </div>
                                     <div className={styles.t__small_s}>
-                                        <font>实时了解商机转化数量，商机来源等信息，评估营销质量</font>
+                                        <font>跨国、跨时区，多语言，分布式部署，灵活扩容，功能稳定，满足各种规模企业需求</font>
                                     </div>
                                     <div className={styles.product__learn_more}  style={{margin:"80px"}}>
                                         <span>
@@ -141,10 +143,11 @@ export default () => (
                                     <img src="https://marketing.intercomassets.com/assets/live-chat/v2/convert-2f21b347ebaf5cdd5454fbcbb817658899487f69a088d9d06f5bef68dcf0c7cf.png" width="91px" /></div>
                                     <div style={{height:"10px"}}></div>
                                     <div className={styles.t__h3}>
-                                        <font>规模</font>
+                                        <font>工单系统</font>
                                     </div>
                                     <div className={styles.t__small_s}>
-                                        <font>通过机器学习自动评估商机质量，并将合适的商机转给合适的销售人员，安排销售会议或与您的CRM系统同步信息
+                                        <font>
+                                            打通售前售后环节，根据各种渠道的客户咨询消息创建工单，工单可自动分配、转派、变更、提醒和归档，业务流程和SLA随心定制
                                         </font>
                                     </div>
                                     <div className={styles.product__learn_more}  style={{margin:"80px"}}>
@@ -157,16 +160,18 @@ export default () => (
 
 
 
-                        <div className={styles.chuangjian} style={{margin:"22px",paddingRight:"0em"}}>
+                        <div className={styles.chuangjian} style={{margin:"22px 0px",paddingRight:"0em"}}>
                             <a href="#tigao" className={styles.lianjie}>
                                 <div className={styles.product__breakdown__image}>
                                     <img src="https://marketing.intercomassets.com/assets/live-chat/v2/measure-2fc6b218e130f27b61f8bd2868fe6585d790bb542c307358a4c160933a3c661b.png" width="91px" /></div>
                                     <div style={{height:"10px"}}></div>
                                     <div className={styles.t__h3}>
-                                        <font>提高</font>
+                                        <font>智能客服机器人</font>
                                     </div>
                                     <div className={styles.t__small_s}>
-                                        <font>通过实时聊天和消息互动完成商机转化</font>
+                                        <font>
+                                            基于NLP， 365天不间断服务，高效率解决重复性问题，大幅降低人工客服成本
+                                        </font>
                                     </div>
                                     <div className={styles.product__learn_more}  style={{margin:"80px"}}>
                                         <span>
@@ -193,7 +198,7 @@ export default () => (
                                 <div className={styles.g__c}>
                                     <a href=" " className={styles.f__no_und_always}>
                                         <font className={styles.hezuo1}>
-                                            合作
+                                            全渠道客服
                                         </font>
                                     </a>
                                 </div>
@@ -201,7 +206,7 @@ export default () => (
                                 <div className={styles.g__c}>
                                     <a href="#zidonghua" className={styles.f__no_und_always}>
                                         <font className={styles.zidonghua}>
-                                            自动化
+                                            全球呼叫中心
                                         </font>
                                     </a>
                                 </div>
@@ -209,7 +214,7 @@ export default () => (
                                 <div className={styles.g__c}>
                                     <a href="#guimo" className={styles.f__no_und_always}>
                                         <font className={styles.guimo}>
-                                            规模
+                                            工单系统
                                         </font>
                                     </a>
                                 </div>
@@ -217,7 +222,7 @@ export default () => (
                                 <div className={styles.g__c}>
                                     <a href="#tigao" className={styles.f__no_und_always}>
                                         <font className={styles.tigao}>
-                                            提高
+                                            智能客服机器人
                                         </font>
                                     </a>
                                 </div>                
@@ -226,12 +231,13 @@ export default () => (
                         <div style={{height:"20px"}}></div>
                         <h3 className={styles.t__h2}>
                             <font>
-                                更快地协作并帮助客户
+                                通过一个界面处理所有渠道的客户咨询
                             </font>
                         </h3>
                         <div style={{height:"10px"}}></div>
                         <div className={styles.max__600}>
-                            <font>在一个收件箱中一起工作。无论他们写什么渠道，都能快速响应客户。
+                            <font>
+                                迈向真正的多触点深层客户互动解决方案，支持电子邮件、聊天、SMS、电话、协作浏览、内容共享 。各种渠道之间的无缝过渡消除了客户服务过程中的冲突，同时保留背景情境，并能收集相关的宝贵资讯。完整客户体验在您面前一览无遗，向您呈现出整个客户服务过程及相关背景 - 从即时联络到以往互动无所不包
                             </font>
                         </div>
                     </div>
@@ -344,7 +350,7 @@ export default () => (
                                 <div className={styles.g__c}>
                                     <a href="#hezuo" className={styles.f__no_und_always}>
                                         <font className={styles.hezuo}>
-                                            合作
+                                            全渠道客服
                                         </font>
                                     </a>
                                 </div>
@@ -352,7 +358,7 @@ export default () => (
                                 <div className={styles.g__c}>
                                     <a href=" " className={styles.f__no_und_always}>
                                         <font className={styles.zidonghua1}>
-                                            自动化
+                                            全球呼叫中心
                                         </font>
                                     </a>
                                 </div>
@@ -360,7 +366,7 @@ export default () => (
                                 <div className={styles.g__c}>
                                     <a href="#guimo" className={styles.f__no_und_always}>
                                         <font className={styles.guimo}>
-                                            规模
+                                            工单系统
                                         </font>
                                     </a>
                                 </div>
@@ -368,7 +374,7 @@ export default () => (
                                 <div className={styles.g__c}>
                                     <a href="#tigao" className={styles.f__no_und_always}>
                                         <font className={styles.tigao}>
-                                            提高
+                                            智能客服机器人
                                         </font>
                                     </a>
                                 </div>                
@@ -377,12 +383,12 @@ export default () => (
                         <div style={{height:"20px"}}></div>
                         <h3 className={styles.t__h2}>
                             <font>
-                                自动化工作流程以解决重复性任务
-                            </font>
+                                全球化呼叫中心系统                                                         </font>
                         </h3>
                         <div style={{height:"10px"}}></div>
                         <div className={styles.max__600}>
-                            <font>向客户推荐相关文章，以便他们自助。加快工作速度，提高团队效率。
+                            <font>
+                                跨地域、跨时区、多语言，支持语音通话跨地域转接，保障全球客服24小时在线
                             </font>
                         </div>
                         <div className={styles.sp__left_10}>
@@ -479,34 +485,34 @@ export default () => (
                         
                         <div className={styles.u__inline}>
                             <div className={styles.g__row}>
-                                <div className={styles.g__c}>
+                                <div className={styles.g__c} style={{padding:"20px 15px"}}>
                                     <a href="#hezuo" className={styles.f__no_und_always}>
                                         <font className={styles.hezuo}>
-                                            合作
+                                            全渠道客服
                                         </font>
                                     </a>
                                 </div>
 
-                                <div className={styles.g__c}>
+                                <div className={styles.g__c} style={{padding:"20px 15px"}}>
                                     <a href="#zidonghua" className={styles.f__no_und_always}>
                                         <font className={styles.zidonghua}>
-                                            自动化
+                                            全球呼叫中心
                                         </font>
                                     </a>
                                 </div>
 
-                                <div className={styles.g__c}>
+                                <div className={styles.g__c} style={{padding:"20px 15px"}}>
                                     <a href=" " className={styles.f__no_und_always}>
                                         <font className={styles.guimo1}>
-                                            规模
+                                            工单系统
                                         </font>
                                     </a>
                                 </div>
 
-                                <div className={styles.g__c}>
+                                <div className={styles.g__c} style={{padding:"20px 15px"}}>
                                     <a href="#tigao" className={styles.f__no_und_always}>
                                         <font className={styles.tigao}>
-                                            提高
+                                            智能客服机器人
                                         </font>
                                     </a>
                                 </div>                
@@ -515,52 +521,54 @@ export default () => (
                         <div style={{height:"20px"}}></div>
                         <h3 className={styles.t__h2}>
                             <font>
-                                使用自助文档扩展您的支持
+                                新一代全渠道工单系统
                             </font>
                         </h3>
                         <div style={{height:"10px"}}></div>
                         <div className={styles.max__550}>
-                            <font className={styles.tigongzhichi}>使用我们的知识库软件组织建议，答案，文档等。为您的客户提供始终可用的帮助。
+                            <font className={styles.tigongzhichi}>
+                                打通售前售后环节，根据网页、邮件、电话和社交媒体等各种渠道的客户咨询消息创建工单，工单可自动分配、转派、变更、提醒和归档，业务流程和SLA随心定制
+
                             </font>
                         </div>
                         
-                        <div style={{height:"30px"}}></div>
-                        <div className={styles.u__hidden__md}>
+                        {/*          <div style={{height:"30px"}}></div>
+                            <div className={styles.u__hidden__md}>
                             <div className={styles.u__inline}>
-                                <a href="" className={styles.t__small}>浏览我们的帮助中心
-                                </a>
+                            <a href="" className={styles.t__small}>浏览我们的帮助中心
+                            </a>
                             </div>
-                        </div>
-                        <div style={{height:"30px"}}></div>
+                            </div>
+                            <div style={{height:"30px"}}></div>
 
 
 
-                        <div className={styles.g__row}>
+                            <div className={styles.g__row}>
                             <div className={styles.g__c2}>
                             </div>
                             <div className={styles.g__c10}>
-                                <div className={styles.f__left}>
-                                    <div className={styles.product__feature_icon}>
-                                        <img src="https://upload-images.jianshu.io/upload_images/12406336-5a05f5ced295d77e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" />
-                                    </div>
-                                    <div style={{height:"10px"}}></div>
-                                    <div className={styles.sp__left_4}>
-                                        <div className={styles.t__small}>
-                                            <font>在Messenger中搜索</font>
-                                        </div>
-                                        <div style={{height:"5px"}}></div>
-                                        <div className={styles.t__small}>
-                                            <font>
-                                                降低聊天量。在开始聊天之前，客户可以在Messenger Home中搜索您的知识库。
-                                            </font>
-                                            <a href="#">
-                                                查看更多功能
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
+                            <div className={styles.f__left}>
+                            <div className={styles.product__feature_icon}>
+                            <img src="https://upload-images.jianshu.io/upload_images/12406336-5a05f5ced295d77e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" />
                             </div>
-                        </div>            
+                            <div style={{height:"10px"}}></div>
+                            <div className={styles.sp__left_4}>
+                            <div className={styles.t__small}>
+                            <font>在Messenger中搜索</font>
+                            </div>
+                            <div style={{height:"5px"}}></div>
+                            <div className={styles.t__small}>
+                            <font>
+                            降低聊天量。在开始聊天之前，客户可以在Messenger Home中搜索您的知识库。
+                            </font>
+                            <a href="#">
+                            查看更多功能
+                            </a>
+                            </div>
+                            </div>
+                            </div>
+                            </div>
+                            </div>     */}       
                     </div>          
                 </div>
                 <div style={{height:"40px"}}></div>
@@ -575,11 +583,11 @@ export default () => (
                                     </div>
                                     <div className={styles.sp__left_4}>
                                         <div className={styles.t__small}>
-                                            <font>只需单击一次即可导入</font>
+                                            <font>最近的对话</font>
                                         </div>
                                         <div style={{height:"10px"}}></div>
                                         <div className={styles.t__small}>
-                                            轻松迁移Zendesk，Desk.com，Help Scout等现有的公共知识库。
+                                            无论何时与他们聊天，都可以查看团队收件箱中客户最后三个会话。
                                         </div>
                                     </div>
                                 </div>
@@ -591,11 +599,11 @@ export default () => (
                                     </div>
                                     <div className={styles.sp__left_4}>
                                         <div className={styles.t__small}>
-                                            <font>只需单击一次即可导入</font>
+                                            <font>注释和提及</font>
                                         </div>
                                         <div style={{height:"10px"}}></div>
                                         <div className={styles.t__small}>
-                                            轻松迁移Zendesk，Desk.com，Help Scout等现有的公共知识库。
+                                            通过简单的说明或提及呼叫您的队友，以便合适的人加入对话并更快的回答客户
                                         </div>
                                     </div>
                                 </div>
@@ -607,11 +615,11 @@ export default () => (
                                     </div>
                                     <div className={styles.sp__left_4}>
                                         <div className={styles.t__small}>
-                                            <font>只需单击一次即可导入</font>
+                                            <font>小组对话</font>
                                         </div>
                                         <div style={{height:"10px"}}></div>
                                         <div className={styles.t__small}>
-                                            轻松迁移Zendesk，Desk.com，Help Scout等现有的公共知识库。
+                                            将用户添加到客户对话中，以便每个人都作为一个群组进行交流，从而更快的解决问题
                                         </div>
                                     </div>
                                 </div>
@@ -633,7 +641,7 @@ export default () => (
                                 <div className={styles.g__c}>
                                     <a href="#hezuo" className={styles.f__no_und_always}>
                                         <font className={styles.guimo}>
-                                            合作
+                                            全渠道客服
                                         </font>
                                     </a>
                                 </div>
@@ -641,7 +649,7 @@ export default () => (
                                 <div className={styles.g__c}>
                                     <a href="#zidonghua" className={styles.f__no_und_always}>
                                         <font className={styles.zidonghua}>
-                                            自动化
+                                            全球呼叫中心
                                         </font>
                                     </a>
                                 </div>
@@ -649,7 +657,7 @@ export default () => (
                                 <div className={styles.g__c}>
                                     <a href="#guimo" className={styles.f__no_und_always}>
                                         <font className={styles.guimo}>
-                                            规模
+                                            工单系统
                                         </font>
                                     </a>
                                 </div>
@@ -657,7 +665,7 @@ export default () => (
                                 <div className={styles.g__c}>
                                     <a href=" " className={styles.f__no_und_always}>
                                         <font className={styles.tigao1}>
-                                            提高
+                                            智能客服机器人
                                         </font>
                                     </a>
                                 </div>                
@@ -666,12 +674,13 @@ export default () => (
                         <div style={{height:"20px"}}></div>
                         <h3 className={styles.t__h2}>
                             <font>
-                                提高团队绩效，自助服务支持和客户满意度
+                                人机融合，助力客户服务创新升级
                             </font>
                         </h3>
                         <div style={{height:"10px"}}></div>
                         <div className={styles.max__600}>
-                            <font>获取管理团队所需的信息，以及反馈循环，告诉您文章的有用性。知道在哪里进行更新。
+                            <font>
+                                基于NLP， 365天不间断服务，高效率解决重复性问题，大幅降低人工客服成本
                             </font>
                         </div>
                     </div>

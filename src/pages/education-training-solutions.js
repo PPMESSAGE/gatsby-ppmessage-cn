@@ -56,12 +56,11 @@ export default () => (
             <div className={styles.small}>
                 <font>
                     <font style={{fontWeight:"bold"}}>邮件、短信、微信营销。</font>
-                    直观分析网站客服对话有效率和转化率。网站每日推广成本自定义，智能计算出每日ROI（投入产出比）
-
+                    直观分析网站客服对话有效率和转化率。网站每日推广成本自定义，智能计算出每日ROI（投入产出比）,方便您快速评估营销的效率和效果。
                 </font>
             </div>
             <div>
-                <img src=" " />
+                <img src={require("../images/45.png")} />
             </div>
 
             <div className={styles.small}>

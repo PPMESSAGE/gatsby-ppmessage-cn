@@ -25,10 +25,10 @@ export default () => (
                 </div>
                 <div className={styles.u__zfix}>
                     <h1 className={styles.t__h1}>
-                        促进增长的个人客户参与
+                        将更多注册用户转变为活跃的付费客户
                     </h1>
                     <div style={{height:"10px"}}></div>
-                    <h2 className={styles.t__h3}><font>向目标新用户发送有针对性的消息，提高参与度，宣布新功能等
+                    <h2 className={styles.t__h3}><font>根据用户渠道偏好，通过应用内消息、智能语音、邮件、短信、微信等各种渠道向目标用户发送有针对性的消息，培育和激活用户，提高用户参与度，宣布新功能等
                     </font>
                     </h2>
                     <div style={{height:"20px"}}></div>
@@ -37,7 +37,7 @@ export default () => (
                     </div>
                     <div style={{height:"10px"}}></div>
                     <div className={styles.t__small}>
-                        免费试用14天 易于安装 随时取消
+                        免费试用14天 易于安装 
                     </div>          
                 </div>        
             </div>
@@ -119,7 +119,7 @@ export default () => (
                                     <img src="https://marketing.intercomassets.com/assets/customer-engagement/v2/breakdown/onboard-f0e494daf9532d50b086cc327af36a81f0dff11aaa8a9fc0bdf157f84e7664be.png" width="91px" /></div>
                                     <div style={{height:"10px"}}></div>
                                     <div className={styles.t__h3}>
-                                        <font>引导</font>
+                                        <font>培育</font>
                                     </div>
                                     <div className={styles.t__small_s}>
                                         <font>发送一系列定制化自动消息引导客户使用产品</font>
@@ -199,7 +199,7 @@ export default () => (
                                 <div className={styles.g__c}>
                                     <a href="#yindao" className={styles.f__no_und_always}>
                                         <font className={styles.zidonghua}>
-                                            引导
+                                            培育
                                         </font>
                                     </a>
                                 </div>
@@ -224,13 +224,13 @@ export default () => (
                         <div style={{height:"20px"}}></div>
                         <h3 className={styles.t__h2}>
                             <font>
-                                在合适的时点向目标客户发送精准的营销消息
+                                打造全景用户画像，精确细分客群，发送个性化消息
                             </font>
                         </h3>
                         <div style={{height:"10px"}}></div>
                         <div className={styles.max__600}>
-                            <font>快速实现客户细分并发送精准消息
-
+                            <font>
+                                全方位获取用户基本信息，追踪用户在网站、邮件、短信、微信内的行为，多条件组合筛选确定目标客群，根据用户的渠道偏好通过合适的渠道向目标客户推送个性化的应用内消息、邮件、短信、微信或智能语音
                             </font>
                         </div>
                     </div>
@@ -356,7 +356,7 @@ export default () => (
                                 <div className={styles.g__c}>
                                     <a href="#yindao" className={styles.f__no_und_always}>
                                         <font className={styles.zidonghua}>
-                                            引导
+                                            培育
                                         </font>
                                     </a>
                                 </div>
@@ -381,12 +381,12 @@ export default () => (
                         <div style={{height:"20px"}}></div>
                         <h3 className={styles.t__h2}>
                             <font>
-                                新的注册将其转换为长期客户
+                                将新注册用户转换为长期付费客户
                             </font>
                         </h3>
                         <div style={{height:"10px"}}></div>
                         <div className={styles.max__550}>
-                            <font className={styles.tigongzhichi}>发送有针对性和个性化的系列电子邮件，推送和应用内消息，以激活，加载和转换每个新客户。
+                            <font className={styles.tigongzhichi}>发送有针对性和个性化的系列应用内消息、邮件、短信、微信和智能语音，以激活，引导和转化每个新客户
                             </font>
                         </div>                                    
                     </div>          
@@ -416,7 +416,7 @@ export default () => (
                                     <div className={styles.g__c}>
                                         <a href="#yindao" className={styles.f__no_und_always}>
                                             <font className={styles.zidonghua1}>
-                                                引导
+                                                培育
                                             </font>
                                         </a>
                                     </div>
@@ -441,12 +441,14 @@ export default () => (
                             <div style={{height:"20px"}}></div>
                             <h3 className={styles.t__h2}>
                                 <font>
-                                    宣布有针对性的消息的新功能
+                                    向目标客群发布产品新特性
+
                                 </font>
                             </h3>
                             <div style={{height:"10px"}}></div>
                             <div className={styles.max__600}>
-                                <font>通过电子邮件分享有关新功能和产品的信息，并向人们展示如何在应用内使用它们以推动采用。
+                                <font>
+                                    通过电子邮件或短信分享有产品特性和新功能，引导客户使用和购买产品
                                 </font>                                
                             </div>                            
                         </div>                        
@@ -550,7 +552,7 @@ export default () => (
                                 <div className={styles.g__c}>
                                     <a href="#yindao" className={styles.f__no_und_always}>
                                         <font className={styles.zidonghua}>
-                                            引导
+                                            培育
                                         </font>
                                     </a>
                                 </div>
@@ -608,10 +610,12 @@ export default () => (
                 <div className={styles.u__relative__inline_block}>
                     <img className={styles.customer_support__integrations_bg_1} src="https://marketing.intercomassets.com/assets/support/v2/bg-1-87efd2c9bc1c6f275f77ecd4cf38bd93d8ae8d05a5890710a6a84104057b0866.png" />
                     <h2 className={styles.t__h2__center}>
-                        <font>与您现有技术堆栈一起使用的客户参与</font>
+                        <font>
+                            通过定制化与您的业务流程无缝集成
+                        </font>
                     </h2>
                     <p className={styles.u__center__f__center}>
-                        <font>我们的集成库和灵活的API意味着您可以轻松地将Intercom融入您的工作方式。</font>
+                        <font>我们的集成库和灵活的API意味着您可以轻松地将PPmessage融入您的工作方式。</font>
                     </p>
                 </div>                 
             </div>
