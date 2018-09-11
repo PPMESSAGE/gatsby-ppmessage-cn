@@ -31,22 +31,22 @@ class Footer extends React.Component {
                                         </div>
                                     </div>
                                     
-                                    
-                                    
-                                    <div className={styles.g__c6} style={{textAlign:"right"}}>
-                                        <div className={styles.u__inline}>
-                                            <EnterYourMobile size="middle"/>
-                                        </div>
-                                        <div className={styles.u__inline}>
-                                            <div style={{height:'10px'}}></div>
-                                            <div className={styles.t__small}>
-                                                <font className={styles.zihao}>
-                                                    免费试用14天 易于安装 随时取消</font>
-                                            </div>
-                                            <div className={styles.zihao}>已是客户?<a href="#" >登录</a></div>
-                                        </div>
-                                    </div>            
                                 </div>
+
+                                <div className={styles.g__c6} style={{textAlign:"right"}}>
+                                    <div className={styles.u__inline}>
+                                        <EnterYourMobile size="middle"/>
+                                    </div>
+                                    <div className={styles.u__inline}>
+                                        <div style={{height:'10px'}}></div>
+                                        <div className={styles.t__small}>
+                                            <font className={styles.zihao}>
+                                                免费试用14天 易于安装 随时取消</font>
+                                        </div>
+                                        <div className={styles.zihao}>已是客户?<a href="#" >登录</a></div>
+                                    </div>
+                                </div>            
+
                             </div>        
                         </div>
                     </div>
