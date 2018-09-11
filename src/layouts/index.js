@@ -313,7 +313,7 @@ export default ({ children }) =>
 </div>
 <a href="/pricing" className={styles.nav__link}><font className={styles.zizi}>定价</font>
 </a>
-<a href="#" className={styles.nav__link}><font className={styles.zizi}>登录</font>
+<a href="https://ppmessage.cn/ppkefu/#!/app/signin" className={styles.nav__link}><font className={styles.zizi}>登录</font>
 </a>
 <div className={styles.nav__cta}>
 <div >
