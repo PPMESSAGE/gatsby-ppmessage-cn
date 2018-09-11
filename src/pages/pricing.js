@@ -5,7 +5,7 @@ import TabsControl from "../components/tabscontrol";
 import ReactTooltip from 'react-tooltip';
 
 export default () => (
-    <div>
+    <div className={styles.heiti}>
         <div style={{height:"72px"}}></div>
 
         

@@ -4,7 +4,7 @@ import EnterYourMobile from "../components/enteryourmobile";
 
 
 export default () => (
-    <div>
+    <div className={styles.heiti}>
         <div style={{height:`72px`}}></div>
         <div className={styles.container__narrower}>
             <div className={styles.g__row}>
@@ -77,7 +77,7 @@ export default () => (
                         <div>
 
                             <div className={styles.chuangjian} style={{margin:"22px 22px 22px 105px",paddingRight:"0em"}}>
-                                <a href="#huode" className={styles.lianjie}>
+                                <a href="#wujianduan" className={styles.lianjie}>
                                     <div className={styles.product__breakdown__image}>
                                         <img className={styles.ceshi_z} src="https://marketing.intercomassets.com/assets/custom-bots/anchor-leads-2x-15cf996ae442dc5ae1b4e70b0b71a426ab5a2d8d65eedd6a44124dfa14e6a907.png" width="91px" />
                                         <img src="https://marketing.intercomassets.com/assets/custom-bots/anchor-leads-2x-3a51ab4f373249e425e7dea736e38a5b481d3224426a4a94e4a701bec9ccbaff.gif" width="91px" /></div>
@@ -95,7 +95,7 @@ export default () => (
                             </div>
 
                             <div className={styles.chuangjian} style={{margin:"22px 50px",paddingRight:"0"}}>
-                                <a href="#xiushi" className={styles.lianjie}>
+                                <a href="#wukaifa" className={styles.lianjie}>
                                     <div className={styles.product__breakdown__image}>
                                         <img className={styles.ceshi_z} src="https://marketing.intercomassets.com/assets/custom-bots/anchor-bots-2x-0355cbcabf7d5a8fce37b27aed651867a05836462afb9c57a02d81347070004e.png" width="91px" />
                                         <img src="https://marketing.intercomassets.com/assets/custom-bots/anchor-bots-2x-77215823e13e141ec0e155f82a1f4f14bf1407b0d8afe8d44630cf8d39e58e64.gif" width="91px" /></div>                                   <div style={{height:"10px"}}></div>
@@ -112,7 +112,7 @@ export default () => (
                             
 
                             <div className={styles.chuangjian} style={{margin:"22px 50px",paddingRight:"0em"}}>
-                                <a href="#duihuan" className={styles.lianjie}>
+                                <a href="#suozhouqi" className={styles.lianjie}>
                                     <div className={styles.product__breakdown__image}>
 
                                         <img className={styles.ceshi_z} src="https://marketing.intercomassets.com/assets/custom-bots/anchor-cycle-2x-3214875bb5a5190e9d9790effc9b00ba04eaa6d076b556414bdb1bc7da55d1a7.png" width="91px" />
@@ -133,7 +133,7 @@ export default () => (
 
 
                             <div className={styles.chuangjian} style={{margin:"22px 0px 22px 22px",paddingRight:"0em"}}>
-                                <a href="#celiang" className={styles.lianjie}>
+                                <a href="#chaozengzhang" className={styles.lianjie}>
                                     <div className={styles.product__breakdown__image}>
 
                                         <img className={styles.ceshi_z} src="https://marketing.intercomassets.com/assets/custom-bots/anchor-scaling-2x-d1a0767301075ce7528ad6b92299c5f3caddff00d2e7487c36e48ec9fd71cb43.png" width="91px" />
@@ -156,6 +156,8 @@ export default () => (
             </section>
         </section>
 
+        <a name="wujianduan"></a>
+        
         <section className={styles.section}>
             <div className={styles.container__narrower}>
                 <div className={styles.g__row}>
@@ -242,6 +244,8 @@ export default () => (
             <img className={styles.qwe}  src="https://marketing.intercomassets.com/assets/custom-bots/flair-1-4355575a270f918b7e69f261639bc61c8b2020ccdea8a52ffb45730738ab5780.png" />
         </section>
 
+        <a name="wukaifa"></a>
+        
         <section className={styles.section}>
             <div className={styles.container__narrower}>
                 <div className={styles.g__row}>
@@ -354,6 +358,9 @@ export default () => (
             </div>
         </section>
 
+        <a name="suozhouqi"></a>
+
+        
         <section className={styles.section}>
             <div className={styles.container__narrower}>
                 <div className={styles.g__row}>
@@ -443,6 +450,8 @@ export default () => (
             <img className={styles.qwe}  src="https://marketing.intercomassets.com/assets/custom-bots/flair-1-4355575a270f918b7e69f261639bc61c8b2020ccdea8a52ffb45730738ab5780.png" />
         </section>
 
+        <a name="chaozengzhang"></a>
+        
         <section className={styles.section}>
             <div className={styles.container__narrower}>
                 <div className={styles.g__row}>
@@ -512,28 +521,28 @@ export default () => (
                                     </div>
                                 </div>
 
- {/*                               <div className={styles.g__c6}>
+                                {/*                               <div className={styles.g__c6}>
                                     <div className={styles.f__left}>
-                                        <div className={styles.product__feature_icon}>
-                                            <img width="32" src="https://upload-images.jianshu.io/upload_images/12406336-f9d43c9129406f93.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" />
-                                        </div>
-                                        
-                                        <div className={styles.max__400}>
-                                            <div className={styles.t__small}>
-                                                <font style={{verticalAlign:"inherit",fontWeight:"750",fontSize:"14px"}}>
-                                                    自动化行动
-                                                </font>
-                                            </div>
-                                            <div style={{height:"5px"}}></div>
-                                            <div className={styles.t__small}>
-                                                <font style={{verticalAlign:"inherit"}}>
-                                                    接下来的步骤将为您完成，例如向您的CRM添加潜在客户，分配给合适的团队成员等等。
-                                                </font>
-                                            </div>
-                                        </div>
+                                    <div className={styles.product__feature_icon}>
+                                    <img width="32" src="https://upload-images.jianshu.io/upload_images/12406336-f9d43c9129406f93.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" />
                                     </div>
-                                </div>
-*/}                               
+                                    
+                                    <div className={styles.max__400}>
+                                    <div className={styles.t__small}>
+                                    <font style={{verticalAlign:"inherit",fontWeight:"750",fontSize:"14px"}}>
+                                    自动化行动
+                                    </font>
+                                    </div>
+                                    <div style={{height:"5px"}}></div>
+                                    <div className={styles.t__small}>
+                                    <font style={{verticalAlign:"inherit"}}>
+                                    接下来的步骤将为您完成，例如向您的CRM添加潜在客户，分配给合适的团队成员等等。
+                                    </font>
+                                    </div>
+                                    </div>
+                                    </div>
+                                    </div>
+                                  */}                               
                                 
                             </div>
 

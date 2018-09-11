@@ -23,7 +23,7 @@ export default () => {
     ]
 
     return (
-        <div>
+        <div className={styles.heiti}>
             <div style={{height:"72px"}}></div>
 
             <div style={{height:"72px"}}></div>
@@ -286,10 +286,11 @@ export default () => {
                                         <div style={{height:"10px"}}></div>
                                         <div className={styles.sp__left_4}>
                                             <div className={[styles.t__small,styles.f__bold]}>
-                                                <font>针对目标</font>
+                                                <font>针对目标客群</font>
                                             </div>
                                             <div className={styles.t__small}>
-                                                <font>通过访客的行为和推荐网址定位目标客户
+                                                <font>
+                                                    通过访客的行为和推荐网址定位目标客户
                                                 </font>
                                             </div>
                                         </div>
@@ -309,7 +310,6 @@ export default () => {
                                             <div className={styles.t__small}>
                                                 <font>
                                                     可以针对不同的访客，不同的时间在网页不同的位置显示定制化聊天组件
-
                                                 </font>
                                             </div>
                                         </div>
@@ -587,10 +587,12 @@ export default () => {
                                         
                                         <div className={styles.sp__left_4}>
                                             <div className={[styles.t__small,styles.f__bold]}>
-                                                <font>引导路由</font>
+                                                <font>分配策略</font>
                                             </div>
                                             <div className={styles.t__small}>
-                                                <font>根据帐户所有者，位置等自动分配潜在客户或通过循环自动分配潜在客户</font>
+                                                <font>
+                                                    访客的属性和行为和业务特性生成灵活多变的分配策略
+                                                </font>
                                             </div>
                                         </div>
                                     </div>
@@ -604,10 +606,12 @@ export default () => {
                                         
                                         <div className={styles.sp__left_4}>
                                             <div className={[styles.t__small,styles.f__bold]}>
-                                                <font>Aircall和Google Meet Apps</font>
+                                                <font>呼叫中心APP</font>
                                             </div>
                                             <div className={styles.t__small}>
-                                                <font>使用我们的Aircall和Google Meet应用程序通过热门潜在客户开始通话，以便更快地关闭它们</font>
+                                                <font>
+                                                    通过PPMessage 呼叫中心APP可与潜在用户快速通话并完成交易
+                                                </font>
                                             </div>
                                         </div>
                                     </div>
@@ -621,10 +625,12 @@ export default () => {
                                         
                                         <div className={styles.sp__left_4}>
                                             <div className={[styles.t__small,styles.f__bold]}>
-                                                <font> 条纹应用程序</font>
+                                                <font>促销应用程序</font>
                                             </div>
                                             <div className={styles.t__small}>
-                                                <font> 轻松发送个性化定价优惠给潜在客户在聊天时转换它们</font>
+                                                <font>
+                                                    通过促销应用程序可以轻松给访客发送个性化定价优惠并通过聊天完成客户转化
+                                                </font>
                                             </div>
                                         </div>
                                     </div>
@@ -639,10 +645,12 @@ export default () => {
                                         
                                         <div className={styles.sp__left_4}>
                                             <div className={[styles.t__small,styles.f__bold]}>
-                                                <font>移动应用</font>
+                                                <font>移动端</font>
                                             </div>
                                             <div className={styles.t__small}>
-                                                <font>使用我们的iOS和Android应用随时随地获取提醒并回复热门潜在客户</font>
+                                                <font>
+                                                    通过iOS和Android客户端可以随时随地获取提醒并回复客户咨询
+                                                </font>
                                             </div>
                                         </div>
                                     </div>
@@ -808,7 +816,9 @@ export default () => {
                                     </div>
                                     <div style={{height:"5px"}}></div>
                                     <div className={styles.f__light_7}>
-                                        <font>创建潜在客户并将对话发送到Salesforce，并在Intercom中使用Salesforce数据。</font>
+                                        <font>
+                                            向Salesforce推送合格商机和聊天记录，并在PPMessage中使用Salesforce数据
+                                        </font>
                                     </div>
                                 </a>
                             </div>
@@ -819,11 +829,14 @@ export default () => {
                                     </div>
                                     
                                     <div className={styles.f__bold_7}>
-                                        <font>分割</font>
+                                        <font>Slack
+                                        </font>
                                     </div>
                                     <div style={{height:"5px"}}></div>
                                     <div className={styles.f__light_7}>
-                                        <font>将来自任何Web，移动和服务器应用程序的用户数据同步到内部通信。</font>
+                                        <font>
+                                            将Slack获取的商机信息转为订单
+                                        </font>
                                     </div>
                                 </a>
                             </div>
@@ -838,7 +851,7 @@ export default () => {
                                     </div>
                                     <div style={{height:"5px"}}></div>
                                     <div className={styles.f__light_7}>
-                                        <font>从Messenger捕获和同步订阅者</font>
+                                        <font>从Messenger同步使用者</font>
                                     </div>
                                 </a>
                             </div>            

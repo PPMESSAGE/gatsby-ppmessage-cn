@@ -35,7 +35,7 @@ export default () => {
 
     return (
 
-        <div>
+        <div className={styles.heiti}>
             <div style={{height:'72px'}}></div>
             <div className={styles.container__narrower}>
                 <div className={styles.g__row}>

@@ -3,7 +3,7 @@ import styles from "./about-css-modules.module.css";
 import EnterYourMobile from "../components/enteryourmobile";
 
 export default () => (
-    <div>
+    <div className={styles.heiti}>
         <div style={{height:"72px"}}></div>
         <div className={styles.container}>
             <div style={{height:"20px",display:"block"}}></div>
@@ -262,11 +262,13 @@ export default () => (
                                     
                                     <div className={styles.sp__left_4}>
                                         <div className={[styles.t__small,styles.f__bold]}>
-                                            <font>分割</font>
+                                            <font>客户细分</font>
                                         </div>
                                         
                                         <div className={styles.t__small}>
-                                            <font>根据行为，Segment，Salesforce等数据定位人员</font>
+                                            <font>
+                                                根据客户属性、行为和CRM里的数据定位和细分客户
+                                            </font>
                                         </div>
                                     </div>
                                 </div>
@@ -280,10 +282,12 @@ export default () => (
                                     <div style={{height:"10px"}}></div>
                                     <div className={styles.sp__left_4}>
                                         <div className={[styles.t__small,styles.f__bold]}>
-                                            <font>多渠道</font>
+                                            <font>全渠道</font>
                                         </div>
                                         <div className={styles.t__small}>
-                                            <font>向您的应用和网站上的用户发送电子                                            邮件，推送和应用内消息</font>
+                                            <font>
+                                                通过应用内消息、邮件、电话、社交软件与客户随时沟通
+                                            </font>
                                         </div>
                                     </div>
                                 </div>
@@ -300,7 +304,8 @@ export default () => (
                                             <font>消息编写器</font>
                                         </div>
                                         <div className={styles.t__small}>
-                                            <font>通过所有渠道快速撰写精美有效的信息
+                                            <font>
+                                                通过应用内消息、邮件、电话、社交软件与客户随时沟通
                                             </font>
                                         </div>
                                     </div>
@@ -315,10 +320,11 @@ export default () => (
                                     <div style={{height:"10px"}}></div>
                                     <div className={styles.sp__left_4}>
                                         <div className={[styles.t__small,styles.f__bold]}>
-                                            <font>交付Windows</font>
+                                            <font>发送时间调度器</font>
                                         </div>
                                         <div className={styles.t__small}>
-                                            <font>确保在您和您的客户的最佳时间发送消息
+                                            <font>
+                                                保证自动消息在最适合您和您的客户的时间节点发送
                                             </font>
                                         </div>
                                     </div>
@@ -483,10 +489,11 @@ export default () => (
                                 </div>                          
                                 <div className={styles.sp__left_4}>
                                     <div className={styles.t__smallfont}>
-                                        <font>目标</font>
+                                        <font>消息目标</font>
                                     </div>
                                     <div className={styles.t__small_s}>
-                                        <font>衡量人们收到您的消息后所采取的行动
+                                        <font>
+                                            衡量客户收到消息后采取的行动是否达到预期
                                         </font>
                                     </div>
                                 </div>
@@ -501,11 +508,13 @@ export default () => (
                                 </div>                          
                                 <div className={styles.sp__left_4}>
                                     <div className={styles.t__smallfont}>
-                                        <font>洞察
+                                        <font>
+                                            A/B测试
                                         </font>
                                     </div>
                                     <div className={styles.t__small_s}>
-                                        <font>获取所有消息性能的高级视图
+                                        <font>
+                                            测试消息变量以提高消息性能
                                         </font>
                                     </div>
                                 </div>
@@ -520,10 +529,11 @@ export default () => (
                                 </div>                          
                                 <div className={styles.sp__left_4}>
                                     <div className={styles.t__smallfont}>
-                                        <font>A / B测试</font>
+                                        <font>统计报告</font>
                                     </div>
                                     <div className={styles.t__small_s}>
-                                        <font>测试邮件的变体以提高性能并增加收入
+                                        <font>
+                                            整套的消息的效能分析报告
                                         </font>
                                     </div>
                                 </div>
@@ -635,11 +645,13 @@ export default () => (
                                 </div>
                                 
                                 <div className={styles.f__bold_7}>
-                                    <font>销售队伍</font>
+                                    <font>Salesforce</font>
                                 </div>
                                 <div style={{height:"5px"}}></div>
                                 <div className={styles.f__light_7}>
-                                    <font>创建潜在客户并将对话发送到Salesforce，并在Intercom中使用Salesforce数据。</font>
+                                    <font>
+                                        向Salesforce推送合格商机和聊天记录，并在PPMessage中使用
+                                    </font>
                                 </div>
                             </a>
                         </div>
@@ -650,11 +662,13 @@ export default () => (
                                 </div>
                                 
                                 <div className={styles.f__bold_7}>
-                                    <font>分割</font>
+                                    <font>Get a Demo APP</font>
                                 </div>
                                 <div style={{height:"5px"}}></div>
                                 <div className={styles.f__light_7}>
-                                    <font>将来自任何Web，移动和服务器应用程序的用户数据同步到内部通信。</font>
+                                    <font>
+                                        获取和转化需要产品演示的客户
+                                    </font>
                                 </div>
                             </a>
                         </div>

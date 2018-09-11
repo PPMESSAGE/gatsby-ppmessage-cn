@@ -4,7 +4,7 @@ import EnterYourMobile from "../components/enteryourmobile";
 
 
 export default () => (
-    <div>
+    <div className={styles.heiti}>
         <div style={{height:`72px`}}></div>
         <div className={styles.container__narrower}>
             <div className={styles.g__row} style={{paddingLeft:"80px"}}>

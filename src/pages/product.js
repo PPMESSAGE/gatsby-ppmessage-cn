@@ -6,7 +6,7 @@ import FeatherModal from "../components/feathermodal"
 
 
 export default () => (
-    <div>
+    <div className={styles.heiti}>
         <div style={{height:`72px`}}></div>
         <div className={styles.container__narrower}>
             <div className={styles.g__row}>
@@ -56,7 +56,7 @@ export default () => (
                                 </div>
                                 <div style={{height:'5px'}}></div>
                                 <div className={styles.t__small_s}>
-                                    <font className={styles.smallerbiaoti}>网页、移动端、社交媒体、电话、邮件等多渠道接入客户对话
+                                    <font className={styles.t__small_s}>网页、移动端、社交媒体、电话、邮件等多渠道接入客户对话
                                     </font>                  
                                 </div>
                                 <div className={styles.product__learn_more}>
@@ -80,7 +80,7 @@ export default () => (
                                 </div>
                                 <div style={{height:'5px'}}></div>
                                 <div className={styles.t__small_s}>
-                                    <font className={styles.smallerbiaoti}>为团队配备统一的全渠道桌面，提供所有背景信息以及相关知识
+                                    <font className={styles.t__small_s}>为团队配备统一的全渠道桌面，提供所有背景信息以及相关知识
                                     </font>
                                 </div>
 
@@ -104,7 +104,7 @@ export default () => (
                                 </div>
                                 <div style={{height:'5px'}}></div>
                                 <div className={styles.t__small_s}>
-                                    <font className={styles.smallerbiaoti}>减少重复性工作花费的时间
+                                    <font className={styles.t__small_s}>减少重复性工作花费的时间
                                     </font>
                                 </div>
 

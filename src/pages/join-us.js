@@ -3,7 +3,7 @@ import styles from "./about-us.module.css";
 import TabsControl from "../components/tabscontrol";
 
 export default () => (
-    <div>
+    <div className={styles.heiti}>
        
 
         <div className={styles.banner}>            

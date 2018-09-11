@@ -46,8 +46,9 @@
 
 
 .feature-item {
+    text-align: left;
     padding: 20px;
-    position:relative;
+    position: relative;
     color: #000;
     cursor:pointer;
 }
@@ -76,11 +77,11 @@
 }
 
 .feature-desc {
-
+    color: #888;
 }
 
 .feature-desc.active {
-    color: gray;
+    color: #888;
 }
 
 

@@ -1,7 +1,7 @@
 import React from "react";
 
 import styles from "../about-css-modules.module.css";
-import KeyFeatures from "../../components/keyfeatures"
+import KeyFeatures from "../../components/keyfeatures";
 
 
 export default () => {
@@ -38,7 +38,7 @@ export default () => {
             <div className={styles.container__narrower}>
                 <div className={styles.g__row}>
                     <h1>test key features</h1>
-                    <KeyFeatures features={_features}>
+                    <KeyFeatures rtl="false" features={_features}>
                     </KeyFeatures>
                 </div>  
             </div>

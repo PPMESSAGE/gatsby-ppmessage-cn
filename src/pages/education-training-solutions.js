@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./about-us.module.css";
 
 export default () => (
-    <div>
+    <div className={styles.heiti}>
         <div className={styles.m1_s}>
             <div style={{height:"80px"}}></div>
             <div className={styles.h1}>
@@ -20,6 +20,14 @@ export default () => (
 
             <div className={styles.small}>
                 <font>
+                    <font style={{fontWeight:"bold"}}>访问统计分析。</font>
+                    PPMessage提供全面的用户浏览信息的统计及分析数据，可以跟踪从市场投放关键词到用户发起会话询问的全流程数据，让您实时评估销售转化率和ROI。
+                </font>
+            </div>
+
+            
+            <div className={styles.small}>
+                <font>
                     <font style={{fontWeight:"bold"}}>浏览轨迹分析。</font>企业在需要统计的站点加入PPMessage客服的统计代码，PPMessage客服后台就可以抓取到用户的全部浏览轨迹，这些浏览轨迹在客服接待的时候，自动展示给相应的客服，从而让客服提供更加个性化的服务。
                 </font>
             </div>
@@ -28,7 +36,9 @@ export default () => (
             <div style={{display:"flex"}}>
                 <div className={styles.small_s}>
                     <font>
-                        <font style={{fontWeight:"bold"}}>客服主动邀请。</font>用户在浏览企业的站点时，客服人员可以实时看到用户的访问情况，并且根据用户的浏览情况主动发起会话邀请。这样就增加了客服主动与用户接触的机会，可以大大提高营销的转化率。
+                        <font style={{fontWeight:"bold"}}>自动获取和评估商机。</font>
+                        PPMessage销售机器人可以主动与网站访客联系，获取销售团队将潜在客户转化为付费用户所需的详细信息，并评估其是否满足成为合格商机的条件。从而7X24小时为您源源不断的获取合格商机。
+
 
                     </font>
                 </div>
@@ -38,14 +48,14 @@ export default () => (
             </div>
             <div className={styles.small}>
                 <font>
-                    <font style={{fontWeight:"bold"}}>售前接待。</font>
-                    PPMessage销售机器人可以主动与网站访客联系，获取销售团队将潜在客户转化为付费用户所需的详细信息，并评估其是否满足成为合格商机的条件。从而7X24小时为您源源不断的获取合格商机。
+                    <font style={{fontWeight:"bold"}}>客服主动邀请。</font>
+                    用户在浏览企业的站点时，客服人员可以实时看到用户的访问情况，并且根据用户的浏览情况和行为主动发起会话邀请、主动推荐。通过增加客服主动与用户接触的机会，大大提高营销的转化率。
                 </font>
             </div>
 
             <div className={styles.small}>
                 <font>
-                    <font style={{fontWeight:"bold"}}>销售信息获取。</font>售前客服保存完用户信息之后，会直接流转给销售人员。
+                    <font style={{fontWeight:"bold"}}>全渠道售前接待。</font>售前客服保存完用户信息之后，会直接流转给销售人员。
                     <br />方式为分两种，方式一：如果企业使用了自己的CRM系统，则创建的客户信息可以通过接口的方式推送到企业的系统中，生成数据之后企业可以自动分配给相关的销售人员；
                     <br />方式二：如果企业没有自己的CRM系统，则PPMessage客服提供功能全面且支持多项自定义设置的客户中心，客户的完整信息可以存在PPMessage的系统中，并可以再自定义规则进行有机分配。
 

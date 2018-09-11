@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./about-us.module.css";
 
 export default () => (
-    <div>               
+    <div className={styles.heiti}>               
         <div className={styles.m1_s}>
             <div style={{height:"80px"}}></div>
             <div className={styles.h1}>

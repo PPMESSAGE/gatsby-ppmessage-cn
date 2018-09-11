@@ -3,7 +3,7 @@ import styles from "./loading.module.css"
 import EnterYourMobile from "../components/enteryourmobile.js"
 
 export default () => (
-    <div>
+    <div className={styles.heiti}>
         <div style={{height:"72px"}}></div>
         <div className={styles.l__full__row}>
             <div className={styles.start}>

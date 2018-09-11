@@ -3,7 +3,7 @@ import styles from "./about-css-modules.module.css";
 import EnterYourMobile from "../components/enteryourmobile";
 
 export default () => (
-    <div>
+    <div className={styles.heiti}>
         <div className={styles.container}>
             <div className={styles.bg__light} style={{backgroundColor:"white"}}>
                 
