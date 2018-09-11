@@ -7,7 +7,7 @@ import EnterYourMobile from "../components/enteryourmobile";
 
 
 export default ({ children }) =>
-    <div>
+    <div className={styles.heiti}>
 <div className={styles.nav}>
 <div className={styles.container}>
 <a href="/" className={styles.brand__logo} ><img src="https://upload-images.jianshu.io/upload_images/12406336-2715eb7d8701e9c1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" />   
