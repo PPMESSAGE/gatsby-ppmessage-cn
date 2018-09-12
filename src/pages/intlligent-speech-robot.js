@@ -4,27 +4,49 @@ import EnterYourMobile from "../components/enteryourmobile";
 
 export default () => (
     <div className={styles.heiti}>
-        <div className={styles.container}>
-            <div className={styles.bg__light} style={{backgroundColor:"white"}}>
+
+        <div style={{height:'72px'}}></div>
+        <div className={styles.container__narrower}>
+            <div className={styles.g__row}>
                 
-                
-                <div className={styles.u__zfix}>
-                    <h1 className={styles.t__h1}>
-                        全面的机器人语音交互系统
-                    </h1>
-                    <div style={{height:"10px"}}></div>
-                    <h2 className={styles.t__h3}><font>通过业内独有的流程机制解决全球业务的客服痛点，与人工智能紧密结合
-
-                    </font>
-                    </h2>
-
-
-                    
-                    <div className={styles.t__small}>
-                        免费试用14天 易于安装
+                <div className={styles.g__c6}>
+                    <div style={{height:"100px"}}></div>
+                    <div className={styles.sp__5}>
+                        <h2 style={{fontSize:"36px",fontWeight:"150"}}>全面的机器人语音交互系统
+                        </h2>
+                        <div style={{height:"10px"}}>
+                        </div>
+                        <h3 style={{color:'#888',fontWeight:"100"}}>通过业内独有的流程机制解决全球业务的客服痛点，与人工智能紧密结合
+                            免费试用14天 易于安装
+                        </h3>
+                        <div style={{height:"20px"}}>            
+                        </div>
+                        <EnterYourMobile size="middle"/>
+                        <div style={{height:"20px"}}>            
+                        </div>
+                        <div className={styles.t__small}>
+                            <div className={styles.list__bulletinline}>
+                                <font style={{color:'#888'}}>免费试用 、 易于安装
+                                </font>        
+                            </div>
+                        </div>
                     </div>
+                </div>
+                <div className={styles.g__c6}>
                     <div>
-                        <div style={{height:"150px"}}></div>
+                        <img style={{maxWidth:"none"}} src={require("../images/67.png")} />
+                    </div>
+                </div>
+            </div>  
+        </div>
+        
+        
+
+
+        <div className={styles.container}>
+            <div className={styles.bg__light} style={{backgroundColor:"white"}}>                                
+                <div className={styles.u__zfix}>
+                    <div>                        
                         <section className={styles.section_o__no_bottom}>
                             <div className={styles.container}>
                                 <div className={styles.g__row}>
@@ -269,7 +291,107 @@ export default () => (
             </div>           
         </section>
 
-        
+        <section>
+            <div className={styles.section_div}>
+                <div className={styles.morehangye}>
+                    <div className={styles.maxWidth_s2}>
+                        <h2 className={styles.section_h2}>
+                            <font className={styles.t__h2}>多行业丰富的应用场景</font>
+                        </h2>
+                        <ul className={styles.clearfix}>
+                            <li className={styles.wow}>
+                                <p className={styles.pic}>
+                                    <img className={styles.section_img} src={require("../images/51.jpg")}  />
+                                </p>
+                                <p className={styles.txt}>
+                                    事件营销
+                                </p>
+                            </li>
+
+                            <li className={styles.wow}>
+                                <p className={styles.pic}>
+                                    <img className={styles.section_img} src={require("../images/52.jpg")}  />
+                                </p>
+                                <p className={styles.txt}>
+                                    意向筛选
+                                </p>
+                            </li>
+
+                            <li className={styles.wow}>
+                                <p className={styles.pic}>
+                                    <img className={styles.section_img} src={require("../images/53.jpg")}  />
+                                </p>
+                                <p className={styles.txt}>
+                                    定向销售
+                                </p>
+                            </li>
+
+                            <li className={styles.wow}>
+                                <p className={styles.pic}>
+                                    <img className={styles.section_img} src={require("../images/54.jpg")}  />
+                                </p>
+                                <p className={styles.txt}>
+                                    问卷调查  
+                                </p>
+                            </li>
+                            <li className={styles.wow}>
+                                <p className={styles.pic}>
+                                    <img className={styles.section_img} src={require("../images/55.jpg")}  />
+                                </p>
+                                <p className={styles.txt}>
+                                    产品续费  
+                                </p>
+                            </li>
+                            <li className={styles.wow}>
+                                <p className={styles.pic}>
+                                    <img className={styles.section_img} src={require("../images/56.jpg")}  />
+                                </p>
+                                <p className={styles.txt}>
+                                    定向催收  
+                                </p>
+                            </li>
+                            <li className={styles.wow}>
+                                <p className={styles.pic}>
+                                    <img className={styles.section_img} src={require("../images/57.jpg")}  />
+                                </p>
+                                <p className={styles.txt}>
+                                    会员关怀  
+                                </p>
+                            </li>
+                            <li className={styles.wow}>
+                                <p className={styles.pic}>
+                                    <img className={styles.section_img} src={require("../images/58.jpg")}  />
+                                </p>
+                                <p className={styles.txt}>
+                                    身份认证  
+                                </p>
+                            </li>
+                            <li className={styles.wow}>
+                                <p className={styles.pic}>
+                                    <img className={styles.section_img} src={require("../images/59.jpg")}  />
+                                </p>
+                                <p className={styles.txt}>
+                                    产品推荐  
+                                </p>
+                            </li>
+                            <li className={styles.wow}>
+                                <p className={styles.pic}>
+                                    <img className={styles.section_img} src={require("../images/60.jpg")}  />
+                                </p>
+                                <p className={styles.txt}>
+                                    会议邀约  
+                                </p>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <br style={{clear:"both"}} />
     </div>
 
+    
 );

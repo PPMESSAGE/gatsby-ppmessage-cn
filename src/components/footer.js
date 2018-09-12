@@ -9,12 +9,11 @@ class Footer extends React.Component {
     constructor(props) {
         super(props);
     }
+
     
-    componentDidMount () {
-        window.ppSettings = {app_uuid:'a600998e-efff-11e5-9d9f-02287b8c0ebf'};(function(){var w=window,d=document;function l(){var a=d.createElement('script');a.type='text/javascript';a.async=!0;a.charset='utf-8';a.src='https://ppmessage.cn/ppcom/assets/pp-library.min.js';var b=d.getElementsByTagName('script')[0];b.parentNode.insertBefore(a,b)}l();})();
-    }
-    
-    render() {
+
+        
+        render() {
         return (
             <footer className={styles.footer__wrap}>
                 <div style={{height:"72px"}}></div>

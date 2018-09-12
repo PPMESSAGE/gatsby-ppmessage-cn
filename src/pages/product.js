@@ -715,7 +715,7 @@ export default () => (
 
                             <div className={styles.g__c6}>
                                 <div className={styles.features__block}>
-                                    <FeatherModal abstract={{title: "访客转化率", icon: "https://marketing.intercomassets.com/assets/_svg/icons/smart-campaigns-9b8fd8bfaae4a87872e1af63f8cd201467cd5e5ffbdb70cb2a7fa9f71f870754.svg", desc: "xyz"}}>
+                                    <FeatherModal abstract={{title: "访客转化率", icon: "https://marketing.intercomassets.com/assets/_svg/icons/smart-campaigns-9b8fd8bfaae4a87872e1af63f8cd201467cd5e5ffbdb70cb2a7fa9f71f870754.svg", desc: "网站访客转化为付费客户的比例和ROI"}}>
                                         <div>
                                             <div className={styles.g__row}>
                                                 <div className="g__c3 g__c12--md">
@@ -741,7 +741,7 @@ export default () => (
 
                             <div className={styles.g__c6}>
                                 <div className={styles.features__block}>
-                                    <FeatherModal abstract={{title: "客户满意度", icon: "https://marketing.intercomassets.com/assets/_svg/icons/smart-campaigns-9b8fd8bfaae4a87872e1af63f8cd201467cd5e5ffbdb70cb2a7fa9f71f870754.svg", desc: "yzx"}}>
+                                    <FeatherModal abstract={{title: "客户满意度", icon: "https://marketing.intercomassets.com/assets/_svg/icons/smart-campaigns-9b8fd8bfaae4a87872e1af63f8cd201467cd5e5ffbdb70cb2a7fa9f71f870754.svg", desc: "满意客户占受访客户比率"}}>
                                         <div>
                                             <div className={styles.g__row}>
                                                 <div className="g__c3 g__c12--md">
