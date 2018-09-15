@@ -49,6 +49,7 @@
     font-size: 15px;
 }
 
+
 .nav__link {
     position: relative;
     padding: 24px 20px;
@@ -2128,4 +2129,121 @@
     vertical-align: baseline;
 }
 
+@media screen and (max-width:1300px){
+    .nav__cta{display:none}
+    .col_2{width: 33.33333333%;}    
+}
 
+@media screen and (max-width:960px){
+    .nav__cta{display:none}
+    .col_2{width:50%;}
+    .logo_container{
+        width:auto;
+        min-width: 0;
+        margin-right: auto;
+        margin-left: auto;
+        box-sizing: border-box;
+    }
+}
+.nav__content_1{
+    margin-left: auto;
+    color: #000;
+    font-size: 15px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    display:none;
+}
+
+
+@media screen and (max-width:960px){
+    .nav__link{display:none}
+    .g__c6{
+        width:100%;
+        min-width: 100%;
+        max-width: 100%;
+        -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+        -ms-flex: 0 0 auto;
+        flex: 0 0 auto;
+        padding:31px;
+        text-align:center;
+    }
+    .nav__content_1{
+        display:block;
+    }
+}
+
+.link__hamburger {
+    position: relative;
+    display: inline-block;
+    width: 25px;
+    height: 2px;
+    border-top: 2px solid #286efa;
+    -webkit-transition: border-color .1s;
+    transition: border-color .1s;
+    cursor: pointer;
+    line-height: 1.5;
+}
+.link__hamburger::before{
+    content: " ";
+    position: absolute;
+    border-top: 2px solid #286efa;
+    height: 0;
+    left: 0;
+    right: 0;
+    box-sizing: inherit;
+    top: -8px;
+}
+.link__hamburger::after{
+    content: " ";
+    position: absolute;
+    border-top: 2px solid #286efa;
+    height: 0;
+    left: 0;
+    right: 0;
+    bottom: -6px;
+    box-sizing: inherit;
+}
+.text{
+    background-color:white;
+    height:800%;
+    position:absolute;
+    left:4px;
+    right:6px;
+    z-index:100;
+    margin-top:1em;
+}
+.dropdown_content2{
+    
+    box-shadow: none;
+    border-top: 1px solid #888;
+    border-bottom: 1px solid #888;
+    width: 100%;
+    margin: 0;
+    border-radius: 0;
+    padding: 20px;
+    left: 0;
+}
+.drown__grow{
+    margin: -10px;
+    display: flex;
+    -webkit-box-flex: 0;
+    flex: 0 1 auto;
+    flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+}
+.drown__g__c7{
+    padding: 10px;
+    -webkit-box-flex: 0;
+    width: 58.33333%;
+    min-width: 58.33333%;
+    max-width: 58.33333%;
+    flex-basis: 58.33333%;
+    flex: 0 0 auto;
+}
+.hr__grey{
+    border-top: 1px solid #888;
+}

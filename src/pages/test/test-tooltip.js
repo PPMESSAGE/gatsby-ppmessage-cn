@@ -4,6 +4,8 @@ import styles from "../about-css-modules.module.css";
 
 import ReactTooltip from 'react-tooltip';
 
+import Media from "react-media";
+
 export default () => {
 
     return (
@@ -22,6 +24,9 @@ export default () => {
                     </ReactTooltip>
                 </div>  
             </div>
+
+
+            
         </div>
     )
 

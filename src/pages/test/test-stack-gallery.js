@@ -26,6 +26,9 @@ export default () => {
 
     ]
 
+
+
+    
     return (
         <div>
             <div style={{height:`172px`}}></div>
@@ -67,6 +70,10 @@ export default () => {
                 </div>
                 
             </TabsControl>
+
+            
+
+            
         </div>
     )
 
