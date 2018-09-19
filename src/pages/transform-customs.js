@@ -2,7 +2,7 @@ import React from "react";
 import EnterYourMobile from "../components/enteryourmobile";
 import styles from "./about-css-modules.module.css";
 import StackGallery from "../components/stackgallery";
-
+import Media from "react-media";
 
 export default () => {
     let _images = [
@@ -32,7 +32,9 @@ export default () => {
                 <div className={styles.g__row}>
                     <div className={styles.g__c6}>
                         <span className={styles.f__medium}>
-                            <div style={{width:"200px" }}><h2>获取和转化销售线索</h2></div>
+                            <div className={styles.transform_200px}>
+                                <h2>获取和转化销售线索</h2>
+                            </div>
                         </span>
                     </div>
                 </div>
@@ -48,7 +50,7 @@ export default () => {
                     </div>
                     <div className={styles.u__zfix}>
 
-                        <div style={{width:"1317px"}}></div>
+                        <div className={styles.transform_1317px}></div>
                         <h1 className={styles.t__h1_s}>
                             获取更多商机并达成更多交易
                         </h1>
@@ -58,8 +60,19 @@ export default () => {
                             </font>
                         </h2>
                         <div style={{height:"20px"}}></div>
-                        <div className={styles.u__inline}>
-                            <EnterYourMobile size="middle" />
+                        <div className={styles.u__inline_transform}>                                            <Media query={{ maxWidth: 960 }}>
+                            {matches =>
+                                matches ? (
+                                    
+                                    <EnterYourMobile size="large"/> 
+                                    
+                                ) : (
+                                    <div className={styles.display_2}>
+                                        <EnterYourMobile size="middle"/> 
+                                    </div>
+                                )
+                            }
+                         </Media>
                         </div>
                         <div style={{height:"10px"}}></div>
                         <div className={styles.t__small}>
@@ -70,7 +83,7 @@ export default () => {
             </div>
 
             <div style={{height:'20px'}}></div>
-            <div className={styles.section}>
+            <div className={styles.section_transform}>
                 <div className={styles.contain8}>
                     <div className={styles.u__hidden__md}>
                         <div className={styles.f__center}>
@@ -114,13 +127,13 @@ export default () => {
                     </div>
                 </div>      
             </div>
-            <section className={styles.section_o__no_bottom}>
+            <section className={styles.section_transform1}>
                 <div className={styles.container}>
                     <div className={styles.g__row}>
 
                         <div>
 
-                            <div className={styles.chuangjian} style={{margin:"22px",paddingRight:"0"}}>
+                            <div className={styles.chuangjian_tranform1}>
                                 <a href="#huode" className={styles.lianjie}>
                                     <div className={styles.product__breakdown__image}>
                                         <img src="https://marketing.intercomassets.com/assets/live-chat/v2/capture-6cd1e65484e3cc8bc579ae4ba69db31ad254a0db01313b47191f131567fbc2b6.png" width="91px" /></div>
@@ -139,7 +152,7 @@ export default () => {
                                 </a>
                             </div>
 
-                            <div className={styles.chuangjian} style={{margin:"22px 50px",paddingRight:"0"}}>
+                            <div className={styles.chuangjian_tranform2}>
                                 <a href="#xiushi" className={styles.lianjie}>
                                     <div className={styles.product__breakdown__image}>
                                         <img src="https://marketing.intercomassets.com/assets/live-chat/v2/qualify-2cde0bea6a097ea7de52c892e75dd0e311360680497721521d05eb12d9622994.png" width="91px" /></div>
@@ -160,7 +173,7 @@ export default () => {
                             </div>
                             
 
-                            <div className={styles.chuangjian} style={{margin:"22px 50px",paddingRight:"0"}}>
+                            <div className={styles.chuangjian_tranform3}>
                                 <a href="#duihuan" className={styles.lianjie}>
                                     <div className={styles.product__breakdown__image}>
                                         <img src="https://marketing.intercomassets.com/assets/live-chat/v2/convert-2f21b347ebaf5cdd5454fbcbb817658899487f69a088d9d06f5bef68dcf0c7cf.png" width="91px" /></div>
@@ -182,7 +195,7 @@ export default () => {
 
 
 
-                            <div className={styles.chuangjian} style={{margin:"0px",paddingRight:"0"}}>
+                            <div className={styles.chuangjian_tranform4}>
                                 <a href="#celiang" className={styles.lianjie}>
                                     <div className={styles.product__breakdown__image}>
                                         <img src="https://marketing.intercomassets.com/assets/live-chat/v2/measure-2fc6b218e130f27b61f8bd2868fe6585d790bb542c307358a4c160933a3c661b.png" width="91px" /></div>
@@ -278,7 +291,7 @@ export default () => {
                             <div className={styles.g__row}>
                                 <div className={styles.g__c12}></div>
 
-                                <div className={styles.g__c6}>
+                                <div className={styles.g__c6_transform}>
                                     <div className={styles.f__left}>
                                         <div className={styles.product__feature_icon}>
                                             <img src="https://upload-images.jianshu.io/upload_images/12406336-acd7309f5cf61fa5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" />
@@ -297,7 +310,7 @@ export default () => {
                                     </div>
                                 </div>
 
-                                <div className={styles.g__c6}>
+                                <div className={styles.g__c6_transform}>
                                     <div className={styles.f__left}>
                                         <div className={styles.product__feature_icon}>
                                             <img src="https://upload-images.jianshu.io/upload_images/12406336-acd7309f5cf61fa5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" />
@@ -579,7 +592,7 @@ export default () => {
                             <div className={styles.g__row} >
                                 {/* 添加区域 ，下方卡片文字都要改*/}
 
-                                <div className={styles.g__c6}>
+                                <div className={styles.g__c6_transform}>
                                     <div className={styles.f__left}>
                                         <div className={styles.product__feature_icon}>
                                             <img src="https://upload-images.jianshu.io/upload_images/12406336-acd7309f5cf61fa5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" />
@@ -598,7 +611,7 @@ export default () => {
                                     </div>
                                 </div>
 
-                                <div className={styles.g__c6}>
+                                <div className={styles.g__c6_transform}>
                                     <div className={styles.f__left}>
                                         <div className={styles.product__feature_icon}>
                                             <img src="https://upload-images.jianshu.io/upload_images/12406336-acd7309f5cf61fa5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" />
@@ -617,7 +630,7 @@ export default () => {
                                     </div>
                                 </div>
 
-                                <div className={styles.g__c6}>
+                                <div className={styles.g__c6_transform}>
                                     <div className={styles.f__left}>
                                         <div className={styles.product__feature_icon}>
                                             <img src="https://upload-images.jianshu.io/upload_images/12406336-acd7309f5cf61fa5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" />
@@ -637,7 +650,7 @@ export default () => {
                                 </div>
 
 
-                                <div className={styles.g__c6}>
+                                <div className={styles.g__c6_transform}>
                                     <div className={styles.f__left}>
                                         <div className={styles.product__feature_icon}>
                                             <img src="https://upload-images.jianshu.io/upload_images/12406336-acd7309f5cf61fa5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" />

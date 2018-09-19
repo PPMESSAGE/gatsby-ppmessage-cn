@@ -2,7 +2,8 @@ import React from "react";
 import styles from "./about-css-modules.module.css";
 import EnterYourMobile from "../components/enteryourmobile";
 import KeyFeatures from "../components/keyfeatures";
- 
+import Media from "react-media";
+
 
 export default () =>{
 
@@ -140,7 +141,24 @@ export default () =>{
                             </h3>
                             <div style={{height:"20px"}}>            
                             </div>
-                            <EnterYourMobile size="middle"/>
+                            
+                            
+                            
+                            <Media query={{ maxWidth: 960 }}>
+                                {matches =>
+                                    matches ? (
+                                        
+                                        <EnterYourMobile size="large"/> 
+                                        
+                                    ) : (
+                                        <div className={styles.display_2}>
+                                        <EnterYourMobile size="middle"/> 
+                                        </div>
+                                    )
+                                }
+                            </Media>
+                            
+
                             <div style={{height:"20px"}}>            
                             </div>
                             <div className={styles.t__small}>
@@ -264,8 +282,7 @@ export default () =>{
                 </div>            
             </section>
             <section>
-                <div style={{height:"200px"}}>
-                </div>
+                <div className={styles.index_200px}></div>
                 <div className={styles.container__narrower}>
                     <h3 className={styles.f__center}>
                         <font>完美的销售，营销和客服工具</font>
@@ -423,16 +440,10 @@ export default () =>{
                         </KeyFeatures>
                     </div>
                 </div>
-                <div style={{height:"100px"}}></div>
+                <div className={styles.index_100px}></div>
             </section>
-
             
-
-
-
-
-            
-            <section className={styles.section}>
+            <section className={styles.index_section}>
                 <div className={styles.container}>
                     <img src="https://marketing.intercomassets.com/assets/homepage/v2/visual-3-7ec9bf9d3ed4d4b9b01bb24343a9a31472b42251efc3ef95b24462bc45028c63.png" className={styles.homepage__customers__swiggle__bottom__right} />
                     <div className={styles.g__c6}>
@@ -478,7 +489,7 @@ export default () =>{
                     </div>
                 </div>
             </section>    
-            <div style={{height:"5em"}}></div>
+            <div className={styles.index_5em}></div>
         </div>
     )
 

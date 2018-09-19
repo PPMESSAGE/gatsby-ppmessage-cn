@@ -19,12 +19,13 @@ export default () =>{
 
         {
             title: "客服主动邀请",
-            desc: "客服人员根据用户的浏览情况和行为主动发起会话邀请、主动推荐。通过增加客服主动与用户接触的机会，提高营销的转化率",
-            image: "https://marketing.intercomassets.com/assets/messages/integrations-c420a951ff2bb5ce602e9149567455760bea13a8f8246701593b577238096f75.png"
+            desc: "客服人员根据用户的浏览情况和行为主动发起会话邀请，通过互动，提高营销的转化率",
+            image: "https://marketing.intercomassets.com/assets/messages/measurement-b13614c1ef0feae4aa3509d1fe5ee4b10fc8a489f10fa8ee9a02ca3a1ca93545.png"
         },
+
         {
             title: "智能电销、邮件、短信、微信营销",
-            desc: "根据用户的属性和行为在特定时点向用户发送邮件、短信和微信消息或进行智能电销（自动外呼和语音机器人），高效提升销售转化",
+            desc: "规避轰炸式营销陷阱，根据用户的属性和行为在特定时点向用户发送个性化邮件、短信和微信消息或进行智能电销（自动外呼和语音机器人），保证企业口碑的同时提升销售转化",
             image: require("../images/50.png")
         },
         
@@ -42,7 +43,7 @@ export default () =>{
         },
         {
             title: "外发消息",
-            desc: "自动或手动向目标客户发送应用内消息、邮件、短信、微信、语音，或自动提醒业务人员通过电话或视频与客户联系",
+            desc: "规避轰炸式营销陷阱，自动或手动向目标客户发送应用内消息、邮件、短信、微信、语音，或自动提醒业务人员通过电话或视频与客户联系",
             image: "https://marketing.intercomassets.com/assets/messages/outbound-dbf7ecfa4c3664f7174deb855194d0061d0f2112ddf8cc0243c6438c6880cb7c.png"
         },
 
@@ -82,6 +83,11 @@ export default () =>{
             desc: "跨渠道通用报表机制，支持销售转化率，客户满意度、客户工作量、会话来源等多种报表类型，各项业务数据完美呈现",
             image:require("../images/65.png")
         },
+        {
+            title: "在线质检",
+            desc: "分设质检标准和禁忌项，分类考核客服，严控服务品质",
+            image:require("../images/65.png")
+        },
         
         
 
@@ -95,15 +101,15 @@ export default () =>{
                     
                     <div className={styles.g__c6}>
                         <div style={{height:"100px"}}></div>
-                        <h1>教育培训解决方案</h1>
+                        <h1>金融保险解决方案</h1>
                         <div className={styles.sp__5}>
                             <h2 style={{fontSize:"36px",fontWeight:"150"}}>
-                                提高广告投放效率，引导用户付费转化
+                                专注互联网金融场景，直击行业痛点
                             </h2>
                             <div style={{height:"10px"}}>
                             </div>
                             <h3 style={{color:'#888',fontWeight:"100"}}>
-                                提供从商机获取、客户互动和客户支持的客户全生命周期解决方案，助力业务发展
+                                提供从商机获取、客户互动和客户支持的客户全生命周期解决方案，破解人力紧张和口碑难题，大幅降低获客成本
                             </h3>
                             <div style={{height:"20px"}}>            
                             </div>
@@ -196,3 +202,4 @@ export default () =>{
         </div>
     )
 }
+

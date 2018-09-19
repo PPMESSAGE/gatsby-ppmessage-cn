@@ -7,30 +7,30 @@ export default () =>{
 
     let _features = [
         {
-            title: "访问统计分析",
-            desc: "跟踪从市场投放关键词到用户发起会话询问的全流程数据，让您实时评估销售转化率和ROI",
+            title: "访客信息分析",
+            desc: "跟踪从市场投放关键词到用户发起会话询问的全流程数据，实时评估销售转化率和ROI；自动展示访客浏览轨迹，记录客户主要活动",
             image: "https://marketing.intercomassets.com/assets/messages/segmentation-53f2b095305527a75a4082d62ae823fc29e4a09a3c34e1facc147b2046d1ec49.png"
         },
         {
-            title: "浏览轨迹分析",
-            desc: "自动展示访客浏览轨迹，记录客户主要活动",
+            title: "自动获取和评估商机",
+            desc: "PPMessage销售机器人主动与网站访客联系，7X24小时根据设定条件获取合格商机",
             image: "https://marketing.intercomassets.com/assets/messages/outbound-dbf7ecfa4c3664f7174deb855194d0061d0f2112ddf8cc0243c6438c6880cb7c.png"
         },
 
         {
-            title: "客户细分",
-            desc: "基于客户属性和行为实施细分目标客户",
+            title: "客服主动邀请",
+            desc: "客服人员根据用户的浏览数据和行为主动发起会话邀请，通过互动提高营销的转化率",
             image: "https://marketing.intercomassets.com/assets/messages/measurement-b13614c1ef0feae4aa3509d1fe5ee4b10fc8a489f10fa8ee9a02ca3a1ca93545.png"
         },
 
         {
-            title: "客服主动邀请",
-            desc: "客服人员根据用户的浏览情况和行为主动发起会话邀请、主动推荐。通过增加客服主动与用户接触的机会，提高营销的转化率",
+            title: "一键发送商品链接",
+            desc: "客服可以在后台看到访客咨询的商品信息，包括商品页的链接、图片、价格、商品介绍等",
             image: "https://marketing.intercomassets.com/assets/messages/integrations-c420a951ff2bb5ce602e9149567455760bea13a8f8246701593b577238096f75.png"
         },
         {
-            title: "一键发送商品链接",
-            desc: "用户针对某件商品进行咨询，只需点击确认键，客服就可以在工作台看到这件商品的具体信息，包括商品页的链接、图片、价格、商品介绍等",
+            title: "客服组件内一键下单",
+            desc: "如果用户对某件商品感到满意，客服可以直接向用户推送订单基本信息，客户可在聊天组件内下单购买",
             image: require("../images/50.png")
         },
         
@@ -42,8 +42,8 @@ export default () =>{
 
     let _features1 = [
         {
-            title: "自动获取和评估商机",
-            desc: "PPMessage销售机器人可以主动与网站访客联系，获取销售团队将潜在客户转化为付费用户所需的详细信息，并评估其是否满足成为合格商机的条件。从而7X24小时为您源源不断的获取合格商机",
+            title: "客户细分",
+            desc: "基于客户属性和行为实施细分目标客户",
             image: "https://marketing.intercomassets.com/assets/messages/segmentation-53f2b095305527a75a4082d62ae823fc29e4a09a3c34e1facc147b2046d1ec49.png"
         },
         {
@@ -60,7 +60,7 @@ export default () =>{
 
         {
             title: "APP 商店",
-            desc: "提供与Salesforce，Google Meeting等第三方业务整合，扩展您的营销工具箱",
+            desc: "与Salesforce，Google Meeting等第三方业务整合，扩展营销工具箱",
             image: "https://marketing.intercomassets.com/assets/messages/integrations-c420a951ff2bb5ce602e9149567455760bea13a8f8246701593b577238096f75.png"
         },        
     ]
@@ -158,7 +158,7 @@ export default () =>{
                     <div className={styles.container__narrower}>
                         <h5 className={styles.f__center1}>
                             <font>
-                                根据用户渠道偏好，通过应用内消息、智能语音、邮件、短信、微信等各种渠道向目标用户发送有针对性的消息，培育和激活用户，通过用户重复购买率
+                                根据用户渠道偏好，通过应用内消息、智能语音、邮件、短信、微信等各种渠道向目标用户发送有针对性的消息，培育和激活用户，提高用户重复购买率
                             </font>
                         </h5>
                     </div>
@@ -181,7 +181,7 @@ export default () =>{
                     <div className={styles.container__narrower}>
                         <h5 className={styles.f__center1}>
                             <font>
-                                针对电商企业的用户，地域分散，业务多样的特点，PPMessage提供跨地域、多时区、多语言的全渠道智能客服解决方案，将呼叫中心与其他客服通道无缝集成，同时提供灵活的工单系统和智能客服机器人系统，快速解决客户问题，提高客户满意度
+                                针对电商企业用户地域分散，业务多样的特点，提供跨地域、多时区、多语言的全渠道智能客服解决方案，将呼叫中心与其他客服通道无缝集成，提供灵活的工单和智能客服机器人系统，快速解决客户问题，提高客户满意度
                             </font>
                         </h5>
                     </div>

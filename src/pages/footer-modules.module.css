@@ -15,7 +15,7 @@
 }
 @media screen and (max-width:960px){
 
-    .container {
+    .footer__wrap {
         display:none;
     }
 }

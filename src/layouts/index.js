@@ -187,7 +187,7 @@ export default ({ children }) =>(
                                         </div>
                                     </a>
 
-                                    <a href="" className={styles.f__no_und_aways}>
+                                    <a href="/finacial-insurance-solutions" className={styles.f__no_und_aways}>
                                         <div className={styles.holiday}>
                                             <div className={styles.t__h4}>
                                                 <font>金融保险解决方案</font>
@@ -196,7 +196,7 @@ export default ({ children }) =>(
                                         </div>
                                     </a>
 
-                                    <a href="" className={styles.f__no_und_aways}>
+                                    <a href="/medical-health-solutions" className={styles.f__no_und_aways}>
                                         <div className={styles.holiday}>
                                             <div className={styles.t__h4}>
                                                 <font>医疗健康解决方案</font>
@@ -205,19 +205,19 @@ export default ({ children }) =>(
                                         </div>
                                     </a>
 
-                                    <a href="" className={styles.f__no_und_aways}>
+                                    <a href="/tourism-hotel-industry-solutions" className={styles.f__no_und_aways}>
                                         <div className={styles.holiday}>
                                             <div className={styles.t__h4}>
-                                                <font>旅游行业解决方案</font>
+                                                <font>旅游酒店行业解决方案</font>
                                             </div>
                                             <font>从产品、订单到客户支持的大容量、全渠道呼叫中心解决方案</font>
                                         </div>
                                     </a>
 
-                                    <a href="" className={styles.f__no_und_aways}>
+                                    <a href="/government-solutions" className={styles.f__no_und_aways}>
                                         <div className={styles.holiday}>
                                             <div className={styles.t__h4}>
-                                                <font>政务解决方案</font>
+                                                <font>政府与事业单位解决方案</font>
                                             </div>
                                             <font>可定制可私有部署的全渠道智能云客服和内部沟通解决方案，保护政务机关数据安全，为市民提供方便快捷的市民服务</font>
                                         </div>
@@ -228,7 +228,7 @@ export default ({ children }) =>(
                                 </div>
                                 <div className={styles.g__c6_yetou}>
 
-                                    <a href="" className={styles.f__no_und_aways}>
+                                    <a href="/automotive-service-solutions" className={styles.f__no_und_aways}>
                                         <div className={styles.holiday}>
                                             <div className={styles.t__h4}>
                                                 <font>汽车服务解决方案</font>
@@ -237,7 +237,7 @@ export default ({ children }) =>(
                                         </div>
                                     </a>
 
-                                    <a href="" className={styles.f__no_und_aways}>
+                                    <a href="/restaurant-chain-solution" className={styles.f__no_und_aways}>
                                         <div className={styles.holiday}>
                                             <div className={styles.t__h4}>
                                                 <font>餐饮连锁解决方案</font>
@@ -246,7 +246,7 @@ export default ({ children }) =>(
                                         </div>
                                     </a>
 
-                                    <a href="" className={styles.f__no_und_aways}>
+                                    <a href="/quick-sale-product-solutions" className={styles.f__no_und_aways}>
                                         <div className={styles.holiday}>
                                             <div className={styles.t__h4}>
                                                 <font>快消品解决方案</font>
@@ -255,7 +255,7 @@ export default ({ children }) =>(
                                         </div>
                                     </a>
 
-                                    <a href="" className={styles.f__no_und_aways}>
+                                    <a href="/manufacturing-sulotions" className={styles.f__no_und_aways}>
                                         <div className={styles.holiday}>
                                             <div className={styles.t__h4}>
                                                 <font>制造业解决方案</font>
@@ -264,12 +264,20 @@ export default ({ children }) =>(
                                         </div>
                                     </a>
 
-                                    <a href="" className={styles.f__no_und_aways}>
+                                    <a href="/local-living-solution" className={styles.f__no_und_aways}>
                                         <div className={styles.holiday}>
                                             <div className={styles.t__h4}>
                                                 <font>本地生活解决方案</font>
                                             </div>
                                             <font>通过邮件、短信、应用内自动消息和智能外呼提升成单率和客单价</font>
+                                        </div>
+                                    </a>
+                                    <a href="/real-estate-proper-solutions" className={styles.f__no_und_aways}>
+                                        <div className={styles.holiday}>
+                                            <div className={styles.t__h4}>
+                                                <font>房地产物业解决方案</font>
+                                            </div>
+                                            <font>业务营销、业主互动、自动收费和物业报修的专业解决方案</font>
                                         </div>
                                     </a>
 

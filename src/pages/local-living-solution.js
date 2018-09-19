@@ -42,7 +42,7 @@ export default () =>{
         },
         {
             title: "外发消息",
-            desc: "自动或手动向目标客户发送应用内消息、邮件、短信、微信、语音，或自动提醒业务人员通过电话或视频与客户联系",
+            desc: "规避轰炸式营销陷阱，自动或手动向目标客户发送应用内消息、邮件、短信、微信、语音，或自动提醒业务人员通过电话或视频与客户联系",
             image: "https://marketing.intercomassets.com/assets/messages/outbound-dbf7ecfa4c3664f7174deb855194d0061d0f2112ddf8cc0243c6438c6880cb7c.png"
         },
 
@@ -67,13 +67,13 @@ export default () =>{
         },
         {
             title: "可定制化工单系统",
-            desc: "打通售前售后环节，工单分配、转派、变更、提醒、业务流和SLA随心定制",
+            desc: "打通售前售后环节，用户订单分配、转派、变更、提醒、业务流和SLA随心定制",
             image: require("../images/63.png")
         },
 
         {
             title: "智能客服机器人",
-            desc: "7X24小时无间断服务，回答准确率最高可达97%;采用自然语言方式添加知识库，知识的添加和维护更加简单便捷",
+            desc: "7X24小时无间断服务，回答准确率最高可达97%;采用自然语言方式添加知识库，知识的添加和维护更加简单便捷；基于NLP的智能语音应答系统",
             image: require("../images/64.png")
         },
 
@@ -95,15 +95,15 @@ export default () =>{
                     
                     <div className={styles.g__c6}>
                         <div style={{height:"100px"}}></div>
-                        <h1>教育培训解决方案</h1>
+                        <h1>本地生活解决方案</h1>
                         <div className={styles.sp__5}>
                             <h2 style={{fontSize:"36px",fontWeight:"150"}}>
-                                提高广告投放效率，引导用户付费转化
+                                线上获客和线下交易的客户互动和工单流转平台
                             </h2>
                             <div style={{height:"10px"}}>
                             </div>
                             <h3 style={{color:'#888',fontWeight:"100"}}>
-                                提供从商机获取、客户互动和客户支持的客户全生命周期解决方案，助力业务发展
+                                线上线下一体化的会员营销、互动和支持系统与自动化工单系统相结合， 一站解决所有客户沟通和服务问题
                             </h3>
                             <div style={{height:"20px"}}>            
                             </div>

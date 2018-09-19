@@ -79,6 +79,18 @@
 .feature-desc {
     color: #888;
 }
+@media screen and (max-width:960px){
+
+    .feature-desc {
+        display:none;
+    }
+    .key-features-left{
+        min-width:100%;
+    }
+    .key-features-right{
+        min-width:100%;
+    }
+}
 
 .feature-desc.active {
     color: #888;
