@@ -144,19 +144,7 @@ export default () =>{
                             
                             
                             
-                            <Media query={{ maxWidth: 960 }}>
-                                {matches =>
-                                    matches ? (
-                                        
-                                        <EnterYourMobile size="large"/> 
-                                        
-                                    ) : (
-                                        <div className={styles.display_2}>
-                                        <EnterYourMobile size="middle"/> 
-                                        </div>
-                                    )
-                                }
-                            </Media>
+                            <EnterYourMobile size="middle" />
                             
 
                             <div style={{height:"20px"}}>            
