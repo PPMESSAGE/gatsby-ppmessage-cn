@@ -2248,8 +2248,26 @@
 .transform_200px{
     width:200px;
 }
+.Hamburger_div{
+    display:none;
+    margin-top:2em;
+}
+.g__c5_layouts{
+    width: 41.66667%;
+    min-width: 41.66667%;
+    max-width: 41.66667%;
+    flex-basis: 41.66667%;
+    flex: 0 0 auto;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 41.66667%;
+    padding-left:15px; 
+}
 @media screen and (max-width:960px){
     .nav__link{display:none}
+    .Hamburger_div{
+        display:block;
+    }
 
     .transform_200px{
         width:100%;

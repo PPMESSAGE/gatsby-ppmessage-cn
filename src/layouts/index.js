@@ -5,6 +5,7 @@ import Footer from "../components/footer.js";
 import NavDropdown  from "../components/navdropdown.js";
 import EnterYourMobile from "../components/enteryourmobile";
 import Media from "react-media";
+import Hamburger from "../components/hamburger";
 
 
 
@@ -13,8 +14,228 @@ export default ({ children }) =>(
         <div className={styles.nav}>
             <div className={styles.container}>
                 <a href="/" className={styles.brand__logo} ><img src="https://upload-images.jianshu.io/upload_images/12406336-2715eb7d8701e9c1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" />   
-                </a>
-                <div className={styles.nav__content}>
+                </a>                                                                         <div className={styles.nav__content}>
+                    <div className={styles.Hamburger_div}>
+                        <Hamburger>
+                            <div className={styles.g__row}>
+                                <div className={styles.g__c7_s}>
+                                    <div className={styles.t__h4}>
+                                        <font>
+                                            产品
+                                        </font>
+                                    </div>
+                                    <div className={styles.hr__grey}></div>
+                                    <div style={{height:"10px"}}></div>                                    
+                                    <a href="/product" className={styles.f__no_und_aways}>
+                                        <div className={styles.f__medium}>
+                                            <font style={{color:"black",fontSize:"16px"}}>
+                                                智能客服
+                                            </font>
+                                        </div>
+                                    </a>
+                                    <div style={{height:"10px"}}></div>
+                                    <a href="/marketing" className={styles.f__no_und_aways}>
+                                        <div className={styles.f__medium}>
+                                            <font style={{color:"black",fontSize:"16px"}}>
+                                                营销自动化
+                                            </font>
+                                        </div>
+                                    </a>
+                                    <div style={{height:"10px"}}></div>
+                                    <a href="/work-order" className={styles.f__no_und_aways}>
+                                        <div className={styles.f__medium}>
+                                            <font style={{color:"black",fontSize:"16px"}}>
+                                                工单系统
+                                            </font>
+                                        </div>
+                                    </a>
+                                    <div style={{height:"10px"}}></div>
+                                    <a href="/cloud-call-center" className={styles.f__no_und_aways}>
+                                        <div className={styles.f__medium}>
+                                            <font style={{color:"black",fontSize:"16px"}}>
+                                                云呼叫中心
+                                            </font>
+                                        </div>
+                                    </a>
+                                    <div style={{height:"10px"}}></div>
+                                    <a href="/robot-of-sale" className={styles.f__no_und_aways}>
+                                        <div className={styles.f__medium}>
+                                            <font style={{color:"black",fontSize:"16px"}}>
+                                                智能销售机器人
+                                            </font>
+                                        </div>
+                                    </a>
+                                    <div style={{height:"10px"}}></div>
+                                    <a href="/intelligent-customer-service-robot" className={styles.f__no_und_aways}>
+                                        <div className={styles.f__medium}>
+                                            <font style={{color:"black",fontSize:"16px"}}>
+                                                智能客服机器人
+                                            </font>
+                                        </div>
+                                    </a>
+                                    <div style={{height:"10px"}}></div>
+                                    <a href="/intlligent-speech-robot" className={styles.f__no_und_aways}>
+                                        <div className={styles.f__medium}>
+                                            <font style={{color:"black",fontSize:"16px"}}>
+                                                智能语音机器人
+                                            </font>
+                                        </div>
+                                    </a>
+                                    <div style={{height:"10px"}}></div>
+                                    <a href="/business-custom" className={styles.f__no_und_aways}>
+                                        <div className={styles.f__medium}>
+                                            <font style={{color:"black",fontSize:"16px"}}>
+                                                业务定制
+                                            </font>
+                                        </div>
+                                    </a>
+                                    
+                                    
+                                    <div style={{height:"30px"}}></div>
+                                    <div className={styles.t__h4}>
+                                        <font>
+                                            行业解决方案
+                                        </font>
+                                    </div>                                                               
+                                    <div className={styles.hr__grey}></div>
+                                    <div style={{height:"10px"}}></div>
+                                    <a href="/quick-sale-product-solutions" className={styles.f__no_und_aways}>
+                                        <div className={styles.f__medium}>
+                                            <font style={{color:"black",fontSize:"16px"}}>
+                                                快消品解决方案
+                                            </font>
+                                        </div>
+                                    </a>
+                                    <div style={{height:"10px"}}></div>
+                                    <a href="/commerce-solutions" className={styles.f__no_und_aways}>
+                                        <div className={styles.f__medium}>
+                                            <font style={{color:"black",fontSize:"16px"}}>
+                                                电商行业解决方案  
+                                            </font>
+                                        </div>
+                                    </a>
+                                    <div style={{height:"10px"}}></div>
+                                    <a href="/manufacturing-sulotions" className={styles.f__no_und_aways}>
+                                        <div className={styles.f__medium}>
+                                            <font style={{color:"black",fontSize:"16px"}}>
+                                                制造业解决方案  
+                                            </font>
+                                        </div>
+                                    </a>
+                                    <div style={{height:"10px"}}></div>
+                                    <a href="/automotive-service-solutions" className={styles.f__no_und_aways}>
+                                        <div className={styles.f__medium}>
+                                            <font style={{color:"black",fontSize:"16px"}}>
+                                                汽车服务解决方案   
+                                            </font>
+                                        </div>
+                                    </a>
+                                    <div style={{height:"10px"}}></div>
+                                    <a href="/education-training-solutions" className={styles.f__no_und_aways}>
+                                        <div className={styles.f__medium}>
+                                            <font style={{color:"black",fontSize:"16px"}}>
+                                                教育培训解决方案                                                           </font>
+                                        </div>
+                                    </a>
+                                    <div style={{height:"10px"}}></div>
+                                    <a href="/finacial-insurance-solutions" className={styles.f__no_und_aways}>
+                                        <div className={styles.f__medium}>
+                                            <font style={{color:"black",fontSize:"16px"}}>
+                                                金融保险解决方案                                                              </font>
+                                        </div>
+                                    </a>
+                                    <div style={{height:"10px"}}></div>
+                                    <a href="/medical-health-solutions" className={styles.f__no_und_aways}>
+                                        <div className={styles.f__medium}>
+                                            <font style={{color:"black",fontSize:"16px"}}>
+                                                医疗健康解决方案                                                                 </font>
+                                        </div>
+                                    </a>
+                                    <div style={{height:"10px"}}></div>
+                                    <a href="/restaurant-chain-solution" className={styles.f__no_und_aways}>
+                                        <div className={styles.f__medium}>
+                                            <font style={{color:"black",fontSize:"16px"}}>
+                                                餐饮连锁解决方案                                                           </font>
+                                        </div>
+                                    </a>
+                                    <div style={{height:"10px"}}></div>
+                                    <a href="/local-living-solution" className={styles.f__no_und_aways}>
+                                        <div className={styles.f__medium}>
+                                            <font style={{color:"black",fontSize:"16px"}}>
+                                                本地生活解决方案                                                           </font>
+                                        </div>
+                                    </a>
+                                    <div style={{height:"10px"}}></div>
+                                    <a href="/real-estate-proper-solution" className={styles.f__no_und_aways}>
+                                        <div className={styles.f__medium}>
+                                            <font style={{color:"black",fontSize:"16px"}}>
+                                                房产物业解决方案
+                                            </font>
+                                        </div>
+                                    </a>
+                                    <div style={{height:"10px"}}></div>
+                                    <a href="/tourism-hotel-industry-solutions" className={styles.f__no_und_aways}>
+                                        <div className={styles.f__medium}>
+                                            <font style={{color:"black",fontSize:"16px"}}>
+                                                旅游酒店行业解决方案  
+                                            </font>
+                                        </div>
+                                    </a>
+                                    <div style={{height:"10px"}}></div>
+                                    <a href="/government-solutions" className={styles.f__no_und_aways}>
+                                        <div className={styles.f__medium}>
+                                            <font style={{color:"black",fontSize:"16px"}}>
+                                                政府与事业单位解决方案  
+                                            </font>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div className={styles.g__c5_layouts}>
+                                    <div className={styles.t__h4}>
+                                        <font>
+                                            产品资源
+                                        </font>
+                                    </div>
+                                    <div className={styles.hr__grey}></div>
+                                    <div style={{height:"10px"}}></div>
+                                    <a href="#" className={styles.f__no_und_aways}>
+                                        <div className={styles.f__medium}>
+                                            <font style={{color:"black",fontSize:"16px"}}>
+                                                帮助中心  
+                                            </font>
+                                        </div>
+                                    </a>
+                                    <div style={{height:"10px"}}></div>
+                                    <a href="#" className={styles.f__no_und_aways}>
+                                        <div className={styles.f__medium}>
+                                            <font style={{color:"black",fontSize:"16px"}}>
+                                                开发者文档  
+                                            </font>
+                                        </div>
+                                    </a>
+                                    <div style={{height:"30px"}}></div>
+                                    <a href="/pricing" className={styles.f__no_und_aways}>
+                                        <font style={{color:"black"}}>
+                                            <div className={styles.t__h4}>
+                                                <font>
+                                                    定价
+                                                </font>
+                                            </div>
+                                        </font>
+                                    </a>
+                                    <div style={{height:"10px"}}></div>
+                                    <a href="#" className={styles.f__no_und_aways}>
+                                        <font style={{color:"black"}}>
+                                            <div className={styles.t__h4}>
+                                                <font>
+                                                    登录
+                                                </font>
+                                            </div>
+                                        </font>
+                                    </a>                                                                     </div>
+                            </div>
+                        </Hamburger>
+                    </div>
                     <div className={styles.nav__link}>
                         <NavDropdown title="产品">
                             <div className={styles.g__row}>
