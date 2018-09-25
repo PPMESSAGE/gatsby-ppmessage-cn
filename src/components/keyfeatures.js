@@ -67,8 +67,8 @@ class KeyFeatures extends React.Component {
                 return (
                     <div key={i} value={i}>
                         <img src={feature.image} />
-                        <div>{feature.title}</div>
-                        <div>{feature.desc}</div>
+                        <div className="feature-title">{feature.title}</div>
+                        <div className="feature-desc">{feature.desc}</div>
                     </div>
                 )
             });
