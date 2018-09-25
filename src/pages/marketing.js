@@ -603,54 +603,8 @@ export default () => (
                 </div>              
             </section>
 
-            <div className={styles.marketing_300px}></div>
+           
             
-            <section className={styles.section}>
-                <div className={styles.container}>
-                    <img src="https://marketing.intercomassets.com/assets/homepage/v2/visual-3-7ec9bf9d3ed4d4b9b01bb24343a9a31472b42251efc3ef95b24462bc45028c63.png" className={styles.homepage__customers__swiggle__bottom__right} />
-                    <div className={styles.g__c6_marketing}>
-                        <img src="https://marketing.intercomassets.com/assets/homepage/v2/visual-1-6c228c8e18d784836347395a1afc424cd617ee8c9e02540cfe124a41acca998f.png"width="374" className={styles.homepage__custom__swiggle__top__left} />
-                        <img src="https://marketing.intercomassets.com/assets/homepage/v2/visual-2-8b19526e56c6b81485f309ad0656821963047f3eeda17b11c2427f508ee2849a.png"   className={styles.homepage__customers__swiggle__top__right} width="156" />
-                        <div className={styles.device__grey}>
-                            <div className={styles.t__h2}>
-                                <font>" PPMESSAGE 是一个无价的工具，可以帮助我们通过渠道的每一步推动销售和支持。"
-                                </font>
-                                
-                                <div style={{height:'20px'}}></div>
-                                <img src="https://marketing.intercomassets.com/assets/homepage/v2/expensify-6ea3e0b82939a6c4f31fe1d8af8802bf6cbf2184c57393cb93cf499c5b0f5f45.svg" />
-                            </div>
-                        </div>
-                    </div>
-                    <div className={styles.g__c5}>
-                        <div className={styles.g__row}>
-                            <div className={styles.g__c6}>
-                                <img src="https://marketing.intercomassets.com/assets/homepage/v2/new-relic-17b7a72db9c90c9b2b05c98e6dbaa24c2866deb9b5de4e562fb2c7dbeb9ed68d.svg" />
-                                <div style={{height:'1px'}}></div>
-                                <div className={styles.t__small}>
-                                    <font color="#888">消息参与度提升2.5倍
-                                    </font>
-                                </div>
-                            </div>
-                            <div className={styles.g__c6}>
-                                <img src="https://marketing.intercomassets.com/assets/homepage/v2/new-relic-17b7a72db9c90c9b2b05c98e6dbaa24c2866deb9b5de4e562fb2c7dbeb9ed68d.svg" />
-                                <div style={{height:'1px'}}></div>
-                                <div className={styles.t__small}>
-                                    <font color="#888">对讲机驱动了40％的预订销售演示
-                                    </font>
-                                </div>
-                            </div>
-                            <div className={styles.g__c6}>
-                                <img src="https://marketing.intercomassets.com/assets/homepage/v2/new-relic-17b7a72db9c90c9b2b05c98e6dbaa24c2866deb9b5de4e562fb2c7dbeb9ed68d.svg" />
-                                <div style={{height:'1px'}}></div>
-                                <div className={styles.t__small}>
-                                    <font color="#888">推动合格销售机会增加32％，并将销售周期缩短18天
-                                    </font>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
 
             
 
