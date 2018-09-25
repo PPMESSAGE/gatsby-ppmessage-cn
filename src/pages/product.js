@@ -5,7 +5,9 @@ import FeatherModal from "../components/feathermodal"
 
 
 
+import Layout from "./layout";
 export default () => (
+	<Layout>
     <div className={styles.heiti}>
         <div style={{height:`72px`}}></div>
         <div className={styles.container__narrower}>
@@ -771,4 +773,5 @@ export default () => (
         </section> 
         <div style={{height:"5em"}}></div>    
     </div>
+	</Layout>
 );

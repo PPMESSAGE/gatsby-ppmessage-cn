@@ -2,7 +2,9 @@ import React from "react";
 import styles from "./about-us.module.css";
 import TabsControl from "../components/tabscontrol";
 
+import Layout from "./layout";
 export default () => (
+	<Layout>
     <div className={styles.heiti}>
        
 
@@ -337,6 +339,7 @@ export default () => (
         
     </div>
 
+	</Layout>
 
 
 
