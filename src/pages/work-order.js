@@ -7,9 +7,9 @@ import Layout from "./layout";
 export default () => (
 	<Layout>
     <div className={styles.heiti}>
-        <div style={{height:`72px`}}></div>
+        <div style={{height:`144px`}}></div>
         <div className={styles.container__narrower}>
-            <div className={styles.g__row} style={{paddingLeft:"80px"}}>
+            <div className={styles.g__row} >
                 <div className={styles.g__c6}>
                     <h1>工单系统</h1>
                     <div className={styles.sp__5}>
@@ -22,6 +22,7 @@ export default () => (
                         <div style={{height:"20px"}}>            
                         </div>
                         <EnterYourMobile size="middle" />                                            <div className={styles.t__small}>
+                            <div style={{height:"15px"}}></div>
                             <div className={styles.list__bulletinline}>
                                 <font style={{color:'#888'}}>免费试用 · 易于安装
                                 </font>        
@@ -45,7 +46,7 @@ export default () => (
             <div className={styles.container_z}>
                 <div className={styles.g__row_center}>
                     <div className={styles.g__c6}>
-                        <img width="500" src="https://qiyukf.nosdn.127.net/main/res/img/worksheet/intro-2@2x_039b498ba37faaceed6e6e357521a58c.png" />
+                        <img width="500" src={require("../images/71.jpeg")} />
                     </div>
                     <div className={styles.g__c5_z}>
 
@@ -165,7 +166,7 @@ export default () => (
             <div className={styles.container_z}>
                 <div className={styles.g__row_center}>
                     <div className={styles.g__c6}>
-                        <img width="500" src="https://qiyukf.nosdn.127.net/main/res/img/worksheet/intro-4@2x_e20c0b5b4e82448b0762dcc536e8dd5e.png" />
+                        <img width="500" src={require("../images/72.jpeg")} />
                     </div>
                     <div className={styles.g__c5_z}>
 

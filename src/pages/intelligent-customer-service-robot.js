@@ -8,7 +8,7 @@ export default () => (
 
 	<Layout>
     <div className={styles.heiti}>
-        <div style={{height:"72px"}}></div>
+        <div style={{height:"144px"}}></div>
         <div className={styles.container__narrower}>
             <div className={styles.g__row}>
                 <div className={styles.g__c6}>

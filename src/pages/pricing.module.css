@@ -56,10 +56,10 @@
     flex-direction: row;
     margin: -20px;
 }
-.g__c4{
+.g__c4_pring{
     width: 33.33333%;
-    min-width: 33.33333%;
-    max-width: 33.33333%;
+    min-width: 25%;
+    max-width: 25%;
     flex-basis: 33.33333%;
     flex: 0 0 auto;
     -webkit-box-flex: 0;

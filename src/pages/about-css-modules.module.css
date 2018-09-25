@@ -810,6 +810,11 @@
     transition: opacity .5s;
     text-align: center;
 }
+.chuangjian_marketing:hover .product__learn_more{
+    opacity:0.8;
+    transition: opacity .5s;
+    text-align: center;
+}
 .chuangjian_tranform1:hover .product__learn_more{
     opacity:0.8;
     transition:opacity .5s;
@@ -1174,6 +1179,13 @@
     height:0px;
     text-align:center;
     max-width:300px;
+}
+.t__small_s_marketing{
+    font-size: 14px;
+    letter-spacing: .15px;
+    height:0px;
+    text-align:center;
+    
 }
 .t__small_s1{
     font-size: 14px;
@@ -2196,11 +2208,10 @@
 .chuangjian_marketing{
     padding-right:0em;
     display:block;
-    margin-left:auto;
-    margin-right:auto;
+    width:33.333%;
 }
 .marketing_section{
-    margin-left:15em;
+    margin-left:0em;
 }
 .marketing_300px{
     height:300px;
@@ -2327,6 +2338,9 @@
     .nav__link{display:none}
     .Hamburger_div{
         display:block;
+    }
+    .chuangjian_marketing{
+        width:100%;
     }
     .homepage__customers__swiggle__bottom__right{
         display:none;
