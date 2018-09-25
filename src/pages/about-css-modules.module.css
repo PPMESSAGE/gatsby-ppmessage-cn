@@ -1981,7 +1981,7 @@
 .clear{
     display:flex;
 }
-.logo_container{
+.logo_container {
     width: 1170px;
     min-width: 0;
     margin-right: auto;
@@ -1991,6 +1991,7 @@
 .row_logo{
     min-height: 1px;
     clear: both;
+    display: flex;
     margin-left: -15px;
     margin-right: -15px;
 }
