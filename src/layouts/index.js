@@ -18,7 +18,7 @@ export default ({ children }) =>(
                     <div className={styles.Hamburger_div}>
                         <Hamburger>
                             <div className={styles.g__row}>
-                                <div className={styles.g__c7_s}>
+                                <div className={styles.g__c7_s} style={{"padding":"20px"}}>
                                     <div className={styles.t__h4}>
                                         <font>
                                             产品
@@ -190,7 +190,7 @@ export default ({ children }) =>(
                                         </div>
                                     </a>
                                 </div>
-                                <div className={styles.g__c5_layouts}>
+                                <div className={styles.g__c5_layouts} style={{"padding":"20px"}}>
                                     <div className={styles.t__h4}>
                                         <font>
                                             产品资源

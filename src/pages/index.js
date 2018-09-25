@@ -279,16 +279,12 @@ export default () =>{
                     <div style={{height:"30px"}}>
                     </div>
                     <div className={styles.g__row3}>
-                        <div className={styles.g__row}>
+                        <div className={styles.g__row} style={{"justifyContent": "center"}}>
                             <div className={styles.g__c4}>            
                                 <div className={styles.u__flex}>
                                     <div className={styles.main1}>
                                         <div className={styles.sp__2}></div>
                                         <div className={styles.label}>
-
-                                            
-
-                                            
                                             <h3>获取和转化线索
                                             </h3>
                                             <font className={styles.ziti}> 通过与网站访客实时互动获取销售线索，通过AI工具评估和分配线索，通过全渠道自动化营销工具将线索转化为商机

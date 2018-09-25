@@ -1,5 +1,7 @@
 import React from 'react'
 
+import Slider from 'react-slick'
+
 import "./keyfeatures.css"
 
 // {abstract: {icon:, title:, desc:}}
@@ -10,10 +12,31 @@ class KeyFeatures extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            highlight_item: 0
+            highlight_item: 0,
+            is_mobile: false
         }
 
         this.clickFeature = this.clickFeature.bind(this);
+        this.resize = this.resize.bind(this);
+    }
+
+    resize() {
+        if (window.innerWidth < 960) {
+            this.setState({is_mobile: true});
+            console.log("set true");
+        } else {
+            this.setState({is_mobile: false});
+            console.log("set false");
+        }
+    }
+    
+    componentWillUnmount() {       
+        window.removeEventListener('resize', this.resize);
+    }
+
+    componentDidMount() {
+        this.resize();
+        window.addEventListener('resize', this.resize);
     }
 
     clickFeature(feature, e) {
@@ -28,7 +51,31 @@ class KeyFeatures extends React.Component {
             feature.feature_id = i;
             return feature;
         });
-        
+
+
+        if (this.state.is_mobile) {
+            const settings = {
+                dots: true,
+                infinite: true,
+                speed: 500,
+                swipeToSlide: true,
+                slidesToShow: 1,
+                slidesToScroll: 1
+            };
+
+            let _feature_mobile_list = this.props.features.map((feature, i)=> {
+                return (
+                    <div key={i} value={i}>
+                        <img src={feature.image} />
+                        <div>{feature.title}</div>
+                        <div>{feature.desc}</div>
+                    </div>
+                )
+            });
+            return (<Slider {...settings}>{_feature_mobile_list}</Slider>)
+        }
+
+                
         let feature_desc_list = this.props.features.map((feature, i)=> {
             let _class = "feature-item";
             let _title_class = "feature-title"
@@ -75,7 +122,8 @@ class KeyFeatures extends React.Component {
                 </div>
             )
         }
-        return (
+
+        let _pc_features = (
             <div className="key-features">
                 <div className="key-features-right">
                     {feature_image_list}
@@ -86,7 +134,9 @@ class KeyFeatures extends React.Component {
                     </div>
                 </div>
             </div>
-        )
+        );
+        
+        return _pc_features;
     }
 }
 

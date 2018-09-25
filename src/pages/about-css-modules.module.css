@@ -1,3 +1,4 @@
+
 .nav {
     height: 72px;
     top: 0;
@@ -2273,6 +2274,8 @@
     .g__c4{
         width: 100%;
         max-width:100%;
+        display: flex;
+        justify-content: center;
     }
     
 }
