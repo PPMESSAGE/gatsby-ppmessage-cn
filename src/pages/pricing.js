@@ -3,6 +3,7 @@ import styles from "./pricing.module.css";
 import EnterYourMobile from "../components/enteryourmobile";
 import TabsControl from "../components/tabscontrol";
 import ReactTooltip from 'react-tooltip';
+import WorthCompany from "../components/worthcompany"
 
 import Layout from "./layout";
 export default () => (
@@ -661,7 +662,7 @@ export default () => (
                                             <font></font>
                                         </div>
                                         <span className={styles.t__h2}>
-                                            <font>¥ 15，000元
+                                            <font>¥ 15,000元
                                             </font>
                                         </span>
                                         <font className={styles.vertical}>/年
@@ -677,21 +678,56 @@ export default () => (
 
                                 <TabsControl>
                                     <div name = "套餐内容">                                                              <table className={styles.pricing__table}>
-                                        <thead>
+                                        {/*
+                                            <thead>
                                             <tr>
-                                                <th style={{borderBottom:"none"}}><font>固定每月价格</font>
-                                                </th>
-                                                {/*<th style={{borderBottom:"none"}}><font>必要</font>
-                                                    </th>
-                                                    <th style={{borderBottom:"none"}}><font>临</font>
-                                                    </th>*/}
+                                            <th style={{borderBottom:"none"}}><font></font>
+                                            </th>
+                                            <th style={{borderBottom:"none"}}><font>必要</font>
+                                            </th>
+                                            <th style={{borderBottom:"none"}}><font>临</font>
+                                            </th>
                                             </tr>
-                                        </thead>
+                                            </thead>
+                                          */}
                                         <tbody>
                                             <tr>
-                                                <td style={{borderBottom:"none"}}><font>包括无限的文章</font>
+                                                <td style={{borderBottom:"none"}}><font>在线客服（座席）</font>
                                                 </td>
-                                                
+                                                <td style={{borderBottom:"none"}}><font>&lt;20</font>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style={{borderBottom:"none"}}><font>应用内消息</font>
+                                                </td>
+                                                <td style={{borderBottom:"none"}}><font>&lt;10,000条/年</font>
+                                                </td>
+                                                <td style={{borderBottom:"none"}}><font></font>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style={{borderBottom:"none"}}><font>工单系统</font>
+                                                </td>
+                                                <td style={{borderBottom:"none"}}><font>&lt;10,000条/年</font>
+                                                </td>
+                                                <td style={{borderBottom:"none"}}><font></font>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style={{borderBottom:"none"}}><font>邮件、短信消息</font>
+                                                </td>
+                                                <td style={{borderBottom:"none"}}><font>&lt;10,000条/年</font>
+                                                </td>
+                                                <td style={{borderBottom:"none"}}><font></font>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style={{borderBottom:"none"}}><font>客服机器人</font>
+                                                </td>
+                                                <td style={{borderBottom:"none"}}><font>不限消息数</font>
+                                                </td>
+                                                <td style={{borderBottom:"none"}}><font></font>
+                                                </td>
                                             </tr>
 
                                             {/*<tr>
@@ -749,69 +785,110 @@ export default () => (
                                         </tbody>
                                     </table>
                                     </div>
-                                    <div name = "查看功能">
+                                    <div name = "套餐功能">
 
                                         <table className={styles.pricing__table}>
-                                            <thead>
+                                            {/*
+                                                <thead>
                                                 <tr>
-                                                    <th><font>特征</font>
-                                                    </th>
-                                                    <th><font>必要</font>
-                                                    </th>
-                                                    <th><font>临</font>
-                                                    </th>
+                                                <th><font>特征</font>
+                                                </th>
+                                                <th><font>必要</font>
+                                                </th>
+                                                <th><font>临</font>
+                                                </th>
                                                 </tr>
-                                            </thead>
+                                                </thead>
+                                              */}
                                             <tbody>
                                                 <tr>
                                                     <td>
-                                                        <font>自动和手动信息
+                                                        <font>
+                                                            对话记录永久保存
                                                         </font>
                                                     </td>
                                                     <td>
-                                                        <img src="https://upload-images.jianshu.io/upload_images/12406336-5d3b6fe78815da25.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" style={{marginBottom:"0"}} />
+                                                        
                                                     </td>
                                                     <td>
-                                                        <img src="https://upload-images.jianshu.io/upload_images/12406336-5d3b6fe78815da25.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" style={{marginBottom:"0"}} />
+                                                        
                                                     </td>
                                                 </tr>
 
                                                 <tr>
                                                     <td>
-                                                        <font>受众群体定位
+                                                        <font>
+                                                            无限访客并发
                                                         </font>
                                                     </td>
                                                     <td>
-                                                        <img src="https://upload-images.jianshu.io/upload_images/12406336-5d3b6fe78815da25.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" style={{marginBottom:"0"}} />
                                                     </td>
                                                     <td>
-                                                        <img src="https://upload-images.jianshu.io/upload_images/12406336-c4bc854e9fa9638b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" style={{marginBottom:"0"}} />
+                                                        
                                                     </td>
                                                 </tr>
 
                                                 <tr>
                                                     <td>
-                                                        <font>消息调度
+                                                        <font>自定义对话分配
                                                         </font>
                                                     </td>
                                                     <td>
-                                                        <img src="https://upload-images.jianshu.io/upload_images/12406336-5d3b6fe78815da25.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" style={{marginBottom:"0"}} />
+                                                        
                                                     </td>
                                                     <td>
-                                                        <img src="https://upload-images.jianshu.io/upload_images/12406336-c4bc854e9fa9638b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" style={{marginBottom:"0"}} />
+                                                        
                                                     </td>
                                                 </tr>
 
                                                 <tr>
                                                     <td>
-                                                        <font>触发时间
+                                                        <font>应用内主动消息
                                                         </font>
                                                     </td>
                                                     <td>
-                                                        <img src="https://upload-images.jianshu.io/upload_images/12406336-5d3b6fe78815da25.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" style={{marginBottom:"0"}}  />
+                                                        
                                                     </td>
                                                     <td>
-                                                        <img src="https://upload-images.jianshu.io/upload_images/12406336-c4bc854e9fa9638b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" style={{marginBottom:"0"}} />
+                                                        
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <font>业务触发的邮件、短信消息
+                                                        </font>
+                                                    </td>
+                                                    <td>
+                                                        
+                                                    </td>
+                                                    <td>
+                                                        
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <font>
+                                                            工单系统
+                                                        </font>
+                                                    </td>
+                                                    <td>
+                                                        
+                                                    </td>
+                                                    <td>
+                                                        
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <font>
+                                                            客服机器人
+                                                        </font>
+                                                    </td>
+                                                    <td>
+                                                        
+                                                    </td>
+                                                    <td>
+                                                        
                                                     </td>
                                                 </tr>
 
@@ -824,34 +901,6 @@ export default () => (
                                 </TabsControl>
 
                                 
-                            </div>
-
-                            <div className={styles.g__c3} style={{padding:"40px"}}>
-                                <div style={{height:"20px"}}></div>
-                                <div className={styles.f__center}>
-                                    <a href="#" >
-                                        <botton className={styles.btn}> 
-                                            <font>免费试用文章
-                                            </font>
-                                        </botton>
-                                    </a>
-                                </div>
-                                <div className={styles.t__small}>
-                                    <div className={styles.list__bulletinline}>
-                                        <font>免费试用14天 </font>
-                                    </div>
-                                </div>
-                                {/*<div style={{height:"20px"}}></div>
-                                    <div className={styles.f__bold}>
-                                    <font>
-                                    什么是活跃的人? 
-                                    </font>
-                                    </div>
-                                    <div style={{height:"10px"}}></div>
-                                    <p className={styles.pricing__metric}>
-                                    <font>在过去90天内收到您的消息，向您发送消息或已登录您的应用或网站的潜在客户和客户
-                                    </font>
-                                    </p>*/}
                             </div>
                             
                         </div>
@@ -870,6 +919,7 @@ export default () => (
                             </div>
                         </a>
                     </div>
+                    
                     <div style={{height:"100px"}}></div>
                     <div className={styles.t__h2} style={{textAlign:"center"}}>
                         <font>推荐用例
@@ -945,84 +995,11 @@ export default () => (
                     </div>
                 </div>
                 <div style={{height:"140px"}}></div>
-                <p className={styles.t__h3_grey}>
-                    <font>为全球发展最快的企业每月提供500,000,000次对话
-                    </font>
-                </p>
-                <div style={{height:"40px"}}></div>
-                <div className={styles.g__row_center3}>
-                    <img src="https://upload-images.jianshu.io/upload_images/12406336-5fd5bc8dcbc3b852.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" />
-                </div>
             </section>
 
-            <section>
-                <div className={styles.container__narrower}>
-                    <div style={{height:"150px"}}></div>
-                    <div className={styles.g__row_center3}>
-                        <p className={styles.t__h2}><font style={{fontWeight:"300"}}>经常问的问题</font>
-                        </p>
-                    </div>
-                    <div style={{height:"40px"}}></div>
-                    <div className={styles.g__row}>
-                        <div className={styles.g__c4}>
-                            <div className={styles.f__bold}>
-                                <font style={{color:"black",fontWeight:"400",fontSize:"18px"}}>我可以免费试用对讲吗？</font>
-                            </div>
-                            <div style={{height:"10px"}}></div>
-                            <div>
-                                <font style={{fontWeight:"100",fontSize:"18px"}}>您可以免费试用任何产品14天。您可以随时购买，升级或取消。
-                                </font>
-                            </div>
-                        </div>
-                        
-                        <div className={styles.g__c4}>
-                            <div className={styles.f__bold}>
-                                <font style={{color:"black",fontWeight:"400",fontSize:"18px"}}>我可以免费试用对讲吗？</font>
-                            </div>
-                            <div style={{height:"10px"}}></div>
-                            <div>
-                                <font style={{fontWeight:"100",fontSize:"18px"}}>您可以免费试用任何产品14天。您可以随时购买，升级或取消。
-                                </font>
-                            </div>
-                        </div>
-
-
-                        <div className={styles.g__c4}>
-                            <div className={styles.f__bold}>
-                                <font style={{color:"black",fontWeight:"400",fontSize:"18px"}}>我可以免费试用对讲吗？</font>
-                            </div>
-                            <div style={{height:"10px"}}></div>
-                            <div>
-                                <font style={{fontWeight:"100",fontSize:"18px"}}>您可以免费试用任何产品14天。您可以随时购买，升级或取消。
-                                </font>
-                            </div>
-                        </div>
-
-
-                        <div className={styles.g__c4}>
-                            <div className={styles.f__bold}>
-                                <font style={{color:"black",fontWeight:"400",fontSize:"18px"}}>我可以免费试用对讲吗？</font>
-                            </div>
-                            <div style={{height:"10px"}}></div>
-                            <div>
-                                <font style={{fontWeight:"100",fontSize:"18px"}}>您可以免费试用任何产品14天。您可以随时购买，升级或取消。
-                                </font>
-                            </div>
-                        </div>
-
-
-
-
-                        {/*在此处添加常见问题*/}
-                        
-                    </div>
-                </div>
-            </section>
+            <section><WorthCompany /></section>
             
-            {/*做完网站删除*/}
             <div style={{height:"60px"}}></div> 
-            {/*做完网站删除*/}
-            
         </div>
 	</Layout>
 );
