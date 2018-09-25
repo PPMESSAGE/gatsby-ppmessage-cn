@@ -421,6 +421,17 @@
     flex-direction: row;
     margin: -20px;
 }
+.g__row_marketing{
+    display: flex;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    margin: -20px;
+    width:100%;
+}
 
 .cta__form{
     display: flex;
@@ -757,6 +768,7 @@
     display:inline-block;
     padding-right:5em;    
 }
+
 .chuangjian_tranform2{
     display:inline-block;
     padding-right:5em;
@@ -1159,9 +1171,9 @@
 .t__small_s{
     font-size: 14px;
     letter-spacing: .15px;
-    max-width:300px;
     height:0px;
     text-align:center;
+    max-width:300px;
 }
 .t__small_s1{
     font-size: 14px;
@@ -1294,6 +1306,7 @@
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
 }
+
 .g__row_f{
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2180,11 +2193,60 @@
     .nav__cta{display:none}
     .col_2{width: 33.33333333%;}    
 }
-
+.chuangjian_marketing{
+    padding-right:0em;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+.marketing_section{
+    margin-left:15em;
+}
+.marketing_300px{
+    height:300px;
+}
+.g__c6_marketing{
+    width: 50%;
+    min-width: 50%;
+    max-width: 50%;
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    padding:31px;
+}
 @media screen and (max-width:960px){
     .nav__cta{display:none}
     .section_transform{
         display:none;
+    }
+    .g__row_marketing{
+        margin-right:auto;
+        margin-left:auto;
+    }
+    
+    .g__c6_marketing{
+        display:none;
+    }
+    .g__c5{
+        min-width:100%;
+    }
+    .marketing_300px{
+        display:none;
+    }
+    .marketing_section{
+        margin-left:0;
+    }
+    .g__c5{
+        margin-left:0em;
+    }
+    .g__c3{
+        text-align:center;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    .g__c8{
+        min-width:100%;
     }
     .u__inline_transform{
         width:100%;
@@ -2212,10 +2274,8 @@
         width: 100%;
         max-width:100%;
     }
- 
+    
 }
-
-
 .nav__content_1{
     margin-left: auto;
     color: #000;
@@ -2268,11 +2328,15 @@
     .Hamburger_div{
         display:block;
     }
-
+    .homepage__customers__swiggle__bottom__right{
+        display:none;
+    }
     .transform_200px{
         width:100%;
     }
-
+    .chuangjian{
+        padding-right:0em;
+    }
     .chuangjian_tranform1{
         display:inline-block;
         padding-left:1em;
@@ -2396,6 +2460,7 @@
     bottom: -6px;
     box-sizing: inherit;
 }
+
 .text{
     background-color:white;
     height:800%;

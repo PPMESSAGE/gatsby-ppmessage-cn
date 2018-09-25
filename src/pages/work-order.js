@@ -29,7 +29,7 @@ export default () => (
                 </div>
                 <div className={styles.g__c6}>
                     <div>
-                        <img src="http://www.kf5.com/images/gfx/ticket-banner1.png" />
+                        <img src={require("../images/index.jpeg")} />
                     </div>
                 </div>
             </div>  

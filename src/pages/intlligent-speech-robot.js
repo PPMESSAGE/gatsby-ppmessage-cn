@@ -34,7 +34,7 @@ export default () => (
                 </div>
                 <div className={styles.g__c6}>
                     <div>
-                        <img style={{maxWidth:"none"}} src={require("../images/67.png")} />
+                        <img src={require("../images/index.jpeg")} />
                     </div>
                 </div>
             </div>  

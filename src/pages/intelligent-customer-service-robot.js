@@ -7,33 +7,41 @@ export default () => (
 
     <div className={styles.heiti}>
         <div style={{height:"72px"}}></div>
-        <div className={styles.container}>
-            
-        </div>
-        <div className={styles.container}>
-            <div className={styles.bg__light} style={{backgroundColor:"white"}}>
-                
-                
-                <div className={styles.u__zfix}>
-                    <h1 className={styles.t__h1}>
-                        人机融合，助力客户服务创新升级
-                    </h1>
-                    <div style={{height:"10px"}}></div>
-                    <h2 className={styles.t__h3}>
-                        <font>
+        <div className={styles.container__narrower}>
+            <div className={styles.g__row}>
+                <div className={styles.g__c6}>
+                    <h1>智能客服机器人</h1>
+                    <div className={styles.sp__5}>
+                        <h2 style={{margin:'5rem 0rem 0rem 0rem'}}>
                             人机融合，助力客户服务创新升级
-                        </font>
-                    </h2>                    
-                    <div className={styles.t__small}>
-                        免费试用14天 易于安装
+                        </h2>
+                        <div style={{height:"10px"}}>
+                        </div>
+                        <h3 style={{color:'#888'}}><font className={styles.biaoti}>在您的网站，移动应用，电子邮件和社交网络中分配，回复和关闭对话</font>
+                        </h3>
+                        <div style={{height:"20px"}}>            
+                        </div>
+                        <div>
+                            <EnterYourMobile size="middle"/>                            
+                        </div>
+                        <div className={styles.t__small}>
+                            <div className={styles.list__bulletinline}>
+                                <font style={{color:'#888'}}>免费试用 · 易于安装 · 
+                                </font>        
+                            </div>
+                        </div>
                     </div>
-                    <div style={{height:"20px"}}></div>
+                </div>
+                <div className={styles.g__c6}>
                     <div>
-                        <img src={require("../images/robot.jpg") } />
+                        <img src={require("../images/index.jpeg")} />
                     </div>
-                </div>                
-            </div>
+                </div>
+            </div>  
         </div>
+
+
+        
         <div className={styles.detail_new}>
             <div className={styles.detail_new_s}>
                 <h2 className={styles.h2_s}>

@@ -35,87 +35,87 @@ export default () => (
                 </div>
                 <div className={styles.g__c6}>
                     <div>
-                        <img src="https://upload-images.jianshu.io/upload_images/12406336-f98ec2e24df43eb4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" />
+                        <img src={require("../images/index.jpeg")} />
                     </div>
                 </div>
             </div>  
         </div>
 
 
-        <section style={{margin:"0em 0em 0em 15em"}}>
+        <section  className={styles.marketing_section}>
             <div className={styles.container}>
-                <div className={styles.g__row}>
-                    <div className={styles.g__c3}>
-                        <div className={styles.chuangjian} style={{paddingRight:"15em"}}>
-                            <a href="#xifen" className={styles.lianjie}>
-                                <div>                
-                                </div>
-                                <div style={{height:'5em'}}></div>                           
-                                <div className={styles.t__h3}>
-                                    <font >客户细分
-                                    </font>
-                                </div>
-                                <div style={{height:'5px'}}></div>
-                                <div className={styles.t__small_s}>
-                                    <font >根据客户行为和时间发送有针对性的消息
-                                    </font>                  
-                                </div>
-                                <div className={styles.product__learn_more}>
-                                    <div style={{height:'2em'}}></div>
-                                    <span>
-                                        <font className={styles.smallerbiaoti}>了解更多</font>
-                                    </span>                  
-                                </div>
-                                
-                            </a>
-                        </div>
+                <div className={styles.g__row_marketing}>
+                    
+                    <div className={styles.chuangjian}>
+                        <a href="#xifen" className={styles.lianjie}>
+                            <div>                
+                            </div>
+                            <div style={{height:'5em'}}></div>                           
+                            <div className={styles.t__h3}>
+                                <font >客户细分
+                                </font>
+                            </div>
+                            <div style={{height:'5px'}}></div>
+                            <div className={styles.t__small_s}>
+                                <font >根据客户行为和时间发送有针对性的消息
+                                </font>                  
+                            </div>
+                            <div className={styles.product__learn_more}>
+                                <div style={{height:'2em'}}></div>
+                                <span>
+                                    <font className={styles.smallerbiaoti}>了解更多</font>
+                                </span>                  
+                            </div>
+                            
+                        </a>
+                    </div>
 
-                        <div className={styles.chuangjian} style={{paddingRight:"15em"}}>
-                            <a href="#fasong" className={styles.lianjie}>
-                                <div>                
-                                </div>
-                                <div style={{height:'5em'}}></div>                           
-                                <div className={styles.t__h3}>
-                                    <font >消息发送
-                                    </font>
-                                </div>
-                                <div style={{height:'5px'}}></div>
-                                <div className={styles.t__small_s}>
-                                    <font >发送手动或事件触发的自动消息
-                                    </font>
-                                </div>
+                    <div className={styles.chuangjian}>
+                        <a href="#fasong" className={styles.lianjie}>
+                            <div>                
+                            </div>
+                            <div style={{height:'5em'}}></div>                           
+                            <div className={styles.t__h3}>
+                                <font >消息发送
+                                </font>
+                            </div>
+                            <div style={{height:'5px'}}></div>
+                            <div className={styles.t__small_s}>
+                                <font >发送手动或事件触发的自动消息
+                                </font>
+                            </div>
 
-                                <div className={styles.product__learn_more}>
-                                    <div style={{height:'2em'}}></div>
-                                    <span>
-                                        <font className={styles.smallerbiaoti}>了解更多</font>
-                                    </span>                  
-                                </div>                
-                            </a>
-                        </div>
-                        <div className={styles.chuangjian} >
-                            <a href="#youhua" className={styles.lianjie}>
-                                <div>                
-                                </div>
-                                <div style={{height:'5em'}}></div>                           
-                                <div className={styles.t__h3}>
-                                    <font >评估及优化
-                                    </font>
-                                </div>
-                                <div style={{height:'5px'}}></div>
-                                <div className={styles.t__small_s}>
-                                    <font>改善消息性能
-                                    </font>
-                                </div>
-                                <div className={styles.product__learn_more}>
-                                    <div style={{height:'2em'}}></div>
-                                    <span>
-                                        <font className={styles.smallerbiaoti}>了解更多</font>
-                                    </span>                  
-                                </div>
-                            </a>
-                        </div>           
-                    </div>          
+                            <div className={styles.product__learn_more}>
+                                <div style={{height:'2em'}}></div>
+                                <span>
+                                    <font className={styles.smallerbiaoti}>了解更多</font>
+                                </span>                  
+                            </div>                
+                        </a>
+                    </div>
+                    <div className={styles.chuangjian} >
+                        <a href="#youhua" className={styles.lianjie}>
+                            <div>                
+                            </div>
+                            <div style={{height:'5em'}}></div>                           
+                            <div className={styles.t__h3}>
+                                <font >评估及优化
+                                </font>
+                            </div>
+                            <div style={{height:'5px'}}></div>
+                            <div className={styles.t__small_s}>
+                                <font>改善消息性能
+                                </font>
+                            </div>
+                            <div className={styles.product__learn_more}>
+                                <div style={{height:'2em'}}></div>
+                                <span>
+                                    <font className={styles.smallerbiaoti}>了解更多</font>
+                                </span>                  
+                            </div>
+                        </a>
+                    </div>           
+                    
                 </div>
             </div>
         </section>
@@ -131,7 +131,6 @@ export default () => (
         <section>      
             <div className={styles.container__narrower}>
                 <div className={styles.g__row}>
-
                     <div className={styles.g__c3}>
                         <h3><font className={styles.huise}>细分</font></h3>
                         <div className={styles.huisesmaller}>
@@ -602,12 +601,12 @@ export default () => (
             </div>              
         </section>
 
-        <div style={{height:'300px'}}></div>
+        <div className={styles.marketing_300px}></div>
         
         <section className={styles.section}>
             <div className={styles.container}>
                 <img src="https://marketing.intercomassets.com/assets/homepage/v2/visual-3-7ec9bf9d3ed4d4b9b01bb24343a9a31472b42251efc3ef95b24462bc45028c63.png" className={styles.homepage__customers__swiggle__bottom__right} />
-                <div className={styles.g__c6}>
+                <div className={styles.g__c6_marketing}>
                     <img src="https://marketing.intercomassets.com/assets/homepage/v2/visual-1-6c228c8e18d784836347395a1afc424cd617ee8c9e02540cfe124a41acca998f.png"width="374" className={styles.homepage__custom__swiggle__top__left} />
                     <img src="https://marketing.intercomassets.com/assets/homepage/v2/visual-2-8b19526e56c6b81485f309ad0656821963047f3eeda17b11c2427f508ee2849a.png"   className={styles.homepage__customers__swiggle__top__right} width="156" />
                     <div className={styles.device__grey}>

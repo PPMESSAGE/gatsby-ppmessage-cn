@@ -5,36 +5,36 @@ import EnterYourMobile from "../components/enteryourmobile";
 export default () => (
     <div className={styles.heiti}>
         <div style={{height:"72px"}}></div>
-        <div className={styles.container}>
-            
-        </div>
-        <div className={styles.container}>
-            <div className={styles.bg__light} style={{backgroundColor:"white"}}>
-                
-                
-                <div className={styles.u__zfix}>
-                    <h1 className={styles.t__h1}>
-                        全渠道跨国云呼叫中心解决方案
-                    </h1>
-                    <div style={{height:"10px"}}></div>
-                    <h2 className={styles.t__h3}><font>通过业内独有的流程机制解决全球业务的客服痛点，与人工智能紧密结合
-
-                    </font>
-                    </h2>
-
-
-                    
-                    <div className={styles.t__small}>
-                        免费试用14天 易于安装
-                    </div>
-                    <div>
-                        <img src="http://www.infobird.com/images/cpjjimg2.jpg" width="300" />
+        <div className={styles.container__narrower}>
+            <div className={styles.g__row}>
+                <div className={styles.g__c6}>
+                    <h1>云呼叫中心</h1>
+                    <div className={styles.sp__5}>
+                        <h2 style={{margin:'5rem 0rem 0rem 0rem'}}>全渠道跨国云呼叫中心解决方案
+                        </h2>
+                        <div style={{height:"10px"}}>
+                        </div>
+                        <h3 style={{color:'#888'}}><font className={styles.biaoti}>通过业内独有的流程机制解决全球业务的客服痛点，与人工智能紧密结合</font>
+                        </h3>
+                        <div style={{height:"20px"}}>            
+                        </div>
+                        <div>
+                            <EnterYourMobile size="middle"/>                            
+                        </div>
+                        <div className={styles.t__small}>
+                            <div className={styles.list__bulletinline}>
+                                <font style={{color:'#888'}}>免费试用 · 易于安装 · 
+                                </font>        
+                            </div>
+                        </div>
                     </div>
                 </div>
-
-                
-                
-            </div>
+                <div className={styles.g__c6}>
+                    <div>
+                        <img src={require("../images/index.jpeg")} />
+                    </div>
+                </div>
+            </div>  
         </div>
 
         
@@ -263,7 +263,7 @@ export default () => (
             <div className={styles.container_z}>
                 <div className={styles.g__row_center} >{/*有时间修一下配图不能用手截*/}
                     <div className={styles.g__c6} >
-                        <img width="9000" src="https://upload-images.jianshu.io/upload_images/12406336-53a600bc79211f0c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" />
+                        <img width="100%" src="https://upload-images.jianshu.io/upload_images/12406336-53a600bc79211f0c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" />
                     </div>
                     <div className={styles.g__c5_z}>
 

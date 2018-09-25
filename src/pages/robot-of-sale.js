@@ -34,7 +34,7 @@ export default () => (
                 </div>
                 <div className={styles.g__c6}>
                     <div>
-                        <img width="600" src={require("../images/hero.gif")} />
+                        <img  src={require("../images/index.jpeg")} />
                     </div>
                 </div>
             </div>  

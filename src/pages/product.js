@@ -34,7 +34,7 @@ export default () => (
                 </div>
                 <div className={styles.g__c6}>
                     <div>
-                        <img src="https://upload-images.jianshu.io/upload_images/12406336-f98ec2e24df43eb4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" />
+                        <img src={require("../images/index.jpeg")} />
                     </div>
                 </div>
             </div>  
@@ -291,7 +291,7 @@ export default () => (
                 </div>        
             </div>              
         </section>
-        、
+        
 
 
         <section  className={styles.section}>

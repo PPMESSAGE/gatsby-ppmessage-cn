@@ -126,7 +126,8 @@ export default () =>{
                     </div>
                     <div className={styles.g__c6}>
                         <div>
-                            <img src={require("../images/61.png")} style={{maxWidth:"none"}} />
+                            <img src={require("../images/index2.jpeg")}
+                            />
                         </div>
                     </div>
                 </div>  
