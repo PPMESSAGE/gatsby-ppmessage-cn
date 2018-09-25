@@ -1,7 +1,10 @@
 import React from "react";
 import styles from "./about-us.module.css";
 
+import Layout from "./layout";
+
 export default () => (
+	<Layout>
     <div className={styles.heiti}>        
         <div className={styles.banner}>            
         </div>
@@ -106,5 +109,6 @@ export default () => (
             </div>
         </div>
     </div>
+	</Layout>
 
 );

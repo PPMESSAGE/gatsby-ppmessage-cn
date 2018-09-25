@@ -2,8 +2,11 @@ import React from "react";
 import EnterYourMobile from "../components/enteryourmobile";
 import styles from "./about-css-modules.module.css";
 
+import Layout from "./layout";
+
 
 export default () => (
+	<Layout>
     <div className={styles.heiti}>
 
         <div style={{height:`72px`}}></div>
@@ -42,6 +45,7 @@ export default () => (
 
         
     </div>
+	</Layout>
 );
 
 

@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./about-css-modules.module.css";
 import EnterYourMobile from "../components/enteryourmobile";
 import KeyFeatures from "../components/keyfeatures";
+import Layout from "./layout";
 
 export default () =>{
 
@@ -94,6 +95,7 @@ export default () =>{
     ]
 
     return(
+	    <Layout>
         <div className={styles.heiti}>
             <div style={{height:'72px'}}></div>
             <div className={styles.container__narrower}>
@@ -200,6 +202,7 @@ export default () =>{
             <div style={{height:"120px"}}></div>
 
         </div>
+	    </Layout>
     )
 }
 
