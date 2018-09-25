@@ -24,6 +24,10 @@ class EnterYourMobile extends React.Component {
 
 
     resize() {
+        if (this.state.size == "small") {
+            return;
+        }
+
         if (window.innerWidth < 960) {
             this.setState({size:"large"});
         }
@@ -31,6 +35,9 @@ class EnterYourMobile extends React.Component {
         if (window.innerWidth > 960) {
             if (this.state.size == "large") {
                 this.setState({size:"middle"});
+            }
+            if (this.state.size == "small") {
+                this.setState({size:"small"});
             }
         }
     }

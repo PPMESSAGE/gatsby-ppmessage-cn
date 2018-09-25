@@ -18,10 +18,12 @@
     "react-dropdown": "^1.6.2",
     "react-helmet": "^5.2.0",
     "react-media": "^1.8.0",
+    "react-slick": "^0.23.1",
     "react-svg": "^6.0.15",
     "react-tabs": "^2.2.2",
     "react-tooltip": "^3.6.1",
     "react-typography": "^0.16.13",
+    "slick-carousel": "^1.8.1",
     "typography": "^0.16.17",
     "typography-theme-fairy-gates": "^0.15.11"
   }
