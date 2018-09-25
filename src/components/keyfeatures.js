@@ -103,7 +103,7 @@ class KeyFeatures extends React.Component {
 
             return (
                 <div className={_class} key={i}>
-                    <img src={feature.image} />
+                    <img src={feature.image}  />
                 </div>
             )
         })

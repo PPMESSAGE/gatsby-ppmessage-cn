@@ -12,58 +12,50 @@ export default () =>{
         {
             title: "全渠道",
             desc: "网页、电话、邮件、社交媒体的各种客户对话消息集中接入",
-            image: "https://marketing.intercomassets.com/assets/messages/segmentation-53f2b095305527a75a4082d62ae823fc29e4a09a3c34e1facc147b2046d1ec49.png"
+            image: require("../images/呼叫中心的图.jpg") 
         },
         {
             title: "单一工作台界面",
             desc: "单一工作台界面统一处理，各种渠道交互无缝切换",
-            image: "https://marketing.intercomassets.com/assets/messages/outbound-dbf7ecfa4c3664f7174deb855194d0061d0f2112ddf8cc0243c6438c6880cb7c.png"
+            image: require("../images/75.png")
         },
 
-        {
-            title: "人工智能驱动的帮助中心",
-            desc: "帮助客户自助解决自己的问题，分享入门指南和最佳实践",
-            image: "https://marketing.intercomassets.com/assets/messages/measurement-b13614c1ef0feae4aa3509d1fe5ee4b10fc8a489f10fa8ee9a02ca3a1ca93545.png"
-        },
+        
 
         {
             title: "可定制化工单系统",
             desc: "打通售前售后环节，工单分配、转派、变更、提醒、业务流和SLA随心定制",
-            image: "https://marketing.intercomassets.com/assets/messages/integrations-c420a951ff2bb5ce602e9149567455760bea13a8f8246701593b577238096f75.png"
+            image: require("../images/71.jpeg")
         },
         {
             title: "强大统计报表，完善数据分析",
             desc: "跨渠道通用报表机制，支持销售转化率，客户满意度、客户工作量、会话来源等多种报表类型，各项业务数据完美呈现",
             image: require("../images/50.png")
-        },
-        
-
+        },      
     ]
-
     
-
     let _features1 = [
         {
             title: "客户细分",
             desc: "基于客户属性和行为实施细分目标客户",
-            image: "https://marketing.intercomassets.com/assets/messages/segmentation-53f2b095305527a75a4082d62ae823fc29e4a09a3c34e1facc147b2046d1ec49.png"
+            image: require("../images/客户细分.png")
         },
         {
             title: "外发消息",
             desc: "自动或手动向目标客户发送应用内消息、邮件、短信、微信、语音，或自动提醒业务人员通过电话或视频与客户联系",
-            image: "https://marketing.intercomassets.com/assets/messages/outbound-dbf7ecfa4c3664f7174deb855194d0061d0f2112ddf8cc0243c6438c6880cb7c.png"
+            image: require("../images/外发消息.png")
         },
 
         {
             title: "测试和优化",
             desc: "A/B测试发送的消息内容，获取最佳发送效果，提高客户转化率",
-            image: "https://marketing.intercomassets.com/assets/messages/measurement-b13614c1ef0feae4aa3509d1fe5ee4b10fc8a489f10fa8ee9a02ca3a1ca93545.png"
+            image: require("../images/测试和优化.png")
         },
 
         {
             title: "APP 商店",
             desc: "提供与Salesforce，Google Meeting等第三方业务整合，扩展您的营销工具箱",
-            image: "https://marketing.intercomassets.com/assets/messages/integrations-c420a951ff2bb5ce602e9149567455760bea13a8f8246701593b577238096f75.png"
+            image: require("../images/74.jpeg")
         },        
     ]
 
@@ -71,24 +63,24 @@ export default () =>{
         {
             title: "销售机器人",
             desc: "24/7随时获取、评估网站上的商机，无需代码定制，加快销售周期，提供超越人类极限的业务增长机会",
-            image: "https://marketing.intercomassets.com/assets/messages/segmentation-53f2b095305527a75a4082d62ae823fc29e4a09a3c34e1facc147b2046d1ec49.png"
+            image:require("../images/80.jpeg")
         },
         {
             title: "语音机器人",
             desc: "基于智能语音交互的人机融合平台，替代人工销售，延伸售后服务",
-            image: "https://marketing.intercomassets.com/assets/messages/outbound-dbf7ecfa4c3664f7174deb855194d0061d0f2112ddf8cc0243c6438c6880cb7c.png"
+            image: require("../images/80.jpeg")
         },
 
         {
             title: "客服机器人",
             desc: "基于NLP， 365天不间断服务，高效率解决重复性问题，大幅降低人工客服成本",
-            image: "https://marketing.intercomassets.com/assets/messages/measurement-b13614c1ef0feae4aa3509d1fe5ee4b10fc8a489f10fa8ee9a02ca3a1ca93545.png"
+            image: require("../images/79.png")
         },
 
         {
             title: "可定制化",
             desc: "快速设计生成满足您业务需要的机器人组群",
-            image: "https://marketing.intercomassets.com/assets/messages/integrations-c420a951ff2bb5ce602e9149567455760bea13a8f8246701593b577238096f75.png"
+            image: require("../images/82.png")
         },
         
         
@@ -99,24 +91,24 @@ export default () =>{
         {
             title: "PPMessage流程生成器",
             desc: "业内独有的拖拽式流程设计器，为每一个客户快速生成适应其业务特点的消息流程",
-            image: "https://marketing.intercomassets.com/assets/messages/segmentation-53f2b095305527a75a4082d62ae823fc29e4a09a3c34e1facc147b2046d1ec49.png"
+            image: require("../images/82.png")
         },
         {
             title: "丰富的APP商店",
             desc: "根据业务需要随时增减功能模块，定制客户交互界面",
-            image: "https://marketing.intercomassets.com/assets/messages/outbound-dbf7ecfa4c3664f7174deb855194d0061d0f2112ddf8cc0243c6438c6880cb7c.png"
+            image:require("../images/74.jpeg")
         },
 
         {
             title: "自定义字段和视图",
             desc: "根据业务特点随时自定义可检索可排序的数据字段及强大的自定义视图功能，迅速满足客户最低层面的定制化需求",
-            image: "https://marketing.intercomassets.com/assets/messages/measurement-b13614c1ef0feae4aa3509d1fe5ee4b10fc8a489f10fa8ee9a02ca3a1ca93545.png"
+            image: require("../images/83.png")
         },
 
         {
             title: "功能强大的API接口",
             desc: "提供灵活的API接口和Webhooks，快速满足客户定制需求",
-            image: "https://marketing.intercomassets.com/assets/messages/integrations-c420a951ff2bb5ce602e9149567455760bea13a8f8246701593b577238096f75.png"
+            image: require("../images/82.png")
         },
         
         
@@ -327,52 +319,6 @@ export default () =>{
                 <div className={styles.index_100px}></div>
             </section>
             
-            <section className={styles.index_section}>
-                <div className={styles.container}>
-                    <img src="https://marketing.intercomassets.com/assets/homepage/v2/visual-3-7ec9bf9d3ed4d4b9b01bb24343a9a31472b42251efc3ef95b24462bc45028c63.png" className={styles.homepage__customers__swiggle__bottom__right} />
-                    <div className={styles.g__c6}>
-                        <img src="https://marketing.intercomassets.com/assets/homepage/v2/visual-1-6c228c8e18d784836347395a1afc424cd617ee8c9e02540cfe124a41acca998f.png"width="374" className={styles.homepage__custom__swiggle__top__left} />
-                        <img src="https://marketing.intercomassets.com/assets/homepage/v2/visual-2-8b19526e56c6b81485f309ad0656821963047f3eeda17b11c2427f508ee2849a.png"   className={styles.homepage__customers__swiggle__top__right} width="156" />
-                        <div className={styles.device__grey}>
-                            <div className={styles.t__h2}>
-                                <font>"PPMESSAGE 是一个无价的工具，可以帮助我们通过渠道的每一步推动销售和支持。"
-                                </font>
-                                
-                                <div style={{height:'20px'}}></div>
-                                <img src="http://www.yazhoufangchan.cn/wp-content/uploads/2016/06/YaZhou-Property-logo_s1-1.png" />
-                            </div>
-                        </div>
-                    </div>
-                    <div className={styles.g__c5}>
-                        <div className={styles.g__row}>
-                            <div className={styles.g__c6}>
-                                <img width="80px" src="https://upload-images.jianshu.io/upload_images/12406336-64e4acdbee056d96.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" />
-                                <div style={{height:'1px'}}></div>
-                                <div className={styles.t__small}>
-                                    <font color="#888">消息参与度提升2.5倍
-                                    </font>
-                                </div>
-                            </div>
-                            <div className={styles.g__c6}>
-                                <img width="180px" src="https://upload-images.jianshu.io/upload_images/12406336-ee059aa29b7ec4f9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" />
-                                <div style={{height:'1px'}}></div>
-                                <div className={styles.t__small}>
-                                    <font color="#888">PPMESSAGE 驱动了40％的预订销售演示
-                                    </font>
-                                </div>
-                            </div>
-                            <div className={styles.g__c6}>
-                                <img width="80px" src="https://upload-images.jianshu.io/upload_images/12406336-996dc08a5e38ee72.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" />
-                                <div style={{height:'1px'}}></div>
-                                <div className={styles.t__small}>
-                                    <font color="#888">销售机会增加32％，并将销售周期缩短18天
-                                    </font>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>    
             <div className={styles.index_5em}></div>
         </div>
 	    </Layout>

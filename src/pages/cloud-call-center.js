@@ -266,7 +266,7 @@ export default () => (
                 <div className={styles.container_z}>
                     <div className={styles.g__row_center} >{/*有时间修一下配图不能用手截*/}
                         <div className={styles.g__c6} >
-                            <img width="100%" src="https://upload-images.jianshu.io/upload_images/12406336-53a600bc79211f0c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" />
+                            <img width="100%" src={require("../images/76.png")} />
                         </div>
                         <div className={styles.g__c5_z}>
 
@@ -299,7 +299,7 @@ export default () => (
                     <div className={styles.support_automate} style={{background:"white"}}>
                         <div className={styles.g__c7_q}>  
                             <div className={styles.g__c6_s}>
-                                <img width="500" src="http://www.ti-net.com.cn/images/ai/ai_11.png" />
+                                <img width="500" src={require("../images/77.png")} />
                                 <div style={{height:"10px"}}></div>
                                 <h3 className={styles.t__h2}>
                                     <font>

@@ -906,25 +906,8 @@ export default () => (
                         </div>
                         
                     </div>
-                    <div style={{height:"100px"}}></div>
-                    <div className={styles.g__row_h_center} style={{textAlign:"center"}}>
-                        <a href="#" className={styles.device__box}>
-                            <div className={styles.t__h4}>
-                                <font>早期公司？
-                                </font>
-                            </div>
-                            <div className={styles.c__blue}>
-                                <font>符合条件的申请人每月仅需49美元即可获得我们的所有产品。今天申请
-                                </font>
-                            </div>
-                        </a>
-                    </div>
+                   
                     
-                    <div style={{height:"100px"}}></div>
-                    <div className={styles.t__h2} style={{textAlign:"center"}}>
-                        <font>推荐用例
-                        </font>
-                    </div>
                     <div style={{height:"20px"}}></div>
                     <p className={styles.t__h3_center} style={{fontWeight:"100"}}>
                         <font>为您的企业选择一个用例，我们将推荐您需要的产品

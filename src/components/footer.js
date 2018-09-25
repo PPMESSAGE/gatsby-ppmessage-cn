@@ -10,10 +10,10 @@ class Footer extends React.Component {
         super(props);
     }
 
-  // componentDidMount () {
-  //     {window.ppSettings = {app_uuid:'e2c3d8c0-5cba-11e8-baab-00163e0c79f6'};(function(){var w=window,d=document;function l(){var a=d.createElement('script');a.type='text/javascript';a.async=!0;a.charset='utf-8';a.src='https://ppmessage.cn/ppsider/assets/pp-library.min.js';var b=d.getElementsByTagName('script')[0];b.parentNode.insertBefore(a,b)}l();})();
-   //    }    
-   // }
+    componentDidMount () {
+        {window.ppSettings = {app_uuid:'e2c3d8c0-5cba-11e8-baab-00163e0c79f6'};(function(){var w=window,d=document;function l(){var a=d.createElement('script');a.type='text/javascript';a.async=!0;a.charset='utf-8';a.src='https://ppmessage.cn/ppsider/assets/pp-library.min.js';var b=d.getElementsByTagName('script')[0];b.parentNode.insertBefore(a,b)}l();})();
+        }    
+    }
 
     render() {
         return (
