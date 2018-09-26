@@ -568,7 +568,7 @@ class NavHeader extends React.Component {
 
                                             <div style={{height:"10px"}}></div>
 
-                                            <a href="/manual/" style={{textDecoration:"none"}}>
+                                            <a href="/doc/" style={{textDecoration:"none"}}>
                                                 <div className={styles.holiday}>
                                                     <div className={styles.t__h4}><font style={{color:"black"}}>开发者文档</font></div>
                                                     <div>使用PPMessage API和流程生成工具与第三方服务进行集成</div>
