@@ -45,7 +45,7 @@ class NavHeader extends React.Component {
         }
         
         return (
-            <div className={styles.heiti}>        
+            <div className={styles.heiti} style={{"position": "relative"}}>        
                 <div className={_navClass}>
                     <div className={styles.container}>
                         <a href="/" className={styles.brand__logo} >
