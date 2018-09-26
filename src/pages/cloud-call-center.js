@@ -249,7 +249,7 @@ export default () => (
                                 <div className={styles.u__inline}>
                                     <div className={styles.gallery}>
                                         <div className={styles.gallery__img}>
-                                            <img width="500" src={require("../images/呼叫中心的图.jpg")} />
+                                            <img width="500" src={require("../images/82.png")} />
                                             
                                         </div>                    
                                     </div>

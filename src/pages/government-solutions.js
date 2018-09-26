@@ -15,13 +15,13 @@ export default () =>{
         {
             title: "外发消息",
             desc: "自动或手动向市民发送应用内消息、邮件、短信、微信、语音，或自动提醒业务人员通过电话或视频与客户联系",
-            image: "https://marketing.intercomassets.com/assets/messages/outbound-dbf7ecfa4c3664f7174deb855194d0061d0f2112ddf8cc0243c6438c6880cb7c.png"
+            image: require("../images/88.png")
         },
 
         {
             title: "测试和优化",
             desc: "A/B测试发送的消息内容，获取最佳发送效果，提高客户转化率",
-            image: "https://marketing.intercomassets.com/assets/messages/measurement-b13614c1ef0feae4aa3509d1fe5ee4b10fc8a489f10fa8ee9a02ca3a1ca93545.png"
+            image: require("../images/测试和优化.png")
         },
 
     ]
@@ -30,7 +30,7 @@ export default () =>{
         {
             title: "全渠道",
             desc: "网页、电话、邮件、社交媒体的各种客户对话消息集中接入",
-            image: require("../images/62.png")
+            image: require("../images/呼叫中心的图.jpg")
         },
         {
             title: "可定制化，可私有部署",
@@ -47,7 +47,7 @@ export default () =>{
         {
             title: "通过工单实现自动化办公",
             desc: "根据SLA和业务规则的工单自动流转和进度自动提醒、督办和催办，整体提升服务质量",
-            image:require("../images/65.png")
+            image:require("../images/86.png")
         },
         {
             title: "在线质检",

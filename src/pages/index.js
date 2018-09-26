@@ -25,7 +25,7 @@ export default () =>{
         {
             title: "可定制化工单系统",
             desc: "打通售前售后环节，工单分配、转派、变更、提醒、业务流和SLA随心定制",
-            image: require("../images/71.jpeg")
+            image: require("../images/86.png")
         },
         {
             title: "强大统计报表，完善数据分析",

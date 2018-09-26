@@ -8,7 +8,7 @@ import Layout from "./layout";
 export default () => {
     let _images = [
         {
-            src: "https://marketing.intercomassets.com/assets/live-chat2/measure/1-2x-d6fa79bcfeb9a3b928a80a2c0360e1c2e4e9158bd18a0edcdbd290aa2c6b8ad5.png#508"
+            src: require("../images/84.png")
         },
         
 
@@ -84,51 +84,7 @@ export default () => {
                 </div>
             </div>
 
-            <div style={{height:'20px'}}></div>
-            <div className={styles.section_transform}>
-                <div className={styles.contain8}>
-                    <div className={styles.u__hidden__md}>
-                        <div className={styles.f__center}>
-                            <font className={styles.fangwen}>
-                                如果访问者在网站上使用 PPMESSAGE 的实时聊天功能，他们转换的可能性将增加82％
-                            </font>
-                        </div>
-                    </div>
-                </div>
-
-                <div className={styles.contain8} style={{maxWidth:"750px",marginTop:"80px"}}>
-                    <div className={styles.g__row}>
-                        <div className={styles.g__c4}>
-                            <div className={styles.g__row_o__tight__large}>
-                                <div className={styles.g__c12}>
-                                    <img src="https://marketing.intercomassets.com/assets/live-chat/v2/tradeshift-df891c67ad1a6cf837436c487908dbadfd60b9511b5794a39534495b1852c6ac.png" width="145px" />
-                                    <div style={{height:'10px'}}></div>
-                                    <div>
-                                        <font>
-                                            合格销售额增加32％，销售周期缩短18天
-                                        </font>
-                                    </div>
-                                </div>
-                                <div className={styles.g__c12}>  
-                                    <img src="https://marketing.intercomassets.com/assets/live-chat/v2/copper-baa5534d2b8fd524250ad341d620708271059a3cab6ec2ff9e87d3e76fed8240.svg" />
-                                    <div>
-                                        <font>
-                                            在短短一个月内，使用PPMESSAGE带来了36,000美元
-                                        </font>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className={styles.g__c8}>
-                            <div className={styles.max__400}>
-                                <font>“PPMESSAGE推动40％的销售演示预订，比之前的实时聊天工具提高了8倍”</font>            
-                                <div style={{height:"30px"}}></div>
-                                <img src="https://marketing.intercomassets.com/assets/live-chat/v2/salesloft-51a4dfb4c79281ea3282851c2f29333de9ff5c9d2c7f8720f6068a3d0d9b149d.png" width="149px" />
-                            </div>
-                        </div>
-                    </div>
-                </div>      
-            </div>
+            <div style={{height:'200px'}}></div>
             <section className={styles.section_transform1}>
                 <div className={styles.container}>
                     <div className={styles.g__row}>
@@ -279,7 +235,7 @@ export default () => {
                                 <div className={styles.u__inline}>
                                     <div className={styles.gallery}>
                                         <div className={styles.gallery__img}>
-                                            <img width="587" src="https://marketing.intercomassets.com/assets/support/v2/collaborate-1-1ae4aeb5eb197541c758ca5a610e6d8a87e1eef46d3916b6392803dff9ada9c2.png" />
+                                            <img width="587" src={require("../images/75.png")} />
                                         </div>                    
                                     </div>
                                 </div>
@@ -702,7 +658,7 @@ export default () => {
                                 </div>
                             </div>
                             <div className={styles.g__c6}>
-                                <img width="472" src="https://marketing.intercomassets.com/assets/live-chat/v2/convert-ill-7a3e7f136e8dc31a226803d418e2d20d3e4fce8a373a93e95f7983e878179c96.png" />
+                                <img width="472" src={require("../images/index2.jpeg")} />
                             </div>
                         </div>
                     </div>
@@ -797,89 +753,7 @@ export default () => {
 
 
 
-            <section className={styles.section}>
-                <div className={styles.container__center}>
-                    <div className={styles.u__relative__inline_block}>
-                        <img style={{width:"145px",position:"absolute",top:"-100px",left:"-200px"}} src="https://marketing.intercomassets.com/assets/live-chat/v2/bg-1-93e7e5736917bfdd8b5d2bdd444277fc1cb96447db40b5b2870219c6cb8b5d14.png" />
-                        <h2 className={styles.t__h2__center}>
-                            <font>通过定制化与您的业务流程无缝集成
-                            </font>
-                        </h2>
-                        <p className={styles.u__center__f__center}>
-                            <font>我们的集成库和灵活的API意味着您可以轻松地将PPmessage融入您的业务流程
-                            </font>
-                        </p>
-                    </div>                 
-                </div>
-                <div className={styles.container__integrations_container}>
-                    <div className={styles.u__hidden__md}>
-                        <img  style={{width:"355px",position:"absolute",bottom:"-220px",left:"-80px"}} src="https://marketing.intercomassets.com/assets/live-chat/v2/bg-3-2x-2fd827c15719c6c837caf516bb8156b5007cea46609a59ae6c92b5ca394789db.png" />
-                        <img style={{width:"276px",top:"-80px",right:"-150px",position:"absolute" }} src="https://marketing.intercomassets.com/assets/live-chat/v2/bg-2-2x-54dd0a9df45cb920f34c3aa2853fe39321c572e6e558058f893c969141f9777c.png" />
-                    </div>
-                    <div className={styles.u__zfix}>
-                        <div style={{height:"40px"}}></div>          
-                        <div className={styles.g__row_9}>
-                            
-                            <div className={styles.g__c4_z}>
-                                <a className={styles.integration_card} href="#">
-                                    <div className={styles.intergration__card__logo}>
-                                        <img src="https://marketing.intercomassets.com/demand-generation/direct-response/1510274705-_salesforce.svg" />
-                                    </div>
-                                    
-                                    <div className={styles.f__bold_7}>
-                                        <font>销售队伍</font>
-                                    </div>
-                                    <div style={{height:"5px"}}></div>
-                                    <div className={styles.f__light_7}>
-                                        <font>
-                                            向Salesforce推送合格商机和聊天记录，并在PPMessage中使用Salesforce数据
-                                        </font>
-                                    </div>
-                                </a>
-                            </div>
-                            <div className={styles.g__c4_z}>
-                                <a className={styles.integration_card} href="#">
-                                    <div className={styles.intergration__card__logo}>
-                                        <img src="https://marketing.intercomassets.com/demand-generation/direct-response/1510274724-_segment.svg" />
-                                    </div>
-                                    
-                                    <div className={styles.f__bold_7}>
-                                        <font>Slack
-                                        </font>
-                                    </div>
-                                    <div style={{height:"5px"}}></div>
-                                    <div className={styles.f__light_7}>
-                                        <font>
-                                            将Slack获取的商机信息转为订单
-                                        </font>
-                                    </div>
-                                </a>
-                            </div>
-                            <div className={styles.g__c4_z}>
-                                <a className={styles.integration_card} href="#">
-                                    <div className={styles.intergration__card__logo}>
-                                        <img src="https://marketing.intercomassets.com/demand-generation/direct-response/1510274623-_mailchimp.svg" />
-                                    </div>
-                                    
-                                    <div className={styles.f__bold_7}>
-                                        <font>MailChimp</font>
-                                    </div>
-                                    <div style={{height:"5px"}}></div>
-                                    <div className={styles.f__light_7}>
-                                        <font>从Messenger同步使用者</font>
-                                    </div>
-                                </a>
-                            </div>            
-                        </div>
-                        <div style={{height:"30px"}}></div>
-                        <a href=" " ><font>查看更多应用</font></a>
-                        <div className={styles.f__center}>
-                            
-                        </div>
-                    </div>
-                </div>
-                <div style={{height:"70px"}}></div>
-            </section>
+           
 
 
             

@@ -10,18 +10,18 @@ export default () =>{
         {
             title: "访客信息分析",
             desc: "跟踪从市场投放关键词到用户发起会话询问的全流程数据，实时评估销售转化率和ROI；自动展示访客浏览轨迹，记录客户主要活动",
-            image: "https://marketing.intercomassets.com/assets/messages/segmentation-53f2b095305527a75a4082d62ae823fc29e4a09a3c34e1facc147b2046d1ec49.png"
+            image: require("../images/87.png")
         },
         {
             title: "自动获取和评估商机",
             desc: "PPMessage销售机器人主动与网站访客联系，7X24小时根据设定条件获取合格商机",
-            image: "https://marketing.intercomassets.com/assets/messages/outbound-dbf7ecfa4c3664f7174deb855194d0061d0f2112ddf8cc0243c6438c6880cb7c.png"
+            image: require("../images/80.jpeg")
         },
 
         {
             title: "客服主动邀请",
             desc: "客服人员根据用户的浏览情况和行为主动发起会话邀请、主动推荐。通过增加客服主动与用户接触的机会，提高营销的转化率",
-            image: "https://marketing.intercomassets.com/assets/messages/integrations-c420a951ff2bb5ce602e9149567455760bea13a8f8246701593b577238096f75.png"
+            image: require("../images/88.png")
         },
         {
             title: "智能电销、邮件、短信、微信营销",
@@ -44,13 +44,13 @@ export default () =>{
         {
             title: "外发消息",
             desc: "自动或手动向目标客户发送应用内消息、邮件、短信、微信、语音，或自动提醒业务人员通过电话或视频与客户联系",
-            image: "https://marketing.intercomassets.com/assets/messages/outbound-dbf7ecfa4c3664f7174deb855194d0061d0f2112ddf8cc0243c6438c6880cb7c.png"
+            image: require("../images/88.png")
         },
 
         {
             title: "测试和优化",
             desc: "A/B测试发送的消息内容，获取最佳发送效果，提高客户转化率",
-            image: "https://marketing.intercomassets.com/assets/messages/measurement-b13614c1ef0feae4aa3509d1fe5ee4b10fc8a489f10fa8ee9a02ca3a1ca93545.png"
+            image: require("../images/测试和优化.png")
         },
 
         {
@@ -64,12 +64,12 @@ export default () =>{
         {
             title: "全渠道",
             desc: "网页、电话、邮件、社交媒体的各种客户对话消息集中接入",
-            image: require("../images/62.png")
+            image: require("../images/呼叫中心的图.jpg")
         },
         {
             title: "可定制化工单系统",
             desc: "打通售前售后环节，工单分配、转派、变更、提醒、业务流和SLA随心定制",
-            image: require("../images/63.png")
+            image: require("../images/86.png")
         },
 
         {
@@ -81,7 +81,7 @@ export default () =>{
         {
             title: "强大统计报表，完善数据分析",
             desc: "跨渠道通用报表机制，支持销售转化率，客户满意度、客户工作量、会话来源等多种报表类型，各项业务数据完美呈现",
-            image:require("../images/65.png")
+            image:require("../images/50.png")
         },
         
         
