@@ -10,7 +10,7 @@ export default () =>{
         {
             title: "全渠道",
             desc: "网页、电话、邮件、社交媒体的各种客户对话消息集中接入",
-            image: "https://marketing.intercomassets.com/assets/messages/segmentation-53f2b095305527a75a4082d62ae823fc29e4a09a3c34e1facc147b2046d1ec49.png"
+            image: require("../images/呼叫中心的图.jpg")
         },
         {
             title: "智能客服机器人",
@@ -21,7 +21,7 @@ export default () =>{
         {
             title: "强大统计报表，完善数据分析",
             desc: "跨渠道通用报表机制，支持销售转化率，客户满意度、客户工作量、会话来源等多种报表类型，各项业务数据完美呈现",
-            image: "https://marketing.intercomassets.com/assets/messages/measurement-b13614c1ef0feae4aa3509d1fe5ee4b10fc8a489f10fa8ee9a02ca3a1ca93545.png"
+            image: require("../images/50.png")
         },
 
         {
@@ -40,7 +40,7 @@ export default () =>{
         {
             title: "工单系统",
             desc: "打通售前售后环节，客服工单分配、转派、变更、提醒、业务流和SLA随心定制",
-            image: "https://marketing.intercomassets.com/assets/messages/segmentation-53f2b095305527a75a4082d62ae823fc29e4a09a3c34e1facc147b2046d1ec49.png"
+            image: require("../images/86.png")
         },
         {
             title: "与ERP和CRM系统无缝集成",

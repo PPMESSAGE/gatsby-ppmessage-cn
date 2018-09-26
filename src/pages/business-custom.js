@@ -27,7 +27,7 @@ export default () => (
                             <div className={styles.f__center}>
                                 <a href="#" >
                                     <botton className={styles.btn_s}> 
-                                        <font>了解更多信息
+                                        <font>联系客服
                                         </font>
                                     </botton>
                                 </a>

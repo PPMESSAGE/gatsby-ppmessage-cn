@@ -50,51 +50,7 @@ export default () => (
             </div>
         </div>
 
-        <div style={{height:'20px'}}></div>
-        <div className={styles.section}>
-            <div className={styles.contain8}>
-                <div className={styles.u__hidden__md}>
-                    <div className={styles.f__center}>
-                        <font className={styles.fangwen}>
-                            如果访问者在网站上使用 PPMESSAGE 的实时聊天功能，他们转换的可能性将增加82％
-                        </font>
-                    </div>
-                </div>
-            </div>
-
-            <div className={styles.contain8} style={{maxWidth:"750px",marginTop:"80px"}}>
-                <div className={styles.g__row}>
-                    <div className={styles.g__c4}>
-                        <div className={styles.g__row_o__tight__large}>
-                            <div className={styles.g__c12}>
-                                <img src="https://marketing.intercomassets.com/assets/live-chat/v2/tradeshift-df891c67ad1a6cf837436c487908dbadfd60b9511b5794a39534495b1852c6ac.png" width="145px" />
-                                <div style={{height:'10px'}}></div>
-                                <div>
-                                    <font>
-                                        合格销售额增加32％，销售周期缩短18天
-                                    </font>
-                                </div>
-                            </div>
-                            <div className={styles.g__c12}>  
-                                <img src="https://marketing.intercomassets.com/assets/live-chat/v2/copper-baa5534d2b8fd524250ad341d620708271059a3cab6ec2ff9e87d3e76fed8240.svg" />
-                                <div>
-                                    <font>
-                                        在短短一个月内，使用PPmessage带来了36,000美元
-                                    </font>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className={styles.g__c8}>
-                        <div className={styles.max__400}>
-                            <font>“PPmessage 推动40％的销售演示预订，比之前的实时聊天工具提高了8倍”</font>            
-                            <div style={{height:"30px"}}></div>
-                            <img src="https://marketing.intercomassets.com/assets/live-chat/v2/salesloft-51a4dfb4c79281ea3282851c2f29333de9ff5c9d2c7f8720f6068a3d0d9b149d.png" width="149px" />
-                        </div>
-                    </div>
-                </div>
-            </div>      
-        </div>
+        <div style={{height:'100px'}}></div>
         <section className={styles.section_o__no_bottom}>
             <div className={styles.container}>
                 <div className={styles.g__row}>
@@ -250,7 +206,7 @@ export default () => (
                             <div className={styles.u__inline}>
                                 <div className={styles.gallery}>
                                     <div className={styles.gallery__img}>
-                                        <img width="587" src="https://marketing.intercomassets.com/assets/support/v2/collaborate-1-1ae4aeb5eb197541c758ca5a610e6d8a87e1eef46d3916b6392803dff9ada9c2.png" />
+                                        <img width="587" src={require("../images/75.png")} />
                                     </div>                    
                                 </div>
                             </div>
@@ -502,7 +458,7 @@ export default () => (
 
                     {/*有时间修一下配图不能用手截*/}
                     <div className={styles.g__c6} >
-                        <img width="9000" src="https://upload-images.jianshu.io/upload_images/12406336-53a600bc79211f0c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" />
+                        <img width="900" src={require("../images/76.png")} />
                     </div>
                     <div className={styles.g__c5_z}>
 
@@ -568,7 +524,7 @@ export default () => (
                 </div>
                 <div className={styles.g__row_z}>
                     <div className={styles.g__c6}>
-                        <img width="900" src="https://marketing.intercomassets.com/assets/support/v2/scale-4460a7bedfb9ac2e0fa63bf0db481666a9238921d2e3cce5b28b77204e7b52ef.png" />
+                        <img width="900" src={require("../images/71.jpeg")} />
                     </div>
                     <div className={styles.g__c5_z}>
 
@@ -590,9 +546,7 @@ export default () => (
                         
                         <div style={{height:"30px"}}></div>
                         <div className={styles.u__hidden__md}>
-                            <div className={styles.u__inline}>
-                                <a href="" className={styles.t__small}>浏览我们的帮助中心
-                                </a>
+                            <div className={styles.u__inline}>                                
                             </div>
                         </div>
                         <div style={{height:"30px"}}></div>
@@ -855,129 +809,6 @@ export default () => (
                 </div>
             </div>           
         </section>
-        
-        <section className={styles.section}>
-            <div className={styles.container__center}>
-                <div className={styles.u__relative__inline_block}>
-                    <img className={styles.customer_support__integrations_bg_1} src="https://marketing.intercomassets.com/assets/support/v2/bg-1-87efd2c9bc1c6f275f77ecd4cf38bd93d8ae8d05a5890710a6a84104057b0866.png" />
-                    <h2 className={styles.t__h2__center}>
-                        <font>组织您的支持，以便您需要的一切都在一个地方</font>
-                    </h2>
-                    <p className={styles.u__center__f__center}>
-                        <font>链接您需要的实时数据以获取上下文并快速回答问题。通过一个易于使用的平台降低成本和混乱。</font>
-                    </p>
-                </div>                 
-            </div>
-            <div className={styles.container__integrations_container}>
-                <div className={styles.u__hidden__md}>
-                    <img width="277" className={styles.tu} src="https://marketing.intercomassets.com/assets/support/v2/bg-2-2x-b6cf2b23a95a0aa54636f6920c0ccdcec04bba262f018fae481e72f3ac0089db.png" />
-                    <img width="290" className={styles.tu1} src="https://marketing.intercomassets.com/assets/support/v2/bg-3-2x-e4d3b8ca63fcdb8a79662a8be7c51500e6c42844b1e4b4e71a5302f22ae2c7d0.png" />
-                </div>
-                <div className={styles.u__zfix}>
-                    <div style={{height:"40px"}}></div>          
-                    <div className={styles.g__row_9}>
-                        <div className={styles.g__c4_z}>
-                            <a className={styles.integration_card} href="#">
-                                <div className={styles.intergration__card__logo}>
-                                    <img src="https://marketing.intercomassets.com/demand-generation/direct-response/1510274491-_facebook.svg" />
-                                </div>
-                                
-                                <div className={styles.f__bold_7}>
-                                    <font>Facebook的</font>
-                                </div>
-                                <div style={{height:"5px"}}></div>
-                                <div className={styles.f__light_7}>
-                                    <font>查看并回复团队收件箱中的Facebook消息</font>
-                                </div>
-                            </a>
-                        </div>
-
-                        <div className={styles.g__c4_z}>
-                            <a className={styles.integration_card} href="#">
-                                <div className={styles.intergration__card__logo}>
-                                    <img src="https://marketing.intercomassets.com/demand-generation/direct-response/1510274738-_slack.svg" />
-                                </div>
-                                
-                                <div className={styles.f__bold_7}>
-                                    <font>松弛</font>
-                                </div>
-                                <div style={{height:"5px"}}></div>
-                                <div className={styles.f__light_7}>
-                                    <font>转换Slack最热门的潜在客户。</font>
-                                </div>
-                            </a>
-                        </div>
-
-                        <div className={styles.g__c4_z}>
-                            <a className={styles.integration_card} href="#">
-                                <div className={styles.intergration__card__logo}>
-                                    <img src="https://marketing.intercomassets.com/demand-generation/direct-response/1510274838-_twitter.svg" />
-                                </div>
-                                
-                                <div className={styles.f__bold_7}>
-                                    <font>推特</font>
-                                </div>
-                                <div style={{height:"5px"}}></div>
-                                <div className={styles.f__light_7}>
-                                    <font>查看并回复您的团队邮箱中的Twitter DM。</font>
-                                </div>
-                            </a>
-                        </div>
-
-                        <div className={styles.g__c4_z}>
-                            <a className={styles.integration_card} href="#">
-                                <div className={styles.intergration__card__logo}>
-                                    <img src="https://marketing.intercomassets.com/demand-generation/direct-response/1510274705-_salesforce.svg" />
-                                </div>
-                                
-                                <div className={styles.f__bold_7}>
-                                    <font>销售队伍</font>
-                                </div>
-                                <div style={{height:"5px"}}></div>
-                                <div className={styles.f__light_7}>
-                                    <font>创建潜在客户并将对话发送到Salesforce，并在Intercom中使用Salesforce数据。</font>
-                                </div>
-                            </a>
-                        </div>
-                        <div className={styles.g__c4_z}>
-                            <a className={styles.integration_card} href="#">
-                                <div className={styles.intergration__card__logo}>
-                                    <img src="https://marketing.intercomassets.com/demand-generation/direct-response/1510274857-_zapier.svg" />
-                                </div>
-                                
-                                <div className={styles.f__bold_7}>
-                                    <font>Zapier</font>
-                                </div>
-                                <div style={{height:"5px"}}></div>
-                                <div className={styles.f__light_7}>
-                                    <font>易于自动化的繁忙人士</font>
-                                </div>
-                            </a>
-                        </div>
-                        <div className={styles.g__c4_z}>
-                            <a className={styles.integration_card} href="#">
-                                <div className={styles.intergration__card__logo}>
-                                    <img src="https://marketing.intercomassets.com/demand-generation/direct-response/1510274517-_github.svg" />
-                                </div>
-                                
-                                <div className={styles.f__bold_7}>
-                                    <font>Github上</font>
-                                </div>
-                                <div style={{height:"5px"}}></div>
-                                <div className={styles.f__light_7}>
-                                    <font>从内部通信创建GitHub问题，并在问题关闭时通过内部通信通知。</font>
-                                </div>
-                            </a>
-                        </div>            
-                    </div>
-                    <div style={{height:"30px"}}></div>
-                    <a href="#" ><font>查看更多应用</font></a>
-                    <div className={styles.f__center}>
-                        
-                    </div>
-                </div>
-            </div>
-        </section>   
     </div>
 	</Layout>
 );

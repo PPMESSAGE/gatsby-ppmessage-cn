@@ -45,51 +45,7 @@ export default () => (
             </div>
         </div>
 
-        <div style={{height:'20px'}}></div>
-        <div className={styles.section}>
-            <div className={styles.contain8}>
-                <div className={styles.u__hidden__md}>
-                    <div className={styles.f__center}>
-                        <font className={styles.fangwen}>
-                            超过25,000家公司使用 PPMESSAGE 进行客户互动
-                        </font>
-                    </div>
-                </div>
-            </div>
-
-            <div className={styles.contain8} style={{maxWidth:"750px",marginTop:"80px"}}>
-                <div className={styles.g__row}>
-                    <div className={styles.g__c4}>
-                        <div className={styles.g__row_o__tight__large}>
-                            <div className={styles.g__c12}>
-                                <img src="https://marketing.intercomassets.com/assets/live-chat/v2/tradeshift-df891c67ad1a6cf837436c487908dbadfd60b9511b5794a39534495b1852c6ac.png" width="145px" />
-                                <div style={{height:'10px'}}></div>
-                                <div>
-                                    <font>
-                                        “通过内部通信，我们可以获得所需的见解，不断改善客户体验，并在最佳时刻向人们发送消息。”
-                                    </font>
-                                </div>
-                            </div>
-                            <div className={styles.g__c12}>  
-                                <img src="https://marketing.intercomassets.com/assets/live-chat/v2/copper-baa5534d2b8fd524250ad341d620708271059a3cab6ec2ff9e87d3e76fed8240.svg" />
-                                <div>
-                                    <font>
-                                        在短短一个月内，Copper使用对讲机为ARR带来了36,000美元ARR的19个新机会
-                                    </font>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className={styles.g__c8}>
-                        <div className={styles.max__400}>
-                            <font>“Intercom推动40％的销售演示预订，比之前的实时聊天工具提高了8倍”</font>            
-                            <div style={{height:"30px"}}></div>
-                            <img src="https://marketing.intercomassets.com/assets/live-chat/v2/salesloft-51a4dfb4c79281ea3282851c2f29333de9ff5c9d2c7f8720f6068a3d0d9b149d.png" width="149px" />
-                        </div>
-                    </div>
-                </div>
-            </div>      
-        </div>
+        <div style={{height:'200px'}}></div>
         <section className={styles.section_o__no_bottom}>
             <div className={styles.container}>
                 <div className={styles.g__row}>
@@ -242,7 +198,7 @@ export default () => (
                             <div className={styles.u__inline}>
                                 <div className={styles.gallery}>
                                     <div className={styles.gallery__img}>
-                                        <img width="682" src="https://marketing.intercomassets.com/assets/customer-engagement/v2/target-88f67720f921661ae7c3aa1324ba39ff26abc181e177f0ab9670455673ccac49.png" />
+                                        <img width="682" src={require("../images/85.png")} />
                                     </div>                    
                                 </div>
                             </div>
@@ -346,7 +302,7 @@ export default () => (
             <div className={styles.container_z}>
                 <div className={styles.g__row_center}>
                     <div className={styles.g__c6}>
-                        <img width="472" src="https://marketing.intercomassets.com/assets/live-chat/v2/convert-ill-7a3e7f136e8dc31a226803d418e2d20d3e4fce8a373a93e95f7983e878179c96.png" />
+                        <img width="472" src={require("../images/index2.jpeg")} />
                     </div>
                     <div className={styles.g__c5_z}>
 
@@ -402,7 +358,7 @@ export default () => (
                 
             </div>
         </section>
-        <div style={{height:"100px"}}></div>
+        
 
 
         <section className={styles.section}>
@@ -610,94 +566,6 @@ export default () => (
                 
             </div>
         </section>
-
-
-
-        
-        
-        
-        <div style={{height:"180px"}}></div>
-        <section className={styles.section}>
-            <div className={styles.container__center}>
-                <div className={styles.u__relative__inline_block}>
-                    <img className={styles.customer_support__integrations_bg_1} src="https://marketing.intercomassets.com/assets/support/v2/bg-1-87efd2c9bc1c6f275f77ecd4cf38bd93d8ae8d05a5890710a6a84104057b0866.png" />
-                    <h2 className={styles.t__h2__center}>
-                        <font>
-                            通过定制化与您的业务流程无缝集成
-                        </font>
-                    </h2>
-                    <p className={styles.u__center__f__center}>
-                        <font>我们的集成库和灵活的API意味着您可以轻松地将PPmessage融入您的工作方式。</font>
-                    </p>
-                </div>                 
-            </div>
-            <div className={styles.container__integrations_container}>
-                <div className={styles.u__hidden__md}>
-                    <img width="277" className={styles.tu} src="https://marketing.intercomassets.com/assets/support/v2/bg-2-2x-b6cf2b23a95a0aa54636f6920c0ccdcec04bba262f018fae481e72f3ac0089db.png" />
-                    <img width="290" className={styles.tu1} src="https://marketing.intercomassets.com/assets/support/v2/bg-3-2x-e4d3b8ca63fcdb8a79662a8be7c51500e6c42844b1e4b4e71a5302f22ae2c7d0.png" />
-                </div>
-                <div className={styles.u__zfix}>
-                    <div style={{height:"40px"}}></div>          
-                    <div className={styles.g__row_9}>
-                        
-                        <div className={styles.g__c4_z}>
-                            <a className={styles.integration_card} href="#">
-                                <div className={styles.intergration__card__logo}>
-                                    <img src="https://marketing.intercomassets.com/demand-generation/direct-response/1510274705-_salesforce.svg" />
-                                </div>
-                                
-                                <div className={styles.f__bold_7}>
-                                    <font>Salesforce</font>
-                                </div>
-                                <div style={{height:"5px"}}></div>
-                                <div className={styles.f__light_7}>
-                                    <font>
-                                        向Salesforce推送合格商机和聊天记录，并在PPMessage中使用
-                                    </font>
-                                </div>
-                            </a>
-                        </div>
-                        <div className={styles.g__c4_z}>
-                            <a className={styles.integration_card} href="#">
-                                <div className={styles.intergration__card__logo}>
-                                    <img src="https://marketing.intercomassets.com/demand-generation/direct-response/1510274724-_segment.svg" />
-                                </div>
-                                
-                                <div className={styles.f__bold_7}>
-                                    <font>Get a Demo APP</font>
-                                </div>
-                                <div style={{height:"5px"}}></div>
-                                <div className={styles.f__light_7}>
-                                    <font>
-                                        获取和转化需要产品演示的客户
-                                    </font>
-                                </div>
-                            </a>
-                        </div>
-                        <div className={styles.g__c4_z}>
-                            <a className={styles.integration_card} href="#">
-                                <div className={styles.intergration__card__logo}>
-                                    <img src="https://marketing.intercomassets.com/demand-generation/direct-response/1510274623-_mailchimp.svg" />
-                                </div>
-                                
-                                <div className={styles.f__bold_7}>
-                                    <font>MailChimp</font>
-                                </div>
-                                <div style={{height:"5px"}}></div>
-                                <div className={styles.f__light_7}>
-                                    <font>从Messenger捕获和同步订阅者</font>
-                                </div>
-                            </a>
-                        </div>            
-                    </div>
-                    <div style={{height:"30px"}}></div>
-                    <a href="#" ><font>查看更多应用</font></a>
-                    <div className={styles.f__center}>
-                        
-                    </div>
-                </div>
-            </div>
-        </section>   
     </div>
 	</Layout>
 );
