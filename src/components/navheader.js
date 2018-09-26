@@ -44,12 +44,7 @@ class NavHeader extends React.Component {
             _navClass = "navheader-fixed";
         }
         
-        console.log(this.state);
         return (
-
-            
-
-
             <div className={styles.heiti}>        
                 <div className={_navClass}>
                     <div className={styles.container}>
