@@ -23,6 +23,12 @@ git push
 
 执行 ssh-update-ppmessage-cn-web-site.sh 这个脚本
 
+
+```
+sh ssh-update-ppmessage-cn-web-site.sh
+```
+
+
 这个脚本自动登录到 ppmessage cn 的服务器，并且在服务器上执行 下载最新代码，编译，并且把编译好的 html 文件 复制到 web 服务器下面。
 
 
