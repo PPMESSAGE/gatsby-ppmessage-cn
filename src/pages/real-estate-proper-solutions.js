@@ -10,12 +10,12 @@ export default () =>{
         {
             title: "业主信息分析",
             desc: "全面记录业主沟通信息，自动评估业主购买意向",
-            image: "https://marketing.intercomassets.com/assets/messages/segmentation-53f2b095305527a75a4082d62ae823fc29e4a09a3c34e1facc147b2046d1ec49.png"
+            image: require("../images/87.png")
         },
         {
             title: "智能电销、邮件、短信、微信营销",
             desc: "规避轰炸式营销陷阱，根据业主的属性和行为在特定时点向用户发送个性化邮件、短信和微信消息或进行智能电销（自动外呼和语音机器人），保证企业口碑的同时提升销售转化",
-            image: "https://marketing.intercomassets.com/assets/messages/outbound-dbf7ecfa4c3664f7174deb855194d0061d0f2112ddf8cc0243c6438c6880cb7c.png"
+            image: require("../images/80.jpeg")
         },
     ]
 
@@ -25,7 +25,7 @@ export default () =>{
         {
             title: "业主细分",
             desc: "基于业主属性和行为实施细分目标客户",
-            image: "https://marketing.intercomassets.com/assets/messages/segmentation-53f2b095305527a75a4082d62ae823fc29e4a09a3c34e1facc147b2046d1ec49.png"
+            image:require("../images/92.png")
         },
         {
             title: "外发消息",

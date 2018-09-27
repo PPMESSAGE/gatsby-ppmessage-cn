@@ -45,7 +45,7 @@ export default () =>{
         {
             title: "客户细分",
             desc: "基于客户属性和行为实施细分目标客户",
-            image: "https://marketing.intercomassets.com/assets/messages/segmentation-53f2b095305527a75a4082d62ae823fc29e4a09a3c34e1facc147b2046d1ec49.png"
+            image:require("../images/92.png")
         },
         {
             title: "外发消息",

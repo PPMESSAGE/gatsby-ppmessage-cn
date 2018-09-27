@@ -10,7 +10,7 @@ export default () =>{
         {
             title: "访客信息分析",
             desc: "跟踪从市场投放关键词到用户发起会话询问的全流程数据，实时评估销售转化率和ROI；自动展示访客浏览轨迹，记录客户主要活动",
-            image: "https://marketing.intercomassets.com/assets/messages/segmentation-53f2b095305527a75a4082d62ae823fc29e4a09a3c34e1facc147b2046d1ec49.png"
+            image: require("../images/87.png")
         },
         {
             title: "自动获取和评估商机",
@@ -26,7 +26,7 @@ export default () =>{
         {
             title: "智能电销、邮件、短信、微信营销",
             desc: "根据用户的属性和行为在特定时点向用户发送邮件、短信和微信消息或进行智能电销（自动外呼和语音机器人），高效提升销售转化",
-            image: require("../images/50.png")
+            image: require("../images/80.jpeg")
         },
         
         
@@ -39,7 +39,7 @@ export default () =>{
         {
             title: "客户细分",
             desc: "基于客户属性和行为实施细分目标客户",
-            image: "https://marketing.intercomassets.com/assets/messages/segmentation-53f2b095305527a75a4082d62ae823fc29e4a09a3c34e1facc147b2046d1ec49.png"
+            image: require("../images/92.png")
         },
         {
             title: "外发消息",

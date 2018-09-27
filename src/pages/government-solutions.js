@@ -10,7 +10,7 @@ export default () =>{
         {
             title: "群体细分",
             desc: "基于市民属性和行为实时细分市民组群",
-            image: "https://marketing.intercomassets.com/assets/messages/segmentation-53f2b095305527a75a4082d62ae823fc29e4a09a3c34e1facc147b2046d1ec49.png"
+            image: require("../images/92.png")
         },
         {
             title: "外发消息",
@@ -35,7 +35,7 @@ export default () =>{
         {
             title: "可定制化，可私有部署",
             desc: "根据业务需求快速定制并私有部署，保障信息安全",
-            image: require("../images/63.png")
+            image: require("../images/82.png")
         },
 
         {
@@ -52,7 +52,7 @@ export default () =>{
         {
             title: "在线质检",
             desc: "分设质检标准和禁忌项，分类考核客服，提高市民满意度",
-            image:require("../images/65.png")
+            image:require("../images/90.png")
         },
         
         

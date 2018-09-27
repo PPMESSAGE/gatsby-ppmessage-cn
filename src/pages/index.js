@@ -38,7 +38,7 @@ export default () =>{
         {
             title: "客户细分",
             desc: "基于客户属性和行为实施细分目标客户",
-            image: require("../images/客户细分.png")
+            image: require("../images/92.png")
         },
         {
             title: "外发消息",

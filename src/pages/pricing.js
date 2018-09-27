@@ -216,7 +216,7 @@ export default () => (
                                             <tr>
                                                 <td style={{borderBottom:"none"}}><font>在线客服（座席）</font>
                                                 </td>
-                                                <td style={{borderBottom:"none"}}><font>&lt;10</font>
+                                                <td style={{borderBottom:"none"}}><font>&lt;10人</font>
                                                 </td>
                                                 
                                             </tr>
@@ -453,7 +453,7 @@ export default () => (
                                             <tr>
                                                 <td style={{borderBottom:"none"}}><font>在线客服（座席）</font>
                                                 </td>
-                                                <td style={{borderBottom:"none"}}><font>&lt;10</font>
+                                                <td style={{borderBottom:"none"}}><font>&lt;10人</font>
                                                 </td>
                                                 <td style={{borderBottom:"none"}}><font> </font>
                                                 </td>
@@ -693,7 +693,7 @@ export default () => (
                                             <tr>
                                                 <td style={{borderBottom:"none"}}><font>在线客服（座席）</font>
                                                 </td>
-                                                <td style={{borderBottom:"none"}}><font>&lt;20</font>
+                                                <td style={{borderBottom:"none"}}><font>&lt;20人</font>
                                                 </td>
                                             </tr>
                                             <tr>

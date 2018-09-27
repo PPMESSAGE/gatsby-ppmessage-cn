@@ -15,7 +15,7 @@ export default () =>{
         {
             title: "智能客服机器人",
             desc: "7X24小时无间断服务，回答准确率最高可达97%;采用自然语言方式添加知识库，知识的添加和维护更加简单便捷；基于NLP的智能语音问答系统",
-            image: "https://marketing.intercomassets.com/assets/messages/outbound-dbf7ecfa4c3664f7174deb855194d0061d0f2112ddf8cc0243c6438c6880cb7c.png"
+            image: require("../images/64.png")
         },
 
         {
@@ -27,7 +27,7 @@ export default () =>{
         {
             title: "智能电销、邮件、短信、微信营销",
             desc: "规避轰炸式营销陷阱，根据用户的属性和行为在特定时点向用户发送个性化邮件、短信和微信消息或进行智能电销（自动外呼和语音机器人），保证企业口碑的同时提升销售转化",
-            image: require("../images/50.png")
+            image: require("../images/80.jpeg")
         },
         
         
@@ -45,19 +45,19 @@ export default () =>{
         {
             title: "与ERP和CRM系统无缝集成",
             desc: "通过PPMessage特有的流程功能与ERP与CRM系统无缝集成，消灭信息孤岛",
-            image: "https://marketing.intercomassets.com/assets/messages/outbound-dbf7ecfa4c3664f7174deb855194d0061d0f2112ddf8cc0243c6438c6880cb7c.png"
+            image: require("../images/93.png")
         },
 
         {
             title: "现场管理",
             desc: "签到、拍照、记录、总结、验收、满意度评价、支付宝微信收款全方位支持",
-            image: "https://marketing.intercomassets.com/assets/messages/measurement-b13614c1ef0feae4aa3509d1fe5ee4b10fc8a489f10fa8ee9a02ca3a1ca93545.png"
+            image: {/*空着*/}
         },
 
         {
             title: "统计考核",
             desc: "客服工作量和服务质量实时统计",
-            image: "https://marketing.intercomassets.com/assets/messages/integrations-c420a951ff2bb5ce602e9149567455760bea13a8f8246701593b577238096f75.png"
+            image:require("../images/90.png")
         },        
     ]
 

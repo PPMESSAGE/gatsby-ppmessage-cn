@@ -1,8 +1,8 @@
 import React from "react";
-
+import WorthCompany from "../../components/worthcompany"
 import styles from "../about-css-modules.module.css";
 import StackGallery from "../../components/stackgallery";
-
+import Index from "../index"
 import TabsControl from "../../components/tabscontrol";
 
 
