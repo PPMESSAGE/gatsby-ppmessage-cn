@@ -162,7 +162,26 @@ export default () =>(
                                                 </td>
                                                 <td style={{borderBottom:"none"}}><font>&lt;10,000条/年</font>
                                                 </td>
-                                            </tr>                                            
+                                            </tr>
+                                            <tr>
+                                                <td style={{borderBottom:"none"}}><font>工单系统</font>
+                                                </td>
+                                                <td style={{borderBottom:"none"}}><font>&lt;10,000条/年</font>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style={{borderBottom:"none"}}><font>邮件、短信消息</font>
+                                                </td>
+                                                <td style={{borderBottom:"none"}}><font>&lt;10,000条/年</font>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style={{borderBottom:"none"}}><font>客服机器人</font>
+                                                </td>
+                                                <td style={{borderBottom:"none"}}><font>不限消息数
+                                                </font>
+                                                </td>
+                                            </tr>
                                         </tbody>
                                     </table>
                                     </div>
@@ -200,7 +219,38 @@ export default () =>(
                                                     </td>
                                                     
                                                 </tr>
-                                                
+                                                <tr>
+                                                    <td>
+                                                        <font>
+                                                            业务触发的邮件、短信消息
+                                                        </font>
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <font>
+                                                            工单系统
+                                                        </font>
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <font>
+                                                            客服机器人
+                                                        </font>
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <font>
+                                                            无限访客并发
+                                                        </font>
+                                                    </td>
+                                                    
+                                                </tr>                                                
                                             </tbody>
                                         </table>
                                     </div>
@@ -220,14 +270,14 @@ export default () =>(
                                         </span>
                                     </div>
                                     <div className={styles.g__c12}>
-                                        <font>满足客服10人以下中小企业基本需求</font>
+                                        <font>满足20人以下中小企业的复杂的线上业务需求</font>
                                     </div>
                                     <div className={styles.g__c12}>
                                         <div className={styles.t__p3}>
                                             <font></font>
                                         </div>
                                         <span className={styles.t__h2}>
-                                            <font>¥ 5,000元
+                                            <font>¥ 15,000元
                                             </font>
                                         </span>
                                         <font className={styles.vertical}>/年
@@ -247,7 +297,7 @@ export default () =>(
                                             <tr>
                                                 <td style={{borderBottom:"none"}}><font>在线客服（座席）</font>
                                                 </td>
-                                                <td style={{borderBottom:"none"}}><font>&lt;10人</font>
+                                                <td style={{borderBottom:"none"}}><font>&lt;20人</font>
                                                 </td>
                                                 
                                             </tr>
@@ -257,7 +307,25 @@ export default () =>(
                                                 </td>
                                                 <td style={{borderBottom:"none"}}><font>&lt;10,000条/年</font>
                                                 </td>
-                                            </tr>                                            
+                                            </tr>
+                                            <tr>
+                                                <td style={{borderBottom:"none"}}><font>工单系统</font>
+                                                </td>
+                                                <td style={{borderBottom:"none"}}><font>&lt;10,000条/年</font>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style={{borderBottom:"none"}}><font>邮件、短信消息</font>
+                                                </td>
+                                                <td style={{borderBottom:"none"}}><font>&lt;10,000条/年</font>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style={{borderBottom:"none"}}><font>客服机器人</font>
+                                                </td>
+                                                <td style={{borderBottom:"none"}}><font>不限消息数</font>
+                                                </td>
+                                            </tr>
                                         </tbody>
                                     </table>
                                     </div>
@@ -290,7 +358,39 @@ export default () =>(
                                                 <tr>
                                                     <td>
                                                         <font>
-                                                            主动消息
+                                                            应用内主动消息
+                                                        </font>
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <font>
+                                                            业务触发的邮件、短信消息
+                                                        </font>
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <font>
+                                                            工单系统
+                                                        </font>
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <font>
+                                                            客服机器人
+                                                        </font>
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <font>
+                                                            无限访客并发
                                                         </font>
                                                     </td>
                                                     
