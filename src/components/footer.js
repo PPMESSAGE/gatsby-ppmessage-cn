@@ -3,6 +3,7 @@ import styles from '../pages/footer-modules.module.css';
 import Link from "gatsby-link";
 import EnterYourMobile from "./enteryourmobile";
 
+import "./footer.css"
 
 class Footer extends React.Component {
 
@@ -18,24 +19,24 @@ class Footer extends React.Component {
 
     render() {
         return (
-            <footer className={styles.footer__wrap}>
+            <footer className="footer">
                 <div style={{height:"72px"}}></div>
                 <div className={styles.container}>
                     <div className={styles.cta__footer}>        
                         <div className={styles.container}>
-                            <div className={styles.g__row}>
-                                <div className={styles.g__c6}>
+                            <div className="start-use">
+
+                                <div className="intro">
                                     <h2 className={styles.t__h2}><font>开始免费使用</font></h2>
                                     <div className={styles.t__small}>
                                         <div className={styles.max__470}>
                                             
                                         </div>
                                     </div>
-                                    
                                 </div>
 
-                                <div className={styles.g__c6} style={{textAlign:"right"}}>
-                                    <div className={styles.u__inline}>
+                                <div className="enter-mobile">
+                                    <div className="enter-mobile-enter">
                                         <EnterYourMobile size="middle"/>
                                     </div>
                                     <div className={styles.u__inline}>
