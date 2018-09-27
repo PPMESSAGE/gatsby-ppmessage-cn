@@ -262,7 +262,9 @@ class NavHeader extends React.Component {
                                                 </font>
                                             </a>
                                             <div style={{height:"10px"}}></div>
-                                            <a href="#" className={styles.f__no_und_aways}>
+                                            <a href="https://ppmessage.cn/ppkefu/#!/app/signin"
+                                               target="_blank"
+                                               className={styles.f__no_und_aways}>
                                                 <font style={{color:"black"}}>
                                                     <div className={styles.t__h4}>
                                                         <font>
@@ -270,7 +272,8 @@ class NavHeader extends React.Component {
                                                         </font>
                                                     </div>
                                                 </font>
-                                            </a>                                                                     </div>
+                                            </a>
+                                        </div>
                                     </div>
                                 </Hamburger>
                             </div>
@@ -582,7 +585,10 @@ class NavHeader extends React.Component {
                             </div>
                             <a href="/pricing" className={styles.nav__link}><font className={styles.zizi}>定价</font>
                             </a>
-                            <a href="https://ppmessage.cn/ppkefu/#!/app/signin" className={styles.nav__link}><font className={styles.zizi}>登录</font>
+                            <a href="https://ppmessage.cn/ppkefu/#!/app/signin"
+                               target="_blank"
+                               className={styles.nav__link}>
+                                <font className={styles.zizi}>登录</font>
                             </a>
                             <div className={styles.nav__cta}>
                                 <div >
