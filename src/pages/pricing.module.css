@@ -7,6 +7,16 @@
     padding-right: 20px;
     max-width: 1200px;
 }
+.ppmessage1{
+    background-image:url("");
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
+}
+.ppmessage2{
+
+}
+
 .t__h1{
     font-family: IntercomGrot,Helvetica Neue,Helvetica,Arial,sans-serif;
     font-weight: 300;
@@ -64,6 +74,9 @@
     flex: 0 0 auto;
     -webkit-box-flex: 0;
     padding:20px;
+}
+.heiti{
+    font-family:IntercomText,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 .c__black{
     height: 100%;

@@ -1,13 +1,17 @@
 import React from "react";
 import EnterYourMobile from "../components/enteryourmobile";
 import styles from "./about-css-modules.module.css";
-import FeatherModal from "../components/feathermodal"
-
-
-
+import FeatherModal from "../components/feathermodal";
 import Layout from "./layout";
+import {Helmet} from "react-helmet";
+
 export default () => (
 	<Layout>
+        <Helmet>
+            <title>智能客服</title>
+            <meta name="description" content="Intelligent customer service  智能客服" />
+        </Helmet>
+        
         <div className={styles.heiti}>
             <div style={{height:`72px`}}></div>
             <div style={{height:`72px`}}></div>

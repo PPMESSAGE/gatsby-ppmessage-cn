@@ -2,10 +2,15 @@ import React from "react";
 import styles from "./about-css-modules.module.css";
 import EnterYourMobile from "../components/enteryourmobile";
 import FeatherModal from "../components/feathermodal";
-
+import {Helmet} from "react-helmet";
 import Layout from "./layout";
 export default () => (
 	<Layout>
+        <Helmet>
+            <title>营销自动化</title>
+            <meta name="description" content="Marketing automation 营销自动化" />
+        </Helmet>
+        
         <div className={styles.heiti}>
             <div style={{height:"72px"}}></div>
             <div style={{height:`72px`}}></div>
@@ -603,7 +608,7 @@ export default () => (
                 </div>              
             </section>
 
-           
+            
             
 
             

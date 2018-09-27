@@ -1,11 +1,15 @@
 import React from "react";
 import styles from "./about-css-modules.module.css";
 import EnterYourMobile from "../components/enteryourmobile";
-
+import {Helmet} from "react-helmet";
 import Layout from "./layout";
 
 export default () => (
 	<Layout>
+        <Helmet>
+            <title>智能语音机器人</title>
+            <meta name="description" content="Intelligent speech robot 智能语音机器人" />
+        </Helmet>
         <div className={styles.heiti}>
 
             <div style={{height:'144px'}}></div>

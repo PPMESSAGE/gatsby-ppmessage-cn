@@ -28,8 +28,7 @@ class Footer extends React.Component {
                                     <h2 className={styles.t__h2}><font>开始免费使用</font></h2>
                                     <div className={styles.t__small}>
                                         <div className={styles.max__470}>
-                                            <font className={styles.zihao}>符合条件的申请人每月仅需49美元即可获得我们的所有产品   
-                                                <a href="#" style={{textDecoration:"none"}}>了解更多信息</a></font>
+                                            
                                         </div>
                                     </div>
                                     

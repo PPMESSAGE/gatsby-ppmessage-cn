@@ -2,10 +2,14 @@ import React from "react";
 import styles from "./about-css-modules.module.css";
 import EnterYourMobile from "../components/enteryourmobile";
 
-
+import {Helmet} from "react-helmet";
 import Layout from "./layout";
 export default () => (
 	<Layout>
+        <Helmet>
+            <title>云呼叫中心</title>
+            <meta name="description" content="cloud call center 云呼叫中心" />
+        </Helmet>
         <div className={styles.heiti}>
             <div style={{height:"144px"}}></div>
             <div className={styles.container__narrower}>

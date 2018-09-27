@@ -4,10 +4,14 @@ import EnterYourMobile from "../components/enteryourmobile";
 import TabsControl from "../components/tabscontrol";
 import ReactTooltip from 'react-tooltip';
 import WorthCompany from "../components/worthcompany"
-
+import {Helmet} from "react-helmet";
 import Layout from "./layout";
 export default () => (
 	<Layout>
+        <Helmet>
+            <title>价格</title>
+            <meta name="description" content="pricing 价格" />
+        </Helmet>
         <div className={styles.heiti}>
             <div style={{height:"72px"}}></div>
 
@@ -226,7 +230,6 @@ export default () => (
                                                     <td style={{borderBottom:"none"}}><font>$ 95 /月</font>
                                                     </td>
                                                     </tr>
-
                                                     <tr>
                                                     <td style={{borderBottom:"none"}}><font>501-2,000人</font>
                                                     </td>
@@ -235,7 +238,6 @@ export default () => (
                                                     <td style={{borderBottom:"none"}}><font>$ 120 /月</font>
                                                     </td>
                                                     </tr>
-
                                                     <tr>
                                                     <td style={{borderBottom:"none"}}><font>2,001-5,000人</font>
                                                     </td>
@@ -244,7 +246,6 @@ export default () => (
                                                     <td style={{borderBottom:"none"}}><font>$ 150 /月</font>
                                                     </td>
                                                     </tr>
-
                                                     <tr>
                                                     <td style={{borderBottom:"none"}}><font>5,001-10,000人</font>
                                                     </td>
@@ -253,7 +254,6 @@ export default () => (
                                                     <td style={{borderBottom:"none"}}><font>$ 270 /月</font>
                                                     </td>
                                                     </tr>
-
                                                     <tr>
                                                     <td style={{borderBottom:"none"}}><font>10,001-20,000人</font>
                                                     </td>
@@ -262,7 +262,6 @@ export default () => (
                                                     <td style={{borderBottom:"none"}}><font>$ 450 /月</font>
                                                     </td>
                                                     </tr>
-
                                                     <tr>
                                                     <td style={{borderBottom:"none"}}><font>超过20,000人？</font>
                                                     </td>
@@ -443,7 +442,7 @@ export default () => (
                                             <tr>
                                             <th style={{borderBottom:"none"}}><font>座席价格</font>
                                             </th>
-                                            <th style={{borderBottom:"none"}}><font>必要</font>
+                                            <th style={{borderBottom:"none"}}><font>必要</f⁯nt>
                                             </th>
                                             <th style={{borderBottom:"none"}}><font>临</font>
                                             </th>
@@ -738,7 +737,6 @@ export default () => (
                                                 <td style={{borderBottom:"none"}}><font>$ 95 /月</font>
                                                 </td>
                                                 </tr>
-
                                                 <tr>
                                                 <td style={{borderBottom:"none"}}><font>501-2,000人</font>
                                                 </td>
@@ -747,7 +745,6 @@ export default () => (
                                                 <td style={{borderBottom:"none"}}><font>$ 120 /月</font>
                                                 </td>
                                                 </tr>
-
                                                 <tr>
                                                 <td style={{borderBottom:"none"}}><font>2,001-5,000人</font>
                                                 </td>
@@ -756,7 +753,6 @@ export default () => (
                                                 <td style={{borderBottom:"none"}}><font>$ 150 /月</font>
                                                 </td>
                                                 </tr>
-
                                                 <tr>
                                                 <td style={{borderBottom:"none"}}><font>5,001-10,000人</font>
                                                 </td>
@@ -765,7 +761,6 @@ export default () => (
                                                 <td style={{borderBottom:"none"}}><font>$ 270 /月</font>
                                                 </td>
                                                 </tr>
-
                                                 <tr>
                                                 <td style={{borderBottom:"none"}}><font>10,001-20,000人</font>
                                                 </td>
@@ -774,7 +769,6 @@ export default () => (
                                                 <td style={{borderBottom:"none"}}><font>$ 450 /月</font>
                                                 </td>
                                                 </tr>
-
                                                 <tr>
                                                 <td style={{borderBottom:"none"}}><font>超过20,000人？</font>
                                                 </td>
@@ -906,7 +900,7 @@ export default () => (
                         </div>
                         
                     </div>
-                   
+                    
                     
                     <div style={{height:"20px"}}></div>
                     <p className={styles.t__h3_center} style={{fontWeight:"100"}}>
@@ -986,4 +980,3 @@ export default () => (
         </div>
 	</Layout>
 );
-

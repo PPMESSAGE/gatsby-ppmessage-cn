@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./about-css-modules.module.css";
 import EnterYourMobile from "../components/enteryourmobile";
 import KeyFeatures from "../components/keyfeatures";
-
+import {Helmet} from "react-helmet";
 import Layout from "./layout";
 export default () =>{
 
@@ -64,92 +64,96 @@ export default () =>{
     
     return(
 	    <Layout>
-        <div className={styles.heiti}>
-            <div style={{height:'72px'}}></div>
-            <div className={styles.container__narrower}>
-                <div className={styles.g__row}>
-                    
-                    <div className={styles.g__c6}>
-                        <div style={{height:"100px"}}></div>
-                        <h1>制造业解决方案</h1>
-                        <div className={styles.sp__5}>
-                            <h2 style={{fontSize:"36px",fontWeight:"150"}}>
-                                可定制的跨时区、跨地域、多语言的全球客户支持和维修工单流转系统
-                            </h2>
-                            <div style={{height:"10px"}}>
-                            </div>
-                            <h3 style={{color:'#888',fontWeight:"100"}}>
-                                及时响应来自各种渠道的咨询包括送货、安装、维修等，通过贯穿于厂商、经销商、售后服务中心及特约维修网点的工单流转系统为客户提供全面支持
-                            </h3>
-                            <div style={{height:"20px"}}>            
-                            </div>
-                            <EnterYourMobile size="middle"/>
-                            <div style={{height:"15px"}}></div>
-                            <div className={styles.t__small}>
-                                <div className={styles.list__bulletinline}>
-                                    <font style={{color:'#888'}}>
-                                        免费试用 · 易于安装 · 
-                                    </font>        
+            <Helmet>
+                <title>制造业解决方案</title>
+                <meta name="description" content="Manufacturing solutions 制造业解决方案" />
+            </Helmet>
+            <div className={styles.heiti}>
+                <div style={{height:'72px'}}></div>
+                <div className={styles.container__narrower}>
+                    <div className={styles.g__row}>
+                        
+                        <div className={styles.g__c6}>
+                            <div style={{height:"100px"}}></div>
+                            <h1>制造业解决方案</h1>
+                            <div className={styles.sp__5}>
+                                <h2 style={{fontSize:"36px",fontWeight:"150"}}>
+                                    可定制的跨时区、跨地域、多语言的全球客户支持和维修工单流转系统
+                                </h2>
+                                <div style={{height:"10px"}}>
+                                </div>
+                                <h3 style={{color:'#888',fontWeight:"100"}}>
+                                    及时响应来自各种渠道的咨询包括送货、安装、维修等，通过贯穿于厂商、经销商、售后服务中心及特约维修网点的工单流转系统为客户提供全面支持
+                                </h3>
+                                <div style={{height:"20px"}}>            
+                                </div>
+                                <EnterYourMobile size="middle"/>
+                                <div style={{height:"15px"}}></div>
+                                <div className={styles.t__small}>
+                                    <div className={styles.list__bulletinline}>
+                                        <font style={{color:'#888'}}>
+                                            免费试用 · 易于安装 · 
+                                        </font>        
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div className={styles.g__c6}>
-                        <div>
-                            <img src={require("../images/index2.jpeg")} />
+                        <div className={styles.g__c6}>
+                            <div>
+                                <img src={require("../images/index2.jpeg")} />
+                            </div>
                         </div>
-                    </div>
-                </div>  
+                    </div>  
+                </div>
+
+                <section>
+                    <div className={styles.container__narrower}>
+                        <h3 className={styles.f__center}>
+                            <font>基于人工智能的全渠道智能客服解决方案</font>
+                        </h3>
+                        <div style={{height:"30px"}}></div>
+                        <div className={styles.container__narrower}>
+                            <h5 className={styles.f__center1}>
+                                <font>
+                                    提供全渠道智能客服解决方案，将可全球分布式组网的大容量呼叫中心与其他客服通道无缝集成，一站式处理所有客户咨询 
+                                </font>
+                            </h5>
+                        </div>
+                        <div style={{height:'80px'}}></div>
+                        <div className={styles.tupian}>
+                            <KeyFeatures features={_features}>
+                            </KeyFeatures>
+                        </div>
+                    </div>      
+                </section>
+
+                <section>
+                    <div style={{height:"10em"}}></div>
+                    <div className={styles.container__narrower}>
+                        <h3 className={styles.f__center}>
+                            <font>与业务无缝集成的智能工单流转系统</font>
+                        </h3>
+                        <div style={{height:"30px"}}></div>
+                        <div className={styles.container__narrower}>
+                            <h5 className={styles.f__center1}>
+                                <font>
+                                    与企业ERP和CRM系统无缝集成，联结用户、厂商、供应商、维修商和上门服务人员，大幅提升企业服务水平
+                                </font>
+                            </h5>
+                        </div>
+                        <div style={{height:"80px"}}></div>
+                        <div className={styles.tupian}>
+                            <KeyFeatures rtl="true" features={_features1}>
+                            </KeyFeatures>
+                        </div>
+                    </div>      
+                </section>
+
+
+                
+                <div style={{height:"120px"}}></div>
+
             </div>
-
-            <section>
-                <div className={styles.container__narrower}>
-                    <h3 className={styles.f__center}>
-                        <font>基于人工智能的全渠道智能客服解决方案</font>
-                    </h3>
-                    <div style={{height:"30px"}}></div>
-                    <div className={styles.container__narrower}>
-                        <h5 className={styles.f__center1}>
-                            <font>
-                                提供全渠道智能客服解决方案，将可全球分布式组网的大容量呼叫中心与其他客服通道无缝集成，一站式处理所有客户咨询 
-                            </font>
-                        </h5>
-                    </div>
-                    <div style={{height:'80px'}}></div>
-                    <div className={styles.tupian}>
-                        <KeyFeatures features={_features}>
-                        </KeyFeatures>
-                    </div>
-                </div>      
-            </section>
-
-            <section>
-                <div style={{height:"10em"}}></div>
-                <div className={styles.container__narrower}>
-                    <h3 className={styles.f__center}>
-                        <font>与业务无缝集成的智能工单流转系统</font>
-                    </h3>
-                    <div style={{height:"30px"}}></div>
-                    <div className={styles.container__narrower}>
-                        <h5 className={styles.f__center1}>
-                            <font>
-                                与企业ERP和CRM系统无缝集成，联结用户、厂商、供应商、维修商和上门服务人员，大幅提升企业服务水平
-                            </font>
-                        </h5>
-                    </div>
-                    <div style={{height:"80px"}}></div>
-                    <div className={styles.tupian}>
-                        <KeyFeatures rtl="true" features={_features1}>
-                        </KeyFeatures>
-                    </div>
-                </div>      
-            </section>
-
-
-            
-            <div style={{height:"120px"}}></div>
-
-        </div>
 	    </Layout>
     )
 }

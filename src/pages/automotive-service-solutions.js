@@ -3,7 +3,7 @@ import styles from "./about-css-modules.module.css";
 import EnterYourMobile from "../components/enteryourmobile";
 import KeyFeatures from "../components/keyfeatures";
 import Layout from "./layout";
-
+import {Helmet} from "react-helmet";
 export default () =>{
 
     let _features = [
@@ -96,112 +96,116 @@ export default () =>{
 
     return(
 	    <Layout>
-        <div className={styles.heiti}>
-            <div style={{height:'72px'}}></div>
-            <div className={styles.container__narrower}>
-                <div className={styles.g__row}>
-                    
-                    <div className={styles.g__c6}>
-                        <div style={{height:"100px"}}></div>
-                        <h1>汽车服务解决方案</h1>
-                        <div className={styles.sp__5}>
-                            <h2 style={{fontSize:"36px",fontWeight:"150"}}>
-                                从精准化市场营销到智能化车主服务客户全生命周期解决方案
-                            </h2>
-                            <div style={{height:"10px"}}>
-                            </div>
-                            <h3 style={{color:'#888',fontWeight:"100"}}>
-                                准确把握商机，增强客户粘性，促进重复购买
-                            </h3>
-                            <div style={{height:"20px"}}>            
-                            </div>
-                            <EnterYourMobile size="middle"/>
-                            <div style={{height:"15px"}}></div>
-                            <div className={styles.t__small}>
-                                <div className={styles.list__bulletinline}>
-                                    <font style={{color:'#888'}}>
-                                        免费试用 · 易于安装 · 
-                                    </font>        
+            <Helmet>
+                <title>汽车服务解决方案</title>
+                <meta name="description" content="Automotive service solutions 汽车服务解决方案" />
+            </Helmet>
+            <div className={styles.heiti}>
+                <div style={{height:'72px'}}></div>
+                <div className={styles.container__narrower}>
+                    <div className={styles.g__row}>
+                        
+                        <div className={styles.g__c6}>
+                            <div style={{height:"100px"}}></div>
+                            <h1>汽车服务解决方案</h1>
+                            <div className={styles.sp__5}>
+                                <h2 style={{fontSize:"36px",fontWeight:"150"}}>
+                                    从精准化市场营销到智能化车主服务客户全生命周期解决方案
+                                </h2>
+                                <div style={{height:"10px"}}>
+                                </div>
+                                <h3 style={{color:'#888',fontWeight:"100"}}>
+                                    准确把握商机，增强客户粘性，促进重复购买
+                                </h3>
+                                <div style={{height:"20px"}}>            
+                                </div>
+                                <EnterYourMobile size="middle"/>
+                                <div style={{height:"15px"}}></div>
+                                <div className={styles.t__small}>
+                                    <div className={styles.list__bulletinline}>
+                                        <font style={{color:'#888'}}>
+                                            免费试用 · 易于安装 · 
+                                        </font>        
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div className={styles.g__c6}>
-                        <div>
-                            <img src={require("../images/index2.jpeg")} />
+                        <div className={styles.g__c6}>
+                            <div>
+                                <img src={require("../images/index2.jpeg")} />
+                            </div>
                         </div>
-                    </div>
-                </div>  
+                    </div>  
+                </div>
+
+                <section>
+                    <div className={styles.container__narrower}>
+                        <h3 className={styles.f__center}>
+                            <font>获取更多商机并达成更多交易</font>
+                        </h3>
+                        <div style={{height:"30px"}}></div>
+                        <div className={styles.container__narrower}>
+                            <h5 className={styles.f__center1}>
+                                <font>
+                                    通过网页主动消息、在线聊天，智能电销，邮件、短信、微信营销快速获取更多商机；通过销售机器人实时评估商机质量并自动分配，提升商机转化率
+                                </font>
+                            </h5>
+                        </div>
+                        <div style={{height:'80px'}}></div>
+                        <div className={styles.tupian}>
+                            <KeyFeatures features={_features}>
+                            </KeyFeatures>
+                        </div>
+                    </div>      
+                </section>
+
+                <section>
+                    <div style={{height:"10em"}}></div>
+                    <div className={styles.container__narrower}>
+                        <h3 className={styles.f__center}>
+                            <font>将更多注册用户转变为活跃的付费客户</font>
+                        </h3>
+                        <div style={{height:"30px"}}></div>
+                        <div className={styles.container__narrower}>
+                            <h5 className={styles.f__center1}>
+                                <font>
+                                    根据用户渠道偏好，通过应用内消息、智能语音、邮件、短信、微信等各种渠道向目标用户发送有针对性的消息，培育和激活会员，增强会员的忠诚度，提高用户重复购买率
+                                </font>
+                            </h5>
+                        </div>
+                        <div style={{height:"80px"}}></div>
+                        <div className={styles.tupian}>
+                            <KeyFeatures rtl="true" features={_features1}>
+                            </KeyFeatures>
+                        </div>
+                    </div>      
+                </section>
+
+
+                <section>
+                    <div style={{height:"10em"}}></div>
+                    <div className={styles.container__narrower}>
+                        <h3 className={styles.f__center}>
+                            <font>基于人工智能的全渠道智能客服解决方案</font>
+                        </h3>
+                        <div style={{height:"30px"}}></div>
+                        <div className={styles.container__narrower}>
+                            <h5 className={styles.f__center1}>
+                                <font>
+                                    提供全渠道智能客服解决方案，将可全球分布式组网的大容量呼叫中心与其他客服通道无缝集成，提供灵活的工单和智能机器人系统，快速解决客户问题，提高客户满意度
+                                </font>
+                            </h5>
+                        </div>
+                        <div style={{height:"80px"}}></div>
+                        <div className={styles.tupian}>
+                            <KeyFeatures rtl="false" features={_features2}>
+                            </KeyFeatures>
+                        </div>
+                    </div>      
+                </section>
+                <div style={{height:"120px"}}></div>
+
             </div>
-
-            <section>
-                <div className={styles.container__narrower}>
-                    <h3 className={styles.f__center}>
-                        <font>获取更多商机并达成更多交易</font>
-                    </h3>
-                    <div style={{height:"30px"}}></div>
-                    <div className={styles.container__narrower}>
-                        <h5 className={styles.f__center1}>
-                            <font>
-                                通过网页主动消息、在线聊天，智能电销，邮件、短信、微信营销快速获取更多商机；通过销售机器人实时评估商机质量并自动分配，提升商机转化率
-                            </font>
-                        </h5>
-                    </div>
-                    <div style={{height:'80px'}}></div>
-                    <div className={styles.tupian}>
-                        <KeyFeatures features={_features}>
-                        </KeyFeatures>
-                    </div>
-                </div>      
-            </section>
-
-            <section>
-                <div style={{height:"10em"}}></div>
-                <div className={styles.container__narrower}>
-                    <h3 className={styles.f__center}>
-                        <font>将更多注册用户转变为活跃的付费客户</font>
-                    </h3>
-                    <div style={{height:"30px"}}></div>
-                    <div className={styles.container__narrower}>
-                        <h5 className={styles.f__center1}>
-                            <font>
-                                根据用户渠道偏好，通过应用内消息、智能语音、邮件、短信、微信等各种渠道向目标用户发送有针对性的消息，培育和激活会员，增强会员的忠诚度，提高用户重复购买率
-                            </font>
-                        </h5>
-                    </div>
-                    <div style={{height:"80px"}}></div>
-                    <div className={styles.tupian}>
-                        <KeyFeatures rtl="true" features={_features1}>
-                        </KeyFeatures>
-                    </div>
-                </div>      
-            </section>
-
-
-            <section>
-                <div style={{height:"10em"}}></div>
-                <div className={styles.container__narrower}>
-                    <h3 className={styles.f__center}>
-                        <font>基于人工智能的全渠道智能客服解决方案</font>
-                    </h3>
-                    <div style={{height:"30px"}}></div>
-                    <div className={styles.container__narrower}>
-                        <h5 className={styles.f__center1}>
-                            <font>
-                                提供全渠道智能客服解决方案，将可全球分布式组网的大容量呼叫中心与其他客服通道无缝集成，提供灵活的工单和智能机器人系统，快速解决客户问题，提高客户满意度
-                            </font>
-                        </h5>
-                    </div>
-                    <div style={{height:"80px"}}></div>
-                    <div className={styles.tupian}>
-                        <KeyFeatures rtl="false" features={_features2}>
-                        </KeyFeatures>
-                    </div>
-                </div>      
-            </section>
-            <div style={{height:"120px"}}></div>
-
-        </div>
 	    </Layout>
     )
 }

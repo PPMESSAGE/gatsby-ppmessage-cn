@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./about-css-modules.module.css";
 import EnterYourMobile from "../components/enteryourmobile";
 import KeyFeatures from "../components/keyfeatures";
-
+import {Helmet} from "react-helmet";
 import Layout from "./layout";
 export default () =>{
 
@@ -70,112 +70,116 @@ export default () =>{
 
     return(
 	    <Layout>
-        <div className={styles.heiti}>
-            <div style={{height:'72px'}}></div>
-            <div className={styles.container__narrower}>
-                <div className={styles.g__row}>
-                    
-                    <div className={styles.g__c6}>
-                        <div style={{height:"100px"}}></div>
-                        <h1>房产物业解决方案</h1>
-                        <div className={styles.sp__5}>
-                            <h2 style={{fontSize:"36px",fontWeight:"150"}}>
-                                业务营销、业主互动、自动收费和物业报修的专业解决方案
-                            </h2>
-                            <div style={{height:"10px"}}>
-                            </div>
-                            <h3 style={{color:'#888',fontWeight:"100"}}>
-                                线上线下一体化的业主营销、互动和支持系统， 一站解决所有业主沟通和服务问题
-                            </h3>
-                            <div style={{height:"20px"}}>            
-                            </div>
-                            <EnterYourMobile size="middle"/>
-                            <div style={{height:"15px"}}></div>
-                            <div className={styles.t__small}>
-                                <div className={styles.list__bulletinline}>
-                                    <font style={{color:'#888'}}>
-                                        免费试用 · 易于安装 · 
-                                    </font>        
+            <Helmet>
+                <title>房产物业解决方案</title>
+                <meta name="description" content="Real estate property solutions 房产物业解决方案" />
+            </Helmet>
+            <div className={styles.heiti}>
+                <div style={{height:'72px'}}></div>
+                <div className={styles.container__narrower}>
+                    <div className={styles.g__row}>
+                        
+                        <div className={styles.g__c6}>
+                            <div style={{height:"100px"}}></div>
+                            <h1>房产物业解决方案</h1>
+                            <div className={styles.sp__5}>
+                                <h2 style={{fontSize:"36px",fontWeight:"150"}}>
+                                    业务营销、业主互动、自动收费和物业报修的专业解决方案
+                                </h2>
+                                <div style={{height:"10px"}}>
+                                </div>
+                                <h3 style={{color:'#888',fontWeight:"100"}}>
+                                    线上线下一体化的业主营销、互动和支持系统， 一站解决所有业主沟通和服务问题
+                                </h3>
+                                <div style={{height:"20px"}}>            
+                                </div>
+                                <EnterYourMobile size="middle"/>
+                                <div style={{height:"15px"}}></div>
+                                <div className={styles.t__small}>
+                                    <div className={styles.list__bulletinline}>
+                                        <font style={{color:'#888'}}>
+                                            免费试用 · 易于安装 · 
+                                        </font>        
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div className={styles.g__c6}>
-                        <div>
-                            <img src={require("../images/index2.jpeg")} />
+                        <div className={styles.g__c6}>
+                            <div>
+                                <img src={require("../images/index2.jpeg")} />
+                            </div>
                         </div>
-                    </div>
-                </div>  
+                    </div>  
+                </div>
+
+                <section>
+                    <div className={styles.container__narrower}>
+                        <h3 className={styles.f__center}>
+                            <font>获取更多商机并达成更多交易</font>
+                        </h3>
+                        <div style={{height:"30px"}}></div>
+                        <div className={styles.container__narrower}>
+                            <h5 className={styles.f__center1}>
+                                <font>
+                                    通过网页主动消息、在线聊天，智能电销，邮件、短信、微信营销快速获取更多商机；通过销售机器人实时评估商机质量并自动分配，提升商机转化率
+                                </font>
+                            </h5>
+                        </div>
+                        <div style={{height:'80px'}}></div>
+                        <div className={styles.tupian}>
+                            <KeyFeatures features={_features}>
+                            </KeyFeatures>
+                        </div>
+                    </div>      
+                </section>
+
+                <section>
+                    <div style={{height:"10em"}}></div>
+                    <div className={styles.container__narrower}>
+                        <h3 className={styles.f__center}>
+                            <font>缴费业务自动化、业主沟通人性化</font>
+                        </h3>
+                        <div style={{height:"30px"}}></div>
+                        <div className={styles.container__narrower}>
+                            <h5 className={styles.f__center1}>
+                                <font>
+                                    根据用户渠道偏好，通过应用内消息、智能语音、邮件、短信、微信等各种渠道向业主缴费信息并同时提供缴费接口；就业主关心的事项与业主主动沟通
+                                </font>
+                            </h5>
+                        </div>
+                        <div style={{height:"80px"}}></div>
+                        <div className={styles.tupian}>
+                            <KeyFeatures rtl="true" features={_features1}>
+                            </KeyFeatures>
+                        </div>
+                    </div>      
+                </section>
+
+
+                <section>
+                    <div style={{height:"10em"}}></div>
+                    <div className={styles.container__narrower}>
+                        <h3 className={styles.f__center}>
+                            <font>基于人工智能的全渠道智能客服解决方案</font>
+                        </h3>
+                        <div style={{height:"30px"}}></div>
+                        <div className={styles.container__narrower}>
+                            <h5 className={styles.f__center1}>
+                                <font>
+                                    提供全渠道智能客服解决方案，提供灵活的工单系统，快速解决业主问题，提高业主满意度
+                                </font>
+                            </h5>
+                        </div>
+                        <div style={{height:"80px"}}></div>
+                        <div className={styles.tupian}>
+                            <KeyFeatures rtl="false" features={_features2}>
+                            </KeyFeatures>
+                        </div>
+                    </div>      
+                </section>
+                <div style={{height:"120px"}}></div>
+
             </div>
-
-            <section>
-                <div className={styles.container__narrower}>
-                    <h3 className={styles.f__center}>
-                        <font>获取更多商机并达成更多交易</font>
-                    </h3>
-                    <div style={{height:"30px"}}></div>
-                    <div className={styles.container__narrower}>
-                        <h5 className={styles.f__center1}>
-                            <font>
-                                通过网页主动消息、在线聊天，智能电销，邮件、短信、微信营销快速获取更多商机；通过销售机器人实时评估商机质量并自动分配，提升商机转化率
-                            </font>
-                        </h5>
-                    </div>
-                    <div style={{height:'80px'}}></div>
-                    <div className={styles.tupian}>
-                        <KeyFeatures features={_features}>
-                        </KeyFeatures>
-                    </div>
-                </div>      
-            </section>
-
-            <section>
-                <div style={{height:"10em"}}></div>
-                <div className={styles.container__narrower}>
-                    <h3 className={styles.f__center}>
-                        <font>缴费业务自动化、业主沟通人性化</font>
-                    </h3>
-                    <div style={{height:"30px"}}></div>
-                    <div className={styles.container__narrower}>
-                        <h5 className={styles.f__center1}>
-                            <font>
-                                根据用户渠道偏好，通过应用内消息、智能语音、邮件、短信、微信等各种渠道向业主缴费信息并同时提供缴费接口；就业主关心的事项与业主主动沟通
-                            </font>
-                        </h5>
-                    </div>
-                    <div style={{height:"80px"}}></div>
-                    <div className={styles.tupian}>
-                        <KeyFeatures rtl="true" features={_features1}>
-                        </KeyFeatures>
-                    </div>
-                </div>      
-            </section>
-
-
-            <section>
-                <div style={{height:"10em"}}></div>
-                <div className={styles.container__narrower}>
-                    <h3 className={styles.f__center}>
-                        <font>基于人工智能的全渠道智能客服解决方案</font>
-                    </h3>
-                    <div style={{height:"30px"}}></div>
-                    <div className={styles.container__narrower}>
-                        <h5 className={styles.f__center1}>
-                            <font>
-                                提供全渠道智能客服解决方案，提供灵活的工单系统，快速解决业主问题，提高业主满意度
-                            </font>
-                        </h5>
-                    </div>
-                    <div style={{height:"80px"}}></div>
-                    <div className={styles.tupian}>
-                        <KeyFeatures rtl="false" features={_features2}>
-                        </KeyFeatures>
-                    </div>
-                </div>      
-            </section>
-            <div style={{height:"120px"}}></div>
-
-        </div>
 	    </Layout>
     )
 }
