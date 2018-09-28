@@ -50,7 +50,7 @@ export default () => (
                 <div className={styles.container}>
                     <div className={styles.g__row}>
 
-                        <div>
+                        <div className={styles.cloud_call_center}>
 
                             <div className={styles.chuangjian} style={{margin:"22px",paddingRight:"0em"}}>
                                 <a href="#quanqiuhua" className={styles.lianjie}>

@@ -9,7 +9,6 @@
     transform: translateZ(0);
     position:fixed;      
 }
-
 .container {
     margin-left: auto;
     margin-right: auto;
@@ -2235,6 +2234,15 @@
     .section_transform{
         display:none;
     }
+    .maxWidth_s2{
+        width:100%;
+    }
+    .wow{
+        width:20%;
+    }
+    .clearfix{
+        width:100%;
+    }
     .g__row_marketing{
         margin-right:auto;
         margin-left:auto;
@@ -2345,6 +2353,10 @@
     .Hamburger_div{
         display:block;
     }
+    .cloud_call_center{
+        text-align:center;
+    }
+
     .t__small_s1{
         max-width:100%;
     }

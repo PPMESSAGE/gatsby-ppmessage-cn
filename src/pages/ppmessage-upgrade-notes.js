@@ -5,9 +5,13 @@ import FeatherModal from "../components/feathermodal";
 import Layout from "./layout";
 import ReactTooltip from 'react-tooltip';
 import TabsControl from "../components/tabscontrol";
-
+import {Helmet} from "react-helmet"; 
 export default () =>(
 	<Layout>
+        <Helmet>
+            <title>ppmessage-upgrade-notes</title>
+            <meta name="description" content="ppmessage-upgrade-notes" />
+        </Helmet>
         <div className={styles.heiti}>
             <div style={{height:"72px"}}></div>
             <div className={styles.ppmessage1}>

@@ -49,5 +49,5 @@ cp -r public/* /usr/local/nginx/html/
 
 ```
 
-> 这里面还假设你的 mac 电脑已经具备了 github 和 ppmessage cn 信任的证书，在李越超 和 孙铁成的 mac 电脑上都已经预制了.
+> 这里面还假设你的 mac 电脑已经具备了 github 和 ppmessage cn 信任的证书，在李跃超 和 孙铁成的 mac 电脑上都已经预制了.
 
