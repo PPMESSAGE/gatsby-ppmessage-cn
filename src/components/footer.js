@@ -77,7 +77,7 @@ class Footer extends React.Component {
                                     </div>
                                     
                                     <div className={styles.footer__link}>
-                                        <a href="/work-order" className={styles.lianjie}>
+                                        <a href="/tickets" className={styles.lianjie}>
                                             <font>工单系统</font>
                                         </a>
                                     </div>
@@ -214,12 +214,12 @@ class Footer extends React.Component {
                                     </h4>
                                     
                                     <div className={styles.footer__link}>
-                                        <a href=" " className={styles.lianjie}>
+                                        <a href="/tutorial/" className={styles.lianjie}>
                                             <font>帮助中心</font>
                                         </a>
                                     </div>
                                     <div className={styles.footer__link}>
-                                        <a href=" " className={styles.lianjie}>
+                                        <a href="/manual/" className={styles.lianjie}>
                                             <font>开发者文档</font>
                                         </a>
                                     </div>
@@ -236,8 +236,8 @@ class Footer extends React.Component {
                                         </a>
                                     </div>
                                     <div className={styles.footer__link}>
-                                        <a href=" " className={styles.lianjie}>
-                                            <font>我们的客户</font>
+                                        <a href="/partners" className={styles.lianjie}>
+                                            <font>合作伙伴</font>
                                         </a>
                                     </div>
                                     <div className={styles.footer__link}>

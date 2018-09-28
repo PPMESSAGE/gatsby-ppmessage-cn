@@ -79,7 +79,7 @@ class NavHeader extends React.Component {
                                                 </div>
                                             </a>
                                             <div style={{height:"10px"}}></div>
-                                            <a href="/work-order" className={styles.f__no_und_aways}>
+                                            <a href="/tickets" className={styles.f__no_und_aways}>
                                                 <div className={styles.f__medium}>
                                                     <font style={{color:"black",fontSize:"16px"}}>
                                                         工单系统
@@ -307,7 +307,7 @@ class NavHeader extends React.Component {
                                                 </div>
                                             </a>
 
-                                            <a href="/work-order" className={styles.f__no_und_aways}>
+                                            <a href="/tickets" className={styles.f__no_und_aways}>
                                                 <div className={styles.holiday}>
                                                     <div className={styles.t__h4}>
                                                         <font>工单系统</font>

@@ -61,10 +61,10 @@
     font-weight: 600;
 }
 .feature-title:hover{
-    color:blue; 
+    color:#286efa; 
 }
 .feature-title.active {
-    color: blue;
+    color:#286efa;
 }
 
 

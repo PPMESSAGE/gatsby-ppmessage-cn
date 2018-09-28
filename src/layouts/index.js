@@ -42,7 +42,7 @@ export default ({ children }) =>(
                                         </div>
                                     </a>
                                     <div style={{height:"10px"}}></div>
-                                    <a href="/work-order" className={styles.f__no_und_aways}>
+                                    <a href="/tickets" className={styles.f__no_und_aways}>
                                         <div className={styles.f__medium}>
                                             <font style={{color:"black",fontSize:"16px"}}>
                                                 工单系统
@@ -182,7 +182,7 @@ export default ({ children }) =>(
                                         </div>
                                     </a>
                                     <div style={{height:"10px"}}></div>
-                                    <a href="/government-solutions" className={styles.f__no_und_aways}>
+                                     <a href="/government-solutions" className={styles.f__no_und_aways}>
                                         <div className={styles.f__medium}>
                                             <font style={{color:"black",fontSize:"16px"}}>
                                                 政府与事业单位解决方案  
@@ -242,7 +242,7 @@ export default ({ children }) =>(
                                 <div className={styles.g__c6_yetou}>
 
 
-                                    <a href="/product" className={styles.f__no_und_aways}>
+                                    <a href="/products" className={styles.f__no_und_aways}>
                                         <div className={styles.holiday}>
                                             <div className={styles.t__h4}>
                                                 <font>智能客服</font>
@@ -266,10 +266,10 @@ export default ({ children }) =>(
                                         </div>
                                     </a>
 
-                                    <a href="/work-order" className={styles.f__no_und_aways}>
+                                    <a href="/tickets" className={styles.f__no_und_aways}>
                                         <div className={styles.holiday}>
                                             <div className={styles.t__h4}>
-                                                <font>工单系统</font>
+                                                <font>工单系统</font>{/*改不了了*/}
                                             </div>
                                             <div >
                                                 <font>打通售前售后环节，工单分配、转派、变更、提醒、业务流和SLA随心定制</font>
