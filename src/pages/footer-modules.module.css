@@ -4,6 +4,9 @@
     font-size: 15px;
     overflow: hidden;
 }
+.heiti{
+    font-family:IntercomText,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
 
 .container {
     margin-left: auto;

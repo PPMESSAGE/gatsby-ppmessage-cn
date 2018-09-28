@@ -120,8 +120,8 @@ export default () =>{
     return(
 	    <Layout>
             <Helmet>
-                <title>首页</title>
-                <meta name="description" content="Index 首页" />
+                <title>可定制可私有部署的全渠道智能云客服系统</title>
+                <meta name="description" content="PPmessage 可定制可私有部署的全渠道智能云客服系统" />
             </Helmet>
             
             <div className={styles.heiti}>
