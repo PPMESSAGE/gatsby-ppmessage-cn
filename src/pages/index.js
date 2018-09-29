@@ -12,7 +12,7 @@ export default () =>{
         {
             title: "全渠道",
             desc: "网页、电话、邮件、社交媒体的各种客户对话消息集中接入",
-            image: require("../images/呼叫中心的图.jpg") 
+            image: require("../images/94.jpeg") 
         },
         {
             title: "单一工作台界面",
