@@ -1,6 +1,7 @@
 import React from "react";
 
 import styles from "../about-css-modules.module.css";
+import KeyFeatures_q from "../../components/keyfeatures_q";
 import KeyFeatures from "../../components/keyfeatures";
 
 
@@ -9,12 +10,12 @@ export default () => {
         {
             title: "Segmentation",
             desc: "Create live segments and target the right people for messages based on their behaviors",
-            image: "https://marketing.intercomassets.com/assets/messages/segmentation-53f2b095305527a75a4082d62ae823fc29e4a09a3c34e1facc147b2046d1ec49.png"
+            image: require("../../images/87.png")
         },
         {
             title: "Outbound messaging",
             desc: "Send one-off and automated email, push, and in-app messages to people",
-            image: "https://marketing.intercomassets.com/assets/messages/outbound-dbf7ecfa4c3664f7174deb855194d0061d0f2112ddf8cc0243c6438c6880cb7c.png"
+            image: require("../../images/88.png")
         },
 
         {
@@ -37,8 +38,17 @@ export default () => {
             <div style={{height:`72px`}}></div>
             <div className={styles.container__narrower}>
                 <div className={styles.g__row}>
+                    <h1>test key features_q</h1>
+                    <KeyFeatures_q rtl="true" features={_features}>
+                    </KeyFeatures_q>
+                </div>  
+            </div>
+        
+            <div style={{height:`72px`}}></div>
+            <div className={styles.container__narrower}>
+                <div className={styles.g__row}>
                     <h1>test key features</h1>
-                    <KeyFeatures rtl="false" features={_features}>
+                    <KeyFeatures rtl="true" features={_features}>
                     </KeyFeatures>
                 </div>  
             </div>

@@ -18,6 +18,7 @@ class TestHamburger extends Component {
                 <Hamburger>
                     <div>Hello World</div>
                 </Hamburger>
+                
             </div>
         )
     }

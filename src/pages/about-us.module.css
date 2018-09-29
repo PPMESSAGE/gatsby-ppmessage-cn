@@ -1,8 +1,8 @@
 .banner{
-    height: 500px;
-    min-width: 1200px;
+    height: 200px;
+    
     margin: 90px auto 0;
-    background: url(../images/banner.png) center center no-repeat;    
+    background: url(../images/about.jpeg) center center repeat;    
 }
 .menu{
     height: 50px;
