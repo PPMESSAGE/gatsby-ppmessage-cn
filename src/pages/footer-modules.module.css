@@ -1,22 +1,8 @@
-.footer__wrap {
-    background-color: #fff;
-    padding: 70px 0 30px;
-    font-size: 15px;
-    overflow: hidden;
-}
 .heiti{
     font-family:IntercomText,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
-.container {
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    z-index: 2;
-    padding-left: 20px;
-    padding-right: 20px;
-    max-width: 1404px;
-}
+
 @media screen and (max-width:960px){
     
 }
@@ -49,40 +35,12 @@
 .footer__link{
     margin-bottom:1em;  
 }
+
 .lianjie:hover{
     color:#286efa;
 }
-.cta__footer{
-    background: #eee;
-    background-image: initial;
-    background-position-x: initial;
-    background-position-y: initial;
-    background-size: initial;
-    background-repeat-x: initial;
-    background-repeat-y: initial;
-    background-attachment: initial;
-    background-origin: initial;
-    background-clip: initial;
-    background-color: rgb(238, 238, 238);
-    padding: 50px 40px;
-    padding-top: 50px;
-    padding-right: 40px;
-    padding-bottom: 50px;
-    padding-left: 40px;
-    margin-left:2em;
-}
 
-.cta__footer::before{
-    content: "";
-    position: absolute;
-    z-index: 0;
-    background-size: 100%;
-    background-image: url(https://upload-images.jianshu.io/upload_images/12406336-d7f7552f54e553f1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240);
-    width: 428px;
-    height: 130px;
-    top: -128px;
-    left: 150px;
-}
+
 
 .g__row{
     display: flex;

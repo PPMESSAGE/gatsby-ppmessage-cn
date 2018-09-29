@@ -5,6 +5,51 @@
     overflow: hidden;
 }
 
+
+.footer .footer-container {
+
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 1404px;
+}
+
+
+footer .footer-container-container {
+    background: #eee;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(238, 238, 238);
+    padding: 50px 40px;
+    padding-top: 50px;
+    padding-right: 40px;
+    padding-bottom: 50px;
+    padding-left: 40px;
+}
+
+
+
+.footer .footer-container-container::before{
+    content: "";
+    position: absolute;
+    z-index: 0;
+    background-size: 100%;
+    background-image: url(https://upload-images.jianshu.io/upload_images/12406336-d7f7552f54e553f1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240);
+    width: 428px;
+    height: 130px;
+    top: -128px;
+    left: 150px;
+}
+
 .footer .start-use {
     display: flex;
     flex: 0 1 auto;
@@ -39,10 +84,20 @@
 
 
 @media screen and (max-width:960px){
+    .footer .footer-container {
+        padding: 0px;
+        width:100%;
+    }
+
+    .footer .footer-container-container {
+        padding: 0px;
+        width:100%;
+    }
+
     .footer .start-use {
         flex-direction: column
     }
-
+    
     .footer .start-use .intro {
         max-width: 100%;
         min-width: 100%;
@@ -57,11 +112,9 @@
         flex-direction: column;
         text-align: center;
     }
-
-
+    
     .footer .start-use .enter-mobile .enter-mobile-enter {
         width: 100%;
     }
-
-
+        
 }

@@ -22,9 +22,9 @@ class Footer extends React.Component {
             <footer className="footer">
                 <div className={styles.heiti}>
                     <div style={{height:"72px"}}></div>
-                    <div className={styles.container}>
-                        <div className={styles.cta__footer}>        
-                            <div className={styles.container}>
+                    <div className="footer-container">
+                        <div className="footer-container-container">        
+                            <div className="footer-container">
                                 <div className="start-use">
 
                                     <div className="intro">
