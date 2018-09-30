@@ -2,40 +2,34 @@
 @import "~slick-carousel/slick/slick-theme.css";
 
 .key-features_q {
-    display: -webkit-box;
-    display: -ms-flexbox;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     display: flex;
-    -webkit-box-flex: 0;
-    -ms-flex: 0 1 auto;
     flex: 0 1 auto;
-    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
     flex-direction: row;
     margin: -20px;
 }
 
 .key-features-left_q {
-    width: 33.33333%;
+    width: 50%;
     min-width: 50%;
     max-width: 50%;
-    -ms-flex-preferred-size: 33.33333%;
-    flex-basis: 33.33333%;
-    -ms-flex: 0 0 auto;
+    flex-basis: 50%;
     flex: 0 0 auto;
+    padding: 31px;
 }
 
 .key-features-right_q{
     
-    width: 66.66667%;
-    min-width: 50%;
-    max-width: 50%;
-    -ms-flex-preferred-size: 66.66667%;
-    flex-basis: 66.66667%;
-    -ms-flex: 0 0 auto;
+    width: 41.66667%;
+    min-width: 49.66667%;
+    max-width: 41.66667%;
+    flex-basis: 41.66667%;
     flex: 0 0 auto;
+    -webkit-box-flex: 0;
+    padding: 31px;
 }
 
 .key-feature-title_q {
@@ -44,25 +38,36 @@
     font-size: 36px;
     line-height: 1.44;
     color: #000;
-    margin: 0;    
+    margin: 0 0 10px;    
 }
 
 
 .feature-item_q {
-    text-align: left;
-    padding: 20px;
-    position: relative;
-    color: #000;
-    cursor:pointer;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex: 0 1 auto;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: -20px;
 }
 
 .feature-title_q {
+    font-family: IntercomGrot,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 1.44;
     color: #000;
-    font-weight: 600;
+    margin: 0 0 10px;
 }
 
 .feature-desc_q {
-    color: #888;
+    color: rgb(136, 136, 136);
+    font-weight: 100;
+    text-rendering: optimizeLegibility;
+    font-size: 1.31951rem;
+    line-height: 1.1;
 }
 
 @media screen and (max-width:960px){

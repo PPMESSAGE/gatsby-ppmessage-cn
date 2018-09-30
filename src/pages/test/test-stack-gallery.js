@@ -12,15 +12,10 @@ export default () => {
 
     let _features = [
         {
-            title: "Segmentation",
-            desc: "Create live segments and target the right people for messages based on their behaviors",
-            image: require("../../images/87.png")
+            title: "完整归档，强力支撑企业决策",
+            desc: "工单从最开始创建到已解决已关闭，期间发生的所有操作、变更、转派、提醒事件全纪录方便查询和追责，了解客户服务处理全进展，保证企业业务稳定",
+            image: "http://www.udesk.cn/images/workorder/order-history.png"
         },
-       
-      
-
-       
-
     ]
 
     return (
@@ -30,7 +25,7 @@ export default () => {
             <div className={styles.container__narrower}>
                 <div className={styles.g__row}>
                     <h1>test key features_q</h1>
-                    <KeyFeatures_q rtl="false" features={_features}>
+                    <KeyFeatures_q rtl="true" features={_features}>
                     </KeyFeatures_q>
                 </div>  
             </div>

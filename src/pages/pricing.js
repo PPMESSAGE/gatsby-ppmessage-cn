@@ -37,7 +37,7 @@ export default () => (
                                 </div>
                                 <div className={styles.t__small}>
                                     <font>
-                                        5，000元/年
+                                        5,000元/年
                                     </font>
                                 </div>
                                 <div style={{height:"20px"}}></div>

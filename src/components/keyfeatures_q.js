@@ -82,9 +82,9 @@ class KeyFeatures_q extends React.Component {
             let _desc_class = "feature-desc_q"
 
             if (this.state.highlight_item == i) {
-                _class = "feature-item active_q"
-                _title_class = "feature-title active_q"
-                _desc_class = "feature-desc active_q"
+                _class = "feature-item_q "
+                _title_class = "feature-title_q "
+                _desc_class = "feature-desc_q"
             }
 
             return (
