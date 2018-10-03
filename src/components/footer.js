@@ -223,6 +223,18 @@ class Footer extends React.Component {
                                             <font>开发者文档</font>
                                         </a>
                                     </div>
+
+                                    <div className={styles.footer__link}>
+                                        <a href="http://qiniu.ppmessage.cn/desktop/macos/PPMESSAGE-2.2.1.dmg" className={styles.lianjie}>
+                                            <font>客户端下载（macOS）</font>
+                                        </a>
+                                    </div>
+                                    <div className={styles.footer__link}>
+                                        <a href="http://qiniu.ppmessage.cn/desktop/windows/PPMESSAGE-SETUP-2.2.1.exe" className={styles.lianjie}>
+                                            <font>客户端下载（Windows）</font>
+                                        </a>
+                                    </div>
+
                                 </div>
                                 
                                 
