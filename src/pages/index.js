@@ -68,7 +68,7 @@ export default () =>{
         {
             title: "语音机器人",
             desc: "基于智能语音交互的人机融合平台，替代人工销售，延伸售后服务",
-            image: require("../images/80.jpeg")
+            image: require("../images/161.png")
         },
 
         {
