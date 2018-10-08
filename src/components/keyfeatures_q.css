@@ -71,11 +71,16 @@
 }
 
 @media screen and (max-width:960px){
-
+    .feature-desc.active {
+        color: #888;
+    }
+    .slick-slider {
+        text-align:center;
+    }
 }
-.feature-image_q {
-    display: none;
-}
+    .feature-image_q {
+        display:block;
+    }
 
 .feature-image_q.active {
     display: block;

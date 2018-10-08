@@ -66,9 +66,9 @@ class KeyFeatures_q extends React.Component {
             let _feature_mobile_list = this.props.features.map((feature, i)=> {
                 return (
                     <div key={i} value={i}>
-                        <img src={feature.image_q} />
-                        <div className="feature-title_q">{feature.title_q}</div>
-                        <div className="feature-desc_q">{feature.desc_q}</div>
+                        <img src={feature.image} />
+                        <div className="feature-title">{feature.title}</div>
+                        <div className="feature-desc">{feature.desc}</div>
                     </div>
                 )
             });
@@ -82,9 +82,9 @@ class KeyFeatures_q extends React.Component {
             let _desc_class = "feature-desc_q"
 
             if (this.state.highlight_item == i) {
-                _class = "feature-item_q "
-                _title_class = "feature-title_q "
-                _desc_class = "feature-desc_q"
+                _class = "feature-item_q active"
+                _title_class = "feature-title_q active"
+                _desc_class = "feature-desc_q active"
             }
 
             return (
@@ -96,9 +96,9 @@ class KeyFeatures_q extends React.Component {
         })
 
         let feature_image_list = this.props.features.map((feature, i)=> {
-            let _class = "feature-image";
+            let _class = "feature-image_q";
             if (this.state.highlight_item == i) {
-                _class = "feature-image active";
+                _class = "feature-image_q active";
             }
 
             return (

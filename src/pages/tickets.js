@@ -11,7 +11,7 @@ export default () => {
         {
             title: "完整归档，强力支撑企业决策",
             desc: "工单从最开始创建到已解决已关闭，期间发生的所有操作、变更、转派、提醒事件全纪录方便查询和追责，了解客户服务处理全进展，保证企业业务稳定",
-            image: "http://www.udesk.cn/images/workorder/order-history.png"
+            image: require("../images/101.png")
         },
     ]
 
@@ -19,7 +19,7 @@ export default () => {
         {
             title: "打通售前售后环节，跨部门无缝流转",
             desc: "工单的使用场景不再局限于客服内部，可以一键将工单高效流转到其他部门。企业内其他业务部门也能通过发起工单来进行跨部门的协作沟通",
-            image: require("../images/71.jpeg")
+            image: require("../images/102.png")
         },
     ]
 
@@ -27,7 +27,7 @@ export default () => {
         {
             title: "可定制的工单自动化流程",
             desc: "根据您的企业业务特性快速生成定制化工单流程，支持多种自定义字段和无限层级工单分类，自动将工单分配给指定的部门或员工，让合适的人做合适的事",
-            image:"https://upload-images.jianshu.io/upload_images/12406336-92a940c80adf523b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"
+            image:require("../images/103.png")
         },
     ]
 
@@ -35,7 +35,7 @@ export default () => {
         {
             title: "多项SLA监控",
             desc: "事有轻重缓急，SLA服务目标为您特定的客户群体或者特定情形的工单设定服务目标，，保障重要的事情优先得到处理，提高企业运营质量，极大程度的提高客户满意度",
-            image:"http://www.udesk.cn/images/workorder/SLAmonitoring.png"
+            image:require("../images/104.png")
         },
     ]
 
@@ -43,7 +43,7 @@ export default () => {
         {
             title: "海量信息，快速检索和分类",
             desc: "用户能够按照工单标题、工单发起人、工单受理人、工单创建时间等多维度的搜索条件查询工单。支持工单无限层级分类，快速形成知识库。支持数据导出服务，以达到信息价值最大化利用",
-            image:require("../images/72.jpeg")
+            image:require("../images/105.png")
         },
     ]
 
@@ -81,7 +81,7 @@ export default () => {
                         </div>
                         <div className={styles.g__c6}>
                             <div>
-                                <img src={require("../images/index.jpeg")} />
+                                <img src={require("../images/100.png")} />
                             </div>
                         </div>
                     </div>  

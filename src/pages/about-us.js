@@ -42,7 +42,7 @@ export default () => (
                 </div>
                 <div style={{height:"255px"}}>
                     <div className={styles.img}>
-                        <img src="http://www.slodon.com/templates/default/images/about/4.jpg" />
+                        <img src={require("../images/95.png")} />
                     </div>
                     <div className={styles.text}>
                         <p className={styles.text1}>北京优锐科技成立于2010年，是一家基于消息会话提供全新智能客服和自动化营销服务的云服务厂商。目前拥有2项国家发明专利，5项软件著作权。
