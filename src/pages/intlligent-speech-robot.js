@@ -41,7 +41,7 @@ export default () => (
                     </div>
                     <div className={styles.g__c6}>
                         <div>
-                            <img src={require("../images/index.jpeg")} />
+                            <img src={require("../images/110.png")} />
                         </div>
                     </div>
                 </div>  
@@ -64,7 +64,7 @@ export default () => (
                                             <div className={styles.chuangjian} style={{margin:"22px",paddingRight:"0",maxWidth:"200px"}}>
                                                 
                                                 <div className={styles.product__breakdown__image}>
-                                                    <img src={require("../images/语音转文字.png") } width="91px" /></div>
+                                                    <img src={require("../images/111.png") } width="91px" /></div>
                                                     <div style={{height:"10px"}}></div>
                                                     <div className={styles.t__h3}>
                                                         <font>语音转文字</font>
@@ -85,7 +85,7 @@ export default () => (
                                             <div className={styles.chuangjian} style={{margin:"22px 50px",paddingRight:"0",maxWidth:"200px"}}>
                                                 
                                                 <div className={styles.product__breakdown__image}>
-                                                    <img src={require("../images/语音合成.png") } width="91px" /></div>
+                                                    <img src={require("../images/112.png") } width="91px" /></div>
                                                     <div style={{height:"10px"}}></div>
                                                     <div className={styles.t__h3}>
                                                         <font>语音合成</font>
@@ -107,7 +107,7 @@ export default () => (
                                             <div className={styles.chuangjian} style={{margin:"22px 50px",paddingRight:"0",maxWidth:"200px"}}>
                                                 
                                                 <div className={styles.product__breakdown__image}>
-                                                    <img src={require("../images/语义处理.png") } width="91px" /></div>
+                                                    <img src={require("../images/113.png") } width="91px" /></div>
                                                     <div style={{height:"10px"}}></div>
                                                     <div className={styles.t__h3}>
                                                         <font>语义处理</font>
@@ -132,7 +132,7 @@ export default () => (
                                             <div className={styles.chuangjian} style={{margin:"22px",paddingRight:"0",maxWidth:"200px"}}>
                                                 
                                                 <div className={styles.product__breakdown__image}>
-                                                    <img src={require("../images/语音合成.png") } width="91px" /></div>
+                                                    <img src={require("../images/114.png") } width="91px" /></div>
                                                     <div style={{height:"10px"}}></div>
                                                     <div className={styles.t__h3}>
                                                         <font>数据分析</font>
@@ -170,7 +170,7 @@ export default () => (
                                 <div className={styles.float}>
                                     <ul className={styles.m2_ul} style={{listStyleType:"none"}}>
                                         <li className={styles.m2_li}>
-                                            <img src={require("../images/34.png") } style={{marginRight:"-50px",marginTop:"-3px",marginBottom:"-30px",position:"absolute",left:"0"}} />
+                                            <img src={require("../images/111.png") } style={{marginTop:"-3px",marginBottom:"-30px",position:"absolute",left:"-2em",width:"91px"}} />
                                             <div style={{display:"inline-block",paddingLeft:"20px"}}>
                                                 <h6 className={styles.third_h6}>
                                                     强大语言分析技术
@@ -183,7 +183,7 @@ export default () => (
                                         
                                         <li className={styles.m2_li}>
                                             <div style={{height:"42px"}}></div>
-                                            <img src={require("../images/35.png") } style={{marginRight:"-50px",marginTop:"-3px",marginBottom:"-30px",position:"absolute",left:"0"}} />
+                                            <img src={require("../images/112.png") } style={{marginRight:"-50px",marginTop:"-3px",marginBottom:"-30px",position:"absolute",left:"-2em",width:"91px"}} />
                                             <div style={{display:"inline-block",paddingLeft:"20px"}}>
                                                 <h6 className={styles.third_h6}>
                                                     高效音色学习
@@ -196,7 +196,7 @@ export default () => (
 
                                         <li className={styles.m2_li}>
                                             <div style={{height:"42px"}}></div>
-                                            <img src={require("../images/36.png") } style={{marginRight:"-50px",marginTop:"-3px",marginBottom:"-30px",position:"absolute",left:"0"}} />
+                                            <img src={require("../images/113.png") } style={{marginRight:"-50px",marginTop:"-3px",marginBottom:"-30px",width:"91px",position:"absolute",left:"-2em"}} />
                                             <div style={{display:"inline-block",paddingLeft:"20px"}}>
                                                 <h6 className={styles.third_h6}>
                                                     高自然度韵律模型
@@ -216,7 +216,7 @@ export default () => (
                                 <div className={styles.u__inline}>
                                     <div className={styles.gallery}>
                                         <div className={styles.gallery__img}>
-                                            <img width="280" src={require("../images/15.png") } width="146%" style={{marginTop:"10em"}} />
+                                            <img width="280" src={require("../images/115.png") } width="146%" style={{marginTop:"10em"}} />
                                         </div>                    
                                     </div>
                                 </div>
@@ -235,13 +235,13 @@ export default () => (
                                 <div className={styles.u__inline}>
                                     <div className={styles.gallery}>
                                         <div className={styles.gallery__img}>
-                                            <img width="280" src={require("../images/15.png") } width="146%" style={{marginTop:"10em"}} />
+                                            <img width="280" src={require("../images/116.png") } width="146%" style={{marginTop:"10em"}} />
                                         </div>                    
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        
+                          
                         <div className={styles.g__c6}>
                             <div style={{height:"100px"}}></div>
                             <h3 className={styles.t__h2}>
@@ -255,7 +255,7 @@ export default () => (
                                 <div className={styles.float}>
                                     <ul className={styles.m2_ul} style={{listStyleType:"none"}}>
                                         <li className={styles.m2_li}>
-                                            <img src={require("../images/37.png") } style={{marginRight:"-50px",marginTop:"-3px",marginBottom:"-30px",position:"absolute",right:"38em"}} />
+                                            <img src={require("../images/111.png") } style={{marginRight:"-50px",marginTop:"-3px",marginBottom:"-30px",position:"absolute",right:"37em",width:"91px"}} />
                                             <div style={{display:"inline-block",paddingLeft:"20px"}}>
                                                 <h6 className={styles.third_h6}>
                                                     抗噪音和远场技术
@@ -268,7 +268,7 @@ export default () => (
                                         
                                         <li className={styles.m2_li}>
                                             <div style={{height:"42px"}}></div>
-                                            <img src={require("../images/38.png") } style={{marginRight:"-50px",marginTop:"-3px",marginBottom:"-30px",position:"absolute",right:"38em"}} />
+                                            <img src={require("../images/112.png") } style={{marginRight:"-50px",marginTop:"-3px",marginBottom:"-30px",position:"absolute",right:"37em",width:"91px"}} />
                                             <div style={{display:"inline-block",paddingLeft:"20px"}}>
                                                 <h6 className={styles.third_h6}>
                                                     话语/语音识别和同步处理技术
@@ -281,7 +281,7 @@ export default () => (
 
                                         <li className={styles.m2_li}>
                                             <div style={{height:"42px"}}></div>
-                                            <img src={require("../images/39.png") } style={{marginRight:"-50px",marginTop:"-3px",marginBottom:"-30px",position:"absolute",right:"38em"}} />
+                                            <img src={require("../images/113.png") } style={{marginRight:"-50px",marginTop:"-3px",marginBottom:"-30px",position:"absolute",right:"37em",width:"91px"}} />
                                             <div style={{display:"inline-block",paddingLeft:"20px"}}>
                                                 <h6 className={styles.third_h6}>
                                                     高识别率和识别效率

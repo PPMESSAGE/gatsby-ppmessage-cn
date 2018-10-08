@@ -24,10 +24,10 @@ export default () => (
             <div className={styles.container}>
                 <div className={styles.bg__light}>
                     <div className={styles.u__hidden}>
-                        <img src="https://marketing.intercomassets.com/assets/customer-engagement/v2/hero-left-53e26fada124e332358e97f71e491e13df22da4c0f62e0476629e25fc4166a1c.png" />
+                        <img src={require("../images/146.png")} />
                     </div>
                     <div className={styles.u__hidden1}>
-                        <img src="https://marketing.intercomassets.com/assets/customer-engagement/v2/hero-right-95b0063500935f9e1adbb1802599f40066273dc2a492bdd35e2913b12b8bbd7f.png" />
+                        <img src={require("../images/147.png")} />
                     </div>
                     <div className={styles.u__zfix}>
                         <h1 className={styles.t__h1}>
@@ -59,7 +59,7 @@ export default () => (
                             <div className={styles.chuangjian} style={{margin:"22px",width:"300px" }}>
                                 <a href="#xifen" className={styles.lianjie}>
                                     <div className={styles.product__breakdown__image}>
-                                        <img src="https://marketing.intercomassets.com/assets/customer-engagement/v2/breakdown/target-f96c9064c98b54c0e9fe298d0baa639663cdbadb32a0b6913867e73fb666a56d.png" width="91px" /></div>
+                                        <img src={require("../images/148.png")} width="91px" /></div>
                                         <div style={{height:"10px"}}></div>
                                         <div className={styles.t__h3}>
                                             <font>细分</font>
@@ -78,7 +78,7 @@ export default () => (
                             <div className={styles.chuangjian} style={{margin:"22px",width:"300px"}}>
                                 <a href="#yindao" className={styles.lianjie}>
                                     <div className={styles.product__breakdown__image}>
-                                        <img src="https://marketing.intercomassets.com/assets/customer-engagement/v2/breakdown/onboard-f0e494daf9532d50b086cc327af36a81f0dff11aaa8a9fc0bdf157f84e7664be.png" width="91px" /></div>
+                                        <img src={require("../images/149.png")} width="91px" /></div>
                                         <div style={{height:"10px"}}></div>
                                         <div className={styles.t__h3}>
                                             <font>培育</font>
@@ -98,7 +98,7 @@ export default () => (
                             <div className={styles.chuangjian} style={{margin:"22px",width:"300px"}}>
                                 <a href="#fabu" className={styles.lianjie}>
                                     <div className={styles.product__breakdown__image}>
-                                        <img src="https://marketing.intercomassets.com/assets/customer-engagement/v2/breakdown/announce-67630a5d3bc4b21498f87c58fa4b82d55c99ae042c3014b7acd30872e4d3cb28.png" width="91px" /></div>
+                                        <img src={require("../images/150.png")} width="91px" /></div>
                                         <div style={{height:"10px"}}></div>
                                         <div className={styles.t__h3}>
                                             <font>发布</font>
@@ -120,7 +120,7 @@ export default () => (
                             <div className={styles.chuangjian} style={{margin:"22px",width:"300px"}}>
                                 <a href="#pinggu" className={styles.lianjie}>
                                     <div className={styles.product__breakdown__image}>
-                                        <img src="https://marketing.intercomassets.com/assets/customer-engagement/v2/breakdown/measure-313c6beda960cad1dcc4f55802724d75a03219e22aebcea5f8390c7c7188e1e7.png" width="91px" /></div>
+                                        <img src={require("../images/151.png")} width="91px" /></div>
                                         <div style={{height:"10px"}}></div>
                                         <div className={styles.t__h3}>
                                             <font>评估</font>
@@ -306,7 +306,7 @@ export default () => (
                 <div className={styles.container_z}>
                     <div className={styles.g__row_center}>
                         <div className={styles.g__c6}>
-                            <img width="472" src={require("../images/index2.jpeg")} />
+                            <img width="472" src={require("../images/152.png")} />
                         </div>
                         <div className={styles.g__c5_z}>
 

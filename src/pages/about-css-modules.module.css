@@ -1904,26 +1904,24 @@
     right: -20px;
 }
 .robot_logo{
-    width: 165px;
-    height: 123px;
-    background-position: 3px -140px;
+    
+    height: 180px;
+    background-position: 3px 0px;
     margin: 0 auto 40px;
-    background-image: url("../images/46.png");
+    background-image: url("../images/107.png");
 }
 
 .robot_logo_1{
-    width: 165px;
-    height: 123px;
-    background-position: 3px -140px;
+    height: 180px;
+    background-position: 3px 0px;
     margin: 0 auto 40px;
-    background-image: url("../images/47.png");
+    background-image: url("../images/108.png");
 }
 .robot_logo_2{
-    width: 165px;
-    height: 123px;
-    background-position: 3px -140px;
+    height:180px;
+    background-position: 3px 0px;
     margin: 0 auto 40px;
-    background-image: url("../images/48.png");
+    background-image: url("../images/109.png");
 }
 
 .h6_s{

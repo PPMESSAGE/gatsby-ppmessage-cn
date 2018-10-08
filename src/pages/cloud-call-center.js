@@ -179,7 +179,7 @@ export default () => (
                                 <div className={styles.u__inline}>
                                     <div className={styles.gallery}>
                                         <div className={styles.gallery__img}>
-                                            <img width="400" src="https://upload-images.jianshu.io/upload_images/12406336-a7a0d2180ad98b4b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" />
+                                            <img width="500" src={require("../images/138.png")} />
                                             <a name="quanqudao"></a>
                                         </div>                    
                                     </div>
@@ -197,7 +197,7 @@ export default () => (
                 <div className={styles.container_z}>
                     <div className={styles.g__row_center}>
                         <div className={styles.g__c6}>
-                            <img width="500" src={require("../images/呼叫中心的图.jpg")} />
+                            <img width="500" src={require("../images/127.png")} />
                             
                         </div>
                         <div className={styles.g__c5_z}>

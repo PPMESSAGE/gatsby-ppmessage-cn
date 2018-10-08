@@ -27,10 +27,10 @@ export default () => (
                 <div className={styles.bg__light}>
                     
                     <div className={styles.u__hidden}>
-                        <img src="https://marketing.intercomassets.com/assets/live-chat/v2/hero-left-be4be33a9ab1fd3a3335caff8c02ad1fa41759d25f6fcace63ae3c14d0a37e1d.png" />
+                        <img src={require("../images/140.png")} />
                     </div>
                     <div className={styles.u__hidden1}>
-                        <img width="539" src="https://marketing.intercomassets.com/assets/live-chat/v2/hero-right-d02e3911a1ef5f33a27b2cf4b63fd1c0f0ea541bdf3fff1cbea6379f22fcbb33.png" />
+                        <img width="539" src={require("../images/141.png")} />
                     </div>
                     <div className={styles.u__zfix}>
 
@@ -64,7 +64,7 @@ export default () => (
                             <div className={styles.chuangjian} style={{margin:"22px",paddingRight:"0em"}}>
                                 <a href="#hezuo" className={styles.lianjie}>
                                     <div className={styles.product__breakdown__image}>
-                                        <img src="https://marketing.intercomassets.com/assets/live-chat/v2/capture-6cd1e65484e3cc8bc579ae4ba69db31ad254a0db01313b47191f131567fbc2b6.png" width="91px" /></div>
+                                        <img src={require("../images/142.png")} width="91px" /></div>
                                         <div style={{height:"10px"}}></div>
                                         <div className={styles.t__h3}>
                                             <font>全渠道客服</font>
@@ -83,7 +83,7 @@ export default () => (
                             <div className={styles.chuangjian} style={{margin:"22px 0px",paddingRight:"0em"}}>
                                 <a href="#zidonghua" className={styles.lianjie}>
                                     <div className={styles.product__breakdown__image}>
-                                        <img src="https://marketing.intercomassets.com/assets/live-chat/v2/qualify-2cde0bea6a097ea7de52c892e75dd0e311360680497721521d05eb12d9622994.png" width="91px" /></div>
+                                        <img src={require("../images/143.png")}  width="91px" /></div>
                                         <div style={{height:"10px"}}></div>
                                         <div className={styles.t__h3}>
                                             <font>全球呼叫中心</font>
@@ -103,7 +103,7 @@ export default () => (
                             <div className={styles.chuangjian} style={{margin:"22px 50px",paddingRight:"0em"}}>
                                 <a href="#guimo" className={styles.lianjie}>
                                     <div className={styles.product__breakdown__image}>
-                                        <img src="https://marketing.intercomassets.com/assets/live-chat/v2/convert-2f21b347ebaf5cdd5454fbcbb817658899487f69a088d9d06f5bef68dcf0c7cf.png" width="91px" /></div>
+                                        <img src={require("../images/144.png")}  width="91px" /></div>
                                         <div style={{height:"10px"}}></div>
                                         <div className={styles.t__h3}>
                                             <font>工单系统</font>
@@ -126,7 +126,7 @@ export default () => (
                             <div className={styles.chuangjian} style={{margin:"22px 0px",paddingRight:"0em"}}>
                                 <a href="#tigao" className={styles.lianjie}>
                                     <div className={styles.product__breakdown__image}>
-                                        <img src="https://marketing.intercomassets.com/assets/live-chat/v2/measure-2fc6b218e130f27b61f8bd2868fe6585d790bb542c307358a4c160933a3c661b.png" width="91px" /></div>
+                                        <img src={require("../images/145.png")}  width="91px" /></div>
                                         <div style={{height:"10px"}}></div>
                                         <div className={styles.t__h3}>
                                             <font>智能客服机器人</font>
@@ -452,7 +452,7 @@ export default () => (
                                 <div className={styles.u__inline}>
                                     <div className={styles.gallery}>
                                         <div className={styles.gallery__img}>
-                                            <img width="400" src="https://upload-images.jianshu.io/upload_images/12406336-a7a0d2180ad98b4b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" />
+                                            <img width="500" src={require("../images/138.png")} />
                                             <a name="quanqudao"></a>
                                         </div>                    
                                     </div>
@@ -808,7 +808,7 @@ export default () => (
                         </font>
                         <div style={{height:"20px"}}></div>
                         <div>
-                            <img src={require("../images/robot.jpg") } />
+                            <img src={require("../images/139.png") } />
                         </div>
                     </div>
                 </div>           

@@ -49,10 +49,10 @@ export default () => {
                     <div className={styles.bg__light}>
                         
                         <div className={styles.u__hidden}>
-                            <img width="528" src="https://marketing.intercomassets.com/assets/support/v2/hero-left-2x-dbbbedb76aea9680a1b13a83ebd770c988978b78dde5e37c913abf9e84faafc4.png" />
+                            <img width="528" src={require("../images/153.png")} />
                         </div>
                         <div className={styles.u__hidden1}>
-                            <img width="462" src="https://marketing.intercomassets.com/assets/support/v2/hero-right-638326fa13fee86eda086cc9ff795ac97eac110533c727b14aece7b88acb4daa.png" />
+                            <img width="462" src={require("../images/154.png")} />
                         </div>
                         <div className={styles.u__zfix}>
 
@@ -98,7 +98,7 @@ export default () => {
                                 <div className={styles.chuangjian_tranform1}>
                                     <a href="#huode" className={styles.lianjie}>
                                         <div className={styles.product__breakdown__image}>
-                                            <img src="https://marketing.intercomassets.com/assets/live-chat/v2/capture-6cd1e65484e3cc8bc579ae4ba69db31ad254a0db01313b47191f131567fbc2b6.png" width="91px" /></div>
+                                            <img src={require("../images/155.png")} width="91px" /></div>
                                             <div style={{height:"10px"}}></div>
                                             <div className={styles.t__h3}>
                                                 <font>获取</font>
@@ -117,7 +117,7 @@ export default () => {
                                 <div className={styles.chuangjian_tranform2}>
                                     <a href="#xiushi" className={styles.lianjie}>
                                         <div className={styles.product__breakdown__image}>
-                                            <img src="https://marketing.intercomassets.com/assets/live-chat/v2/qualify-2cde0bea6a097ea7de52c892e75dd0e311360680497721521d05eb12d9622994.png" width="91px" /></div>
+                                            <img src={require("../images/156.png")} width="91px" /></div>
                                             <div style={{height:"10px"}}></div>
                                             <div className={styles.t__h3}>
                                                 <font>评价</font>
@@ -138,7 +138,7 @@ export default () => {
                                 <div className={styles.chuangjian_tranform3}>
                                     <a href="#duihuan" className={styles.lianjie}>
                                         <div className={styles.product__breakdown__image}>
-                                            <img src="https://marketing.intercomassets.com/assets/live-chat/v2/convert-2f21b347ebaf5cdd5454fbcbb817658899487f69a088d9d06f5bef68dcf0c7cf.png" width="91px" /></div>
+                                            <img src={require("../images/157.png")} width="91px" /></div>
                                             <div style={{height:"10px"}}></div>
                                             <div className={styles.t__h3}>
                                                 <font>转化</font>
@@ -160,7 +160,7 @@ export default () => {
                                 <div className={styles.chuangjian_tranform4}>
                                     <a href="#celiang" className={styles.lianjie}>
                                         <div className={styles.product__breakdown__image}>
-                                            <img src="https://marketing.intercomassets.com/assets/live-chat/v2/measure-2fc6b218e130f27b61f8bd2868fe6585d790bb542c307358a4c160933a3c661b.png" width="91px" /></div>
+                                            <img src={require("../images/158.png")} width="91px" /></div>
                                             <div style={{height:"10px"}}></div>
                                             <div className={styles.t__h3}>
                                                 <font>测量</font>
@@ -662,7 +662,7 @@ export default () => {
                                     </div>
                                 </div>
                                 <div className={styles.g__c6}>
-                                    <img width="472" src={require("../images/index2.jpeg")} />
+                                    <img width="500" src={require("../images/159.png")} />
                                 </div>
                             </div>
                         </div>
