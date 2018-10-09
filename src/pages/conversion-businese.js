@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./about-css-modules.module.css";
 import EnterYourMobile from "../components/enteryourmobile";
 import {Helmet} from "react-helmet";
-
+import Media from "react-media";
 import Layout from "./layout";
 export default () => (
 	<Layout>
@@ -11,14 +11,15 @@ export default () => (
             <meta name="description" content="Support customers and improve customer satisfaction 支持客户并提高客户满意度" />
         </Helmet>
         <div className={styles.heiti}>
-            <div style={{height:"72px"}}></div>
+            <div style={{height:"144px"}}></div>
             <div className={styles.container}>
                 <div style={{height:"20px",display:"block"}}></div>
                 <div className={styles.g__row}>
                     <div className={styles.g__c6}>
                         <span className={styles.f__medium}>
-                            <div style={{width:"200px" }}><h2>支持客户并提高客户满意度
-                            </h2></div>
+                            <div className={styles.transform_200px}>
+                                <h2>支持客户并提高客户满意度</h2>
+                            </div>
                         </span>
                     </div>
                 </div>
@@ -27,24 +28,37 @@ export default () => (
                 <div className={styles.bg__light}>
                     
                     <div className={styles.u__hidden}>
-                        <img src={require("../images/140.png")} />
+                        <img  src={require("../images/140.png")} />
                     </div>
                     <div className={styles.u__hidden1}>
-                        <img width="539" src={require("../images/141.png")} />
+                        <img  src={require("../images/141.png")} />
                     </div>
                     <div className={styles.u__zfix}>
 
-                        <div style={{width:"1317px"}}></div>
+                        <div className={styles.transform_1317px}></div>
                         <h1 className={styles.t__h1_s}>
                             向客户展示您真正关注他们的体验，改变传统的客户支持方法
-
                         </h1>
                         <div style={{height:"10px"}}></div>
-                        <h2 className={styles.t__h3_d}><font>通过网页消息、应用内消息、电话、短信、邮件、微信等全渠道快速响应客户问题并提供解决方案，提高客户满意度，将您的满意客户转化为忠实客户，把忠实客户转化为企业拥趸</font>
+                        <h2 className={styles.t__h3_d}>
+                            <font>
+                                通过网页消息、应用内消息、电话、短信、邮件、微信等全渠道快速响应客户问题并提供解决方案，提高客户满意度，将您的满意客户转化为忠实客户，把忠实客户转化为企业拥趸
+                            </font>
                         </h2>
                         <div style={{height:"20px"}}></div>
-                        <div className={styles.u__inline}>
-                            <EnterYourMobile size="middle" />
+                        <div className={styles.u__inline_transform}>                                            <Media query={{ maxWidth: 960 }}>
+                            {matches =>
+                                matches ? (
+                                    
+                                    <EnterYourMobile size="large"/> 
+                                    
+                                ) : (
+                                    <div className={styles.display_2}>
+                                        <EnterYourMobile size="middle"/> 
+                                    </div>
+                                )
+                            }
+                        </Media>
                         </div>
                         <div style={{height:"10px"}}></div>
                         <div className={styles.t__small}>
@@ -53,15 +67,14 @@ export default () => (
                     </div>        
                 </div>
             </div>
-
-            <div style={{height:'100px'}}></div>
-            <section className={styles.section_o__no_bottom}>
+            <div style={{height:'200px'}}></div>
+            <section className={styles.section_transform1}>
                 <div className={styles.container}>
                     <div className={styles.g__row}>
 
-                        <div >
+                        <div>
 
-                            <div className={styles.chuangjian} style={{margin:"22px",paddingRight:"0em"}}>
+                            <div className={styles.chuangjian_tranform1}>
                                 <a href="#hezuo" className={styles.lianjie}>
                                     <div className={styles.product__breakdown__image}>
                                         <img src={require("../images/142.png")} width="91px" /></div>
@@ -70,28 +83,32 @@ export default () => (
                                             <font>全渠道客服</font>
                                         </div>
                                         <div className={styles.t__small_s}>
-                                            <font>将网页、移动端、社交媒体、邮件、电话等渠道的会话转入统一座席工作台，并通过团队协作快速处理客户问题</font>
+                                            <font>
+                                                将网页、移动端、社交媒体、邮件、电话等渠道的会话转入统一座席工作台，并通过团队协作快速处理客户问题
+                                            </font>
                                         </div>
                                         <div className={styles.product__learn_more} style={{margin:"80px"}}>
-                                            <span >
+                                            <span>
                                                 <font className={styles.smallerbiaoti}>了解更多</font>
                                             </span>                  
                                         </div>                
                                 </a>
                             </div>
 
-                            <div className={styles.chuangjian} style={{margin:"22px 0px",paddingRight:"0em"}}>
+                            <div className={styles.chuangjian_tranform2}>
                                 <a href="#zidonghua" className={styles.lianjie}>
                                     <div className={styles.product__breakdown__image}>
-                                        <img src={require("../images/143.png")}  width="91px" /></div>
+                                        <img src={require("../images/143.png")} width="91px" /></div>
                                         <div style={{height:"10px"}}></div>
                                         <div className={styles.t__h3}>
                                             <font>全球呼叫中心</font>
                                         </div>
                                         <div className={styles.t__small_s}>
-                                            <font>跨国、跨时区，多语言，分布式部署，灵活扩容，功能稳定，满足各种规模企业需求</font>
+                                            <font>
+                                                跨国、跨时区，多语言，分布式部署，灵活扩容，功能稳定，满足各种规模企业需求
+                                            </font>
                                         </div>
-                                        <div className={styles.product__learn_more}  style={{margin:"80px"}}>
+                                        <div className={styles.product__learn_more} style={{margin:"80px"}}>
                                             <span>
                                                 <font className={styles.smallerbiaoti}>了解更多</font>
                                             </span>                  
@@ -100,10 +117,10 @@ export default () => (
                             </div>
                             
 
-                            <div className={styles.chuangjian} style={{margin:"22px 50px",paddingRight:"0em"}}>
+                            <div className={styles.chuangjian_tranform3}>
                                 <a href="#guimo" className={styles.lianjie}>
                                     <div className={styles.product__breakdown__image}>
-                                        <img src={require("../images/144.png")}  width="91px" /></div>
+                                        <img src={require("../images/144.png")} width="91px" /></div>
                                         <div style={{height:"10px"}}></div>
                                         <div className={styles.t__h3}>
                                             <font>工单系统</font>
@@ -113,44 +130,38 @@ export default () => (
                                                 打通售前售后环节，根据各种渠道的客户咨询消息创建工单，工单可自动分配、转派、变更、提醒和归档，业务流程和SLA随心定制
                                             </font>
                                         </div>
-                                        <div className={styles.product__learn_more}  style={{margin:"80px"}}>
+                                        <div className={styles.product__learn_more} style={{margin:"80px"}}>
                                             <span>
                                                 <font className={styles.smallerbiaoti}>了解更多</font>
                                             </span>                  
                                         </div>                
                                 </a>
                             </div>
-
-
-
-                            <div className={styles.chuangjian} style={{margin:"22px 0px",paddingRight:"0em"}}>
+                            <div className={styles.chuangjian_tranform4}>
                                 <a href="#tigao" className={styles.lianjie}>
                                     <div className={styles.product__breakdown__image}>
-                                        <img src={require("../images/145.png")}  width="91px" /></div>
+                                        <img src={require("../images/145.png")} width="91px" /></div>
                                         <div style={{height:"10px"}}></div>
                                         <div className={styles.t__h3}>
                                             <font>智能客服机器人</font>
                                         </div>
                                         <div className={styles.t__small_s}>
                                             <font>
-                                                基于NLP， 365天不间断服务，高效率解决重复性问题，大幅降低人工客服成本
-                                            </font>
+                                                基于NLP， 365天不间断服务，高效率解决重复性问题，大幅降低人工客服成本              </font>
                                         </div>
-                                        <div className={styles.product__learn_more}  style={{margin:"80px"}}>
+                                        <div className={styles.product__learn_more} style={{margin:"80px"}}>
                                             <span>
                                                 <font className={styles.smallerbiaoti}>了解更多</font>
                                             </span>                  
                                         </div>                
                                 </a>
-                            </div>
-
-                            
-                        </div>
-                        
+                            </div>                            
+                        </div>                        
                     </div>
                 </div>
             </section>
 
+            
             <section >
                 <a name="hezuo"></a>
                 <div className={styles.container_z}>  
@@ -306,7 +317,7 @@ export default () => (
                 </div>
                 
             </section>
-            <div className={styles.index_200px}></div>
+            <div className={styles.index_200px_conversion_businese}></div>
             <section className={styles.section}>        
                 <a name="zidonghua"></a>
                 <div className={styles.container_z}>                

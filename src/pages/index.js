@@ -91,7 +91,7 @@ export default () =>{
         {
             title: "PPMessage流程生成器",
             desc: "业内独有的拖拽式流程设计器，为每一个客户快速生成适应其业务特点的消息流程",
-            image: require("../images/82.png")
+            image: require("../images/93.png")
         },
         {
             title: "丰富的APP商店",

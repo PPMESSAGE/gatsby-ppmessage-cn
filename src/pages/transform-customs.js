@@ -30,9 +30,7 @@ export default () => {
                 <meta name="description" content="Obtain conversion leads 获取和转化销售线索" />
             </Helmet>
             <div className={styles.heiti}>
-                <div style={{height:"72px"}}></div>
-
-                <div style={{height:"72px"}}></div>
+                <div style={{height:"144px"}}></div>
                 <div className={styles.container}>
                     <div style={{height:"20px",display:"block"}}></div>
                     <div className={styles.g__row}>
@@ -675,17 +673,11 @@ export default () => {
                     <a name="celiang"></a>
                     <div className={styles.container_s}>
                         <div className={styles.g__row_z}>
-
-
                             <div className={styles.g__c6}>
-
                                 <StackGallery images={_images}>
                                 </StackGallery>
-                                
                             </div>
                             <div className={styles.g__c5_z}>
-
-                                
                                 <div className={styles.u__inline}>
                                     <div className={styles.g__row}>
                                         <div className={styles.g__c}>
