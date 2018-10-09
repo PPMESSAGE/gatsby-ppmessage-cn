@@ -37,7 +37,7 @@ export default () => (
                                 </div>
                                 <div className={styles.t__small}>
                                     <font>
-                                        5,000元/年
+                                        ¥ 4,800元/年
                                     </font>
                                 </div>
                                 <div style={{height:"20px"}}></div>
@@ -65,7 +65,7 @@ export default () => (
                                 </div>
                                 <div className={styles.t__small}>
                                     <font>
-                                        10,000元/年
+                                       ¥ 7,800元/年
                                     </font>
                                 </div>
                                 <div style={{height:"20px"}}></div>
@@ -94,7 +94,7 @@ export default () => (
                                 </div>
                                 <div className={styles.t__small}>
                                     <font>
-                                        15,000元/年
+                                        ¥ 12,800元/年
                                     </font>
                                 </div>
                                 <div style={{height:"20px"}}></div>
@@ -184,7 +184,7 @@ export default () => (
                                             <font></font>
                                         </div>
                                         <span className={styles.t__h2}>
-                                            <font>¥ 5,000元
+                                            <font>¥ 4,800元
                                             </font>
                                         </span>
                                         <font className={styles.vertical}>/年
@@ -421,7 +421,7 @@ export default () => (
                                             <font></font>
                                         </div>
                                         <span className={styles.t__h2}>
-                                            <font>¥ 10,000元
+                                            <font>¥ 7,800元
                                             </font>
                                         </span>
                                         <font className={styles.vertical}>/年
@@ -661,7 +661,7 @@ export default () => (
                                             <font></font>
                                         </div>
                                         <span className={styles.t__h2}>
-                                            <font>¥ 15,000元
+                                            <font>¥ 12,800元
                                             </font>
                                         </span>
                                         <font className={styles.vertical}>/年

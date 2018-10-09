@@ -19,10 +19,11 @@ export default () =>(
                     <p>尊敬的用户:</p>
                     <p>您好,</p>
                     <div>
-                        经过研发团队的艰苦努力，PPMessage 系统已经面目一新，智能客服、工单系统、呼叫中心等多款产品均已跻身国内前列。为了给用户提供更卓越的产品和更可靠的服务，经我司慎重研究决定，自2018年10月1日起，PPMessage将终止提供免费产品，现收费版本定价模式将进行重大变更。
+                        经过研发团队的艰苦努力，PPMessage 系统已经面目一新，智能客服、工单系统、呼叫中心等多款产品均已跻身国内前列。为了给用户提供更卓越的产品和更可靠的服务，经我司慎重研究决定，PPMessage将终止提供免费产品，现收费版本定价模式将进行重大变更。
                     </div>
+                    <div style={{height:"15px"}}></div>
                     <div>
-                        自2018年10月1日起，新注册用户将采取按年收费方式，非定制版分为标准版、增强版和企业版三个版本。其中:                    
+                        自2018年11月1日起，新注册用户及续费的老用户将采取按年收费方式，非定制版分为标准版、增强版和企业版三个版本。其中:                    
                     </div>
                     <div style={{height:"50px"}}></div>
                     <div className={styles.pricing__product_box}>
@@ -41,7 +42,7 @@ export default () =>(
                                             <font></font>
                                         </div>
                                         <span className={styles.t__h2}>
-                                            <font>¥ 5,000元
+                                            <font>¥ 4,800元
                                             </font>
                                         </span>
                                         <font className={styles.vertical}>/年
@@ -136,7 +137,7 @@ export default () =>(
                                             <font></font>
                                         </div>
                                         <span className={styles.t__h2}>
-                                            <font>¥ 10,000元
+                                            <font>¥ 7,800元
                                             </font>
                                         </span>
                                         <font className={styles.vertical}>/年
@@ -281,7 +282,7 @@ export default () =>(
                                             <font></font>
                                         </div>
                                         <span className={styles.t__h2}>
-                                            <font>¥ 15,000元
+                                            <font>¥ 12,800元
                                             </font>
                                         </span>
                                         <font className={styles.vertical}>/年
