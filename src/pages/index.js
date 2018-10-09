@@ -140,12 +140,7 @@ export default () =>{
                                 </h3>
                                 <div style={{height:"20px"}}>            
                                 </div>
-                                
-                                
-                                
                                 <EnterYourMobile size="middle" />
-                                
-
                                 <div style={{height:"20px"}}>            
                                 </div>
                                 <div className={styles.t__small}>

@@ -45,7 +45,6 @@ export default () => {
                 </div>
                 <div className={styles.container}>
                     <div className={styles.bg__light}>
-                        
                         <div className={styles.u__hidden}>
                             <img width="528" src={require("../images/153.png")} />
                         </div>
@@ -64,19 +63,8 @@ export default () => {
                                 </font>
                             </h2>
                             <div style={{height:"20px"}}></div>
-                            <div className={styles.u__inline_transform}>                                            <Media query={{ maxWidth: 960 }}>
-                                {matches =>
-                                    matches ? (
-                                        
-                                        <EnterYourMobile size="large"/> 
-                                        
-                                    ) : (
-                                        <div className={styles.display_2}>
-                                            <EnterYourMobile size="middle"/> 
-                                        </div>
-                                    )
-                                }
-                            </Media>
+                            <div className={styles.u__inline_transform}>     
+                                <EnterYourMobile size="middle"/> 
                             </div>
                             <div style={{height:"10px"}}></div>
                             <div className={styles.t__small}>

@@ -3,7 +3,6 @@ import styles from "./about-css-modules.module.css";
 import EnterYourMobile from "../components/enteryourmobile";
 import {Helmet} from "react-helmet";
 import Layout from "./layout";
-import Media from "react-media";
 export default () =>{
     return(
 	    <Layout>
@@ -48,19 +47,7 @@ export default () =>{
                                 </font>
                             </h2>
                             <div style={{height:"20px"}}></div>
-                            <div className={styles.u__inline_transform}>                                            <Media query={{ maxWidth: 960 }}>
-                                {matches =>
-                                    matches ? (
-                                        
-                                        <EnterYourMobile size="large"/> 
-                                        
-                                    ) : (
-                                        <div className={styles.display_2}>
-                                            <EnterYourMobile size="middle"/> 
-                                        </div>
-                                    )
-                                }
-                            </Media>
+                            <div className={styles.u__inline_transform}>                                    <EnterYourMobile size="middle"/> 
                             </div>
                             <div style={{height:"10px"}}></div>
                             <div className={styles.t__small}>
