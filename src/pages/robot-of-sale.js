@@ -13,8 +13,8 @@ export default () => (
         <div className={styles.heiti}>
             <div style={{height:"144px"}}></div>
 
-            <div className={styles.container__narrower}>
-                <div className={styles.g__row}>
+            <div className={styles.container__narrower_robot}>
+                <div className={styles.g__row_robot}>
                     <div className={styles.g__c6}>
                         <h1>智能销售机器人</h1>
                         <div className={styles.sp__5}>
@@ -52,7 +52,7 @@ export default () => (
                         <div className={styles.u__flex}>
                             <div className={styles.t__h1} style={{margin:"0px"}}>
                                 36%                                                                       </div>
-                            <img width="40" style={{marginBottom:"0"}} src="https://upload-images.jianshu.io/upload_images/12406336-f2dbbb934525e8a6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" />
+                            <img className={styles.robot_of_sale_img} style={{marginBottom:"0"}} src="https://upload-images.jianshu.io/upload_images/12406336-f2dbbb934525e8a6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" />
                             <div className={styles.t__h3} style={{textAlign:"left"}}>访问者与您网站上的漫游器互动可将潜在客户转化率提高多达36％
                             </div>    
                         </div>                    
@@ -67,7 +67,7 @@ export default () => (
                         
                         
                         <div className={styles.u__zfix}>
-                            <h1 className={styles.t__h1} style={{fontSize:"36px"}}>
+                            <h1 className={styles.t__h1_robot_sale} style={{fontSize:"36px"}}>
                                 选择销售机器人的四个理由
 
                             </h1>
@@ -78,11 +78,9 @@ export default () => (
 
                 <section className={styles.section_o__no_bottom}>
                     <div className={styles.container}>
-                        <div className={styles.g__row}>
-
+                        <div className={styles.g__row_robot}>
                             <div>
-
-                                <div className={styles.chuangjian} style={{margin:"22px 22px 22px 105px",paddingRight:"0em"}}>
+                                <div className={styles.chuangjian_robot1} >
                                     <a href="#wujianduan" className={styles.lianjie}>
                                         <div className={styles.product__breakdown__image}>
                                             <img className={styles.ceshi_z} src={require("../images/130.png")} width="91px" />
@@ -100,7 +98,7 @@ export default () => (
                                     </a>
                                 </div>
 
-                                <div className={styles.chuangjian} style={{margin:"22px 50px",paddingRight:"0"}}>
+                                <div className={styles.chuangjian_robot2}>
                                     <a href="#wukaifa" className={styles.lianjie}>
                                         <div className={styles.product__breakdown__image}>
                                             <img className={styles.ceshi_z} src={require("../images/131.png")} width="91px" />
@@ -117,7 +115,7 @@ export default () => (
                                 </div>
                                 
 
-                                <div className={styles.chuangjian} style={{margin:"22px 50px",paddingRight:"0em"}}>
+                                <div className={styles.chuangjian_robot3} >
                                     <a href="#suozhouqi" className={styles.lianjie}>
                                         <div className={styles.product__breakdown__image}>
 
@@ -138,7 +136,7 @@ export default () => (
 
 
 
-                                <div className={styles.chuangjian} style={{margin:"22px 0px 22px 22px",paddingRight:"0em"}}>
+                                <div className={styles.chuangjian_robot4}>
                                     <a href="#chaozengzhang" className={styles.lianjie}>
                                         <div className={styles.product__breakdown__image}>
 
@@ -165,8 +163,8 @@ export default () => (
             <a name="wujianduan"></a>
             
             <section className={styles.section}>
-                <div className={styles.container__narrower}>
-                    <div className={styles.g__row}>
+                <div className={styles.container__narrower_robot}>
+                    <div className={styles.g__row_robot}>
                         <div className={styles.g__c6}>
                             <div className={styles.u__flex}>
                                 <div>
@@ -195,7 +193,7 @@ export default () => (
                             </div>
                             
                             <div className={styles.g__c12}>
-                                <div className={styles.g__row}>
+                                <div className={styles.g__row_robot}>
                                     <div className={styles.g__c6}>
                                         <div className={styles.f__left}>
                                             <div className={styles.product__feature_icon}>
@@ -253,8 +251,8 @@ export default () => (
             <a name="wukaifa"></a>
             
             <section className={styles.section}>
-                <div className={styles.container__narrower}>
-                    <div className={styles.g__row}>
+                <div className={styles.container__narrower_robot}>
+                    <div className={styles.g__row_robot}>
                         <div className={styles.g__c5} style={{marginLeft:"2em"}}>
 
                             <div className={styles.white_s}>
@@ -273,7 +271,7 @@ export default () => (
                             </div>
                             
                             <div className={styles.g__c12}>
-                                <div className={styles.g__row}>
+                                <div className={styles.g__row_robot}>
                                     <div className={styles.g__c6}>
                                         <div className={styles.f__left}>
                                             <div className={styles.product__feature_icon}>
@@ -368,8 +366,8 @@ export default () => (
 
             
             <section className={styles.section}>
-                <div className={styles.container__narrower}>
-                    <div className={styles.g__row}>
+                <div className={styles.container__narrower_robot}>
+                    <div className={styles.g__row_robot}>
                         <div className={styles.g__c6}>
                             <div className={styles.u__flex}>
                                 <div>
@@ -397,7 +395,7 @@ export default () => (
                             </div>
                             
                             <div className={styles.g__c12}>
-                                <div className={styles.g__row}>
+                                <div className={styles.g__row_robot}>
                                     <div className={styles.g__c6}>
                                         <div className={styles.f__left}>
                                             <div className={styles.product__feature_icon}>
@@ -459,8 +457,8 @@ export default () => (
             <a name="chaozengzhang"></a>
             
             <section className={styles.section}>
-                <div className={styles.container__narrower}>
-                    <div className={styles.g__row}>
+                <div className={styles.container__narrower_robot}>
+                    <div className={styles.g__row_robot}>
                         <div className={styles.g__c5} style={{marginLeft:"2em"}}>
 
                             <div className={styles.white_s}>
@@ -479,7 +477,7 @@ export default () => (
                             </div>
                             
                             <div className={styles.g__c12}>
-                                <div className={styles.g__row}>
+                                <div className={styles.g__row_robot}>
                                     <div className={styles.g__c6}>
                                         <div className={styles.f__left}>
                                             <div className={styles.product__feature_icon}>

@@ -259,6 +259,14 @@
     padding-left: 20px;
     padding-right: 20px;
 }
+.container__narrower_robot{
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
 .inoupbig{
     font-family: IntercomText,Helvetica Neue,Helvetica,Arial,sans-serif;
     padding: .4em .7em;
@@ -405,6 +413,21 @@
     font-weight:300;
     color:#888;
 
+}
+.g__row_robot{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    margin: -20px;
 }
 .g__row{
     display: -webkit-box;
@@ -768,6 +791,22 @@
     display:inline-block;
     padding-right:5em;    
 }
+.chuangjian_robot1{
+    display:inline-block;
+    margin:22px 22px 22px 105px;    
+}
+.chuangjian_robot2{
+    display:inline-block;
+    margin:22px 50px;
+}
+.chuangjian_robot3{
+    display:inline-block;
+    margin:22px 50px;
+}
+.chuangjian_robot4{
+    display:inline-block;
+    margin:22px 0px 22px 22px;
+}
 
 .chuangjian_tranform2{
     display:inline-block;
@@ -1059,6 +1098,20 @@
     max-width: 1404px;
 }
 .t__h1{
+    font-family: IntercomGrot,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    font-size: 56px;
+    letter-spacing: -.2px;
+    line-height: 1.21;
+    color: #000;
+    margin: 0 0 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    max-width: 850px;
+    margin:0px 220px 10px 220px;
+}
+.t__h1_robot_sale{
     font-family: IntercomGrot,Helvetica Neue,Helvetica,Arial,sans-serif;
     font-weight: 300;
     font-size: 56px;
@@ -2227,10 +2280,25 @@
     flex: 0 0 auto;
     padding:31px;
 }
+.robot_of_sale_img{
+    width:40px;
+}
 @media screen and (max-width:960px){
     .nav__cta{display:none}
     .section_transform{
         display:none;
+    }
+    .detail_new_s{
+        width:90%;
+    }
+    .clear{
+        display:block;
+    }
+    .robot_of_sale_img{
+        height:70px
+    }
+    .t__h1_robot_sale{
+        margin:0;
     }
     .maxWidth_s2{
         width:100%;
@@ -2351,8 +2419,36 @@
     .Hamburger_div{
         display:block;
     }
+    .back{
+        margin-left:0;
+    }
+    .chuangjian_robot1{
+        margin:20px 0px;
+        width:100%;
+    }
+    .chuangjian_robot2{
+        margin:0;
+        width:100%;
+    }
+    .chuangjian_robot3{
+        margin:0;
+        width:100%;
+    }
+    .chuangjian_robot4{
+        margin:0;
+        width:100%;
+    }
+    .g__row_robot{
+        display:unset;
+    }
+    .container__narrower_robot{
+        text-align:center;
+    }
     .cloud_call_center{
         text-align:center;
+    }
+    .qwe{
+        display:none;
     }
 
     .t__small_s1{

@@ -231,6 +231,39 @@ class NavHeader extends React.Component {
                                         <div className={styles.g__c5_layouts}>
                                             <div className={styles.t__h4}>
                                                 <font>
+                                                    应用场景
+                                                </font>
+                                            </div>
+                                            <div className={styles.hr__grey}></div>
+                                            <div style={{height:"10px"}}></div>                                    
+                                            <a href="/transform-customs" className={styles.f__no_und_aways}>
+                                                <div className={styles.f__medium}>
+                                                    <font style={{color:"black",fontSize:"16px"}}>
+                                                        获取和转化销售线索
+                                                    </font>
+                                                </div>
+                                            </a>
+                                            <div style={{height:"10px"}}></div>                                    
+                                            <a href="/guide-attract-customers" className={styles.f__no_und_aways}>
+                                                <div className={styles.f__medium}>
+                                                    <font style={{color:"black",fontSize:"16px"}}>
+                                                        引导和吸引客户
+                                                    </font>
+                                                </div>
+                                            </a>
+                                            <div style={{height:"10px"}}></div>                                    
+                                            <a href="/conversion-businese" className={styles.f__no_und_aways}>
+                                                <div className={styles.f__medium}>
+                                                    <font style={{color:"black",fontSize:"16px"}}>
+                                                        支持客户并提高客户满意度
+                                                    </font>
+                                                </div>
+                                            </a>
+                                            
+                                            <div style={{height:"30px"}}></div>
+
+                                            <div className={styles.t__h4}>
+                                                <font>
                                                     产品资源
                                                 </font>
                                             </div>
