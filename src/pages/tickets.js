@@ -3,8 +3,8 @@ import styles from "./about-css-modules.module.css";
 import EnterYourMobile from "../components/enteryourmobile";
 import {Helmet} from "react-helmet";
 import KeyFeatures_q from "../components/keyfeatures_q"
-
 import Layout from "./layout";
+
 export default () => {
 
     let _features = [
@@ -97,7 +97,6 @@ export default () => {
 
 
                 <section className={styles.section}>
-                    
                     <div className={styles.container_z}>
                         <KeyFeatures_q rtl="true" features={_features1}>
                         </KeyFeatures_q>
