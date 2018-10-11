@@ -1,5 +1,5 @@
 import React from "react";
-import EnterYourMobile from "../components/enteryourmobile";
+
 import styles from "./about-css-modules.module.css";
 import {Helmet} from "react-helmet";
 import Layout from "./layout";
@@ -29,12 +29,11 @@ export default () => (
                             </div>
                             <div>
                                 <div className={styles.f__center}>
-                                    <a href="#">
-                                        <botton className={styles.btn_s}> 
-                                            <font>联系客服
-                                            </font>
-                                        </botton>
-                                    </a>
+                                    <botton className={styles.btn_s}> 
+                                        <font>联系客服
+                                        </font>
+                                    </botton>
+                                    
                                 </div>                            
                             </div>
                         </div>

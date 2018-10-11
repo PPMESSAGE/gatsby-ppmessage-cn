@@ -2406,6 +2406,9 @@
 .index_200px{
     height:200px;
 }
+.index_200px_s{
+    height:200px
+}
 .index_200px_conversion_businese{
     height:200px;
 }
@@ -2442,6 +2445,9 @@
     .nav__link{display:none}
     .Hamburger_div{
         display:block;
+    }
+    .index_200px_s{
+        height:100px;
     }
     .index_200px_conversion_businese{
         height:0;

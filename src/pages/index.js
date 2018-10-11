@@ -162,7 +162,7 @@ export default () =>{
                     <WorthCompany />
                 </section>
                 <section>
-                    <div className={styles.index_200px}></div>
+                    <div className={styles.index_200px_s}></div>
                     <div className={styles.container__narrower}>
                         <h3 className={styles.f__center}>
                             <font>完美的销售，营销和客服工具</font>
