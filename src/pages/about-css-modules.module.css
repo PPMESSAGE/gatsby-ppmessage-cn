@@ -408,6 +408,16 @@
     flex: 0 0 auto;
     padding:31px;
 }
+.g__c6_index{
+    width: 50%;
+    min-width: 50%;
+    max-width: 50%;
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    padding:31px;
+}
 .zihao{
     font-size:16px;
     font-weight:300;
@@ -1079,8 +1089,13 @@
     bottom: -200px;
     right: -150px;
 }
-
-
+.commerce_solutions{
+    position:absolute;
+    top:72px;
+}
+.commerce_72px{
+    height:72px;
+}
 .f__medium{
     font-weight: 500;
 }
@@ -2446,8 +2461,17 @@
     .Hamburger_div{
         display:block;
     }
+    .commerce_72px{
+        height:215px;
+    }
+    .g__c6_index{
+        display:none;
+    }
+    .index_section{
+        display:none;
+    }
     .index_200px_s{
-        height:100px;
+        display:none;
     }
     .index_200px_conversion_businese{
         height:0;

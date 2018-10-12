@@ -101,7 +101,7 @@ export default () =>{
                 <meta name="description" content="E-commerce solutions 电商解决方案" />
             </Helmet>
             <div className={styles.heiti}>
-                <div style={{height:'72px'}}></div>
+                <div className={styles.commerce_72px}></div>
                 <div className={styles.container__narrower}>
                     <div className={styles.g__row}>
                         
@@ -129,7 +129,7 @@ export default () =>{
                             </div>
                         </div>
                         <div className={styles.g__c6}>
-                            <div>
+                            <div className={styles.commerce_solutions}>
                                 <img src={require("../images/97.png")}  />
                             </div>
                         </div>

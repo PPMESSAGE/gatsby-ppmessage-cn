@@ -129,7 +129,7 @@ export default () =>{
                 <div className={styles.container__narrower}>
                     <div className={styles.g__row}>
                         
-                        <div className={styles.g__c6}>
+                        <div className={styles.g__c6_index}>
                             <div style={{height:"100px"}}></div>
                             <div className={styles.sp__5}>
                                 <h2 style={{fontSize:"36px",fontWeight:"150"}}>获取，转化和留存客户的新方法
@@ -158,10 +158,10 @@ export default () =>{
                         </div>
                     </div>  
                 </div>
-                <section>
+                <section className={styles.index_section}>
                     <WorthCompany />
                 </section>
-                <section>
+                <section >
                     <div className={styles.index_200px_s}></div>
                     <div className={styles.container__narrower}>
                         <h3 className={styles.f__center}>
