@@ -44,9 +44,9 @@ export default() =>{
 
     return(
         <div>
-            <Xain maincomponent2={_maincomponent1} />
+            {/* <Xain maincomponent2={_maincomponent1} />
 
-            <Main maincomponent={_maincomponent} />
+                <Main maincomponent={_maincomponent} /> */}
         </div>
         
     )
