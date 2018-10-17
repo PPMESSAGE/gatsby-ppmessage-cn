@@ -1,5 +1,5 @@
 import React from "react";
-import Main from "../main-component-1";
+//import Main from "../main-component-1";
 import Xain from "../main-component-2";
 import EnterYourMobile from "../../components/enteryourmobile"
 export default() =>{
