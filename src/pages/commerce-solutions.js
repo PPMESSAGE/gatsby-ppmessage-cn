@@ -107,7 +107,7 @@ export default () =>{
                         
                         <div className={styles.g__c6}>
                             <div style={{height:"100px"}}></div>
-                            <h1>电商解决方案</h1>
+                            <h1 className={styles.commerce_h1}>电商解决方案</h1>
                             <div className={styles.sp__5}>
                                 <h2 style={{fontSize:"36px",fontWeight:"150"}}>降低获客成本，提高客户粘性，促进重复销售
                                 </h2>

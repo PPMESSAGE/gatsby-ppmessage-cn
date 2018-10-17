@@ -378,7 +378,6 @@
 .t__small{
     font-size: 14px;
     letter-spacing: .15px;
-
 }
 .list__bullet-inline{
     display:inline-block;
@@ -2461,6 +2460,10 @@
     .Hamburger_div{
         display:block;
     }
+    .commerce_h1{
+        display:none;
+    }
+
     .commerce_72px{
         height:215px;
     }

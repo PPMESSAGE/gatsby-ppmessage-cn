@@ -128,7 +128,6 @@ export default () =>{
                 <div style={{height:'72px'}}></div>
                 <div className={styles.container__narrower}>
                     <div className={styles.g__row}>
-                        
                         <div className={styles.g__c6_index}>
                             <div style={{height:"100px"}}></div>
                             <div className={styles.sp__5}>
