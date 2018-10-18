@@ -35,14 +35,14 @@ export default () =>(
                                         </span>
                                     </div>
                                     <div className={styles.g__c12}>
-                                        <font>满足客服10人以下中小企业基本需求</font>
+                                        <font>满足客服5人及以下企业的线上基本需求</font>
                                     </div>
                                     <div className={styles.g__c12}>
                                         <div className={styles.t__p3}>
                                             <font></font>
                                         </div>
                                         <span className={styles.t__h2}>
-                                            <font>¥ 4,800元
+                                            <font>¥ 2,480元
                                             </font>
                                         </span>
                                         <font className={styles.vertical}>/年
@@ -54,15 +54,13 @@ export default () =>(
 
 
                             <div className={styles.g__c6}>
-
-
                                 <TabsControl>
                                     <div name = "套餐内容">                                                              <table className={styles.pricing__table}>
                                         <tbody>
                                             <tr>
                                                 <td style={{borderBottom:"none"}}><font>在线客服（座席）</font>
                                                 </td>
-                                                <td style={{borderBottom:"none"}}><font>&lt;10人</font>
+                                                <td style={{borderBottom:"none"}}><font>&le;5人</font>
                                                 </td>
                                                 
                                             </tr>
@@ -70,7 +68,7 @@ export default () =>(
                                             <tr>
                                                 <td style={{borderBottom:"none"}}><font>应用内消息</font>
                                                 </td>
-                                                <td style={{borderBottom:"none"}}><font>&lt;10,000条/年</font>
+                                                <td style={{borderBottom:"none"}}><font></font>
                                                 </td>
                                             </tr>                                            
                                         </tbody>
@@ -85,15 +83,12 @@ export default () =>(
                                                         <font>
                                                             对话记录永久保存
                                                         </font>
-
-                                                        
                                                         <a data-tip data-for='happyFace'></a>
                                                         <ReactTooltip place="right" id='happyFace' type='error' type ="light" effect ="solid">
                                                             
                                                         </ReactTooltip>
                                                     </td>
                                                 </tr>
-
                                                 <tr>
                                                     <td>
                                                         <font>
@@ -120,7 +115,6 @@ export default () =>(
                         </div>
                     </div>
                     <div style={{height:"50px"}}></div>
-
                     <div className={styles.pricing__product_box}>
                         <div className={styles.g__row}>
                             <div className={styles.g__c3} style={{padding:"40px"}}>
@@ -130,7 +124,7 @@ export default () =>(
                                         </span>
                                     </div>
                                     <div className={styles.g__c12}>
-                                        <font>满足10人以下中小企业的复杂的线上业务需求</font>
+                                        <font>满足10人及以下企业的复杂的线上业务需求</font>
                                     </div>
                                     <div className={styles.g__c12}>
                                         <div className={styles.t__p3}>
@@ -145,19 +139,14 @@ export default () =>(
                                     </div>
                                 </div>
                             </div>
-
-
-
                             <div className={styles.g__c6}>
-
-
                                 <TabsControl>
                                     <div name = "套餐内容">                                                              <table className={styles.pricing__table}>
                                         <tbody>
                                             <tr>
                                                 <td style={{borderBottom:"none"}}><font>在线客服（座席）</font>
                                                 </td>
-                                                <td style={{borderBottom:"none"}}><font>&lt;10人</font>
+                                                <td style={{borderBottom:"none"}}><font>&le;10人</font>
                                                 </td>
                                                 
                                             </tr>
@@ -165,25 +154,25 @@ export default () =>(
                                             <tr>
                                                 <td style={{borderBottom:"none"}}><font>应用内消息</font>
                                                 </td>
-                                                <td style={{borderBottom:"none"}}><font>&lt;10,000条/年</font>
+                                                <td style={{borderBottom:"none"}}><font></font>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td style={{borderBottom:"none"}}><font>工单系统</font>
                                                 </td>
-                                                <td style={{borderBottom:"none"}}><font>&lt;10,000条/年</font>
+                                                <td style={{borderBottom:"none"}}><font></font>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td style={{borderBottom:"none"}}><font>邮件、短信消息</font>
                                                 </td>
-                                                <td style={{borderBottom:"none"}}><font>&lt;10,000条/年</font>
+                                                <td style={{borderBottom:"none"}}><font></font>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td style={{borderBottom:"none"}}><font>客服机器人</font>
                                                 </td>
-                                                <td style={{borderBottom:"none"}}><font>不限消息数
+                                                <td style={{borderBottom:"none"}}><font>
                                                 </font>
                                                 </td>
                                             </tr>
@@ -275,7 +264,7 @@ export default () =>(
                                         </span>
                                     </div>
                                     <div className={styles.g__c12}>
-                                        <font>满足20人以下中小企业的复杂的线上业务需求</font>
+                                        <font>满足20人及以下企业的复杂的线上业务需求</font>
                                     </div>
                                     <div className={styles.g__c12}>
                                         <div className={styles.t__p3}>
@@ -290,19 +279,14 @@ export default () =>(
                                     </div>
                                 </div>
                             </div>
-
-
-
                             <div className={styles.g__c6}>
-
-
                                 <TabsControl>
                                     <div name = "套餐内容">                                                              <table className={styles.pricing__table}>
                                         <tbody>
                                             <tr>
                                                 <td style={{borderBottom:"none"}}><font>在线客服（座席）</font>
                                                 </td>
-                                                <td style={{borderBottom:"none"}}><font>&lt;20人</font>
+                                                <td style={{borderBottom:"none"}}><font>&le;20人</font>
                                                 </td>
                                                 
                                             </tr>
@@ -310,25 +294,25 @@ export default () =>(
                                             <tr>
                                                 <td style={{borderBottom:"none"}}><font>应用内消息</font>
                                                 </td>
-                                                <td style={{borderBottom:"none"}}><font>&lt;10,000条/年</font>
+                                                <td style={{borderBottom:"none"}}><font></font>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td style={{borderBottom:"none"}}><font>工单系统</font>
                                                 </td>
-                                                <td style={{borderBottom:"none"}}><font>&lt;10,000条/年</font>
+                                                <td style={{borderBottom:"none"}}><font></font>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td style={{borderBottom:"none"}}><font>邮件、短信消息</font>
                                                 </td>
-                                                <td style={{borderBottom:"none"}}><font>&lt;10,000条/年</font>
+                                                <td style={{borderBottom:"none"}}><font></font>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td style={{borderBottom:"none"}}><font>客服机器人</font>
                                                 </td>
-                                                <td style={{borderBottom:"none"}}><font>不限消息数</font>
+                                                <td style={{borderBottom:"none"}}><font></font>
                                                 </td>
                                             </tr>
                                         </tbody>

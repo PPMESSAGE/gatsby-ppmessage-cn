@@ -37,13 +37,13 @@ export default () => (
                                 </div>
                                 <div className={styles.t__small}>
                                     <font>
-                                        ¥ 4,800元/年
+                                        ¥ 2,480元/年
                                     </font>
                                 </div>
                                 <div style={{height:"20px"}}></div>
                                 <div>
                                     <font>
-                                        满足客服10人以下中小企业基本需求
+                                        满足客服5人及以下企业基本需求
                                     </font>
                                 </div>
                                 <div style={{height:"20px"}}></div>
@@ -65,20 +65,19 @@ export default () => (
                                 </div>
                                 <div className={styles.t__small}>
                                     <font>
-                                       ¥ 7,800元/年
+                                        ¥ 7,800元/年
                                     </font>
                                 </div>
                                 <div style={{height:"20px"}}></div>
                                 <div>
                                     <font>
-                                        满足10人以下中小企业的复杂的线上业务需求。
+                                        满足客服10人及以下企业的复杂的线上业务需求。
                                     </font>
                                 </div>
                                 <div style={{height:"20px"}}></div>
                                 <div className={styles.u__inline_block}>
                                     <span className={styles.link__arrow_c_blue}>
                                         <font>了解更多</font>
-                                        
                                     </span>
                                 </div>
                             </a>
@@ -100,7 +99,7 @@ export default () => (
                                 <div style={{height:"20px"}}></div>
                                 <div>
                                     <font>
-                                        满足20人以下中型企业的复杂的线上业务需求。
+                                        满足客服20人及以下企业的复杂的线上业务需求。
                                     </font>
                                 </div>
                                 <div style={{height:"20px"}}></div>
@@ -117,7 +116,7 @@ export default () => (
                             <a  href="#yongpin"  className={styles.c__black}>
                                 <div className={styles.t__h3}>
                                     <font>
-                                        私有部署
+                                        业务定制及私有部署
                                     </font>
                                 </div>
                                 <div className={styles.t__small}>
@@ -177,14 +176,14 @@ export default () => (
                                         </span>
                                     </div>
                                     <div className={styles.g__c12}>
-                                        <font>满足客服10人以下中小企业基本需求</font>
+                                        <font>满足客服5及人以下中小企业基本需求</font>
                                     </div>
                                     <div className={styles.g__c12}>
                                         <div className={styles.t__p3}>
                                             <font></font>
                                         </div>
                                         <span className={styles.t__h2}>
-                                            <font>¥ 4,800元
+                                            <font>¥ 2,480元
                                             </font>
                                         </span>
                                         <font className={styles.vertical}>/年
@@ -196,27 +195,14 @@ export default () => (
 
 
                             <div className={styles.g__c6}>
-
-
                                 <TabsControl>
                                     <div name = "套餐内容">                                                              <table className={styles.pricing__table}>
-                                        {/*
-                                            <thead>
-                                            <tr>
-                                            <th style={{borderBottom:"none"}}><font>积极的人</font>
-                                            </th>
-                                            <th style={{borderBottom:"none"}}><font>必要</font>
-                                            </th>
-                                            <th style={{borderBottom:"none"}}><font>临</font>
-                                            </th>
-                                            </tr>
-                                            </thead>
-                                          */}
+                                        
                                         <tbody>
                                             <tr>
                                                 <td style={{borderBottom:"none"}}><font>在线客服（座席）</font>
                                                 </td>
-                                                <td style={{borderBottom:"none"}}><font>&lt;10人</font>
+                                                <td style={{borderBottom:"none"}}><font>&le;5人</font>
                                                 </td>
                                                 
                                             </tr>
@@ -224,69 +210,17 @@ export default () => (
                                             <tr>
                                                 <td style={{borderBottom:"none"}}><font>应用内消息</font>
                                                 </td>
-                                                <td style={{borderBottom:"none"}}><font>&lt;10,000条/年</font>
+                                                <td style={{borderBottom:"none"}}>
                                                 </td>
-                                                {/*
-                                                    <td style={{borderBottom:"none"}}><font>$ 95 /月</font>
-                                                    </td>
-                                                    </tr>
-                                                    <tr>
-                                                    <td style={{borderBottom:"none"}}><font>501-2,000人</font>
-                                                    </td>
-                                                    <td style={{borderBottom:"none"}}><font>$ 89 /月</font>
-                                                    </td>
-                                                    <td style={{borderBottom:"none"}}><font>$ 120 /月</font>
-                                                    </td>
-                                                    </tr>
-                                                    <tr>
-                                                    <td style={{borderBottom:"none"}}><font>2,001-5,000人</font>
-                                                    </td>
-                                                    <td style={{borderBottom:"none"}}><font>$ 120 /月</font>
-                                                    </td>
-                                                    <td style={{borderBottom:"none"}}><font>$ 150 /月</font>
-                                                    </td>
-                                                    </tr>
-                                                    <tr>
-                                                    <td style={{borderBottom:"none"}}><font>5,001-10,000人</font>
-                                                    </td>
-                                                    <td style={{borderBottom:"none"}}><font>$ 170 /月</font>
-                                                    </td>
-                                                    <td style={{borderBottom:"none"}}><font>$ 270 /月</font>
-                                                    </td>
-                                                    </tr>
-                                                    <tr>
-                                                    <td style={{borderBottom:"none"}}><font>10,001-20,000人</font>
-                                                    </td>
-                                                    <td style={{borderBottom:"none"}}><font>$ 290 /月</font>
-                                                    </td>
-                                                    <td style={{borderBottom:"none"}}><font>$ 450 /月</font>
-                                                    </td>
-                                                    </tr>
-                                                    <tr>
-                                                    <td style={{borderBottom:"none"}}><font>超过20,000人？</font>
-                                                    </td>
-                                                    <td style={{borderBottom:"none"}}><a href="#" style={{textDecoration:"none" }}> 请与销售人员联系</a>
-                                                    </td>
-                                                  */}
-                                                    </tr>                                            
+                                                
+                                                
+                                            </tr>                                            
                                         </tbody>
                                     </table>
                                     </div>
                                     <div name = "套餐功能">
 
                                         <table className={styles.pricing__table}>
-                                            {/*
-                                                <thead>
-                                                <tr>
-                                                <th><font>特征</font>
-                                                </th>
-                                                <th><font>必要</font>
-                                                </th>
-                                                <th><font>临</font>
-                                                </th>
-                                                </tr>
-                                                </thead>
-                                              */}
                                             <tbody>
                                                 <tr>
                                                     <td>
@@ -353,51 +287,14 @@ export default () => (
                                                         {/*图片区小对号*/}
                                                     </td>
                                                 </tr>
-
-                                                
-                                                
-                                            </tbody>
+                                       </tbody>
                                         </table>
                                     </div>
                                     
                                 </TabsControl>
-
-                                
                             </div>
-                            {/*
-                                <div className={styles.g__c3} style={{padding:"40px"}}>
-                                <div style={{height:"20px"}}></div>
-                                <div className={styles.f__center}>
-                                <a href="#" >
-                                <botton className={styles.btn}> 
-                                <font>免费试用消息
-                                </font>
-                                </botton>
-                                </a>
-                                </div>
-                                <div className={styles.t__small}>
-                                <div className={styles.list__bulletinline}>
-                                <font>免费试用14天 </font>
-                                </div>
-                                </div>
-                                <div style={{height:"20px"}}></div>
-                                <div className={styles.f__bold}>
-                                <font>
-                                什么是活跃的人? 
-                                </font>
-                                </div>
-                                <div style={{height:"10px"}}></div>
-                                <p className={styles.pricing__metric}>
-                                <font>在过去90天内收到您的消息，向您发送消息或已登录您的应用或网站的潜在客户和客户
-                                </font>
-                                </p>
-                                </div>
-                              */}  
                         </div>
                     </div>
-
-
-
                     <a name="shoujianxiang"></a>
                     <div style={{height:"80px"}}></div>
                     <div className={styles.pricing__product_box}>
@@ -413,7 +310,7 @@ export default () => (
                                     </div>
                                     <div className={styles.g__c12}>
                                         <font>
-                                            满足10人以下中小企业的复杂的线上业务需求
+                                            满足10人及以下中小企业的复杂的线上业务需求
                                         </font>
                                     </div>
                                     <div className={styles.g__c12}>
@@ -433,27 +330,13 @@ export default () => (
 
 
                             <div className={styles.g__c6}>
-
-
                                 <TabsControl>
                                     <div name = "套餐内容">                                                              <table className={styles.pricing__table}>
-                                        {/*
-                                            <thead>
-                                            <tr>
-                                            <th style={{borderBottom:"none"}}><font>座席价格</font>
-                                            </th>
-                                            <th style={{borderBottom:"none"}}><font>必要</f⁯nt>
-                                            </th>
-                                            <th style={{borderBottom:"none"}}><font>临</font>
-                                            </th>
-                                            </tr>
-                                            </thead>
-                                          */}
                                         <tbody>
                                             <tr>
                                                 <td style={{borderBottom:"none"}}><font>在线客服（座席）</font>
                                                 </td>
-                                                <td style={{borderBottom:"none"}}><font>&lt;10人</font>
+                                                <td style={{borderBottom:"none"}}><font>&le;10人</font>
                                                 </td>
                                                 <td style={{borderBottom:"none"}}><font> </font>
                                                 </td>
@@ -462,7 +345,7 @@ export default () => (
                                             <tr>
                                                 <td style={{borderBottom:"none"}}><font>应用内消息</font>
                                                 </td>
-                                                <td style={{borderBottom:"none"}}><font>&lt;10,000条/年</font>
+                                                <td style={{borderBottom:"none"}}><font></font>
                                                 </td>
                                                 <td style={{borderBottom:"none"}}><font> </font>
                                                 </td>
@@ -473,19 +356,19 @@ export default () => (
                                             <tr>
                                                 <td style={{borderBottom:"none"}}><font>工单系统</font>
                                                 </td>
-                                                <td style={{borderBottom:"none"}}><font>&lt;10,000条/年</font>
+                                                <td style={{borderBottom:"none"}}><font></font>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td style={{borderBottom:"none"}}><font>邮件、短信消息</font>
                                                 </td>
-                                                <td style={{borderBottom:"none"}}><font>&lt;10,000条/年</font>
+                                                <td style={{borderBottom:"none"}}><font></font>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td style={{borderBottom:"none"}}><font>客服机器人</font>
                                                 </td>
-                                                <td style={{borderBottom:"none"}}><font>不限消息数</font>
+                                                <td style={{borderBottom:"none"}}><font></font>
                                                 </td>
                                             </tr> 
                                             
@@ -495,18 +378,6 @@ export default () => (
                                     <div name = "套餐功能">
 
                                         <table className={styles.pricing__table}>
-                                            {/*
-                                                <thead>
-                                                <tr>
-                                                <th><font>特征</font>
-                                                </th>
-                                                <th><font>必要</font>
-                                                </th>
-                                                <th><font>临</font>
-                                                </th>
-                                                </tr>
-                                                </thead>
-                                              */}
                                             <tbody>
                                                 <tr>
                                                     <td>
@@ -612,35 +483,6 @@ export default () => (
 
                                 
                             </div>
-                            {/*
-                                <div className={styles.g__c3} style={{padding:"40px"}}>
-                                <div style={{height:"20px"}}></div>
-                                <div className={styles.f__center}>
-                                <a href="#" >
-                                <botton className={styles.btn}> 
-                                <font>免费试用消息
-                                </font>
-                                </botton>
-                                </a>
-                                </div>
-                                <div className={styles.t__small}>
-                                <div className={styles.list__bulletinline}>
-                                <font>免费试用14天</font>
-                                </div>
-                                </div>
-                                <div style={{height:"20px"}}></div>
-                                <div className={styles.f__bold}>
-                                <font>
-                                什么是收件箱座位？
-                                </font>
-                                </div>
-                                <div style={{height:"10px"}}></div>
-                                <p className={styles.pricing__metric}>
-                                <font>收件箱席位使Teammate可以访问Inbox产品。一个队友是谁在你的公司配备了对讲机帐户。您可以免费获得无限的队友，并选择其中哪一个拥有付费的收件箱座位。
-                                </font>
-                                </p>
-                                </div>
-                              */}
                         </div>
                     </div>
                     <a name="yongpin"></a>
@@ -654,7 +496,7 @@ export default () => (
                                         </span>
                                     </div>
                                     <div className={styles.g__c12}>
-                                        <font>满足20人以下中小企业的复杂的线上业务需求</font>
+                                        <font>满足20人及以下中小企业的复杂的线上业务需求</font>
                                     </div>
                                     <div className={styles.g__c12}>
                                         <div className={styles.t__p3}>
@@ -669,37 +511,22 @@ export default () => (
                                     </div>
                                 </div>
                             </div>
-
-
-
                             <div className={styles.g__c6}>
 
 
                                 <TabsControl>
                                     <div name = "套餐内容">                                                              <table className={styles.pricing__table}>
-                                        {/*
-                                            <thead>
-                                            <tr>
-                                            <th style={{borderBottom:"none"}}><font></font>
-                                            </th>
-                                            <th style={{borderBottom:"none"}}><font>必要</font>
-                                            </th>
-                                            <th style={{borderBottom:"none"}}><font>临</font>
-                                            </th>
-                                            </tr>
-                                            </thead>
-                                          */}
                                         <tbody>
                                             <tr>
                                                 <td style={{borderBottom:"none"}}><font>在线客服（座席）</font>
                                                 </td>
-                                                <td style={{borderBottom:"none"}}><font>&lt;20人</font>
+                                                <td style={{borderBottom:"none"}}><font>&le;20人</font>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td style={{borderBottom:"none"}}><font>应用内消息</font>
                                                 </td>
-                                                <td style={{borderBottom:"none"}}><font>&lt;10,000条/年</font>
+                                                <td style={{borderBottom:"none"}}><font></font>
                                                 </td>
                                                 <td style={{borderBottom:"none"}}><font></font>
                                                 </td>
@@ -707,7 +534,7 @@ export default () => (
                                             <tr>
                                                 <td style={{borderBottom:"none"}}><font>工单系统</font>
                                                 </td>
-                                                <td style={{borderBottom:"none"}}><font>&lt;10,000条/年</font>
+                                                <td style={{borderBottom:"none"}}><font></font>
                                                 </td>
                                                 <td style={{borderBottom:"none"}}><font></font>
                                                 </td>
@@ -715,7 +542,7 @@ export default () => (
                                             <tr>
                                                 <td style={{borderBottom:"none"}}><font>邮件、短信消息</font>
                                                 </td>
-                                                <td style={{borderBottom:"none"}}><font>&lt;10,000条/年</font>
+                                                <td style={{borderBottom:"none"}}><font></font>
                                                 </td>
                                                 <td style={{borderBottom:"none"}}><font></font>
                                                 </td>
@@ -723,7 +550,7 @@ export default () => (
                                             <tr>
                                                 <td style={{borderBottom:"none"}}><font>客服机器人</font>
                                                 </td>
-                                                <td style={{borderBottom:"none"}}><font>不限消息数</font>
+                                                <td style={{borderBottom:"none"}}><font></font>
                                                 </td>
                                                 <td style={{borderBottom:"none"}}><font></font>
                                                 </td>
