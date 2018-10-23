@@ -81,7 +81,7 @@ export default () => {
                         </div>
                         <div className={styles.g__c6}>
                             <div>
-                                <img src={require("../images/100.png")} />
+                                <img src={require("../images/164.png")} />
                             </div>
                         </div>
                     </div>  

@@ -29,11 +29,7 @@ class Footer extends React.Component {
 
                                     <div className="intro">
                                         <h2 className={styles.t__h2}><font>开始免费使用</font></h2>
-                                        <div className={styles.t__small}>
-                                            <div className={styles.max__470}>
-                                                
-                                            </div>
-                                        </div>
+                                        
                                     </div>
 
                                     <div className="enter-mobile">
@@ -49,15 +45,12 @@ class Footer extends React.Component {
                                             <div className={styles.zihao}>已是客户?<a href="https://ppmessage.cn/ppkefu/#!/app/signin" className={styles.nav__link} ><font className={styles.zizi}>登录</font></a></div>
                                         </div>
                                     </div>            
-
                                 </div>        
                             </div>
                         </div>
                         
                         
                         <div style={{height:"70px"}}></div>    
-                        
-                        
                         <div className={styles.container}>
                             <div className={styles.footer__row}>
                                 <div className={styles.footer__links}>

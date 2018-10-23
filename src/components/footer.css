@@ -43,7 +43,7 @@ footer .footer-container-container {
     position: absolute;
     z-index: 0;
     background-size: 100%;
-    background-image: url(https://upload-images.jianshu.io/upload_images/12406336-d7f7552f54e553f1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240);
+    background-image:url("../images/foot.png");
     width: 428px;
     height: 130px;
     top: -128px;

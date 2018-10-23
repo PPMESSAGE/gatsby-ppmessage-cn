@@ -40,7 +40,7 @@ export default () => (
                     </div>
                     <div className={styles.g__c6}>
                         <div>
-                            <img src={require("../images/129.png")} />
+                            <img src={require("../images/166.png")} />
                         </div>
                     </div>
                 </div>  
