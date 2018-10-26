@@ -47,10 +47,6 @@ export default () => (
                 </div>  
             </div>
 
-            
-            
-
-
             <div className={styles.container}>
                 <div className={styles.bg__light} style={{backgroundColor:"white"}}>                                
                     <div className={styles.u__zfix}>
@@ -59,7 +55,7 @@ export default () => (
                                 <div className={styles.container}>
                                     <div className={styles.g__row}>
 
-                                        <div>
+                                        <div className={styles.align_items}>
 
                                             <div className={styles.chuangjian} style={{margin:"22px",paddingRight:"0",maxWidth:"200px"}}>
                                                 
@@ -78,8 +74,6 @@ export default () => (
 
                                                             快速响应客户问题</font>
                                                     </div>
-                                                    
-                                                    
                                             </div>
 
                                             <div className={styles.chuangjian} style={{margin:"22px 50px",paddingRight:"0",maxWidth:"200px"}}>
@@ -99,11 +93,7 @@ export default () => (
 
                                                             能调节语速、音量</font>
                                                     </div>
-                                                    
-                                                    
                                             </div>
-                                            
-
                                             <div className={styles.chuangjian} style={{margin:"22px 50px",paddingRight:"0",maxWidth:"200px"}}>
                                                 
                                                 <div className={styles.product__breakdown__image}>
@@ -120,15 +110,9 @@ export default () => (
                                                             可根据知识库实现多轮会话
 
                                                             同时具有不断地自我学习能力
-
-
                                                         </font>
                                                     </div>
-                                                    
                                             </div>
-
-
-
                                             <div className={styles.chuangjian} style={{margin:"22px",paddingRight:"0",maxWidth:"200px"}}>
                                                 
                                                 <div className={styles.product__breakdown__image}>
@@ -144,8 +128,7 @@ export default () => (
 
                                                             可帮助企业沉淀出高质量的行业知识库</font>
                                                     </div>
-                                            </div>                            
-                                        </div>                        
+                                            </div>                                                                   </div>                        
                                     </div>
                                 </div>
                             </section>
@@ -154,7 +137,7 @@ export default () => (
                 </div>                     
             </div>
 
-            <section >            
+            <section>            
                 <div className={styles.container_z} style={{textAlign:"left"}}>
                     <div className={styles.g__row}>
                         <div className={styles.g__c6}>

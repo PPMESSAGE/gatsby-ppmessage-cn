@@ -53,7 +53,7 @@ export default () => (
                             <div className={styles.t__h1} style={{margin:"0px"}}>
                                 36%                                                                       </div>
                             <img className={styles.robot_of_sale_img} style={{marginBottom:"0"}} src="https://upload-images.jianshu.io/upload_images/12406336-f2dbbb934525e8a6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" />
-                            <div className={styles.t__h3} style={{textAlign:"left"}}>访问者与您网站上的漫游器互动可将潜在客户转化率提高多达36％
+                            <div className={styles.t__h3} style={{textAlign:"left"}}>访问者与您网站上的聊天组件互动可将潜在客户转化率提高多达36％
                             </div>    
                         </div>                    
                     </div>

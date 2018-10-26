@@ -9,6 +9,10 @@
     transform: translateZ(0);
     position:fixed;      
 }
+.align_items{
+    align-items:flex-start;
+    display:flex;
+}
 .container {
     margin-left: auto;
     margin-right: auto;
@@ -1847,6 +1851,9 @@
     padding-left:5em;
     -webkit-box-flex: 0;
 }
+.mobile_display{
+    display:block;
+}
 .g__c2{
     width: 16.66667%;
     min-width: 16.66667%;
@@ -2326,6 +2333,9 @@
     .detail_new_s{
         width:90%;
     }
+    .align_items{
+        display:block;
+    }
     .clear{
         display:block;
     }
@@ -2459,6 +2469,9 @@
     .nav__link{display:none}
     .Hamburger_div{
         display:block;
+    }
+    .mobile_display{
+        display:none;
     }
     .commerce_h1{
         display:none;

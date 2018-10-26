@@ -84,7 +84,9 @@ export default () =>{
                                 </h3>
                                 <div style={{height:"20px"}}>            
                                 </div>
+                                <div className={styles.mobile_display}>
                                 <EnterYourMobile size="middle"/>
+                                </div>
                                 <div style={{height:"15px"}}></div>
                                 <div className={styles.t__small}>
                                     <div className={styles.list__bulletinline}>
