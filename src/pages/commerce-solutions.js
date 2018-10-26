@@ -117,92 +117,94 @@ export default () =>{
                                 </h3>
                                 <div style={{height:"20px"}}>            
                                 </div>
-                                <div className={styles.mobile_display}>
+                                
                                 <EnterYourMobile size="middle"/>
-                                </div>
+                                
                                 <div style={{height:"15px"}}></div>
-                                <div className={styles.t__small}>
-                                    <div className={styles.list__bulletinline}>
-                                        <font style={{color:'#888'}}>
-                                            免费试用 · 易于安装 · 
-                                        </font>        
+                                <div className={styles.mobile_display}>
+                                    <div className={styles.t__small}>
+                                        <div className={styles.list__bulletinline}>
+                                            <font style={{color:'#888'}}>
+                                                免费试用 · 易于安装 · 
+                                            </font>        
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div className={styles.g__c6}>
-                            <div className={styles.commerce_solutions}>
-                                <img src={require("../images/97.png")}  />
                             </div>
-                        </div>
-                    </div>  
+                            <div className={styles.g__c6}>
+                                <div className={styles.commerce_solutions}>
+                                    <img src={require("../images/97.png")}  />
+                                </div>
+                            </div>
+                        </div>  
+                    </div>
+
+                    <section>
+                        <div className={styles.container__narrower}>
+                            <h3 className={styles.f__center}>
+                                <font>获取更多商机并达成更多交易</font>
+                            </h3>
+                            <div style={{height:"30px"}}></div>
+                            <div className={styles.container__narrower}>
+                                <h5 className={styles.f__center1}><font>通过网页主动消息、在线聊天快速获取更多商机；通过销售机器人实时评估商机质量并自动分配，提升商机转化率；通过一键发送商品链接和聊天组件内下单达成更多交易
+                                </font></h5>
+                            </div>
+                            <div style={{height:'80px'}}></div>
+                            <div className={styles.tupian}>
+                                <KeyFeatures features={_features}>
+                                </KeyFeatures>
+                            </div>
+                        </div>      
+                    </section>
+
+                    <section>
+                        <div style={{height:"10em"}}></div>
+                        <div className={styles.container__narrower}>
+                            <h3 className={styles.f__center}>
+                                <font>将更多注册用户转变为活跃的付费客户</font>
+                            </h3>
+                            <div style={{height:"30px"}}></div>
+                            <div className={styles.container__narrower}>
+                                <h5 className={styles.f__center1}>
+                                    <font>
+                                        根据用户渠道偏好，通过应用内消息、智能语音、邮件、短信、微信等各种渠道向目标用户发送有针对性的消息，培育和激活用户，提高用户重复购买率
+                                    </font>
+                                </h5>
+                            </div>
+                            <div style={{height:"80px"}}></div>
+                            <div className={styles.tupian}>
+                                <KeyFeatures rtl="true" features={_features1}>
+                                </KeyFeatures>
+                            </div>
+                        </div>      
+                    </section>
+
+
+                    <section>
+                        <div style={{height:"10em"}}></div>
+                        <div className={styles.container__narrower}>
+                            <h3 className={styles.f__center}>
+                                <font>跨地域、多时区、多语言的全渠道智能客服解决方案</font>
+                            </h3>
+                            <div style={{height:"30px"}}></div>
+                            <div className={styles.container__narrower}>
+                                <h5 className={styles.f__center1}>
+                                    <font>
+                                        针对电商企业用户地域分散，业务多样的特点，提供跨地域、多时区、多语言的全渠道智能客服解决方案，将呼叫中心与其他客服通道无缝集成，提供灵活的工单和智能客服机器人系统，快速解决客户问题，提高客户满意度
+                                    </font>
+                                </h5>
+                            </div>
+                            <div style={{height:"80px"}}></div>
+                            <div className={styles.tupian}>
+                                <KeyFeatures rtl="false" features={_features2}>
+                                </KeyFeatures>
+                            </div>
+                        </div>      
+                    </section>
+                    <div style={{height:"120px"}}></div>
+
                 </div>
-
-                <section>
-                    <div className={styles.container__narrower}>
-                        <h3 className={styles.f__center}>
-                            <font>获取更多商机并达成更多交易</font>
-                        </h3>
-                        <div style={{height:"30px"}}></div>
-                        <div className={styles.container__narrower}>
-                            <h5 className={styles.f__center1}><font>通过网页主动消息、在线聊天快速获取更多商机；通过销售机器人实时评估商机质量并自动分配，提升商机转化率；通过一键发送商品链接和聊天组件内下单达成更多交易
-                            </font></h5>
-                        </div>
-                        <div style={{height:'80px'}}></div>
-                        <div className={styles.tupian}>
-                            <KeyFeatures features={_features}>
-                            </KeyFeatures>
-                        </div>
-                    </div>      
-                </section>
-
-                <section>
-                    <div style={{height:"10em"}}></div>
-                    <div className={styles.container__narrower}>
-                        <h3 className={styles.f__center}>
-                            <font>将更多注册用户转变为活跃的付费客户</font>
-                        </h3>
-                        <div style={{height:"30px"}}></div>
-                        <div className={styles.container__narrower}>
-                            <h5 className={styles.f__center1}>
-                                <font>
-                                    根据用户渠道偏好，通过应用内消息、智能语音、邮件、短信、微信等各种渠道向目标用户发送有针对性的消息，培育和激活用户，提高用户重复购买率
-                                </font>
-                            </h5>
-                        </div>
-                        <div style={{height:"80px"}}></div>
-                        <div className={styles.tupian}>
-                            <KeyFeatures rtl="true" features={_features1}>
-                            </KeyFeatures>
-                        </div>
-                    </div>      
-                </section>
-
-
-                <section>
-                    <div style={{height:"10em"}}></div>
-                    <div className={styles.container__narrower}>
-                        <h3 className={styles.f__center}>
-                            <font>跨地域、多时区、多语言的全渠道智能客服解决方案</font>
-                        </h3>
-                        <div style={{height:"30px"}}></div>
-                        <div className={styles.container__narrower}>
-                            <h5 className={styles.f__center1}>
-                                <font>
-                                    针对电商企业用户地域分散，业务多样的特点，提供跨地域、多时区、多语言的全渠道智能客服解决方案，将呼叫中心与其他客服通道无缝集成，提供灵活的工单和智能客服机器人系统，快速解决客户问题，提高客户满意度
-                                </font>
-                            </h5>
-                        </div>
-                        <div style={{height:"80px"}}></div>
-                        <div className={styles.tupian}>
-                            <KeyFeatures rtl="false" features={_features2}>
-                            </KeyFeatures>
-                        </div>
-                    </div>      
-                </section>
-                <div style={{height:"120px"}}></div>
-
-            </div>
 	    </Layout>
     )
 }
