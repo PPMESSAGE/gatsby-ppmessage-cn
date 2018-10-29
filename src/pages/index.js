@@ -233,7 +233,7 @@ export default () =>{
                 <section>
                     <div className={styles.container__narrower}>
                         <h3 className={styles.f__center}>
-                            <font>单一页面管理所有客户互动，提高跨渠道的无缝客户体验</font>
+                            <font>单一页面管理所有客户互动，提供跨渠道的无缝客户体验</font>
                         </h3>
                         <div style={{height:"30px"}}></div>
                         <div className={styles.container__narrower}>
