@@ -197,7 +197,7 @@ export default () => (
                                     <div className={styles.g__c6}>
                                         <div className={styles.f__left}>
                                             <div className={styles.product__feature_icon}>
-                                                <img width="32" src="https://upload-images.jianshu.io/upload_images/12406336-f9d43c9129406f93.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" />
+                                                <img width="32" src={require("../icon/6.5.1.png")} />
                                             </div>
                                             <div style={{height:"10px"}}></div>
                                             <div className={styles.max__400}>
@@ -219,7 +219,7 @@ export default () => (
                                     <div className={styles.g__c6}>
                                         <div className={styles.f__left}>
                                             <div className={styles.product__feature_icon}>
-                                                <img width="32" src="https://upload-images.jianshu.io/upload_images/12406336-f9d43c9129406f93.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" />
+                                                <img width="32" src={require("../icon/6.5.2.png")} />
                                             </div>
                                             <div style={{height:"10px"}}></div>
                                             <div className={styles.max__400}>
@@ -275,7 +275,7 @@ export default () => (
                                     <div className={styles.g__c6}>
                                         <div className={styles.f__left}>
                                             <div className={styles.product__feature_icon}>
-                                                <img width="32" src="https://upload-images.jianshu.io/upload_images/12406336-f9d43c9129406f93.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" />
+                                                <img width="32" src={require("../icon/6.5.3.png")} />
                                             </div>
                                             
                                             <div className={styles.max__400}>
@@ -298,7 +298,7 @@ export default () => (
                                     <div className={styles.g__c6}>
                                         <div className={styles.f__left}>
                                             <div className={styles.product__feature_icon}>
-                                                <img width="32" src="https://upload-images.jianshu.io/upload_images/12406336-f9d43c9129406f93.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" />
+                                                <img width="32" src={require("../icon/6.5.4.png")} />
                                             </div>
                                             
                                             <div className={styles.max__400}>
@@ -322,7 +322,7 @@ export default () => (
                                     <div className={styles.g__c6}>
                                         <div className={styles.f__left}>
                                             <div className={styles.product__feature_icon}>
-                                                <img width="32" src="https://upload-images.jianshu.io/upload_images/12406336-f9d43c9129406f93.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" />
+                                                <img width="32" src={require("../icon/6.5.5.png")} />
                                             </div>
                                             
                                             <div className={styles.max__400}>
@@ -399,7 +399,7 @@ export default () => (
                                     <div className={styles.g__c6}>
                                         <div className={styles.f__left}>
                                             <div className={styles.product__feature_icon}>
-                                                <img width="32" src="https://upload-images.jianshu.io/upload_images/12406336-f9d43c9129406f93.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" />
+                                                <img width="32" src={require("../icon/6.5.6.png")} />
                                             </div>
                                             <div style={{height:"10px"}}></div>
                                             <div className={styles.max__400}>
@@ -424,7 +424,7 @@ export default () => (
                                     <div className={styles.g__c6}>
                                         <div className={styles.f__left}>
                                             <div className={styles.product__feature_icon}>
-                                                <img width="32" src="https://upload-images.jianshu.io/upload_images/12406336-f9d43c9129406f93.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" />
+                                                <img width="32" src={require("../icon/6.5.7.png")} />
                                             </div>
                                             <div style={{height:"10px"}}></div>
                                             <div className={styles.max__400}>
@@ -481,7 +481,7 @@ export default () => (
                                     <div className={styles.g__c6}>
                                         <div className={styles.f__left}>
                                             <div className={styles.product__feature_icon}>
-                                                <img width="32" src="https://upload-images.jianshu.io/upload_images/12406336-f9d43c9129406f93.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" />
+                                                <img width="32" src={require("../icon/6.5.8.png")} />
                                             </div>
                                             
                                             <div className={styles.max__400}>
@@ -505,7 +505,7 @@ export default () => (
                                     <div className={styles.g__c6}>
                                         <div className={styles.f__left}>
                                             <div className={styles.product__feature_icon}>
-                                                <img width="32" src="https://upload-images.jianshu.io/upload_images/12406336-f9d43c9129406f93.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" />
+                                                <img width="32" src={require("../icon/6.5.9.png")} />
                                             </div>
                                             
                                             <div className={styles.max__400}>

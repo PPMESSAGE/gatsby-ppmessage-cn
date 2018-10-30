@@ -149,7 +149,7 @@ export default () => (
 
                                 <div className={styles.g__c6}>
                                     <div className={styles.features__block}>
-                                        <FeatherModal abstract={{title: "事件追踪", icon: "https://marketing.intercomassets.com/assets/_svg/icons/smart-campaigns-9b8fd8bfaae4a87872e1af63f8cd201467cd5e5ffbdb70cb2a7fa9f71f870754.svg", desc: "跟踪访客在网页上的行为并采取行动"}}>
+                                        <FeatherModal abstract={{title: "事件追踪", icon:require("../icon/6.2.1.png"), desc: "跟踪访客在网页上的行为并采取行动"}}>
                                             <div>
                                                 <div className={styles.g__row}>
                                                     <div className="g__c3 g__c12--md">
@@ -175,7 +175,7 @@ export default () => (
 
                                 <div className={styles.g__c6}>
                                     <div className={styles.features__block}>
-                                        <FeatherModal abstract={{title: "客户细分", icon: "https://marketing.intercomassets.com/assets/_svg/icons/smart-campaigns-9b8fd8bfaae4a87872e1af63f8cd201467cd5e5ffbdb70cb2a7fa9f71f870754.svg", desc: "根据客户的行为实时生成客户分组"}}>
+                                        <FeatherModal abstract={{title: "客户细分", icon:require("../icon/6.2.2.png") , desc: "根据客户的行为实时生成客户分组"}}>
                                             <div>
                                                 <div className={styles.g__row}>
                                                     <div className="g__c3 g__c12--md">
@@ -202,7 +202,7 @@ export default () => (
 
                                 <div className={styles.g__c6}>
                                     <div className={styles.features__block}>
-                                        <FeatherModal abstract={{title: "锁定客群", icon: "https://marketing.intercomassets.com/assets/_svg/icons/smart-campaigns-9b8fd8bfaae4a87872e1af63f8cd201467cd5e5ffbdb70cb2a7fa9f71f870754.svg", desc: "根据商机或用户的行为及属性锁定目标客群"}}>
+                                        <FeatherModal abstract={{title: "锁定客群", icon:require("../icon/6.2.3.png"), desc: "根据商机或用户的行为及属性锁定目标客群"}}>
                                             <div>
                                                 <div className={styles.g__row}>
                                                     <div className="g__c3 g__c12--md">
@@ -259,7 +259,7 @@ export default () => (
 
                                 <div className={styles.g__c6}>
                                     <div className={styles.features__block}>
-                                        <FeatherModal abstract={{title: "自动消息", icon: "https://marketing.intercomassets.com/assets/_svg/icons/smart-campaigns-9b8fd8bfaae4a87872e1af63f8cd201467cd5e5ffbdb70cb2a7fa9f71f870754.svg", desc: "根据用户或潜在客户的行为向他们发送自动消息"}}>
+                                        <FeatherModal abstract={{title: "自动消息", icon:require("../icon/6.2.4.png"), desc: "根据用户或潜在客户的行为向他们发送自动消息"}}>
                                             <div>
                                                 <div className={styles.g__row}>
                                                     <div className="g__c3 g__c12--md">
@@ -285,35 +285,7 @@ export default () => (
 
                                 <div className={styles.g__c6}>
                                     <div className={styles.features__block}>
-                                        <FeatherModal abstract={{title: "手动消息", icon: "https://marketing.intercomassets.com/assets/_svg/icons/smart-campaigns-9b8fd8bfaae4a87872e1af63f8cd201467cd5e5ffbdb70cb2a7fa9f71f870754.svg", desc: "向用户或潜在客户发送一次性消息"}}>
-                                            <div>
-                                                <div className={styles.g__row}>
-                                                    <div className="g__c3 g__c12--md">
-                                                        <h2 className="t__h3 f__center--md u__reset"></h2>
-                                                        <div className="sp__1"></div>
-                                                        <div>
-                                                            <div className="c__black f__bold f__center--md"></div>
-                                                            <div className="sp__05"></div>
-                                                            <div className="t__small f__center--sm f__center--md"></div>
-                                                            <div className="sp__3--md sp__3--sm"></div>
-                                                        </div>
-                                                    </div>
-                                                    <div className="g__c9 g__c12--md f__center u__static">
-                                                        <div className="browser device__shadow">
-                                                            <img height="auto" width="650" data-large="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-6b555d9c492811f6a1bafd80506ba6407ee82d2022239b3e290b0cf121fca2b2.png" data-medium="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-6b555d9c492811f6a1bafd80506ba6407ee82d2022239b3e290b0cf121fca2b2.png" data-large2x="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-2x-f253684e86a5d6bd87c47b97895347b6ca557c481eb15e934789ede91b0bf34d.png" data-medium2x="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-2x-f253684e86a5d6bd87c47b97895347b6ca557c481eb15e934789ede91b0bf34d.png" data-lazy-load="true" alt="" src="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-6b555d9c492811f6a1bafd80506ba6407ee82d2022239b3e290b0cf121fca2b2.png"/><noscript><img height="auto" width="650" alt="" src="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-6b555d9c492811f6a1bafd80506ba6407ee82d2022239b3e290b0cf121fca2b2.png" /></noscript>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </FeatherModal>
-                                        
-                                    </div>
-                                </div>
-
-                                <div className={styles.g__c6}>
-                                    <div className={styles.features__block}>
-
-                                        <FeatherModal abstract={{title: "应用内消息", icon: "https://marketing.intercomassets.com/assets/_svg/icons/smart-campaigns-9b8fd8bfaae4a87872e1af63f8cd201467cd5e5ffbdb70cb2a7fa9f71f870754.svg", desc: "在网页或移动应用内发送与上下文相关的自动或手动消息"}}>
+                                        <FeatherModal abstract={{title: "手动消息", icon:require("../icon/6.2.5.png"), desc: "向用户或潜在客户发送一次性消息"}}>
                                             <div>
                                                 <div className={styles.g__row}>
                                                     <div className="g__c3 g__c12--md">
@@ -340,7 +312,8 @@ export default () => (
 
                                 <div className={styles.g__c6}>
                                     <div className={styles.features__block}>
-                                        <FeatherModal abstract={{title: "访客自动消息", icon: "https://marketing.intercomassets.com/assets/_svg/icons/smart-campaigns-9b8fd8bfaae4a87872e1af63f8cd201467cd5e5ffbdb70cb2a7fa9f71f870754.svg", desc: "根据访客在网页上的行为主动发送消息"}}>
+
+                                        <FeatherModal abstract={{title: "应用内消息", icon:require("../icon/6.2.6.png"), desc: "在网页或移动应用内发送与上下文相关的自动或手动消息"}}>
                                             <div>
                                                 <div className={styles.g__row}>
                                                     <div className="g__c3 g__c12--md">
@@ -367,7 +340,7 @@ export default () => (
 
                                 <div className={styles.g__c6}>
                                     <div className={styles.features__block}>
-                                        <FeatherModal abstract={{title: "智能语音", icon: "https://marketing.intercomassets.com/assets/_svg/icons/smart-campaigns-9b8fd8bfaae4a87872e1af63f8cd201467cd5e5ffbdb70cb2a7fa9f71f870754.svg", desc: "根据客户行为或属性在特定时间向客户进行智能语音呼叫"}}>
+                                        <FeatherModal abstract={{title: "访客自动消息", icon:require("../icon/6.2.7.png") , desc: "根据访客在网页上的行为主动发送消息"}}>
                                             <div>
                                                 <div className={styles.g__row}>
                                                     <div className="g__c3 g__c12--md">
@@ -394,7 +367,34 @@ export default () => (
 
                                 <div className={styles.g__c6}>
                                     <div className={styles.features__block}>
-                                        <FeatherModal abstract={{title: "智能营销活动", icon: "https://marketing.intercomassets.com/assets/_svg/icons/smart-campaigns-9b8fd8bfaae4a87872e1af63f8cd201467cd5e5ffbdb70cb2a7fa9f71f870754.svg", desc: "基于客户行为和时间向客户发送一系列定制化消息以达到特定营销目标"}}>
+                                        <FeatherModal abstract={{title: "智能语音", icon:require("../icon/6.2.8.png"), desc: "根据客户行为或属性在特定时间向客户进行智能语音呼叫"}}>
+                                            <div>
+                                                <div className={styles.g__row}>
+                                                    <div className="g__c3 g__c12--md">
+                                                        <h2 className="t__h3 f__center--md u__reset"></h2>
+                                                        <div className="sp__1"></div>
+                                                        <div>
+                                                            <div className="c__black f__bold f__center--md"></div>
+                                                            <div className="sp__05"></div>
+                                                            <div className="t__small f__center--sm f__center--md"></div>
+                                                            <div className="sp__3--md sp__3--sm"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div className="g__c9 g__c12--md f__center u__static">
+                                                        <div className="browser device__shadow">
+                                                            <img height="auto" width="650" data-large="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-6b555d9c492811f6a1bafd80506ba6407ee82d2022239b3e290b0cf121fca2b2.png" data-medium="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-6b555d9c492811f6a1bafd80506ba6407ee82d2022239b3e290b0cf121fca2b2.png" data-large2x="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-2x-f253684e86a5d6bd87c47b97895347b6ca557c481eb15e934789ede91b0bf34d.png" data-medium2x="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-2x-f253684e86a5d6bd87c47b97895347b6ca557c481eb15e934789ede91b0bf34d.png" data-lazy-load="true" alt="" src="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-6b555d9c492811f6a1bafd80506ba6407ee82d2022239b3e290b0cf121fca2b2.png"/><noscript><img height="auto" width="650" alt="" src="https://marketing.intercomassets.com/assets/messages-features/light-box/smart-campaigns-6b555d9c492811f6a1bafd80506ba6407ee82d2022239b3e290b0cf121fca2b2.png" /></noscript>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </FeatherModal>
+                                        
+                                    </div>
+                                </div>
+
+                                <div className={styles.g__c6}>
+                                    <div className={styles.features__block}>
+                                        <FeatherModal abstract={{title: "智能营销活动", icon:require("../icon/6.2.9.png") , desc: "基于客户行为和时间向客户发送一系列定制化消息以达到特定营销目标"}}>
                                             <div>
                                                 <div className={styles.g__row}>
                                                     <div className="g__c3 g__c12--md">
@@ -448,7 +448,7 @@ export default () => (
 
                                 <div className={styles.g__c6}>
                                     <div className={styles.features__block}>
-                                        <FeatherModal abstract={{title: "消息统计", icon: "https://marketing.intercomassets.com/assets/_svg/icons/smart-campaigns-9b8fd8bfaae4a87872e1af63f8cd201467cd5e5ffbdb70cb2a7fa9f71f870754.svg", desc: "统计发送的消息打开、点击和回复的数量和比率"}}>
+                                        <FeatherModal abstract={{title: "消息统计", icon:require("../icon/6.2.10.png"), desc: "统计发送的消息打开、点击和回复的数量和比率"}}>
                                             <div>
                                                 <div className={styles.g__row}>
                                                     <div className="g__c3 g__c12--md">
@@ -474,7 +474,7 @@ export default () => (
 
                                 <div className={styles.g__c6}>
                                     <div className={styles.features__block}>
-                                        <FeatherModal abstract={{title: "A/B测试", icon: "https://marketing.intercomassets.com/assets/_svg/icons/smart-campaigns-9b8fd8bfaae4a87872e1af63f8cd201467cd5e5ffbdb70cb2a7fa9f71f870754.svg", desc: "通过变量测试优化消息性能"}}>
+                                        <FeatherModal abstract={{title: "A/B测试", icon:require("../icon/6.2.11.png"), desc: "通过变量测试优化消息性能"}}>
                                             <div>
                                                 <div className={styles.g__row}>
                                                     <div className="g__c3 g__c12--md">
@@ -500,7 +500,7 @@ export default () => (
 
                                 <div className={styles.g__c6}>
                                     <div className={styles.features__block}>
-                                        <FeatherModal abstract={{title: "消息目标", icon: "https://marketing.intercomassets.com/assets/_svg/icons/smart-campaigns-9b8fd8bfaae4a87872e1af63f8cd201467cd5e5ffbdb70cb2a7fa9f71f870754.svg", desc: "跟踪和衡量产品内行为，以了解消息的真实性能"}}>
+                                        <FeatherModal abstract={{title: "消息目标", icon:require("../icon/6.2.12.png"), desc: "跟踪和衡量产品内行为，以了解消息的真实性能"}}>
                                             <div>
                                                 <div className={styles.g__row}>
                                                     <div className="g__c3 g__c12--md">
@@ -526,7 +526,7 @@ export default () => (
 
                                 <div className={styles.g__c6}>
                                     <div className={styles.features__block}>
-                                        <FeatherModal abstract={{title: "洞察", icon: "https://marketing.intercomassets.com/assets/_svg/icons/smart-campaigns-9b8fd8bfaae4a87872e1af63f8cd201467cd5e5ffbdb70cb2a7fa9f71f870754.svg", desc: "查看消息的执行情况，以及消息是否按预期发送"}}>
+                                        <FeatherModal abstract={{title: "洞察", icon:require("../icon/6.2.13.png"), desc: "查看消息的执行情况，以及消息是否按预期发送"}}>
                                             <div>
                                                 <div className={styles.g__row}>
                                                     <div className="g__c3 g__c12--md">
@@ -552,7 +552,7 @@ export default () => (
 
                                 <div className={styles.g__c6}>
                                     <div className={styles.features__block}>
-                                        <FeatherModal abstract={{title: "销售转化率", icon: "https://marketing.intercomassets.com/assets/_svg/icons/smart-campaigns-9b8fd8bfaae4a87872e1af63f8cd201467cd5e5ffbdb70cb2a7fa9f71f870754.svg", desc: "可定制行业销售转化模型，提高销售转化效率"}}>
+                                        <FeatherModal abstract={{title: "销售转化率", icon:require("../icon/6.2.14.png"), desc: "可定制行业销售转化模型，提高销售转化效率"}}>
                                             <div>
                                                 <div className={styles.g__row}>
                                                     <div className="g__c3 g__c12--md">
@@ -578,7 +578,7 @@ export default () => (
 
                                 <div className={styles.g__c6}>
                                     <div className={styles.features__block}>
-                                        <FeatherModal abstract={{title: "CSV导出", icon: "https://marketing.intercomassets.com/assets/_svg/icons/smart-campaigns-9b8fd8bfaae4a87872e1af63f8cd201467cd5e5ffbdb70cb2a7fa9f71f870754.svg", desc: "将您在给定时间段内发送的消息的性能数据导出到CSV文件"}}>
+                                        <FeatherModal abstract={{title: "CSV导出", icon:require("../icon/6.2.15.png"), desc: "将您在给定时间段内发送的消息的性能数据导出到CSV文件"}}>
                                             <div>
                                                 <div className={styles.g__row}>
                                                     <div className="g__c3 g__c12--md">

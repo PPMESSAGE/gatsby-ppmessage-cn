@@ -141,9 +141,6 @@ export default () => {
                                             </div>                
                                     </a>
                                 </div>
-
-
-
                                 <div className={styles.chuangjian_tranform4}>
                                     <a href="#celiang" className={styles.lianjie}>
                                         <div className={styles.product__breakdown__image}>
@@ -245,7 +242,7 @@ export default () => {
                                     <div className={styles.g__c6_transform}>
                                         <div className={styles.f__left}>
                                             <div className={styles.product__feature_icon}>
-                                                <img src="https://upload-images.jianshu.io/upload_images/12406336-acd7309f5cf61fa5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" />
+                                                <img src={require("../icon/7.1.1.png")} />
                                             </div>
                                             <div style={{height:"10px"}}></div>
                                             <div className={styles.sp__left_4}>
@@ -264,7 +261,7 @@ export default () => {
                                     <div className={styles.g__c6_transform}>
                                         <div className={styles.f__left}>
                                             <div className={styles.product__feature_icon}>
-                                                <img src="https://upload-images.jianshu.io/upload_images/12406336-acd7309f5cf61fa5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" />
+                                                <img src={require("../icon/7.1.2.png")} />
                                             </div>
                                             <div style={{height:"10px"}}></div>
                                             <div className={styles.sp__left_4}>
@@ -279,29 +276,10 @@ export default () => {
                                             </div>
                                         </div>
                                     </div>
-
-                                    {/*<div className={styles.g__c6}>
-                                        <div className={styles.f__left}>
-                                        <div className={styles.product__feature_icon}>
-                                        <img src="https://upload-images.jianshu.io/upload_images/12406336-acd7309f5cf61fa5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" />
-                                        </div>
-                                        <div style={{height:"10px"}}></div>
-                                        <div className={styles.sp__left_4}>
-                                        <div className={[styles.t__small,styles.f__bold]}>
-                                        <font>数据丰富</font>
-                                        </div>
-                                        <div className={styles.t__small}>
-                                        <font>使用Clearbit Reveal等数据集成仅针对最佳潜在客户
-                                        </font>
-                                        </div>
-                                        </div>
-                                        </div>
-                                        </div>*/}
-
                                     <div className={styles.g__c6}>
                                         <div className={styles.f__left}>
                                             <div className={styles.product__feature_icon}>
-                                                <img src="https://upload-images.jianshu.io/upload_images/12406336-acd7309f5cf61fa5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" />
+                                                <img src={require("../icon/7.1.3.png")} />
                                             </div>
                                             <div style={{height:"10px"}}></div>
                                             <div className={styles.sp__left_4}>
@@ -496,7 +474,7 @@ export default () => {
                                     <div className={styles.g__c6_transform}>
                                         <div className={styles.f__left}>
                                             <div className={styles.product__feature_icon}>
-                                                <img src="https://upload-images.jianshu.io/upload_images/12406336-acd7309f5cf61fa5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" />
+                                                <img src={require("../icon/7.1.4.png")} />
                                             </div>
                                             
                                             <div className={styles.sp__left_4}>
@@ -515,7 +493,7 @@ export default () => {
                                     <div className={styles.g__c6_transform}>
                                         <div className={styles.f__left}>
                                             <div className={styles.product__feature_icon}>
-                                                <img src="https://upload-images.jianshu.io/upload_images/12406336-acd7309f5cf61fa5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" />
+                                                <img src={require("../icon/7.1.5.png")} />
                                             </div>
                                             
                                             <div className={styles.sp__left_4}>
@@ -534,7 +512,7 @@ export default () => {
                                     <div className={styles.g__c6_transform}>
                                         <div className={styles.f__left}>
                                             <div className={styles.product__feature_icon}>
-                                                <img src="https://upload-images.jianshu.io/upload_images/12406336-acd7309f5cf61fa5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" />
+                                                <img src={require("../icon/7.1.6.png")} />
                                             </div>
                                             
                                             <div className={styles.sp__left_4}>
@@ -554,7 +532,7 @@ export default () => {
                                     <div className={styles.g__c6_transform}>
                                         <div className={styles.f__left}>
                                             <div className={styles.product__feature_icon}>
-                                                <img src="https://upload-images.jianshu.io/upload_images/12406336-acd7309f5cf61fa5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" />
+                                                <img src={require("../icon/7.1.7.png")} />
                                             </div>
                                             
                                             <div className={styles.sp__left_4}>
@@ -679,23 +657,10 @@ export default () => {
                                         </li>
                                     </ul>
                                 </div>
-                                
-                                
                             </div>
-
-
-
-                            
                         </div>
                     </div>
                 </section>
-
-
-
-                
-
-
-                
             </div>
 	    </Layout>
     )

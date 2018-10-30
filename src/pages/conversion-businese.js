@@ -229,7 +229,7 @@ export default () => (
                                 <div className={styles.g__c6}>
                                     <div className={styles.f__left}>
                                         <div className={styles.product__feature_icon}>
-                                            <img src="https://upload-images.jianshu.io/upload_images/12406336-acd7309f5cf61fa5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" />
+                                            <img src={require("../icon/7.3.1.png")} />
                                         </div>
                                         <div style={{height:"10px"}}></div>
                                         <div className={styles.sp__left_4}>
@@ -248,7 +248,7 @@ export default () => (
                                 <div className={styles.g__c6}>
                                     <div className={styles.f__left}>
                                         <div className={styles.product__feature_icon}>
-                                            <img src="https://upload-images.jianshu.io/upload_images/12406336-acd7309f5cf61fa5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" />
+                                            <img src={require("../icon/7.3.2.png")} />
                                         </div>
                                         <div style={{height:"10px"}}></div>
                                         <div className={styles.sp__left_4}>
@@ -267,7 +267,7 @@ export default () => (
                                 <div className={styles.g__c6}>
                                     <div className={styles.f__left}>
                                         <div className={styles.product__feature_icon}>
-                                            <img src="https://upload-images.jianshu.io/upload_images/12406336-acd7309f5cf61fa5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" />
+                                            <img src={require("../icon/7.3.3.png")} />
                                         </div>
                                         <div style={{height:"10px"}}></div>
                                         <div className={styles.sp__left_4}>
@@ -286,7 +286,7 @@ export default () => (
                                 <div className={styles.g__c6}>
                                     <div className={styles.f__left}>
                                         <div className={styles.product__feature_icon}>
-                                            <img src="https://upload-images.jianshu.io/upload_images/12406336-acd7309f5cf61fa5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" />
+                                            <img src={require("../icon/7.3.4.png")} />
                                         </div>
                                         <div style={{height:"10px"}}></div>
                                         <div className={styles.sp__left_4}>
@@ -347,92 +347,6 @@ export default () => (
                     </div>                
                     
                     <div className={styles.support_automate}>
-                        {/*
-                            <div className={styles.g__c6}>
-                            
-                            <div style={{height:"20px"}}></div>
-                            <h3 className={styles.t__h2}>
-                            <font>
-                            全球化呼叫中心系统                                                         </font>
-                            </h3>
-                            <div style={{height:"10px"}}></div>
-                            <div className={styles.max__600}>
-                            <font>
-                            跨地域、跨时区、多语言，支持语音通话跨地域转接，保障全球客服24小时在线
-                            </font>
-                            </div>
-                            <div className={styles.sp__left_10}>
-                            <div style={{height:"40px"}}></div>
-                            <div className={styles.g__row__left}>
-                            <div className={styles.g__c12}>
-                            <div className={styles.f__left}>
-                            <div>
-                            <img src="https://upload-images.jianshu.io/upload_images/12406336-75156bbb1f33ce29.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" width="26" />
-                            </div>                   
-                            <div className={styles.sp__left_4}>
-                            <div className={styles.t__small}><font>立即回答常见问题</font>
-                            <div style={{height:"5px"}}></div>
-                            <div className={styles.t__small}>
-                            <font>在客户问题到达您的团队之前解决他们。我们的机器人操作员立即根据人们在Intercom Messenger中提出的问题推荐文章
-                            </font>
-                            </div>
-                            </div>
-                            </div>
-                            </div>
-                            </div>
-
-                            <div className={styles.g__c12}>
-                            <div className={styles.f__left}>
-                            <div>
-                            <img src="https://upload-images.jianshu.io/upload_images/12406336-75156bbb1f33ce29.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" width="26" />
-                            </div>                   
-                            <div className={styles.sp__left_4}>
-                            <div className={styles.t__small}><font>提出明智的建议</font>
-                            <div style={{height:"5px"}}></div>
-                            <div className={styles.t__small}>
-                            <font>帮助您的团队更快地回答问题。将您的知识库与帮助台连接起来，Operator bot将为您的团队推荐文章以分享对话
-                            </font>
-                            </div>
-                            </div>
-                            </div>
-                            </div>
-                            </div>
-
-
-                            <div className={styles.g__c12}>
-                            <div className={styles.f__left}>
-                            <div>
-                            <img src="https://upload-images.jianshu.io/upload_images/12406336-75156bbb1f33ce29.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" width="26" />
-                            </div>                   
-                            <div className={styles.sp__left_4}>
-                            <div className={styles.t__small}><font>自动分配对话</font>
-                            <div style={{height:"5px"}}></div>
-                            <div className={styles.t__small}>
-                            <font>自动将对话分配给合适的队友
-                            </font>
-                            </div>
-                            </div>
-                            </div>
-                            </div>
-                            </div>
-                            
-                            </div>
-                            </div>
-                            </div>                    
-                            <div className={styles.g__c6}>
-                            <div className={styles.js__gallery}>
-                            <div className={styles.u__inline}>
-                            <div className={styles.gallery}>
-                            <div className={styles.gallery__img}>
-                            <img width="406" src="https://marketing.intercomassets.com/assets/support/v2/automate-2x-65ecbfcf811b951a764435904655930be62c6e65cc3961ac713d8ec08e5a8b08.png" />
-                            </div>                    
-                            </div>
-                            </div>
-                            </div>
-                            </div>
-                          */}
-
-
                         <div className={styles.g__c6}>
                             <div style={{height:"100px"}}></div>
                             <h3 className={styles.t__h2}>
@@ -596,7 +510,7 @@ export default () => (
                                 <div className={styles.g__c6}>
                                     <div className={styles.f__left}>
                                         <div className={styles.product__feature_icon}>
-                                            <img src="https://upload-images.jianshu.io/upload_images/12406336-80fb1d657492b194.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" />
+                                            <img src={require("../icon/7.3.5.png")}duihui />
                                         </div>
                                         <div className={styles.sp__left_4}>
                                             <div className={styles.t__small}>
@@ -612,7 +526,7 @@ export default () => (
                                 <div className={styles.g__c6}>
                                     <div className={styles.f__left}>
                                         <div className={styles.product__feature_icon}>
-                                            <img src="https://upload-images.jianshu.io/upload_images/12406336-80fb1d657492b194.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" />
+                                            <img src={require("../icon/7.3.6.png")} />
                                         </div>
                                         <div className={styles.sp__left_4}>
                                             <div className={styles.t__small}>
@@ -629,7 +543,7 @@ export default () => (
                                 <div className={styles.g__c6}>
                                     <div className={styles.f__left}>
                                         <div className={styles.product__feature_icon}>
-                                            <img src="https://upload-images.jianshu.io/upload_images/12406336-80fb1d657492b194.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" />
+                                            <img src={require("../icon/7.3.7.png")} />
                                         </div>
                                         <div className={styles.sp__left_4}>
                                             <div className={styles.t__small}>
