@@ -23,12 +23,12 @@ export default () => (
                             </h2>
                             <div style={{height:"10px"}}>
                             </div>
-                            <h3 style={{color:'#888'}}><font className={styles.biaoti}>通过向访客或者注册用户发送基于行为和时间的有针对性的电子邮件、短信、移动应用内消息推送和智能语音呼叫，提高访客转化率，刺激客户消费
+                            <h3 style={{color:'#888'}}><font className={styles.biaoti}>
+                                通过向访客或者注册用户发送基于行为和时间的有针对性的应用内消息、电子邮件、短信和智能语音呼叫，提高访客转化率，刺激客户消费
                             </font>
                             </h3>
                             <div style={{height:"20px"}}>            
                             </div>
-                            {/* 邮箱*/}
                             <div>
                                 <EnterYourMobile size="middle"/>
                             </div>
@@ -149,7 +149,7 @@ export default () => (
 
                                 <div className={styles.g__c6}>
                                     <div className={styles.features__block}>
-                                        <FeatherModal abstract={{title: "事件追踪", icon: "https://marketing.intercomassets.com/assets/_svg/icons/smart-campaigns-9b8fd8bfaae4a87872e1af63f8cd201467cd5e5ffbdb70cb2a7fa9f71f870754.svg", desc: "跟踪访客在网页上的行为，并上报给PPMessage"}}>
+                                        <FeatherModal abstract={{title: "事件追踪", icon: "https://marketing.intercomassets.com/assets/_svg/icons/smart-campaigns-9b8fd8bfaae4a87872e1af63f8cd201467cd5e5ffbdb70cb2a7fa9f71f870754.svg", desc: "跟踪访客在网页上的行为并采取行动"}}>
                                             <div>
                                                 <div className={styles.g__row}>
                                                     <div className="g__c3 g__c12--md">

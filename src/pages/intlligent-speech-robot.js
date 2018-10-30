@@ -23,7 +23,7 @@ export default () => (
                             </h2>
                             <div style={{height:"10px"}}>
                             </div>
-                            <h3 style={{color:'#888'}}><font className={styles.biaoti}>通过业内独有的流程机制解决全球业务的客服痛点，与人工智能紧密结合</font>
+                            <h3 style={{color:'#888'}}><font className={styles.biaoti}>整合行业人工智能＋语音大数据＋运营商等资源，利用语音识别(ASR)、语音合成(TTS)、语义理解(NLP)等技术，通过业内独有的流程机制解决全球业务的客服痛点。可实现事件营销、意向筛选、定向销售、问卷调查、产品续费、定向催收、会员关怀、身份认证、产品推荐等多种业务功能，极大降低企业成本</font>
                             </h3>
                             <div style={{height:"20px"}}>            
                             </div>
@@ -224,7 +224,7 @@ export default () => (
                                 </div>
                             </div>
                         </div>
-                          
+                        
                         <div className={styles.g__c6}>
                             <div style={{height:"100px"}}></div>
                             <h3 className={styles.t__h2}>

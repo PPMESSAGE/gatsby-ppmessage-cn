@@ -36,7 +36,7 @@ export default () => {
                     <div className={styles.g__row}>
                         <div className={styles.g__c6}>
                             <span className={styles.f__medium}>
-                                <div className={styles.transform_200px}>
+                                <div className={styles.transform_200px} style={{width:"300px"}}>
                                     <h2>获取和转化销售线索</h2>
                                 </div>
                             </span>
@@ -59,7 +59,8 @@ export default () => {
                             </h1>
                             <div style={{height:"10px"}}></div>
                             <h2 className={styles.t__h3_d}>
-                                <font>通过网页主动消息、在线聊天、策略性的推送应用内消息、邮件、短信和智能语音外呼快速获取更多商机；通过机器学习实时评估商机质量并自动分配，提升商机转化率
+                                <font>
+                                    通过网页主动消息、在线聊天、应用内消息推送、邮件、短信和智能语音外呼快速获取更多商机；通过机器学习实时评估商机质量并自动分配，提升商机转化率
                                 </font>
                             </h2>
                             <div style={{height:"20px"}}></div>
@@ -154,20 +155,22 @@ export default () => {
                                             <div className={styles.t__small_s}>
                                                 <font>实时了解商机转化数量，商机来源等信息，评估营销质量</font>
                                             </div>
+                                            <a name="huode"></a>
                                             <div className={styles.product__learn_more} style={{margin:"80px"}}>
                                                 <span>
                                                     <font className={styles.smallerbiaoti}>了解更多</font>
                                                 </span>                  
                                             </div>                
                                     </a>
-                                </div>                            
+                                </div>
+                                
                             </div>                        
                         </div>
                     </div>
                 </section>
 
                 <section >
-                    <a name="huode"></a>
+                    
                     <div className={styles.container_z}>
                         <div className={styles.g__row}>
                             <div className={styles.g__c6}>
@@ -371,7 +374,8 @@ export default () => {
                                         <font>
                                             自动评估商机质量，将其分配给合适的处理部门，自动安排与商机的销售会议，并与CRM系统同步
 
-                                        </font>                                
+                                        </font>
+                                        
                                     </div>                            
                                 </div>                        
                             </div>
@@ -388,7 +392,7 @@ export default () => {
                                             <img width="340" src="https://marketing.intercomassets.com/assets/live-chat2/qualify/1-2x-330b08ec645de23f33fc29a9cfbadf9c7d01ce9a3107b93479f917e08403fdbd.png#340" />
                                             <img width="19" className={styles.live_chat__qualify__arrow} src="https://marketing.intercomassets.com/assets/live-chat/v2/arrow-b3f28513f982707e60f53c893ea5248a10b14927b952e715d3b757c195685b1b.svg" />
                                         </div>
-
+                                        
                                         <div className={styles.g__c4__relative}>
                                             <div className={styles.live_chat__label}>
                                                 <font>
@@ -399,80 +403,29 @@ export default () => {
                                             <img width="340" src="https://marketing.intercomassets.com/assets/live-chat2/qualify/2-7332e317e8d00da67cb4a9afab4459539660fc0b841dc6cff2682e4a9af77092.png#340" />
                                             <img width="19" className={styles.live_chat__qualify__arrow} src="https://marketing.intercomassets.com/assets/live-chat/v2/arrow-b3f28513f982707e60f53c893ea5248a10b14927b952e715d3b757c195685b1b.svg" />
                                         </div>
-
+                                        
                                         <div className={styles.g__c4__relative}>
                                             <div className={styles.live_chat__label}>
                                                 <font>使Salesforce保持同步{/*需要改一下*/}
                                                 </font>
                                             </div>
                                             <div style={{height:"20px"}}></div>
+                                            
                                             <img width="340" src="https://marketing.intercomassets.com/assets/live-chat2/qualify/3-2x-6027ed1a6f09fc3ab366754757377c9c1309f85bbce4e6c54c003e655b5a992b.png#341" />                                                             </div>                                   
                                     </div>
 
-                                    {/* <div className={styles.u__center}>
-                                        <div className={styles.g__row_fill_pink}>
-                                        <div className={styles.g__c4_5}>
-                                        <div className={styles.f__left}>
-                                        <div className={styles.product__feature_icon}>
-                                        <img src="https://upload-images.jianshu.io/upload_images/12406336-acd7309f5cf61fa5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" />
-                                        </div>
-                                        
-                                        <div className={styles.sp__left_4}>
-                                        <div className={[styles.t__small,styles.f__bold]}>
-                                        <font>资格和路线</font>
-                                        </div>
-                                        <div className={styles.t__small}>
-                                        <font>运营商对潜在用户</font>
-                                        </div>
-                                        </div>
-                                        </div>
-                                        </div>
-
-                                        <div className={styles.g__c4_5}>
-                                        <div className={styles.f__left}>
-                                        <div className={styles.product__feature_icon}>
-                                        <img src="https://upload-images.jianshu.io/upload_images/12406336-acd7309f5cf61fa5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" />
-                                        </div>
-                                        
-                                        <div className={styles.sp__left_4}>
-                                        <div className={[styles.t__small,styles.f__bold]}>
-                                        <font>会议安排</font>
-                                        </div>
-                                        <div className={styles.t__small}>
-                                        <font>操作员自动安排销售会议与最佳潜在客户，24 // 7</font>
-                                        </div>
-                                        </div>
-                                        </div>
-                                        </div>
-
-
-                                        <div className={styles.g__c4_5}>
-                                        <div className={styles.f__left}>
-                                        <div className={styles.product__feature_icon}>
-                                        <img src="https://upload-images.jianshu.io/upload_images/12406336-acd7309f5cf61fa5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" />
-                                        </div>
-                                        
-                                        <div className={styles.sp__left_4}>
-                                        <div className={[styles.t__small,styles.f__bold]}>
-                                        <font>CRM整合</font>
-                                        </div>
-                                        <div className={styles.t__small}>
-                                        <font>集成并自动将数据同步到Salesforce，Hubspot等</font>
-                                        </div>
-                                        </div>
-                                        </div>
-                                        </div>                                                                   </div>
-                                        </div>*/}
+                                    
                                 </div>
                             </div>
                         </div>                                             
                     </div>                  
                 </section>
-
-                <div style={{height:"200px"}}></div>
+                <div style={{height:"150px"}}></div>
+                <a name="duihuan"></a>
+                <div style={{height:"50px"}}></div>
                 
                 <section className={styles.section}>
-                    <a name="duihuan"></a>
+                    
                     <div className={styles.container_z} style={{maxWidth:"1404px"}}>
                         <div className={styles.g__row_z}>
                             <div className={styles.g__c6}>
@@ -647,10 +600,12 @@ export default () => {
                                         </ul>
                                     </div>
                                 </div>
+                                
                                 <div className={styles.g__c6}>
                                     <img width="500" src={require("../images/159.png")} />
                                 </div>
                             </div>
+                            <a name="celiang"></a>
                         </div>
                         
                     </div>
@@ -658,7 +613,7 @@ export default () => {
                 
 
                 <section className={styles.section}>
-                    <a name="celiang"></a>
+                    
                     <div className={styles.container_s}>
                         <div className={styles.g__row_z}>
                             <div className={styles.g__c6}>

@@ -245,7 +245,7 @@ export default () => (
                         </div>
                     </div>
                 </div>
-                <img className={styles.qwe}  src="https://marketing.intercomassets.com/assets/custom-bots/flair-1-4355575a270f918b7e69f261639bc61c8b2020ccdea8a52ffb45730738ab5780.png" />
+                
             </section>
 
             <a name="wukaifa"></a>
@@ -451,7 +451,7 @@ export default () => (
                         </div>
                     </div>
                 </div>
-                <img className={styles.qwe}  src="https://marketing.intercomassets.com/assets/custom-bots/flair-1-4355575a270f918b7e69f261639bc61c8b2020ccdea8a52ffb45730738ab5780.png" />
+                
             </section>
 
             <a name="chaozengzhang"></a>

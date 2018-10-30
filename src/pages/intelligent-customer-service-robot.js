@@ -23,7 +23,7 @@ export default () => (
                             </h2>
                             <div style={{height:"10px"}}>
                             </div>
-                            <h3 style={{color:'#888'}}><font className={styles.biaoti}>在您的网站，移动应用，电子邮件和社交网络中分配，回复和关闭对话</font>
+                            <h3 style={{color:'#888'}}><font className={styles.biaoti}>提供24/7即时解决方案，通过自动解决常见问题提高客户满意度，让您的客服团队可以专注于需要人工处理的复杂对话。</font>
                             </h3>
                             <div style={{height:"20px"}}>            
                             </div>
@@ -98,8 +98,8 @@ export default () => (
                                 </li>
                                 <li className={styles.active_li}>                                                 敏捷的主动发问机制
                                     <div className={styles.detail_right}>
-                                        实体提取深层意图理解<br/>
-                                        主动分步式发问
+                                        深层理解客户意图<br/>
+                                       
                                     </div>
                                 </li>
                             </ul>

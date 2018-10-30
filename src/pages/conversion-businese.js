@@ -16,7 +16,7 @@ export default () => (
                 <div className={styles.g__row}>
                     <div className={styles.g__c6}>
                         <span className={styles.f__medium}>
-                            <div className={styles.transform_200px}>
+                            <div className={styles.transform_200px} style={{width:"400px"}}>
                                 <h2>支持客户并提高客户满意度</h2>
                             </div>
                         </span>
@@ -60,6 +60,7 @@ export default () => (
                     <div className={styles.g__row}>
 
                         <div>
+                            <a name="hezuo"></a>
 
                             <div className={styles.chuangjian_tranform1}>
                                 <a href="#hezuo" className={styles.lianjie}>
@@ -103,7 +104,8 @@ export default () => (
                                 </a>
                             </div>
                             
-
+                            
+                            
                             <div className={styles.chuangjian_tranform3}>
                                 <a href="#guimo" className={styles.lianjie}>
                                     <div className={styles.product__breakdown__image}>
@@ -139,18 +141,20 @@ export default () => (
                                         <div className={styles.product__learn_more} style={{margin:"80px"}}>
                                             <span>
                                                 <font className={styles.smallerbiaoti}>了解更多</font>
-                                            </span>                  
+                                            </span>
+                                            
                                         </div>                
                                 </a>
                             </div>                            
-                        </div>                        
+                        </div>
+                        
                     </div>
                 </div>
             </section>
 
             
             <section >
-                <a name="hezuo"></a>
+                
                 <div className={styles.container_z}>  
                     <div className={styles.g__row}>
                         <div className={styles.g__c6}>
@@ -303,9 +307,10 @@ export default () => (
                 </div>
                 
             </section>
+            <a name="zidonghua"></a><a name="zidonghua"></a>
             <div className={styles.index_200px_conversion_businese}></div>
             <section className={styles.section}>        
-                <a name="zidonghua"></a>
+                
                 <div className={styles.container_z}>                
                     <div className={styles.g__row}>
                         <div className={styles.g__c_conversion}>
@@ -457,7 +462,7 @@ export default () => (
                             </div>
                         </div>
 
-                        {/*有时间修一下配图不能用手截*/}
+                        
                         <div className={styles.g__c6} >
                             <img width="900" src={require("../images/76.png")} />
                         </div>
@@ -481,14 +486,14 @@ export default () => (
                         </div>          
                     </div>
 
-                    
+                    <a name="guimo"></a>
                     
                 </div> 
                 
             </section>
 
             <section className={styles.section}>
-                <a name="guimo"></a>
+                
                 <div className={styles.container_z}>
                     <div className={styles.g__row}>
                         <div className={styles.g__c_conversion} style={{padding:"20px 15px"}}>
@@ -620,6 +625,7 @@ export default () => (
                                         </div>
                                     </div>
                                 </div>
+                                <a name="tigao"></a>
                                 <div className={styles.g__c6}>
                                     <div className={styles.f__left}>
                                         <div className={styles.product__feature_icon}>
@@ -637,14 +643,16 @@ export default () => (
                                     </div>
                                 </div>
                             </div>
+                            
                         </div>
                     </div>        
                 </div>
             </section>
+            
             <div style={{height:"50px"}}></div>
             
             <section>
-                <a name="tigao"></a>
+                
                 <div className={styles.container_z}>
                     <div className={styles.g__row}>
                         <div className={styles.g__c_conversion}>

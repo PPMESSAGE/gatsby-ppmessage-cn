@@ -129,7 +129,7 @@ export default () =>{
                                     </a>
                                 </div>
 
-
+                                <a name="xifen"></a>
 
                                 <div className={styles.chuangjian_tranform4}>
                                     <a href="#pinggu" className={styles.lianjie}>
@@ -139,6 +139,9 @@ export default () =>{
                                             <div className={styles.t__h3}>
                                                 <font>评估</font>
                                             </div>
+
+
+                                            
                                             <div className={styles.t__small_s}>
                                                 <font>
                                                     
@@ -160,7 +163,7 @@ export default () =>{
 
                 
                 <section >
-                    <a name="xifen"></a>
+                    
                     <div className={styles.container_z}>
                         <div className={styles.g__row}>
                             <div className={styles.g__c6}>
@@ -315,15 +318,17 @@ export default () =>{
                     </div>           
                 </section>
 
+                <a name="yindao"></a>
                 <div style={{height:"100px"}}></div>
-
+                
                 <section className={styles.section}>
-                    <a name="yindao"></a>
+                    
                     <div className={styles.container_z}>
                         <div className={styles.g__row_center}>
                             <div className={styles.g__c6}>
                                 <img width="472" src={require("../images/152.png")} />
                             </div>
+                            
                             <div className={styles.g__c5_z}>
 
                                 
@@ -379,10 +384,10 @@ export default () =>{
                     </div>
                 </section>
                 
-
+                <a name="fabu" ></a>
 
                 <section className={styles.section}>
-                    <a name="fabu"></a>
+                    
                     <div className={styles.container_z}>
                         <div className={styles.support_automate}>
                             <div className={styles.g__c7}>  
@@ -422,6 +427,9 @@ export default () =>{
                                             </div>                
                                         </div>
                                     </div>
+
+                                    
+                                    
                                     <div style={{height:"20px"}}></div>
                                     <h3 className={styles.t__h2}>
                                         <font>
@@ -451,11 +459,11 @@ export default () =>{
                     </div>                  
                 </section>
 
-
+                <a name="pinggu"></a>
                 
 
                 <section className={styles.section}>
-                    <a name="pinggu"></a>
+                    
                     <div className={styles.container_z}>
                         <div className={styles.g__row_z}>
                             <div className={styles.g__c6}>

@@ -9,6 +9,15 @@
     transform: translateZ(0);
     position:fixed;      
 }
+.cloud_call_center_men{
+    font-weight: 100;
+    text-rendering: optimizeLegibility;
+    font-size: 1.31951rem;
+    line-height: 1.1;
+    color: black;
+    background-color: white;
+
+}
 .align_items{
     align-items:flex-start;
     display:flex;

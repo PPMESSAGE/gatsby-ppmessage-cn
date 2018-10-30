@@ -136,7 +136,7 @@ class Footer extends React.Component {
                                         <font color="#888">解决方案</font>
                                     </h4>
                                     <div className={styles.footer__link}>
-                                        <a href="/capture-transform-customs" className={styles.lianjie}>
+                                        <a href="/commerce-solutions" className={styles.lianjie}>
                                             <font>电商行业解决方案</font>
                                         </a>
                                     </div>

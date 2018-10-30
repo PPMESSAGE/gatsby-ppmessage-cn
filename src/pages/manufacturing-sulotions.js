@@ -51,7 +51,7 @@ export default () =>{
         {
             title: "现场管理",
             desc: "签到、拍照、记录、总结、验收、满意度评价、支付宝微信收款全方位支持",
-            image: {/*空着*/}
+            image: require("../images/169.png")
         },
 
         {

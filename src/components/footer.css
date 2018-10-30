@@ -43,7 +43,7 @@ footer .footer-container-container {
     position: absolute;
     z-index: 0;
     background-size: 100%;
-    background-image:url("../images/foot.png");
+//  background-image:url("../images/foot.png");
     width: 428px;
     height: 130px;
     top: -128px;
