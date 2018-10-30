@@ -304,8 +304,11 @@ export default () =>{
                         </h3>
                         <div style={{height:"30px"}}></div>
                         <div className={styles.container__narrower}>
-                            <h5 className={styles.f__center1}><font>
-                                PPMessage流程生成器、工具丰富的APP商店、自功能强大的API接口、定义字段和视图</font></h5>
+                            <h5 className={styles.f__center1}>
+                                <font>
+                                    PPMessage流程生成器、工具丰富的APP商店、功能强大的API接口、自定义字段和视图,可按客户要求快速生成符合客户业务特点的定制化解决方案
+                                </font>
+                            </h5>
                         </div>
 
                         <div style={{height:"80px"}}></div>

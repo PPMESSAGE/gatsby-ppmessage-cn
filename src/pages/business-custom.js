@@ -1,5 +1,5 @@
 import React from "react";
-
+import Button_q from "../components/buttton";
 import styles from "./about-css-modules.module.css";
 import {Helmet} from "react-helmet";
 import Layout from "./layout";
@@ -23,17 +23,15 @@ export default () => (
                             </h2>
                             <div style={{height:"10px"}}>
                             </div>
-                            <h3 style={{color:'#888'}}><font className={styles.biaoti}>PPMessage流程生成器、工具丰富的APP商店、自定义字段和视图和功能强大的API接口，可按客户要求快速生成符合客户业务特点的定制化解决方案</font>
+                            <h3 style={{color:'#888'}}><font className={styles.biaoti}>PPMessage流程生成器、工具丰富的APP商店、功能强大的API接口、自定义字段和视图，可按客户要求快速生成符合客户业务特点的定制化解决方案。</font>
                             </h3>
                             <div style={{height:"20px"}}>            
                             </div>
                             <div>
                                 <div className={styles.f__center}>
-                                    <botton className={styles.btn_s}> 
-                                        <font>联系客服
-                                        </font>
-                                    </botton>
-                                    
+                                    <div className={styles.btn_s}> 
+                                      <Button_q />  
+                                    </div>
                                 </div>                            
                             </div>
                         </div>

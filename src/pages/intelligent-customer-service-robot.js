@@ -85,11 +85,9 @@ export default () => (
                                 </b>
                             </h6>
                             <ul className={styles.robot_ul}>
-                                <li className={styles.active_li}>                                                 精准的上下文理解能力
+                                <li className={styles.active_li}>                                                 多轮对话
                                     <div className={styles.detail_right}>
                                         准确的关键信息识别并提取
-                                        <br/>
-                                        上下文逻辑理解
                                         <br/>
                                         企业动态业务知识库信息的提取／管理／反馈
                                         <br/>
@@ -99,7 +97,7 @@ export default () => (
                                 <li className={styles.active_li}>                                                 敏捷的主动发问机制
                                     <div className={styles.detail_right}>
                                         深层理解客户意图<br/>
-                                       
+                                        
                                     </div>
                                 </li>
                             </ul>

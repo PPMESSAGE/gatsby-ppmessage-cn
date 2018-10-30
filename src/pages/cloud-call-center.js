@@ -32,14 +32,14 @@ export default () =>{
     let _features3 = [
         {
             title: "可扩展、大容量，性能稳定",
-            desc: "支持万级并发呼叫，系统可用性99.99%；支持海量录音及实时语音识别",
+            desc: "支持万级并发呼叫，系统可用性99.99%；支持海量录音",
             image: require("../images/76.png")
         },
     ]
     let _features4 = [
         {
             title: "与人工智能无缝集合",
-            desc: "智能语音交互，ASR语音识别，自然语言处理，智能TTS，智能质检",
+            desc: "智能语音交互，实时语音识别，自然语言处理，智能TTS，智能质检",
             image: require("../images/77.png")
         },
     ]

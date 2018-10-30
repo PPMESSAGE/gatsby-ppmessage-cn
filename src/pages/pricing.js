@@ -6,6 +6,7 @@ import ReactTooltip from 'react-tooltip';
 import WorthCompany from "../components/worthcompany"
 import {Helmet} from "react-helmet";
 import Layout from "./layout";
+import Button_q from "../components/buttton";
 
 export default () => {
     
@@ -114,7 +115,7 @@ export default () => {
                             </div>
 
                             <div className={styles.g__c4_pring}>
-                                <div className={styles.c__black}>
+                                <div className={styles.c__black} style={{cursor:"default"}}>
                                     <div className={styles.t__h3}>
                                         <font>
                                             业务定制及私有部署
@@ -132,9 +133,9 @@ export default () => {
                                         </font>
                                     </div>
                                     <div style={{height:"20px"}}></div>
-                                    <div className={styles.u__inline_block}>
+                                    <div className={styles.u__inline_block} style={{cursor:"pointer"}}>
                                         <span className={styles.link__arrow_c_blue}>
-                                            <button>联系客服</button>
+                                            <Button_q />
                                             
                                         </span>
                                     </div>
@@ -152,7 +153,7 @@ export default () => {
                             </div>
                         </div>
                         <div style={{height:"60px"}}></div>
-                        <div className={styles.g__row_h_center}>
+                        <div className={styles.g__row_h_center} >
                             <EnterYourMobile size="middle"/> 
 
                         </div>
