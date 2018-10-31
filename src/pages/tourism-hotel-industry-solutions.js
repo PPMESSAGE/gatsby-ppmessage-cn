@@ -172,7 +172,7 @@ export default () =>{
                             <div className={styles.container__narrower}>
                                 <h5 className={styles.f__center1}>
                                     <font>
-                                        根据用户渠道偏好，通过应用内消息、智能语音、邮件、短信、微信等各种渠道向目标用户发送有针对性的消息，培育和激活用户，通过用户重复购买率
+                                        根据用户渠道偏好，通过应用内消息、智能语音、邮件、短信、微信等各种渠道向目标用户发送有针对性的消息，培育和激活用户，提高用户重复购买率
                                     </font>
                                 </h5>
                             </div>
