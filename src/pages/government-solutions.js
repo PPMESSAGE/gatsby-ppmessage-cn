@@ -54,9 +54,6 @@ export default () =>{
             desc: "分设质检标准和禁忌项，分类考核客服，提高市民满意度",
             image:require("../images/90.png")
         },
-        
-        
-
     ]
 
     return(
@@ -69,7 +66,6 @@ export default () =>{
                 <div style={{height:'72px'}}></div>
                 <div className={styles.container__narrower}>
                     <div className={styles.g__row}>
-                        
                         <div className={styles.g__c6}>
                             <div style={{height:"100px"}}></div>
                             <h1>政府与事业单位解决方案</h1>

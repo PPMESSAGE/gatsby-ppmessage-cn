@@ -34,13 +34,7 @@ export default () =>{
             desc: "如果用户对某件商品感到满意，客服可以直接向用户推送订单基本信息，客户可在聊天组件内下单购买",
             image: require("../images/90.jpg")
         },
-        
-        
-
     ]
-
-    
-
     let _features1 = [
         {
             title: "客户细分",
@@ -104,7 +98,6 @@ export default () =>{
                 <div className={styles.commerce_72px}></div>
                 <div className={styles.container__narrower}>
                     <div className={styles.g__row}>
-                        
                         <div className={styles.g__c6}>
                             <div style={{height:"100px"}}></div>
                             <h1 className={styles.commerce_h1}>电商解决方案</h1>
@@ -117,9 +110,7 @@ export default () =>{
                                 </h3>
                                 <div style={{height:"20px"}}>            
                                 </div>
-                                
                                 <EnterYourMobile size="middle"/>
-                                
                                 <div style={{height:"15px"}}></div>
                                 <div className={styles.mobile_display}>
                                     <div className={styles.t__small}>
@@ -202,8 +193,6 @@ export default () =>{
                             </div>
                         </div>      
                     </section>
-                    <div style={{height:"120px"}}></div>
-
                 </div>
 	    </Layout>
     )

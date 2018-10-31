@@ -206,8 +206,6 @@ export default () =>{
                             </div>
                         </div>      
                     </section>
-                    <div style={{height:"120px"}}></div>
-
                 </div>
 	    </Layout>
     )

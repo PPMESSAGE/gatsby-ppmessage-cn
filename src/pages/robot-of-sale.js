@@ -532,17 +532,12 @@ export default () => (
                                 <div>
                                     
                                     <img src={require("../images/137.png")} />
-                                    
                                 </div>
                             </div>
                         </div>
-                        
                     </div>
                 </div>
             </section>
-
-
-            
         </div>
 	</Layout>
 );

@@ -103,9 +103,6 @@ export default () => (
                                         </div>                
                                 </a>
                             </div>
-                            
-                            
-                            
                             <div className={styles.chuangjian_tranform3}>
                                 <a href="#guimo" className={styles.lianjie}>
                                     <div className={styles.product__breakdown__image}>
@@ -470,36 +467,6 @@ export default () => (
                                 </div>
                             </div>
                             <div style={{height:"30px"}}></div>
-
-
-                            {/*
-                                <div className={styles.g__row}>
-                                <div className={styles.g__c2}>
-                                </div>
-                                <div className={styles.g__c10}>
-                                <div className={styles.f__left}>
-                                <div className={styles.product__feature_icon}>
-                                <img src="https://upload-images.jianshu.io/upload_images/12406336-5a05f5ced295d77e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" />
-                                </div>
-                                <div style={{height:"10px"}}></div>
-                                <div className={styles.sp__left_4}>
-                                <div className={styles.t__small}>
-                                <font>在Messenger中搜索</font>
-                                </div>
-                                <div style={{height:"5px"}}></div>
-                                <div className={styles.t__small}>
-                                <font>
-                                降低聊天量。在开始聊天之前，客户可以在Messenger Home中搜索您的知识库。
-                                </font>
-                                <a href="#">
-                                查看更多功能
-                                </a>
-                                </div>
-                                </div>
-                                </div>
-                                </div>
-                                </div>
-                              */}
                         </div>          
                     </div>
                     <div style={{height:"40px"}}></div>
@@ -566,7 +533,6 @@ export default () => (
             <div style={{height:"50px"}}></div>
             
             <section>
-                
                 <div className={styles.container_z}>
                     <div className={styles.g__row}>
                         <div className={styles.g__c_conversion}>
@@ -601,120 +567,6 @@ export default () => (
                             </a>
                         </div>                
                     </div>
-                    {/*
-                        <div className={styles.g__row}>
-                        <div className={styles.g__c6}>
-                        <div style={{height:"20px"}}></div>
-                        <h3 className={styles.t__h2}>
-                        <font>
-                        人机融合，助力客户服务创新升级
-                        </font>
-                        </h3>
-                        <div style={{height:"10px"}}></div>
-                        <div className={styles.max__600}>
-                        <font>
-                        基于NLP， 365天不间断服务，高效率解决重复性问题，大幅降低人工客服成本
-                        </font>
-                        </div>
-                        </div>
-                        
-                        <div className={styles.g__c6}>
-                        <div className={styles.js__gallery}>
-                        <div className={styles.u__inline}>
-                        <div className={styles.gallery}>
-                        <div className={styles.gallery__img}>
-                        <img width="587" src="https://marketing.intercomassets.com/assets/support/v2/collaborate-1-1ae4aeb5eb197541c758ca5a610e6d8a87e1eef46d3916b6392803dff9ada9c2.png" />
-                        </div>                    
-                        </div>
-                        </div>
-                        </div>
-                        </div>            
-                        </div>
-                        <div style={{display:"block"}}></div>       
-                        <div className={styles.g__row}>
-                        <div className={styles.g__c1}></div>
-                        <div className={styles.g__c9}>
-                        <div className={styles.g__row}>
-                        <div className={styles.g__c12}></div>
-
-                        <div className={styles.g__c6}>
-                        <div className={styles.f__left}>
-                        <div className={styles.product__feature_icon}>
-                        <img src="https://upload-images.jianshu.io/upload_images/12406336-536fe5a60d480f6a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" />
-                        </div>
-                        <div style={{height:"10px"}}></div>
-                        <div className={styles.sp__left_4}>
-                        <div className={[styles.t__small,styles.f__bold]}>
-                        <font>在团队收件箱中协作</font>
-                        </div>
-                        <div className={styles.t__small}>
-                        <font>让您的支持团队更高效。在一个地方管理所有客户通信
-                        </font>
-                        </div>
-                        </div>
-                        </div>
-                        </div>
-
-                        <div className={styles.g__c6}>
-                        <div className={styles.f__left}>
-                        <div className={styles.product__feature_icon}>
-                        <img src="https://upload-images.jianshu.io/upload_images/12406336-536fe5a60d480f6a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" />
-                        </div>
-                        <div style={{height:"10px"}}></div>
-                        <div className={styles.sp__left_4}>
-                        <div className={[styles.t__small,styles.f__bold]}>
-                        <font>在团队收件箱中协作</font>
-                        </div>
-                        <div className={styles.t__small}>
-                        <font>让您的支持团队更高效。在一个地方管理所有客户通信
-                        </font>
-                        </div>
-                        </div>
-                        </div>
-                        </div>
-
-                        <div className={styles.g__c6}>
-                        <div className={styles.f__left}>
-                        <div className={styles.product__feature_icon}>
-                        <img src="https://upload-images.jianshu.io/upload_images/12406336-536fe5a60d480f6a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" />
-                        </div>
-                        <div style={{height:"10px"}}></div>
-                        <div className={styles.sp__left_4}>
-                        <div className={[styles.t__small,styles.f__bold]}>
-                        <font>在团队收件箱中协作</font>
-                        </div>
-                        <div className={styles.t__small}>
-                        <font>让您的支持团队更高效。在一个地方管理所有客户通信
-                        </font>
-                        </div>
-                        </div>
-                        </div>
-                        </div>
-
-                        <div className={styles.g__c6}>
-                        <div className={styles.f__left}>
-                        <div className={styles.product__feature_icon}>
-                        <img src="https://upload-images.jianshu.io/upload_images/12406336-536fe5a60d480f6a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" />
-                        </div>
-                        <div style={{height:"10px"}}></div>
-                        <div className={styles.sp__left_4}>
-                        <div className={[styles.t__small,styles.f__bold]}>
-                        <font>在团队收件箱中协作</font>
-                        </div>
-                        <div className={styles.t__small}>
-                        <font>让您的支持团队更高效。在一个地方管理所有客户通信
-                        </font>
-                        </div>
-                        </div>
-                        </div>
-                        </div>
-
-                        </div>
-                        </div>
-                        </div>
-                      */}
-
-
                     <div className={styles.u__zfix}>                   
                         <div className={styles.index_100px}></div>
                         <h2 className={styles.t__h2}>

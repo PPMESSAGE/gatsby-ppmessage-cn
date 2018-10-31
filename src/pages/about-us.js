@@ -75,20 +75,14 @@ export default () => (
                                 <img src="http://www.slodon.com/templates/default/images/about/1.png" style={{marginRight:"10px",marginTop:"-3px",marginBottom:"-5px"}} />
                                 <div style={{display:"inline-block"}}><font style={{fontWeight:"bold",fontSize:"15px"}}>联系电话：</font><font>010-64188187</font>
                                 </div>
-                                
-                                
                             </li>
-                            
                             <li className={styles.m2_li}>
                                 <img src="http://www.slodon.com/templates/default/images/about/6.png" style={{marginRight:"10px",marginTop:"-3px",marginBottom:"-5px"}} />
                                 <div style={{display:"inline-block"}}><font style={{fontWeight:"bold",fontSize:"15px"}}>邮箱联系：</font><font>support@mg.ppmessage.cn</font>
                                 </div>
-                                
-                                
                             </li>
                         </ul>
                     </div>
-
                     <div className={styles.float} style={{marginRight:"85px"}}>
 
                         <ul className={styles.m2_ul}>
@@ -97,8 +91,6 @@ export default () => (
                                 <div style={{display:"inline-block"}}><font style={{fontWeight:"bold",fontSize:"15px"}}>销售和客户支持中心：</font><font>北京市朝阳区锦芳路1号院1号楼2单元2003
                                 </font>
                                 </div>
-                                
-                                
                             </li>
                             <li className={styles.m2_li}>
                                 <img src="http://www.slodon.com/templates/default/images/about/2.png" style={{marginRight:"10px",marginTop:"-3px",marginBottom:"-5px"}} />
@@ -107,8 +99,6 @@ export default () => (
                                 </div>                                                                   </li>                        
                         </ul>                   
                     </div>
-
-                    
                     <div className={styles.float} >
                         <img src="https://ppmessage.cn/images/qrcode_wechat_offical-pp-message.jpg" width="92px"  style={{marginBottom:"0"}} />
                         <p>微信公众号
@@ -118,5 +108,4 @@ export default () => (
             </div>
         </div>
     </Layout>
-
 );

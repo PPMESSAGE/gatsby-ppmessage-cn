@@ -130,8 +130,6 @@ export default () => {
                                     </div>
                                 </div>
                             </div>
-                            
-                            
                         </div>                    
                     </div>
                 </div>  
@@ -181,10 +179,7 @@ export default () => {
                         </div>
                     </div>
                 </div>
-                
             </section>
-
-            
         </div>
 	    </Layout>
     );

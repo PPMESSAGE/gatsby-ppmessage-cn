@@ -28,13 +28,7 @@ export default () =>{
             desc: "根据用户的属性和行为在特定时点向用户发送邮件、短信和微信消息或进行智能电销（自动外呼和语音机器人），高效提升销售转化",
             image: require("../images/80.jpeg")
         },
-        
-        
-
     ]
-
-    
-
     let _features1 = [
         {
             title: "客户细分",
@@ -83,9 +77,6 @@ export default () =>{
             desc: "跨渠道通用报表机制，支持销售转化率，客户满意度、客户工作量、会话来源等多种报表类型，各项业务数据完美呈现",
             image:require("../images/50.png")
         },
-        
-        
-
     ]
 
     return(

@@ -139,8 +139,6 @@ export default () => (
                             </div>
                         </div>
                     </li>
-
-                    
                 </ul>
             </div>        
         </div>

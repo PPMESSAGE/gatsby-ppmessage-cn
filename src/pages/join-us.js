@@ -30,11 +30,8 @@ export default () => (
                 </ul>
             </div>
             <div style={{height:"100px"}}></div>
-
-            
             <TabsControl>            
                 <div name="技术类">
-
                     <div className={styles.news_nr}>
                         <div className={styles.gsjj__con}>
                             <ul className={styles.job_li1}>
@@ -80,9 +77,6 @@ export default () => (
                     
                 </div>
                 <div name="产品类">
-
-
-
                     <div className={styles.news_nr}>
                         <div className={styles.gsjj__con}>
                             <ul className={styles.job_li1}>
@@ -121,16 +115,11 @@ export default () => (
                                         </tbody>
                                     </table>
                                 </li>
-                                
                             </ul>
                         </div>
                     </div>
-
-
-                    
                 </div>
                 <div name="运营类">
-
                     <div className={styles.news_nr}>
                         <div className={styles.gsjj__con}>
                             <ul className={styles.job_li1}>
@@ -181,11 +170,8 @@ export default () => (
                             </ul>
                         </div>
                     </div>
-
-                    
                 </div>
                 <div name="设计类">
-
                     <div className={styles.news_nr}>
                         <div className={styles.gsjj__con}>
                             <ul className={styles.job_li1}>
@@ -329,21 +315,11 @@ export default () => (
                                         </tbody>
                                     </table>
                                 </li>
-                                
                             </ul>
                         </div>
                     </div>
-                    
-                    
                 </div>
-                
-            </TabsControl>
-            <div style={{height:"100px"}}></div>
-            
+            </TabsControl>            
         </div>
-
 	</Layout>
-
-
-
 );

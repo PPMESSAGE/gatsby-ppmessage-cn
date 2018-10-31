@@ -83,9 +83,6 @@ export default () =>{
             desc: "跨渠道通用报表机制，支持销售转化率，客户满意度、客户工作量、会话来源等多种报表类型，各项业务数据完美呈现",
             image:require("../images/50.png")
         },
-        
-        
-
     ]
 
     return(

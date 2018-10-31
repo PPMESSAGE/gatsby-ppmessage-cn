@@ -45,9 +45,6 @@ export default () => (
                     </div>
                 </div>  
             </div>
-
-
-            
             <div className={styles.detail_new}>
                 <div className={styles.detail_new_s}>
                     <h2 className={styles.h2_s}>
@@ -127,11 +124,7 @@ export default () => (
                         </div>
                     </div>
                 </div>
-                
             </div>
-
-
-            
         </div>
 	</Layout>
 );

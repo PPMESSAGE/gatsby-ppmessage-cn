@@ -141,8 +141,6 @@ export default () => {
                                     </div>
                                 </div>
                             </div>
-                            
-                            
                         </div>
                         <div style={{height:"80px"}}></div>
                         <div className={styles.g__row_h_center}>
@@ -325,9 +323,6 @@ export default () => {
                                         </div>
                                     </div>
                                 </div>
-
-
-
                                 <div className={styles.g__c6}>
                                     <TabsControl>
                                         <div name = "套餐内容">                                                              <table className={styles.pricing__table}>
@@ -629,23 +624,13 @@ export default () => {
                                                             
                                                         </td>
                                                     </tr>
-
-                                                    
-                                                    
                                                 </tbody>
                                             </table>
                                         </div>
-                                        
                                     </TabsControl>
-
-                                    
                                 </div>
-                                
                             </div>
-                            
                         </div>
-                        
-                        
                         <div style={{height:"20px"}}></div>
                         <p className={styles.t__h3_center} style={{fontWeight:"100"}}>
                             <font>为您的企业选择一个用例，我们将推荐您需要的产品
@@ -717,8 +702,7 @@ export default () => {
                 </section>
 
                 <section><WorthCompany /></section>
-                
-                <div style={{height:"60px"}}></div> 
+            
             </div>
 	    </Layout>
     )

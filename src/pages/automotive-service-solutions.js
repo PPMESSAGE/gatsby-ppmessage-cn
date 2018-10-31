@@ -29,13 +29,7 @@ export default () =>{
             desc: "规避轰炸式营销陷阱，根据用户的属性和行为在特定时点向用户发送个性化邮件、短信和微信消息或进行智能电销（自动外呼和语音机器人），保证企业口碑的同时提升销售转化",
             image: require("../images/80.jpeg")
         },
-        
-        
-
     ]
-
-    
-
     let _features1 = [
         {
             title: "客户细分",
@@ -89,9 +83,6 @@ export default () =>{
             desc: "分设质检标准和禁忌项，分类考核客服，提高客户满意度",
             image:require("../images/90.png")
         },
-        
-        
-
     ]
 
     return(
@@ -207,7 +198,6 @@ export default () =>{
                         </div>      
                     </section>
                     <div style={{height:"120px"}}></div>
-
                 </div>
 	    </Layout>
     )

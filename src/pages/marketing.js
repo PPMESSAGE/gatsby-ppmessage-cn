@@ -607,18 +607,6 @@ export default () => (
                     </div>        
                 </div>              
             </section>
-
-            
-            
-
-            
-
-
-            
-            <div style={{height:"5em"}}></div>
-            
-
-            
         </div>
 	</Layout>
 );

@@ -139,9 +139,6 @@ export default () =>{
                                             <div className={styles.t__h3}>
                                                 <font>评估</font>
                                             </div>
-
-
-                                            
                                             <div className={styles.t__small_s}>
                                                 <font>
                                                     
@@ -158,12 +155,8 @@ export default () =>{
                         </div>
                     </div>
                 </section>
-
-
-
                 
                 <section >
-                    
                     <div className={styles.container_z}>
                         <div className={styles.g__row}>
                             <div className={styles.g__c6}>
@@ -427,9 +420,6 @@ export default () =>{
                                             </div>                
                                         </div>
                                     </div>
-
-                                    
-                                    
                                     <div style={{height:"20px"}}></div>
                                     <h3 className={styles.t__h2}>
                                         <font>
@@ -526,15 +516,8 @@ export default () =>{
                                     </div>
                                     <div style={{height:"20px"}}></div>
                                 </div>
-
-                                
-
-                                
-                                
                             </div>
                             <div className={styles.g__c5_z}>
-
-                                
                                 <div className={styles.u__inline}>
                                     <div className={styles.g__row}>
                                         <div className={styles.g__c}>
@@ -591,7 +574,6 @@ export default () =>{
                                 </div>
                             </div>          
                         </div>
-                        
                     </div>
                 </section>
             </div>

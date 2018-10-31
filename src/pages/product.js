@@ -13,8 +13,7 @@ export default () => (
         </Helmet>
         
         <div className={styles.heiti}>
-            <div style={{height:`72px`}}></div>
-            <div style={{height:`72px`}}></div>
+            <div style={{height:`144px`}}></div>
             <div className={styles.container__narrower}>
                 <div className={styles.g__row}>
                     <div className={styles.g__c6}>
@@ -153,11 +152,6 @@ export default () => (
                     </div>
                 </div>
             </section>
-
-
-
-
-            
             <section   className={styles.section}>
                 <a name="qudao">
                     <div className={styles.container__narrower}>
@@ -230,9 +224,6 @@ export default () => (
                                                 </div>
                                             </div>
                                         </FeatherModal>
-
-
-                                        
                                     </div>
                                 </div>
 
@@ -427,26 +418,13 @@ export default () => (
                                                 </div>
                                             </div>
                                         </FeatherModal>
-
                                     </div>
                                 </div>              
                             </div>            
                         </div>
-                        
                     </div>        
                 </div>              
             </section>
-
-
-
-
-            
-
-            
-
-            
-
-
 
             <section  className={styles.section}>
                 <a name="gongzuoliucheng">   
@@ -581,11 +559,6 @@ export default () => (
                                         
                                     </div>
                                 </div>
-
-
-                                
-
-                                
                                 
                             </div>            
                         </div>
@@ -777,7 +750,6 @@ export default () => (
                     </div>        
                 </div>              
             </section> 
-            <div style={{height:"5em"}}></div>    
         </div>
 	</Layout>
 );

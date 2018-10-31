@@ -82,9 +82,6 @@ export default () =>{
             desc: "快速设计生成满足您业务需要的机器人组群",
             image: require("../images/82.png")
         },
-        
-        
-
     ]
 
     let _features3 = [
@@ -114,9 +111,6 @@ export default () =>{
         
 
     ]
-
-    
-
     return(
 	    <Layout>
             <Helmet>
@@ -185,8 +179,7 @@ export default () =>{
                                                 <div style={{height:"10px"}}></div>
                                                 <a href="/transform-customs" className={styles.ziti1}>了解更多
                                                 </a>  
-                                            </div>                                
-                                        </div>              
+                                            </div>                                                                   </div>              
                                     </div>  
                                 </div>
                                 <div className={styles.g__c4}>
@@ -219,17 +212,14 @@ export default () =>{
                                             <div style={{height:"10px"}}></div>
                                             <a href="/conversion-businese" className={styles.ziti1}>了解更多
                                             </a>  
-                                        </div>                                
-                                        </div>
+                                        </div>                                                                       </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div style={{height:"180px"}}></div>
-                        
                     </div>
                 </section>
-
                 <section>
                     <div className={styles.container__narrower}>
                         <h3 className={styles.f__center}>
@@ -269,8 +259,6 @@ export default () =>{
                         </div>
                     </div>      
                 </section>
-
-
                 <section>
                     <div style={{height:"10em"}}></div>
                     <div className={styles.container__narrower}>
@@ -292,37 +280,28 @@ export default () =>{
                         </div>
                     </div>      
                 </section>
-
-
-                
-
                 <section>
                     <div style={{height:"10em"}}></div>
                     <div className={styles.container__narrower}>
                         <h3 className={styles.f__center}>
-                            <font>独有的拖拽式流程设计器和APP Store,实现业务快速定制</font>
+                            <font>独有的拖拽式流程设计器和APP Store，实现业务快速定制</font>
                         </h3>
                         <div style={{height:"30px"}}></div>
                         <div className={styles.container__narrower}>
                             <h5 className={styles.f__center1}>
                                 <font>
-                                    PPMessage流程生成器、工具丰富的APP商店、功能强大的API接口、自定义字段和视图,可按客户要求快速生成符合客户业务特点的定制化解决方案
+                                    PPMessage流程生成器、工具丰富的APP商店、功能强大的API接口、自定义字段和视图，可按客户要求快速生成符合客户业务特点的定制化解决方案
                                 </font>
                             </h5>
                         </div>
-
                         <div style={{height:"80px"}}></div>
                         <div className={styles.tupian}>
                             <KeyFeatures rtl="true" features={_features3}>
                             </KeyFeatures>
                         </div>
                     </div>
-                    <div className={styles.index_100px}></div>
                 </section>
-                
-                <div className={styles.index_5em}></div>
             </div>
 	    </Layout>
     )
-
 }
