@@ -268,14 +268,14 @@ class NavHeader extends React.Component {
                                                 </font>
                                             </div>
                                             <div className={styles.hr__grey}></div>
-                                            <div style={{height:"10px"}}></div>
-                                            <a href="#" className={styles.f__no_und_aways}>
+                                            {/* <div style={{height:"10px"}}></div>
+                                                <a href="#" className={styles.f__no_und_aways}>
                                                 <div className={styles.f__medium}>
-                                                    <font style={{color:"black",fontSize:"16px"}}>
-                                                        帮助中心  
-                                                    </font>
+                                                <font style={{color:"black",fontSize:"16px"}}>
+                                                帮助中心  
+                                                </font>
                                                 </div>
-                                            </a>
+                                                </a> */}
                                             <div style={{height:"10px"}}></div>
                                             <a href="#" className={styles.f__no_und_aways}>
                                                 <div className={styles.f__medium}>
@@ -591,18 +591,18 @@ class NavHeader extends React.Component {
                                 <NavDropdown title="产品资源">
                                     <div className={styles.g__row}>
                                         <div style={{marginLeft:"20px"}}>
-                                            <a href="/tutorial/" style={{textDecoration:"none"}}>
+                                            {/* <a href="/tutorial/" style={{textDecoration:"none"}}>
                                                 <div className={styles.holiday}>
-                                                    <div className={styles.t__h4}>
-                                                        <font style={{color:"black"}}>帮助中心</font>
-                                                    </div>
-                                                    <div>详细介绍如何安装、配置和使用PPMessage 各种产品</div>
+                                                <div className={styles.t__h4}>
+                                                <font style={{color:"black"}}>帮助中心</font>
                                                 </div>
-                                            </a>
+                                                <div>详细介绍如何安装、配置和使用PPMessage 各种产品</div>
+                                                </div>
+                                                </a>
 
 
 
-                                            <div style={{height:"10px"}}></div>
+                                                <div style={{height:"10px"}}></div> */}
 
                                             <a href="/doc/" style={{textDecoration:"none"}}>
                                                 <div className={styles.holiday}>
