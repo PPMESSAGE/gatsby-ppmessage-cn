@@ -8,6 +8,7 @@ import {Helmet} from "react-helmet";
 import Layout from "./layout";
 import Button_q from "../components/buttton";
 
+
 export default () => {
     
     return(
@@ -142,14 +143,6 @@ export default () => {
                                 </div>
                             </div>
                         </div>
-                        <div style={{height:"80px"}}></div>
-                        <div className={styles.g__row_h_center}>
-                            <div className={styles.t__h3}>
-                                <font>
-                                    开始免费试用
-                                </font>
-                            </div>
-                        </div>
                         <div style={{height:"60px"}}></div>
                         <div className={styles.g__row_h_center} >
                             <EnterYourMobile size="middle"/> 
@@ -157,13 +150,8 @@ export default () => {
                         </div>
                         <div style={{height:"40px"}}></div>
                         <div className={styles.g__row_h_center}>
-                            
-                            <div className={styles.t__small}>
-                                <div className={styles.list__bulletinline}>
-                                    <font style={{color:'#888'}}>免费试用 · 易于安装 
-                                    </font>        
-                                </div>
-                            </div>
+                            <div style={{height:"10px"}}></div>  
+                           
                         </div>
                         <a name="xiaoxi"></a>
                         <div style={{height:"80px"}}></div>
