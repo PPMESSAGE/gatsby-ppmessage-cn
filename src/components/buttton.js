@@ -23,6 +23,5 @@ class Button_q extends React.Component{
                 </div>
         )
     }
-
 }
 export default Button_q;

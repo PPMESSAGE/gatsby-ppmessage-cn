@@ -4,6 +4,8 @@ import EnterYourMobile from "../components/enteryourmobile";
 import KeyFeatures from "../components/keyfeatures";
 import {Helmet} from "react-helmet";
 import Layout from "./layout";
+import Free from "../components/free_trial";
+
 export default () =>{
 
     let _features = [
@@ -87,66 +89,64 @@ export default () =>{
                                     
                                     <div className={styles.t__small}>
                                         <div className={styles.list__bulletinline}>
-                                            <font style={{color:'#888'}}>
-                                                免费试用 · 易于安装 · 
-                                            </font>        
+                                            <Free />       
                                         </div>
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                        <div className={styles.g__c6}>
+                            <div>
+                                <img src={require("../images/121.png")} />
                             </div>
-                            <div className={styles.g__c6}>
-                                <div>
-                                    <img src={require("../images/121.png")} />
-                                </div>
-                            </div>
-                        </div>  
-                    </div>
-
-                    <section>
-                        <div className={styles.container__narrower}>
-                            <h3 className={styles.f__center}>
-                                <font>通过各种渠道与市民互动</font>
-                            </h3>
-                            <div style={{height:"30px"}}></div>
-                            <div className={styles.container__narrower}>
-                                <h5 className={styles.f__center1}><font>
-                                    根据市民渠道偏好，通过应用内消息、智能语音、邮件、短信、微信等各种渠道向市民发送各类提示性消息，提高市民满意度
-                                </font></h5>
-                            </div>
-                            <div style={{height:'80px'}}></div>
-                            <div className={styles.tupian}>
-                                <KeyFeatures features={_features}>
-                                </KeyFeatures>
-                            </div>
-                        </div>      
-                    </section>
-
-                    
-                    <section>
-                        <div style={{height:"10em"}}></div>
-                        <div className={styles.container__narrower}>
-                            <h3 className={styles.f__center}>
-                                <font>基于人工智能的全渠道智能客服解决方案</font>
-                            </h3>
-                            <div style={{height:"30px"}}></div>
-                            <div className={styles.container__narrower}>
-                                <h5 className={styles.f__center1}>
-                                    <font>
-                                        全面融合传统呼叫中心、微信公众平台、微博、邮件、App等新媒体，让公共服务更加便捷地直达用户
-                                    </font>
-                                </h5>
-                            </div>
-                            <div style={{height:"80px"}}></div>
-                            <div className={styles.tupian}>
-                                <KeyFeatures rtl="false" features={_features2}>
-                                </KeyFeatures>
-                            </div>
-                        </div>      
-                    </section>
-                    <div style={{height:"120px"}}></div>
-
+                        </div>
+                    </div>  
                 </div>
+
+                <section>
+                    <div className={styles.container__narrower}>
+                        <h3 className={styles.f__center}>
+                            <font>通过各种渠道与市民互动</font>
+                        </h3>
+                        <div style={{height:"30px"}}></div>
+                        <div className={styles.container__narrower}>
+                            <h5 className={styles.f__center1}><font>
+                                根据市民渠道偏好，通过应用内消息、智能语音、邮件、短信、微信等各种渠道向市民发送各类提示性消息，提高市民满意度
+                            </font></h5>
+                        </div>
+                        <div style={{height:'80px'}}></div>
+                        <div className={styles.tupian}>
+                            <KeyFeatures features={_features}>
+                            </KeyFeatures>
+                        </div>
+                    </div>      
+                </section>
+
+                
+                <section>
+                    <div style={{height:"10em"}}></div>
+                    <div className={styles.container__narrower}>
+                        <h3 className={styles.f__center}>
+                            <font>基于人工智能的全渠道智能客服解决方案</font>
+                        </h3>
+                        <div style={{height:"30px"}}></div>
+                        <div className={styles.container__narrower}>
+                            <h5 className={styles.f__center1}>
+                                <font>
+                                    全面融合传统呼叫中心、微信公众平台、微博、邮件、App等新媒体，让公共服务更加便捷地直达用户
+                                </font>
+                            </h5>
+                        </div>
+                        <div style={{height:"80px"}}></div>
+                        <div className={styles.tupian}>
+                            <KeyFeatures rtl="false" features={_features2}>
+                            </KeyFeatures>
+                        </div>
+                    </div>      
+                </section>
+                <div style={{height:"120px"}}></div>
+
+            </div>
 	    </Layout>
     )
 }

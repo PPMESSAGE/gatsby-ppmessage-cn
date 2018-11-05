@@ -4,6 +4,8 @@ import EnterYourMobile from "../components/enteryourmobile";
 import FeatherModal from "../components/feathermodal";
 import {Helmet} from "react-helmet";
 import Layout from "./layout";
+import Free from "../components/free_trial";
+
 export default () => (
 	<Layout>
         <Helmet>
@@ -31,13 +33,9 @@ export default () => (
                             </div>
                             <div>
                                 <EnterYourMobile size="middle"/>
+                                <div style={{height:"10px"}}></div>
                             </div>
-                            <div className={styles.t__small}>
-                                <div className={styles.list__bulletinline}>
-                                    <font style={{color:'#888'}}>免费试用 · 易于安装 · 
-                                    </font>        
-                                </div>
-                            </div>
+                            <Free />
                         </div>
                     </div>
                     <div className={styles.g__c6}>

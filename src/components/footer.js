@@ -2,6 +2,7 @@ import React from 'react';
 import styles from '../pages/footer-modules.module.css';
 import Link from "gatsby-link";
 import EnterYourMobile from "./enteryourmobile";
+import Free from "./free_trial";
 
 import "./footer.css"
 
@@ -38,10 +39,7 @@ class Footer extends React.Component {
                                         </div>
                                         <div className={styles.u__inline}>
                                             <div style={{height:'10px'}}></div>
-                                            <div className={styles.t__small}>
-                                                <font className={styles.zihao}>
-                                                    免费试用14天 易于安装 </font>
-                                            </div>
+                                            <Free />
                                             <div className={styles.zihao}>已是客户?<a href="https://ppmessage.cn/ppkefu/#!/app/signin" className={styles.nav__link} ><font className={styles.zizi}>登录</font></a></div>
                                         </div>
                                     </div>            

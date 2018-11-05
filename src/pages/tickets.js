@@ -4,6 +4,7 @@ import EnterYourMobile from "../components/enteryourmobile";
 import {Helmet} from "react-helmet";
 import KeyFeatures_q from "../components/keyfeatures_q"
 import Layout from "./layout";
+import Free from "../components/free_trial";
 
 export default () => {
 
@@ -71,11 +72,8 @@ export default () => {
                                 <div style={{height:"20px"}}>            
                                 </div>
                                 <EnterYourMobile size="middle" />                                            <div className={styles.t__small}>
-                                    <div style={{height:"15px"}}></div>
-                                    <div className={styles.list__bulletinline}>
-                                        <font style={{color:'#888'}}>免费试用 · 易于安装
-                                        </font>        
-                                    </div>
+                                    <div style={{height:"10px"}}></div>
+                                    <Free />
                                 </div>
                             </div>
                         </div>

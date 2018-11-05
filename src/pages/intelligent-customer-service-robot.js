@@ -3,6 +3,7 @@ import styles from "./about-css-modules.module.css";
 import EnterYourMobile from "../components/enteryourmobile";
 import {Helmet} from "react-helmet";
 import Layout from "./layout";
+import Free from "../components/free_trial";
 
 export default () => (
 
@@ -30,12 +31,8 @@ export default () => (
                             <div>
                                 <EnterYourMobile size="middle"/>                            
                             </div>
-                            <div className={styles.t__small}>
-                                <div className={styles.list__bulletinline}>
-                                    <font style={{color:'#888'}}>免费试用 · 易于安装 · 
-                                    </font>        
-                                </div>
-                            </div>
+                            <div style={{height:"10px"}}></div>
+                            <Free />
                         </div>
                     </div>
                     <div className={styles.g__c6}>

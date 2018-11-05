@@ -5,6 +5,8 @@ import StackGallery from "../components/stackgallery";
 import Media from "react-media";
 import {Helmet} from "react-helmet";
 import Layout from "./layout";
+import Free from "../components/free_trial";
+
 export default () => {
     let _images = [
         {
@@ -68,9 +70,7 @@ export default () => {
                                 <EnterYourMobile size="middle"/> 
                             </div>
                             <div style={{height:"10px"}}></div>
-                            <div className={styles.t__small}>
-                                免费试用14天 易于安装 
-                            </div>          
+                            <Free />          
                         </div>        
                     </div>
                 </div>

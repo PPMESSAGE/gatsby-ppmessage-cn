@@ -4,6 +4,8 @@ import EnterYourMobile from "../components/enteryourmobile";
 import KeyFeatures from "../components/keyfeatures";
 import {Helmet} from "react-helmet";
 import Layout from "./layout";
+import Free from "../components/free_trial";
+
 export default () =>{
 
     let _features = [
@@ -87,65 +89,63 @@ export default () =>{
 
                                     <div className={styles.t__small}>
                                         <div className={styles.list__bulletinline}>
-                                            <font style={{color:'#888'}}>
-                                                免费试用 · 易于安装 · 
-                                            </font>        
+                                            <Free />        
                                         </div>
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                        <div className={styles.g__c6}>
+                            <div>
+                                <img src={require("../images/125.png")} />
                             </div>
-                            <div className={styles.g__c6}>
-                                <div>
-                                    <img src={require("../images/125.png")} />
-                                </div>
-                            </div>
-                        </div>  
-                    </div>
-
-                    <section>
-                        <div className={styles.container__narrower}>
-                            <h3 className={styles.f__center}>
-                                <font>基于人工智能的全渠道智能客服解决方案</font>
-                            </h3>
-                            <div style={{height:"30px"}}></div>
-                            <div className={styles.container__narrower}>
-                                <h5 className={styles.f__center1}>
-                                    <font>
-                                        提供全渠道智能客服解决方案，将可全球分布式组网的大容量呼叫中心与其他客服通道无缝集成，一站式处理所有客户咨询 
-                                    </font>
-                                </h5>
-                            </div>
-                            <div style={{height:'80px'}}></div>
-                            <div className={styles.tupian}>
-                                <KeyFeatures features={_features}>
-                                </KeyFeatures>
-                            </div>
-                        </div>      
-                    </section>
-
-                    <section>
-                        <div style={{height:"10em"}}></div>
-                        <div className={styles.container__narrower}>
-                            <h3 className={styles.f__center}>
-                                <font>与业务无缝集成的智能工单流转系统</font>
-                            </h3>
-                            <div style={{height:"30px"}}></div>
-                            <div className={styles.container__narrower}>
-                                <h5 className={styles.f__center1}>
-                                    <font>
-                                        与企业ERP和CRM系统无缝集成，联结用户、厂商、供应商、维修商和上门服务人员，大幅提升企业服务水平
-                                    </font>
-                                </h5>
-                            </div>
-                            <div style={{height:"80px"}}></div>
-                            <div className={styles.tupian}>
-                                <KeyFeatures rtl="true" features={_features1}>
-                                </KeyFeatures>
-                            </div>
-                        </div>      
-                    </section>
+                        </div>
+                    </div>  
                 </div>
+
+                <section>
+                    <div className={styles.container__narrower}>
+                        <h3 className={styles.f__center}>
+                            <font>基于人工智能的全渠道智能客服解决方案</font>
+                        </h3>
+                        <div style={{height:"30px"}}></div>
+                        <div className={styles.container__narrower}>
+                            <h5 className={styles.f__center1}>
+                                <font>
+                                    提供全渠道智能客服解决方案，将可全球分布式组网的大容量呼叫中心与其他客服通道无缝集成，一站式处理所有客户咨询 
+                                </font>
+                            </h5>
+                        </div>
+                        <div style={{height:'80px'}}></div>
+                        <div className={styles.tupian}>
+                            <KeyFeatures features={_features}>
+                            </KeyFeatures>
+                        </div>
+                    </div>      
+                </section>
+
+                <section>
+                    <div style={{height:"10em"}}></div>
+                    <div className={styles.container__narrower}>
+                        <h3 className={styles.f__center}>
+                            <font>与业务无缝集成的智能工单流转系统</font>
+                        </h3>
+                        <div style={{height:"30px"}}></div>
+                        <div className={styles.container__narrower}>
+                            <h5 className={styles.f__center1}>
+                                <font>
+                                    与企业ERP和CRM系统无缝集成，联结用户、厂商、供应商、维修商和上门服务人员，大幅提升企业服务水平
+                                </font>
+                            </h5>
+                        </div>
+                        <div style={{height:"80px"}}></div>
+                        <div className={styles.tupian}>
+                            <KeyFeatures rtl="true" features={_features1}>
+                            </KeyFeatures>
+                        </div>
+                    </div>      
+                </section>
+            </div>
 	    </Layout>
     )
 }
