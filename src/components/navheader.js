@@ -6,8 +6,6 @@ import NavDropdown  from "../components/navdropdown.js";
 import EnterYourMobile from "../components/enteryourmobile";
 import Hamburger from "../components/hamburger";
 
-import HomeBanner from "./homebanner"
-
 import styles from "../pages/about-css-modules.module.css";
 import "./navheader.css"
 

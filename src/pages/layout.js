@@ -6,7 +6,6 @@ import HomeBanner from "../components/homebanner"
 
 export default ({ children }) => (    
     <div>
-        <HomeBanner />
         <NavHeader />
         {children}
         <Footer />
