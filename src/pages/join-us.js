@@ -3,14 +3,19 @@ import styles from "./about-us.module.css";
 import TabsControl from "../components/tabscontrol";
 import Helmet from "react-helmet";
 import Layout from "./layout";
+import SEO from "../components/seo";
+
 export default () => (
 	<Layout>
-        <div className={styles.heiti}>
-            <Helmet>
-                <title>加入我们</title>
-                <meta name="description" content="join-us 加入我们" />
-            </Helmet>
 
+        <SEO
+            title="加入我们 - ppmessage"
+            description="加入我们 - ppmesage 招聘信息"
+            keywords="加入我们 - ppmesage 招聘信息"
+        />
+        
+        <div className={styles.heiti}>
+            
             <div className={styles.banner}>            
             </div>
             <div className={styles.menu}>
