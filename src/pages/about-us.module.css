@@ -1,7 +1,6 @@
 .banner{
     height: 500px;
-    
-    margin: 90px auto 0;
+    margin: auto 0;
     background: url(../images/about-us.png) center center repeat;    
 }
 .menu{
