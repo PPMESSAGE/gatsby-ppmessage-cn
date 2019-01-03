@@ -115,8 +115,12 @@ export default () =>{
     return(
 	    <Layout>
             <Helmet>
-                <title>可定制可私有部署的全渠道智能云客服系统</title>
-                <meta name="description" content="PPmessage 可定制可私有部署的全渠道智能云客服系统" />
+                <title>PPMESSAGE官网|新一代全渠道智能在线客服系统</title>
+                <meta name="title" content="PPMESSAGE官网|新一代全渠道智能在线客服系统"/>
+                <meta name="keywords" content="在线客服，客服系统，在线客服系统，智能客服，网站在线客服，工单系统、云呼叫中心，智能销售机器人，智能客服机器人，智能语音机器人" />
+                <meta name="description" content="PPMESSAGE是业界领先的新一代全渠道智能客服系统，为企业提供提供智能客服、工单系统、云呼叫中心，营销自动化、智能客服机器人、智能语音机器人的一体化解决方案。电商、教育、金融、互联网
+、医疗、智能制造、旅游餐饮等行业领袖的选择。" />
+
             </Helmet>
             
             <div className={styles.heiti}>
