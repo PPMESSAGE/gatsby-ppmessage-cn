@@ -9,8 +9,11 @@ import Free from "../components/free_trial";
 export default () => (
 	<Layout>
         <Helmet>
-            <title>智能客服</title>
-            <meta name="description" content="Intelligent customer service  智能客服" />
+            <title>PPMESSAGE 新一代在线客服系统|在线客服软件|智能客服解决方案</title>
+            <meta name="title" content="PPMESSAGE 新一代在线客服系统|在线客服软件|智能客服解决方案"/>
+            <meta name="keywords" content="在线客服，客服系统，在线客服系统，智能客服，网站客服系统，在线客服软件" />
+            <meta name="description" content="PPMESSAGE 是业界领先的新一代全渠道智能客服系统，为企业提供集在线客服系统、工单系统和营销自动化于一体的智能客服解决方案。" />
+
         </Helmet>
         
         <div className={styles.heiti}>
