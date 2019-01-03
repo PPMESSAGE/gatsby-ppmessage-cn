@@ -10,7 +10,11 @@ export default () => (
 
         <Helmet>
             <title>关于我们</title>
-            <meta name="description" content="About US 关于我们" />
+            <meta charsets="UTF-8" />
+            <meta name="description" content="PPMESSAGE 智能在线客服系统软件，20年行业深耕，为超百万家企业提供互联网客户服务、营销解决方案。与华为、腾讯、阿里巴巴、百度、今日头条达成战略合作。5G、人工智能、大数据、区块链、教育、金融、互联网、医疗、智能制造、旅游餐饮等行业领袖的选择。" />
+            <meta name="keywords" content="在线客服，客服系统，在线客服系统，智能客服，云客服，网站在线客服，在线客服系统" />
+            <meta name="title" content="关于我们" />
+            
         </Helmet>
 
         <div className={styles.heiti}>        

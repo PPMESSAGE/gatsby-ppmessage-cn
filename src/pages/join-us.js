@@ -3,19 +3,24 @@ import styles from "./about-us.module.css";
 import TabsControl from "../components/tabscontrol";
 import Helmet from "react-helmet";
 import Layout from "./layout";
-import SEO from "../components/seo";
+//import SEO from "../components/seo";
+
 
 export default () => (
 	<Layout>
 
+        <Helmet>
+            <title>加入我们_PPMESSAGE-智能在线客服云软件</title>
+            <meta charsets="UTF-8" />
+            <meta name="description" content="PPMESSAGE 智能在线客服系统软件，20年行业深耕，为超百万家企业提供互联网客户服务、营销解决方案。与华为、腾讯、阿里巴巴、百度、今日头条达成战略合作。5G、人工智能、大数据、区块链、教育、金融、互联网、医疗、智能制造、旅游餐饮等行业领袖的选择。" />
+            <meta name="keywords" content="在线客服，客服系统，在线客服系统，智能客服，云客服，网站在线客服，在线客服系统" />
+            <meta name="title" content="加入我们_PPMESSAGE-智能在线客服云软件" />
+            
+        </Helmet>
+
         
         <div className={styles.heiti}>
             
-        <SEO
-            title="加入我们 - ppmessage"
-            description="加入我们 - ppmesage 招聘信息"
-            keywords="加入我们 - ppmesage 招聘信息"
-        />
             <div className={styles.banner}>            
             </div>
             <div className={styles.menu}>
