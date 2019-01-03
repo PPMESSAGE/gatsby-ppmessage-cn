@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./about-css-modules.module.css";
 import EnterYourMobile from "../components/enteryourmobile";
-import {Helmet} from "react-helmet";
+import Helmet from "react-helmet";
 import Layout from "./layout";
 import KeyFeatures_q from "../components/keyfeatures_q";
 import Free from "../components/free_trial";
@@ -50,7 +50,11 @@ return(
 	<Layout>
         <Helmet>
             <title>云呼叫中心</title>
-            <meta name="description" content="cloud call center 云呼叫中心" />
+            <meta charsets="UTF-8" />
+            <meta name="description" content="PPMESSAGE 智能在线客服系统软件，20年行业深耕，为超百万家企业提供互联网客户服务、营销解决方案。与华为、腾讯、阿里巴巴、百度、今日头条达成战略合作。5G、人工智能、大数据、区块链、教育、金融、互联网、医疗、智能制造、旅游餐饮等行业领袖的选择。" />
+            <meta name="keywords" content="在线客服，客服系统，在线客服系统，智能客服，云客服，网站在线客服，在线客服系统" />
+            <meta name="title" content="云呼叫中心" />
+            
         </Helmet>
         <div className={styles.heiti}>
             <div style={{height:"144px"}}></div>
