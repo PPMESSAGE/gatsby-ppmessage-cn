@@ -279,6 +279,7 @@ class Footer extends React.Component {
                 <a href="https://ppmessage.cn/marketing/" title="营销自动化">营销自动化</a>，
                 <a href="https://ppmessage.cn/tickets/" title="工单系统">工单系统</a>，
                 <a href="https://ppmessage.cn/cloud-call-center/" title="云呼叫中心">云呼叫中心</a>，
+                <a href="https://ppmessage.cn/intelligent-customer-service-robot/" title="客服机器人">客服机器人</a>，
                 <a href="https://ppmessage.cn/ppkefu/" title="免费试用">免费试用</a>
                 </p>
             </footer>
