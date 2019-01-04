@@ -9,11 +9,10 @@ export default () => (
     <Layout>
 
         <Helmet>
-            <title>关于我们</title>
+            <title>关于PPMESAGE-PPMESSAGE-新一代智能全渠道在线客服系统_网站客服系统</title>
             <meta charsets="UTF-8" />
-            <meta name="description" content="PPMESSAGE 智能在线客服系统软件，20年行业深耕，为超百万家企业提供互联网客户服务、营销解决方案。与华为、腾讯、阿里巴巴、百度、今日头条达成战略合作。5G、人工智能、大数据、区块链、教育、金融、互联网、医疗、智能制造、旅游餐饮等行业领袖的选择。" />
-            <meta name="keywords" content="在线客服，客服系统，在线客服系统，智能客服，云客服，网站在线客服，在线客服系统" />
-            <meta name="title" content="关于我们" />
+            <meta name="description" content="北京优锐科技有限公司（PPMESSAGE）成立于2010年，自主研发全渠道智能在线客服系统软件，简单易用，安全稳定。9年行业深耕，为数万家企业提供在线客户服务。" />
+            <meta name="keywords" content="在线客服系统，网站客服系统，PPMESSAGE，北京优锐" />
             
         </Helmet>
 

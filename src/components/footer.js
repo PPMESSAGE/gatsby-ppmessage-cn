@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from '../pages/footer-modules.module.css';
-import Link from "gatsby-link";
 import EnterYourMobile from "./enteryourmobile";
 import Free from "./free_trial";
 
@@ -14,7 +13,7 @@ class Footer extends React.Component {
 
     componentDidMount () {
         
-        window.ppSettings = {app_uuid:'a600998e-efff-11e5-9d9f-02287b8c0ebf'};(function(){var w=window,d=document;function l(){var a=d.createElement('script');a.type='text/javascript';a.async=!0;a.charset='utf-8';a.src='https://ppmessage.cn/ppcom/assets/pp-library.min.js';var b=d.getElementsByTagName('script')[0];b.parentNode.insertBefore(a,b)}l();})();
+        window.ppSettings = {app_uuid:'a600998e-efff-11e5-9d9f-02287b8c0ebf'};(function(){var d=document;function l(){var a=d.createElement('script');a.type='text/javascript';a.async=!0;a.charset='utf-8';a.src='https://ppmessage.cn/ppcom/assets/pp-library.min.js';var b=d.getElementsByTagName('script')[0];b.parentNode.insertBefore(a,b)}l();})();
         
     }
 
