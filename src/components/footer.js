@@ -257,25 +257,33 @@ class Footer extends React.Component {
                             </div>      
                         </div>
                     </div>
-                    <div className={styles.footer__link}>
-                        <p style={{
-                            "textAlign": "center",
-                            "fontSize": "13px",
-                            "color": "#888",
-                            "margin-bottom": "5px"
-                        }}>
-                            <span style={{"margin-right": "20px"}}>© 北京优锐科技有限公司</span>
-                            <span>京ICP备13021343号-2</span>
-                        </p>
-                        <p style={{
-                            "textAlign": "center",
-                            "fontSize": "13px",
-                            "color": "#888",
-                            "margin-bottom": "5px"
-                        }}>PPMESSAGE为您提供安全、稳定、易用的<a href="https://ppmessage.cn/" title="在线客服系统">在线客服系统</a>、<a href="https://ppmessage.cn/" title="网站客服系统">网站客服系统</a>、<a href="https://ppmessage.cn/" title="网站在线客服系统">网站在线客服系统</a>， <a href="https://ppmessage.cn/ppkefu/">免费注册试用</a>。</p>
-                    </div>
                 </div>
-            </footer>)
+                <p style={{
+                    "textAlign": "center",
+                    "fontSize": "13px",
+                    "color": "#888",
+                    "margin-bottom": "5px"
+                }}>
+                    <span style={{"margin-right": "20px"}}>© 北京优锐科技有限公司</span>
+                    <span>京ICP备13021343号-2</span>
+                </p>
+                <p style={{
+                    "textAlign": "center",
+                    "fontSize": "13px",
+                    "color": "#888",
+                    "margin-bottom": "5px"
+                }}>
+                PPMESSAGE为您提供安全、稳定、易用的
+                <a href="https://ppmessage.cn/product" title="在线客服系统">在线客服系统</a>，
+                <a href="https://ppmessage.cn/product" title="网站客服系统">网站客服系统</a>，
+                <a href="https://ppmessage.cn/marketing/" title="营销自动化">营销自动化</a>，
+                <a href="https://ppmessage.cn/tickets/" title="工单系统">工单系统</a>，
+                <a href="https://ppmessage.cn/cloud-call-center/" title="云呼叫中心">云呼叫中心</a>，
+                <a href="https://ppmessage.cn/ppkefu/" title="免费试用">免费试用</a>
+                </p>
+            </footer>
+        )
+
     }
 
 }
