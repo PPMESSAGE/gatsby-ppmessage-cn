@@ -116,6 +116,7 @@ export default () =>{
 	    <Layout>
             <Helmet>
                 <title>新一代全渠道智能在线客服系统_网站客服系统|PPMESSAGE官网</title>
+                <meta name="baidu-site-verification" content="SsFwKM6ykv" />
                 <meta name="keywords" content="在线客服系统，网站客服系统，智能客服系统，工单系统、云呼叫中心，销售机器人，客服机器人，语音机器人" />
                 <meta name="description" content="PPMESSAGE是业界领先的新一代全渠道在线客服系统，为企业提供在线客服系统，网站客服系统，工单系统,云呼叫中心,营销自动化,销售机器人,客服机器人和语音机器人的一体化解决方案。电商、教育、金融、互联网、医疗、智能制造、旅游餐饮等行业领袖的选择。" />
 
