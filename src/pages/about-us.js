@@ -12,7 +12,7 @@ export default () => (
             <title>关于PPMESAGE-PPMESSAGE-新一代智能全渠道在线客服系统_网站客服系统</title>
             <meta charsets="UTF-8" />
             <meta name="description" content="北京优锐科技有限公司（PPMESSAGE）成立于2010年，自主研发全渠道智能在线客服系统软件，简单易用，安全稳定。9年行业深耕，为数万家企业提供在线客户服务。" />
-            <meta name="keywords" content="在线客服系统，网站客服系统，PPMESSAGE，北京优锐" />
+            <meta name="keywords" content="在线客服系统，网站客服系统，PPMESSAGE，北京优锐，北京优锐科技" />
             
         </Helmet>
 

@@ -49,11 +49,10 @@ export default () =>{
 return(
 	<Layout>
         <Helmet>
-            <title>云呼叫中心|呼叫中心解决方案-PPMESSAGE官网</title>
+            <title>云呼叫中心|呼叫中心解决方案-PPMESSAGE-新一代智能全渠道在线客服系统_网站客服系统</title>
             <meta charsets="UTF-8" />
-            <meta name="title" content="云呼叫中心|呼叫中心解决方案-PPMESSAGE官网" />
-            <meta name="keywords" content="客服系统，云呼叫中心,呼叫中心系统,呼叫中心软件,电话客服,电话销售" />
-            <meta name="description" content="PPMESSAGE 全渠道跨国云呼叫中心是基于云计算的新一代呼叫中心解决方案，支持跨时区、跨地域、多语言分布式组网，是真正All-in-One的客户体验与联络中心，系统安全可靠，部署方式灵活" />
+            <meta name="keywords" content="客服系统，云呼叫中心,呼叫中心系统,呼叫中心软件,电话客服,电话销售，在线客服" />
+            <meta name="description" content="PPMESSAGE全渠道跨国云呼叫中心是基于云计算的新一代呼叫中心解决方案，支持跨时区、跨地域、多语言分布式组网，是真正All-in-One的客户体验与联络中心，系统安全可靠，部署方式灵活" />
             
         </Helmet>
         <div className={styles.heiti}>

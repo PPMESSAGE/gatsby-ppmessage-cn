@@ -93,8 +93,10 @@ export default () =>{
     return(
 	    <Layout>
             <Helmet>
-                <title>电商解决方案</title>
-                <meta name="description" content="E-commerce solutions 电商解决方案" />
+                <title>电商客服解决方案-PPMESSAGE-新一代智能全渠道在线客服系统_网站客服系统</title>
+                <meta charsets="UTF-8" />    
+                <meta name="keywords" content="电商在线客服系统，电商网站客服系统，电商客服解决方案" />
+                <meta name="description" content="PPMESSAGE为电商企业提供新一代智能全渠道在线客服系统解决方案，降低企业获客成本，提供客户粘性，促进重复销售" />
             </Helmet>
             <div className={styles.heiti}>
                 <div className={styles.commerce_72px}></div>
@@ -102,7 +104,7 @@ export default () =>{
                     <div className={styles.g__row}>
                         <div className={styles.g__c6}>
                             <div style={{height:"100px"}}></div>
-                            <h1 className={styles.commerce_h1}>电商解决方案</h1>
+                            <h1 className={styles.commerce_h1}>电商客服解决方案</h1>
                             <div className={styles.sp__5}>
                                 <h2 style={{fontSize:"36px",fontWeight:"150"}}>降低获客成本，提高客户粘性，促进重复销售
                                 </h2>

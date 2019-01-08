@@ -59,7 +59,7 @@ export default () =>{
 
     let _features2 = [
         {
-            title: "全渠道",
+            title: "全渠道客服",
             desc: "网页、电话、邮件、社交媒体的各种客户对话消息集中接入",
             image: require("../images/呼叫中心的图.jpg")
         },
@@ -85,9 +85,12 @@ export default () =>{
     return(
 	    <Layout>
             <Helmet>
-                <title>教育培训解决方案</title>
-                <meta name="description" content="Education training solutions 教育培训解决方案" />
+                <title>教育培训客服解决方案-PPMESSAGE-新一代智能全渠道在线客服系统_网站客服系统</title>
+                <meta charsets="UTF-8" />
+                <meta name="description" content="PPMESSAGE新一代智能全渠道在线客服系统针对教育培训行业特点，提供从商机获取、客户互动到客户支持的客户全生命周期解决方案，提高企业广告投放效率，引导用户付费转化" />
+                <meta name="keywords" content="教育在线客服系统，教育网站客服系统，培训在线客服系统，培训网站客服系统，教育客服系统，培训客服系统" />
             </Helmet>
+            
             <div className={styles.heiti}>
                 <div style={{height:'72px'}}></div>
                 <div className={styles.container__narrower}>
@@ -95,7 +98,7 @@ export default () =>{
                         
                         <div className={styles.g__c6}>
                             <div style={{height:"100px"}}></div>
-                            <h1>教育培训解决方案</h1>
+                            <h1>教育培训客服解决方案</h1>
                             <div className={styles.sp__5}>
                                 <h2 style={{fontSize:"36px",fontWeight:"150"}}>
                                     提高广告投放效率，引导用户付费转化

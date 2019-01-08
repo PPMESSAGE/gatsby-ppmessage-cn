@@ -90,8 +90,11 @@ export default () =>{
     return(
 	    <Layout>
             <Helmet>
-                <title>金融保险解决方案</title>
-                <meta name="description" content="Financial insurance solutions 金融保险解决方案" />
+                <title>金融保险客服解决方案-PPMESSAGE-新一代智能全渠道在线客服系统_网站客服系统</title>
+                <meta charsets="UTF-8" />
+                <meta name="description" content="PPMESSAGE新一代智能全渠道在线客服系统直击金融保险行业痛点，提供从商机获取、客户互动到客户支持的客户全生命周期解决方案，破解人力紧张和口碑难题，大幅降低获客成本" />
+                <meta name="keywords" content="金融在线客服系统，金融网站客服系统，保险在线客服系统，保险网站客服系统，金融客服系统，保险客服系统，银行客服系统" />
+                
             </Helmet>
             <div className={styles.heiti}>
                 <div style={{height:'72px'}}></div>

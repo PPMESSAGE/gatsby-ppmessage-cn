@@ -8,8 +8,10 @@ import Free from "../components/free_trial";
 export default () => (
 	<Layout>
         <Helmet>
-            <title>支持客户并提高客户满意度</title>
-            <meta name="description" content="Support customers and improve customer satisfaction 支持客户并提高客户满意度" />
+            <title>支持客户并提高客户满意度-PPMESSAGE-新一代智能全渠道在线客服系统_网站客服系统</title>
+            <meta name="keywords" content="在线客服系统，网站客服系统，智能客服系统，在线客服，工单系统，云呼叫中心，销售机器人，客服机器人，语音机器人，客户满意度，客户支持" />
+            <meta name="description" content="PPMESSAGE新一代智能全渠道在线客服系统通过网页消息、应用内消息、电话、短信、邮件、微信等全渠道快速响应客户问题并提供解决方案，提高客户满意度，将您的满意客户转化为忠实客户，把忠实客户转化为企业拥趸。" />
+
         </Helmet>
         <div className={styles.heiti}>
             <div style={{height:"144px"}}></div>
