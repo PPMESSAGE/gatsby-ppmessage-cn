@@ -9,10 +9,10 @@ import Free from "../components/free_trial";
 export default () => (
 	<Layout>
         <Helmet>
-            <title>营销自动化软件|自动化智能营销平台- PPMESSAGE官网</title>
-            <meta name="title" content="营销自动化软件|自动化智能营销平台- PPMESSAGE官网" />
+            <title>营销自动化软件-PPMESSAGE-新一代全渠道智能在线客服系统_网站客服系统</title>
             <meta name="keywords" content="Marketing automation, 营销自动化软件，自动化营销系统，自动化智能营销" />
             <meta name="description" content="PPMESSAGE营销自动化解决方案通过向访客或者注册用户发送基于行为和时间的有针对性的应用内消息、电子邮件、短信和智能语音呼叫，提升访客转化，帮助企业降低获客成本" />
+                
         </Helmet>
         
         <div className={styles.heiti}>

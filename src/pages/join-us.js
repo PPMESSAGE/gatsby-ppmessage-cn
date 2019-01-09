@@ -8,12 +8,10 @@ import Layout from "./layout";
 
 export default () => (
 	<Layout><Helmet>
-        <title>加入我们_PPMESSAGE-全渠道智能在线客服系统_网站客服系统</title>
+        <title>加入我们-PPMESSAGE-全渠道智能在线客服系统_网站客服系统</title>
         <meta charsets="UTF-8" />
         <meta name="description" content="北京优锐科技有限公司（PPMESSAGE）成立于2010年，自主研发全渠道智能在线客服系统软件，简单易用，安全稳定。9年行业深耕，为数万家企业提供在线客户服务。欢迎有志青年加盟，共创大业！" />
-        <meta name="keywords" content="PPMESSAGE，北京优锐" />
-       
-        
+        <meta name="keywords" content="PPMESSAGE，北京优锐" />       
     </Helmet>
 
     

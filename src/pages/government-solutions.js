@@ -61,8 +61,10 @@ export default () =>{
     return(
 	    <Layout>
             <Helmet>
-                <title>政府与事业单位解决方案</title>
-                <meta name="description" content="Government and public sector solutions 政府与事业单位解决方案" />
+                <title>政府与事业单位客服解决方案-PPMESSAGE-新一代智能全渠道在线客服系统_网站客服系统</title>
+                <meta charsets="UTF-8" />
+                <meta name="description" content="PPMESSAGE新一代智能全渠道在线客服系统可定制可独立部署，保护政务机关数据安全，为市民提供方便快捷的服务" />
+                <meta name="keywords" content="政务在线客服系统，政务网站客服系统，事业单位在线客服系统，事业单位网站客服系统，政务客服系统，事业单位客服系统，政务呼叫中心" />       
             </Helmet>
             <div className={styles.heiti}>
                 <div style={{height:'72px'}}></div>
@@ -70,7 +72,7 @@ export default () =>{
                     <div className={styles.g__row}>
                         <div className={styles.g__c6}>
                             <div style={{height:"100px"}}></div>
-                            <h1>政府与事业单位解决方案</h1>
+                            <h1>政府与事业单位客服解决方案</h1>
                             <div className={styles.sp__5}>
                                 <h2 style={{fontSize:"36px",fontWeight:"150"}}>
                                     个性化批量处理人民群众的各类咨询

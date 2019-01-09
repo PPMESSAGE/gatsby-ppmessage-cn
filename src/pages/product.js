@@ -9,10 +9,9 @@ import Free from "../components/free_trial";
 export default () => (
 	<Layout>
         <Helmet>
-            <title>PPMESSAGE 新一代在线客服系统|在线客服软件|智能客服解决方案</title>
-            <meta name="title" content="PPMESSAGE 新一代在线客服系统|在线客服软件|智能客服解决方案"/>
+            <title>智能客服解决方案-PPMESSAGE-新一代全渠道智能在线客服系统_网站客服系统</title>
             <meta name="keywords" content="在线客服，客服系统，在线客服系统，智能客服，网站客服系统，在线客服软件" />
-            <meta name="description" content="PPMESSAGE 是业界领先的新一代全渠道智能客服系统，为企业提供集在线客服系统、工单系统和营销自动化于一体的智能客服解决方案。" />
+            <meta name="description" content="PPMESSAGE新一代全渠道智能在线客服系统，以人工智能为基础，为企业提供集在线客服系统、云呼叫中心、工单系统和营销自动化于一体的智能客服解决方案。" />
 
         </Helmet>
         

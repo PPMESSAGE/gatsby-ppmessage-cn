@@ -8,8 +8,10 @@ import Layout from "./layout";
 export default () => (
 	<Layout>
         <Helmet>
-            <title>智能销售机器人</title>
-            <meta name="description" content="Intelligent sales robot 智能销售机器人" />
+            <title>智能销售机器人-PPMESSAGE-新一代全渠道智能在线客服系统_网站客服系统</title>      
+            <meta name="keywords" content="智能销售机器人，营销自动化，自动化营销" />
+            <meta name="description" content="PPMESSAGE新一代全渠道智能在线客服系统提供永久在线的智能销售系统机器人为企业源源不断的输送合格的商机信息，自动安排电话或视频会议，推动企业销售快速增长" />
+          
         </Helmet>
         <div className={styles.heiti}>
             <div style={{height:"144px"}}></div>
@@ -32,7 +34,7 @@ export default () => (
                                 <EnterYourMobile size="middle"/>                            
                             </div>
                             <div style={{height:"10px"}}></div>
-                                <Free />
+                            <Free />
                         </div>
                     </div>
                     <div className={styles.g__c6}>

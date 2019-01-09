@@ -96,7 +96,7 @@ export default () =>{
                 <title>电商客服解决方案-PPMESSAGE-新一代智能全渠道在线客服系统_网站客服系统</title>
                 <meta charsets="UTF-8" />    
                 <meta name="keywords" content="电商在线客服系统，电商网站客服系统，电商客服解决方案" />
-                <meta name="description" content="PPMESSAGE为电商企业提供新一代智能全渠道在线客服系统解决方案，降低企业获客成本，提供客户粘性，促进重复销售" />
+                <meta name="description" content="PPMESSAGE为电商企业提供新一代智能全渠道在线客服系统解决方案，降低企业获客成本，提高客户粘性，促进重复销售" />
             </Helmet>
             <div className={styles.heiti}>
                 <div className={styles.commerce_72px}></div>

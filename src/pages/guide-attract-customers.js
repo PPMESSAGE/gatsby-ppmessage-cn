@@ -10,8 +10,9 @@ export default () =>{
     return(
 	    <Layout>
             <Helmet>
-                <title>引导和吸引客户</title>
-                <meta name="description" content="Guide and attract customers 引导和吸引客户" />
+                <title>引导和吸引客户-PPMESSAGE-新一代全渠道智能在线客服系统_网站客服系统</title>
+                <meta name="keywords" content="自动营销，营销自动化，云呼叫中心，销售机器人，语音机器人" />
+                <meta name="description" content="PPMESSAGE新一代全渠道在线客服系统自动营销模块可以根据用户渠道偏好，通过应用内消息、智能语音、邮件、短信、微信等各种渠道向目标用户发送有针对性的消息，培育和激活用户" />     
             </Helmet>
             <div className={styles.heiti}>
                 <div style={{height:"144px"}}></div>

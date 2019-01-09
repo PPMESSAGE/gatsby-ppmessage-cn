@@ -73,8 +73,11 @@ export default () =>{
     return(
 	    <Layout>
             <Helmet>
-                <title>房产物业解决方案</title>
-                <meta name="description" content="Real estate property solutions 房产物业解决方案" />
+                <title>房产物业客服解决方案-PPMESSAGE-新一代全渠道智能在线客服系统_网站客服系统</title>         
+                <meta name="keywords" content="房地产在线客服，房地产客服系统，房地产在线客服系统，房地产智能客服，房地产网站客服系统，物业在线客服，物业客服系统，物业在线客服系统，物业智能客服，物业网站客服系统" />
+                <meta name="description" content="PPMESSAGE新一代全渠道智能在线客服系统为房地产及物业企业提供业务营销、业主互动、自动收费和物业报修的专业客服解决方案，一站解决所有业主沟通和服务问题 " />
+
+                
             </Helmet>
             <div className={styles.heiti}>
                 <div style={{height:'72px'}}></div>
@@ -83,7 +86,7 @@ export default () =>{
                         
                         <div className={styles.g__c6}>
                             <div style={{height:"100px"}}></div>
-                            <h1>房产物业解决方案</h1>
+                            <h1>房产物业客服解决方案</h1>
                             <div className={styles.sp__5}>
                                 <h2 style={{fontSize:"36px",fontWeight:"150"}}>
                                     业务营销、业主互动、自动收费和物业报修的专业解决方案

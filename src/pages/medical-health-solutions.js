@@ -93,8 +93,10 @@ export default () =>{
     return(
 	    <Layout>
             <Helmet>
-                <title>医疗健康解决方案</title>
-                <meta name="description" content="Medical health solutions 医疗健康解决方案" />
+                <title>医疗健康客服解决方案-PPMESSAGE-新一代全渠道智能在线客服系统_网站客服系统 </title>
+                <meta name="keywords" content="医院客服，医院在线客服，美容客服，美容在线客服，医院在线客服系统，美容在线客服系统" />
+                <meta name="description" content="PPMESSAGE新一代全渠道在线客服系统为医疗健康行业提供从商机获取、客户互动和客户支持的客户全生命周期解决方案，大幅降低获客成本和提升客户满意度。" />                     
+               
             </Helmet>
             <div className={styles.heiti}>
                 <div style={{height:'72px'}}></div>
@@ -103,7 +105,7 @@ export default () =>{
                         
                         <div className={styles.g__c6}>
                             <div style={{height:"100px"}}></div>
-                            <h1>医疗健康解决方案</h1>
+                            <h1>医疗健康客服解决方案</h1>
                             <div className={styles.sp__5}>
                                 <h2 style={{fontSize:"36px",fontWeight:"150"}}>
                                     商机获取、医患互动和病患支持的多渠道智能分诊和医患管理平台

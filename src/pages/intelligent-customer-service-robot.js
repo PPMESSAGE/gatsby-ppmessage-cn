@@ -9,8 +9,10 @@ export default () => (
 
 	<Layout>
         <Helmet>
-            <title>智能客服机器人</title>
-            <meta name="description" content="Intelligent customer service robot 智能客服机器人" />
+            <title>智能客服机器人-PPMESSAGE-新一代全渠道智能在线客服系统_网站客服系统</title>
+            <meta name="keywords" content="智能客服，客服机器人，智能客服解决方案" />
+            <meta name="description" content="PPMESSAGE新一代全渠道在线客服系统助力客户服务创新升级，提供24X7即时解决方案，通过智能客服机器人自动解决常见问题，提高客户满意度，让企业客服团队专注于需要人工处理的复杂对话。" /> 
+            
         </Helmet>
         <div className={styles.heiti}>
             <div style={{height:"144px"}}></div>

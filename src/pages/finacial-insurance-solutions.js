@@ -103,7 +103,7 @@ export default () =>{
                         
                         <div className={styles.g__c6}>
                             <div style={{height:"100px"}}></div>
-                            <h1>金融保险解决方案</h1>
+                            <h1>金融保险客服解决方案</h1>
                             <div className={styles.sp__5}>
                                 <h2 style={{fontSize:"36px",fontWeight:"150"}}>
                                     专注互联网金融场景，直击行业痛点

@@ -5,8 +5,8 @@ import Layout from "./layout";
 export default () => (
 	<Layout>
         <Helmet>
-            <title>合作伙伴</title>
-            <meta name="description" content="partners 合作伙伴" />
+            <title>合作伙伴-PPMESSAGE新一代客服平台，欢迎洽谈合作</title>
+            <meta name="description" content="PPMESSAGE（北京优锐科技有限公司）致力于打造业内领先的企业级客服平台，携手全球领先企业，全方位提升用户体验" />
         </Helmet>
         <div className={styles.heiti}>        
             <div className={styles.banner}>            

@@ -91,8 +91,13 @@ export default () =>{
     return(
 	    <Layout>
             <Helmet>
-                <title>餐饮连锁解决方案</title>
-                <meta name="description" content="Restaurant chain solution 餐饮连锁解决方案" />
+                <title>餐饮连锁客服解决方案-PPMESSAGE-新一代全渠道智能在线客服系统_网站客服系统</title>       
+                <meta name="keywords" content="餐饮在线客服，餐饮客服系统，餐饮在线客服系统，餐饮智能客服，餐饮网站客服系统，连锁企业在线客服，连锁企业客服系统，连锁企业在线客服系统，连锁企业智能客服，连锁企业网站客服系统" />
+                <meta name="description" content="PPMESSAGE新一代全渠道智能在线客服系统为餐饮及连锁企业提供全渠道智能云客服和营销自动化系统，帮助企业准确把握商机，并向客户与业务伙伴提供全方位支持 " />
+
+
+
+                
             </Helmet>
             <div className={styles.heiti}>
                 <div style={{height:'72px'}}></div>

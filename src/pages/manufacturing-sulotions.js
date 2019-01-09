@@ -61,8 +61,13 @@ export default () =>{
     return(
 	    <Layout>
             <Helmet>
-                <title>制造业解决方案</title>
-                <meta name="description" content="Manufacturing solutions 制造业解决方案" />
+                <title>制造业客服解决方案-PPMESSAGE-新一代全渠道智能在线客服系统_网站客服系统</title>
+                <meta name="keywords" content="制造业客服，企业客服，制造业在线客服，制造业智能客服，制造业在线客服系统" />
+                <meta name="description" content="PPMESSAGE可定制的跨时区、跨地域、多语言的全球客户支持和维修工单流转系统，及时响应来自各种渠道的咨询包括送货、安装、维修等，通过贯穿于厂商、经销商、售后服务中心及特约维修网点的工单流转系统为客户提供全面支持。" />     
+                
+
+
+                
             </Helmet>
             <div className={styles.heiti}>
                 <div style={{height:'72px'}}></div>
@@ -71,7 +76,7 @@ export default () =>{
                         
                         <div className={styles.g__c6}>
                             <div style={{height:"100px"}}></div>
-                            <h1>制造业解决方案</h1>
+                            <h1>制造业客服解决方案</h1>
                             <div className={styles.sp__5}>
                                 <h2 style={{fontSize:"36px",fontWeight:"150"}}>
                                     可定制的跨时区、跨地域、多语言的全球客户支持和维修工单流转系统

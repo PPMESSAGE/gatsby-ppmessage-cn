@@ -90,8 +90,10 @@ export default () =>{
     return(
 	    <Layout>
             <Helmet>
-                <title>本地生活解决方案</title>
-                <meta name="description" content="Local living solutions 本地生活解决方案" />
+                <title>本地生活客服解决方案-PPMESSAGE-新一代全渠道智能在线客服系统_网站客服系统 </title>
+                <meta name="keywords" content="本地生活客服，线上获客，本地生活在线客服，本地生活智能营销" />
+                <meta name="description" content="PPMESSAGE新一代全渠道在线客服系统的本地生活客服解决方案将线上线下一体化的会员营销、互动和支持系统与自动化工单系统相结合， 一站解决所有客户沟通和服务问题。" />     
+               
             </Helmet>
             <div className={styles.heiti}>
                 <div style={{height:'72px'}}></div>

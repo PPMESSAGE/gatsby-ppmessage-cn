@@ -14,8 +14,10 @@ export default () => {
     return(
         <Layout>
             <Helmet>
-                <title>价格</title>
-                <meta name="description" content="pricing 价格" />
+                <title>在线客服价格-PPMESSAGE-新一代全渠道智能在线客服系统_网站客服系统</title>
+                <meta name="keywords" content="在线客服价格，网站客服价格，智能客服价格，云呼叫中心价格" />
+                <meta name="description" content="PPMESSAGE新一代全渠道在线客服系统提供满足企业不同需求的客服解决方案，无需下载部署，注册即用，满足您的个性化需求。" />    
+               
             </Helmet>
             <div className={styles.heiti}>
                 <div style={{height:"72px"}}></div>
@@ -151,7 +153,7 @@ export default () => {
                         <div style={{height:"40px"}}></div>
                         <div className={styles.g__row_h_center}>
                             <div style={{height:"10px"}}></div>  
-                           
+                            
                         </div>
                         <a name="xiaoxi"></a>
                         <div style={{height:"80px"}}></div>
@@ -690,7 +692,7 @@ export default () => {
                 </section>
 
                 <section><WorthCompany /></section>
-            
+                
             </div>
 	    </Layout>
     )

@@ -96,8 +96,11 @@ export default () =>{
     return(
 	    <Layout>
             <Helmet>
-                <title>快消品解决方案</title>
-                <meta name="description" content="FMCG solution 快消品解决方案" />
+                <title>快消产品客服解决方案-PPMESSAGE-新一代全渠道智能在线客服系统_网站客服系统</title>
+                
+                <meta name="keywords" content="快消品在线客服，快销品客服系统，在线客服系统，智能客服，网站客服系统，在线客服软件" />
+                <meta name="description" content="PPMESSAGE新一代全渠道智能在线客服系统为企业提供跨地域的全渠道云客服和自动营销平台，帮助企业准确把握商机，并向客户及业务伙伴提供全方位支持。" />
+               
             </Helmet>
             <div className={styles.heiti}>
                 <div style={{height:'72px'}}></div>
@@ -106,7 +109,7 @@ export default () =>{
                         
                         <div className={styles.g__c6}>
                             <div style={{height:"100px"}}></div>
-                            <h1>快消品解决方案</h1>
+                            <h1>快消品客服解决方案</h1>
                             <div className={styles.sp__5}>
                                 <h2 style={{fontSize:"36px",fontWeight:"150"}}>
                                     跨地域的全渠道云客服和自动营销平台，新产品发布和促销的通道

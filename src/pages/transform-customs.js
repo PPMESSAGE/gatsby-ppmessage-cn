@@ -28,8 +28,11 @@ export default () => {
     return (
 	    <Layout>
             <Helmet>
-                <title>获取和转化销售线索</title>
-                <meta name="description" content="Obtain conversion leads 获取和转化销售线索" />
+                <title>获取和转化销售线索-PPMESSAGE-新一代智能全渠道在线客服系统_网站客服系统</title>
+                <meta charsets="UTF-8" />
+                <meta name="description" content="PPMESSAGE是业界领先的新一代全渠道在线客服系统，通过在适当的时间向合适的人发送有针对性的自动消息或进行自动语音外呼快速获取商机，并通过AI工具评估和分配商机，提高客户转化率" />
+                <meta name="keywords" content="营销自动化，获取和转化商机，在线客服系统，网站客服系统" />
+              
             </Helmet>
             <div className={styles.heiti}>
                 <div style={{height:"144px"}}></div>
