@@ -56,7 +56,7 @@ export default () => (
                                     </div>
                                     <div style={{height:'5em'}}></div>                           
                                     <div className={styles.t__h3}>
-                                        <font >多渠道
+                                        <font >多渠道在线客服
                                         </font>
                                     </div>
                                     <div style={{height:'5px'}}></div>
@@ -86,7 +86,7 @@ export default () => (
                                     <div style={{height:'5px'}}></div>
                                     <div className={styles.t__small_s}>
                                         <font className={styles.t__small_s}>
-                                            为团队配备统一的全渠道界面
+                                            为在线客服团队配备统一的全渠道界面
                                         </font>
                                     </div>
 
@@ -135,7 +135,7 @@ export default () => (
                                     </div>
                                     <div style={{height:'5px'}}></div>
                                     <div className={styles.t__small_s}>
-                                        <font >实时了解团队绩效并提前采取行动
+                                        <font >实时了解在线客服团队绩效并提前采取行动
                                         </font>
                                     </div>
 
@@ -164,7 +164,7 @@ export default () => (
                     <div className={styles.g__row}>
 
                         <div className={styles.g__c3}>
-                            <h3><font className={styles.huise}>多渠道</font></h3>
+                            <h2><font className={styles.huise}>多渠道智能客服</font></h2>
                             <div className={styles.huisesmaller}>
                                 <font>网页、移动端、社交媒体、邮件、电话等多渠道接入客户对话</font>
                             </div>
@@ -202,7 +202,7 @@ export default () => (
                                 <div className={styles.g__c6}>
                                     <div className={styles.features__block}>
 
-                                        <FeatherModal abstract={{title: "呼叫中心", icon: require("../icon/6.1.2.png"), desc: "可以通过座席工作台直接接打客户电话，发送查收短信，查看客户资料和录音信息"}}>
+                                        <FeatherModal abstract={{title: "呼叫中心", icon: require("../icon/6.1.2.png"), desc: "可以通过智能客服座席工作台直接接打客户电话，发送查收短信，查看客户资料和录音信息"}}>
                                             <div>
                                                 <div className={styles.g__row}>
                                                     <div className="g__c3 g__c12--md">
@@ -229,7 +229,7 @@ export default () => (
                                 <div className={styles.g__c6}>
                                     <div className={styles.features__block}>
 
-                                        <FeatherModal abstract={{title: "微信小程序和公众号", icon:require ("../icon/6.1.3.png"), desc: "通过座席工作台应答微信访客咨询"}}>
+                                        <FeatherModal abstract={{title: "微信小程序和公众号", icon:require ("../icon/6.1.3.png"), desc: "通过智能客服座席工作台应答微信访客咨询"}}>
                                             <div>
                                                 <div className={styles.g__row}>
                                                     <div className="g__c3 g__c12--md">

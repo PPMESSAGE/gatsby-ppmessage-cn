@@ -11,7 +11,7 @@ export default () =>{
 
     let _features = [
         {
-            title: "全渠道",
+            title: "全渠道在线客服",
             desc: "网页、电话、邮件、社交媒体的各种客户对话消息集中接入",
             image: require("../images/94.jpeg") 
         },
@@ -128,12 +128,12 @@ export default () =>{
                         <div className={styles.g__c6_index}>
                             <div style={{height:"100px"}}></div>
                             <div className={styles.sp__5}>
-                                <h2 style={{fontSize:"36px",fontWeight:"150"}}>获取，转化和留存客户的新方法
-                                </h2>
+                                <h1 style={{fontSize:"36px",fontWeight:"150"}}>获取，转化和留存客户的新一代智能在线客服系统
+                                </h1>
                                 <div style={{height:"10px"}}>
                                 </div>
-                                <h3 style={{color:'#888',fontWeight:"100"}}>跨数字化及语音渠道，将网页、电话、邮件、社交媒体和应用内对话转化为标准消息，并通过消息进行销售、营销和客户支持，打造卓越客户历程，促进企业成长
-                                </h3>
+                                <h2 style={{color:'#888',fontWeight:"100"}}>跨数字化及语音渠道，将网页、电话、邮件、社交媒体和应用内对话转化为标准消息，并通过消息进行销售、营销和客户支持，打造卓越客户历程，促进企业成长
+                                </h2>
                                 <div style={{height:"20px"}}>            
                                 </div>
                                 <EnterYourMobile size="middle" />
@@ -155,9 +155,9 @@ export default () =>{
                 <section >
                     <div className={styles.index_200px_s}></div>
                     <div className={styles.container__narrower}>
-                        <h3 className={styles.f__center}>
-                            <font>完美的销售，营销和客服工具</font>
-                        </h3>
+                        <h2 className={styles.f__center}>
+                            <font>完美的销售，营销和在线客服工具</font>
+                        </h2>
                         <div style={{height:"30px"}}>
                         </div>
                         <div className={styles.g__row3}>
@@ -167,8 +167,8 @@ export default () =>{
                                         <div className={styles.main1}>
                                             <div className={styles.sp__2}></div>
                                             <div className={styles.label}>
-                                                <h3>获取和转化线索
-                                                </h3>
+                                                <h2>获取和转化线索
+                                                </h2>
                                                 <font className={styles.ziti}> 通过与网站访客实时互动获取销售线索，通过AI工具评估和分配线索，通过全渠道自动化营销工具将线索转化为商机
                                                 </font>
                                                 <div style={{height:"15px"}}></div>
@@ -185,8 +185,8 @@ export default () =>{
                                         <div className={styles.main1}>
                                             <div className={styles.sp__2}></div>
                                             <div className={styles.label}>
-                                                <h3>培育和吸引客户
-                                                </h3>
+                                                <h2>培育和吸引客户
+                                                </h2>
                                                 <font className={styles.ziti}> 发送有针对性的电子邮件，短信，应用内推送消息和智能语音将更多注册用户转化为付费用户
                                                 </font>
                                                 <div style={{height:"15px"}}></div>
@@ -201,8 +201,8 @@ export default () =>{
                                 <div className={styles.g__c4}>
                                     <div className={styles.u__flex}>
                                         <div className={styles.main1}>                                                   <div className={styles.label}>
-                                            <h3>支持并提高客户满意度
-                                            </h3>
+                                            <h2>支持并提高客户满意度
+                                            </h2>
                                             <font className={styles.ziti}>云呼叫中心，客服机器人及与业务无缝集成的工单系统，在有效降低成本的同时更快的解决客户问题
                                             </font>
                                             <div style={{height:"15px"}}></div>
@@ -220,13 +220,13 @@ export default () =>{
                 </section>
                 <section>
                     <div className={styles.container__narrower}>
-                        <h3 className={styles.f__center}>
+                        <h2 className={styles.f__center}>
                             <font>单一页面管理所有客户互动，提供跨渠道的无缝客户体验</font>
-                        </h3>
+                        </h2>
                         <div style={{height:"30px"}}></div>
                         <div className={styles.container__narrower}>
-                            <h5 className={styles.f__center1}><font>网页、电话、邮件、社交媒体的客户对话集中到一个工作台界面处理，精准把握客户特征
-                            </font></h5>
+                            <h3 className={styles.f__center1}><font>网页、电话、邮件、社交媒体的客户对话集中到一个工作台界面处理，精准把握客户特征
+                            </font></h3>
                         </div>
                         <div style={{height:'80px'}}></div>
                         <div className={styles.tupian}>
@@ -239,16 +239,16 @@ export default () =>{
                 <section>
                     <div style={{height:"10em"}}></div>
                     <div className={styles.container__narrower}>
-                        <h3 className={styles.f__center}>
+                        <h2 className={styles.f__center}>
                             <font>基于客户属性和行为发送实时个性化消息，驱动业务增长</font>
-                        </h3>
+                        </h2>
                         <div style={{height:"30px"}}></div>
                         <div className={styles.container__narrower}>
-                            <h5 className={styles.f__center1}>
+                            <h3 className={styles.f__center1}>
                                 <font>
                                     支持应用内消息、短信、邮件、微信、呼叫中心等多种营销渠道，实现多触点集中、交互管理
                                 </font>
-                            </h5>
+                            </h3>
                         </div>
                         <div style={{height:"80px"}}></div>
                         <div className={styles.tupian}>
@@ -260,16 +260,16 @@ export default () =>{
                 <section>
                     <div style={{height:"10em"}}></div>
                     <div className={styles.container__narrower}>
-                        <h3 className={styles.f__center}>
-                            <font>从销售到客服的全业务链人工智能解决方案</font>
-                        </h3>
+                        <h2 className={styles.f__center}>
+                            <font>从销售到客服的全业务链智能客服解决方案</font>
+                        </h2>
                         <div style={{height:"30px"}}></div>
                         <div className={styles.container__narrower}>
-                            <h5 className={styles.f__center1}>
+                            <h3 className={styles.f__center1}>
                                 <font>
                                     与业务深度整合的销售机器人、语音机器人和客服机器人，提高销售转化率和客户满意度
                                 </font>
-                            </h5>
+                            </h3>
                         </div>
                         <div style={{height:"80px"}}></div>
                         <div className={styles.tupian}>
@@ -281,16 +281,16 @@ export default () =>{
                 <section>
                     <div style={{height:"10em"}}></div>
                     <div className={styles.container__narrower}>
-                        <h3 className={styles.f__center}>
-                            <font>独有的拖拽式流程设计器和APP Store，实现业务快速定制</font>
-                        </h3>
+                        <h2 className={styles.f__center}>
+                            <font>独有的拖拽式流程设计器和APP Store，实现智能客服业务快速定制</font>
+                        </h2>
                         <div style={{height:"30px"}}></div>
                         <div className={styles.container__narrower}>
-                            <h5 className={styles.f__center1}>
+                            <h3 className={styles.f__center1}>
                                 <font>
-                                    PPMessage流程生成器、工具丰富的APP商店、功能强大的API接口、自定义字段和视图，可按客户要求快速生成符合客户业务特点的定制化解决方案
+                                    PPMessage流程生成器、工具丰富的APP商店、功能强大的API接口、自定义字段和视图，可按客户要求快速生成符合客户业务特点的定制化智能客服解决方案
                                 </font>
-                            </h5>
+                            </h3>
                         </div>
                         <div style={{height:"80px"}}></div>
                         <div className={styles.tupian}>
