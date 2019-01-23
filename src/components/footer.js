@@ -209,7 +209,7 @@ class Footer extends React.Component {
                                         </a>
                                     </div>
                                     <div className={styles.footer__link}>
-                                        <a href="/manual/" className={styles.lianjie}>
+                                        <a href="/doc/" className={styles.lianjie}>
                                             <font>开发者文档</font>
                                         </a>
                                     </div>
