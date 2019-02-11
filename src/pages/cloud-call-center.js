@@ -11,6 +11,7 @@ export default () =>{
         {
             title: "全球化呼叫中心系统",
             desc: "跨地域、跨时区、多语言，支持语音通话跨地域转接，保障全球客服24小时在线",
+            alt: "跨地域、跨时区、多语言，支持语音通话跨地域转接，保障全球客服24小时在线",
             image: require("../images/138.png")
         },
     ]
@@ -19,6 +20,7 @@ export default () =>{
         {
             title: "多渠道接入，一站式响应服务",
             desc: "电话、网页、应用、邮件、社交媒体通过一个界面统一管理，客户通过各个渠道的访问信息统一检索",
+            alt: "电话、网页、应用、邮件、社交媒体通过一个界面统一管理，客户通过各个渠道的访问信息统一检索",
             image: require("../images/127.png")
         },
     ]
@@ -27,6 +29,7 @@ export default () =>{
         {
             title: "业务快速定制",
             desc: "电话与其他渠道消息通过统一流程集中处理，不仅仅是IVR；通过流程及开发接口快速实现企业业务定制",
+            alt: "电话与其他渠道消息通过统一流程集中处理，不仅仅是IVR；通过流程及开发接口快速实现企业业务定制",
             image: require("../images/82.png")
         },
     ]
@@ -35,13 +38,15 @@ export default () =>{
         {
             title: "可扩展、大容量，性能稳定",
             desc: "支持万级并发呼叫，系统可用性99.99%；支持海量录音",
+            alt: "支持万级并发呼叫，系统可用性99.99%；支持海量录音",
             image: require("../images/76.png")
         },
     ]
     let _features4 = [
         {
             title: "与人工智能无缝集合",
-            desc: "智能语音交互，实时语音识别，自然语言处理，智能TTS，智能质检",
+            desc: "智能语音交互，实时语音识别，自然语言处理，定制 TTS，定制 ASR，智能质检",
+            alt: "智能语音交互，实时语音识别，自然语言处理，定制 TTS，定制 ASR，智能质检",
             image: require("../images/77.png")
         },
     ]
@@ -84,7 +89,7 @@ return(
                     </div>
                     <div className={styles.g__c6}>
                         <div>
-                            <img src={require("../images/165.png")} />
+                            <img src={require("../images/165.png")} alt="PPMESSAGE全渠道跨国云呼叫中心是基于云计算的新一代呼叫中心解决方案，支持跨时区、跨地域、多语言分布式组网，是真正All-in-One的客户体验与联络中心，系统安全可靠，部署方式灵活" />
                         </div>
                     </div>
                 </div>  

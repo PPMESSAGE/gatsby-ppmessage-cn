@@ -1,6 +1,4 @@
 import React from 'react'
-import Link from "gatsby-link";
-
 
 import NavDropdown  from "../components/navdropdown.js";
 import EnterYourMobile from "../components/enteryourmobile";
@@ -47,7 +45,7 @@ class NavHeader extends React.Component {
                 <div className={_navClass}>
                     <div className={styles.container}>
                         <a href="/" className={styles.brand__logo} >
-                            <img src={require("../images/ppmessage-logo-black.png")} />
+                            <img src={require("../images/ppmessage-logo-black.png")} alt="PPMESSAGE-新一代全渠道智能在线客服系统_网站客服系统"/>
                         </a> 
                         <div className={styles.nav__content}>
                             <div className={styles.Hamburger_div}>
@@ -266,16 +264,8 @@ class NavHeader extends React.Component {
                                                 </font>
                                             </div>
                                             <div className={styles.hr__grey}></div>
-                                            {/* <div style={{height:"10px"}}></div>
-                                                <a href="#" className={styles.f__no_und_aways}>
-                                                <div className={styles.f__medium}>
-                                                <font style={{color:"black",fontSize:"16px"}}>
-                                                帮助中心  
-                                                </font>
-                                                </div>
-                                                </a> */}
                                             <div style={{height:"10px"}}></div>
-                                            <a href="#" className={styles.f__no_und_aways}>
+                                            <a href="/doc/" className={styles.f__no_und_aways}>
                                                 <div className={styles.f__medium}>
                                                     <font style={{color:"black",fontSize:"16px"}}>
                                                         开发者文档  
@@ -294,7 +284,7 @@ class NavHeader extends React.Component {
                                             </a>
                                             <div style={{height:"10px"}}></div>
                                             <a href="https://ppmessage.cn/ppkefu/#!/app/signin"
-                                               target="_blank"
+                                               target="_blank" rel="noopener noreferrer"
                                                className={styles.f__no_und_aways}>
                                                 <font style={{color:"black"}}>
                                                     <div className={styles.t__h4}>
@@ -614,10 +604,11 @@ class NavHeader extends React.Component {
 
 
                             </div>
-                            <a href="/pricing" className={styles.nav__link}><font className={styles.zizi}>定价</font>
+                            <a href="/pricing" className={styles.nav__link}>
+                                <font className={styles.zizi}>定价</font>
                             </a>
                             <a href="https://ppmessage.cn/ppkefu/#!/app/signin"
-                               target="_blank"
+                               target="_blank" rel="noopener noreferrer"
                                className={styles.nav__link}>
                                 <font className={styles.zizi}>登录</font>
                             </a>

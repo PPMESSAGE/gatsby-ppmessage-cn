@@ -1,13 +1,8 @@
 import React from "react";
 
 
-class Button_q extends React.Component{
-    constructor(props) {
-        super(props);
-    }
+class PPButton extends React.Component{
     clickButton(){
-        console.log("yes");
-       
         if (window.PP.isOpen()) {
             window.PP.close()
         } else {
@@ -16,12 +11,12 @@ class Button_q extends React.Component{
     }
     render() {
         return (
-                <div onClick={this.clickButton}> 
-                    <font>
-                        联系客服
-                    </font>
-                </div>
+            <div onClick={this.clickButton}> 
+                <font>
+                    联系客服
+                </font>
+            </div>
         )
     }
 }
-export default Button_q;
+export default PPButton;

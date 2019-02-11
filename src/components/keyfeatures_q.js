@@ -66,7 +66,7 @@ class KeyFeatures_q extends React.Component {
             let _feature_mobile_list = this.props.features.map((feature, i)=> {
                 return (
                     <div key={i} value={i}>
-                        <img src={feature.image} />
+                        <img src={feature.image} alt={feature.alt} />
                         <div className="feature-title">{feature.title}</div>
                         <div className="feature-desc">{feature.desc}</div>
                     </div>
@@ -81,7 +81,7 @@ class KeyFeatures_q extends React.Component {
             let _title_class = "feature-title_q"
             let _desc_class = "feature-desc_q"
 
-            if (this.state.highlight_item == i) {
+            if (this.state.highlight_item === i) {
                 _class = "feature-item_q active"
                 _title_class = "feature-title_q active"
                 _desc_class = "feature-desc_q active"
@@ -97,18 +97,18 @@ class KeyFeatures_q extends React.Component {
 
         let feature_image_list = this.props.features.map((feature, i)=> {
             let _class = "feature-image_q";
-            if (this.state.highlight_item == i) {
+            if (this.state.highlight_item === i) {
                 _class = "feature-image_q active";
             }
 
             return (
                 <div className={_class} key={i}>
-                    <img src={feature.image}  />
+                    <img src={feature.image} alt={feature.alt}  />
                 </div>
             )
         })
 
-        if (!this.props.rtl || this.props.rtl == "false") {
+        if (!this.props.rtl || this.props.rtl === "false") {
             return (
                 <div className="key-features_q">
                     <div className="key-features-left_q">

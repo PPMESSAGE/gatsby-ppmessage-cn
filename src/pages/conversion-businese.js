@@ -31,11 +31,12 @@ export default () => (
                 <div className={styles.bg__light}>
                     
                     <div className={styles.u__hidden}>
-                        <img  src={require("../images/140.png")} />
+                        <img  src={require("../images/140.png")} alt="" />
                     </div>
                     <div className={styles.u__hidden1}>
-                        <img  src={require("../images/141.png")} />
+                        <img  src={require("../images/141.png")} alt="" />
                     </div>
+
                     <div className={styles.u__zfix}>
 
                         <div className={styles.transform_1317px}></div>
@@ -44,9 +45,9 @@ export default () => (
                         </h1>
                         <div style={{height:"10px"}}></div>
                         <h2 className={styles.t__h3_d}>
-                            <font>
+                            {/* <font>
                                 通过网页消息、应用内消息、电话、短信、邮件、微信等全渠道快速响应客户问题并提供解决方案，提高客户满意度，将您的满意客户转化为忠实客户，把忠实客户转化为企业拥趸
-                            </font>
+                                </font> */}
                         </h2>
                         <div style={{height:"20px"}}></div>
                         <div className={styles.u__inline_transform}>                                      <EnterYourMobile size="middle"/> 
@@ -67,7 +68,7 @@ export default () => (
                             <div className={styles.chuangjian_tranform1}>
                                 <a href="#hezuo" className={styles.lianjie}>
                                     <div className={styles.product__breakdown__image}>
-                                        <img src={require("../images/142.png")} width="91px" /></div>
+                                        <img src={require("../images/142.png")} style={{width: "91px"}} alt="" /></div>
                                         <div style={{height:"10px"}}></div>
                                         <div className={styles.t__h3}>
                                             <font>全渠道客服</font>
@@ -88,7 +89,7 @@ export default () => (
                             <div className={styles.chuangjian_tranform2}>
                                 <a href="#zidonghua" className={styles.lianjie}>
                                     <div className={styles.product__breakdown__image}>
-                                        <img src={require("../images/143.png")} width="91px" /></div>
+                                        <img src={require("../images/143.png")} style={{"width":"91px"}} alt="" /></div>
                                         <div style={{height:"10px"}}></div>
                                         <div className={styles.t__h3}>
                                             <font>全球呼叫中心</font>
@@ -108,7 +109,7 @@ export default () => (
                             <div className={styles.chuangjian_tranform3}>
                                 <a href="#guimo" className={styles.lianjie}>
                                     <div className={styles.product__breakdown__image}>
-                                        <img src={require("../images/144.png")} width="91px" /></div>
+                                        <img src={require("../images/144.png")} style={{"width": "91px"}} alt="" /></div>
                                         <div style={{height:"10px"}}></div>
                                         <div className={styles.t__h3}>
                                             <font>工单系统</font>
@@ -128,7 +129,7 @@ export default () => (
                             <div className={styles.chuangjian_tranform4}>
                                 <a href="#tigao" className={styles.lianjie}>
                                     <div className={styles.product__breakdown__image}>
-                                        <img src={require("../images/145.png")} width="91px" /></div>
+                                        <img src={require("../images/145.png")} style={{width: "91px"}} alt="" /></div>
                                         <div style={{height:"10px"}}></div>
                                         <div className={styles.t__h3}>
                                             <font>智能客服机器人</font>
@@ -211,7 +212,7 @@ export default () => (
                                 <div className={styles.u__inline}>
                                     <div className={styles.gallery}>
                                         <div className={styles.gallery__img}>
-                                            <img width="587" src={require("../images/75.png")} />
+                                            <img src={require("../images/75.png")} style={{width:"91px"}} alt="" />
                                         </div>                    
                                     </div>
                                 </div>
@@ -228,7 +229,7 @@ export default () => (
                                 <div className={styles.g__c6}>
                                     <div className={styles.f__left}>
                                         <div className={styles.product__feature_icon}>
-                                            <img src={require("../icon/7.3.1.png")} />
+                                            <img src={require("../icon/7.3.1.png")} alt="" />
                                         </div>
                                         <div style={{height:"10px"}}></div>
                                         <div className={styles.sp__left_4}>
@@ -244,29 +245,29 @@ export default () => (
                                     </div>
                                 </div>
 
-                                <div className={styles.g__c6}>
+                                {/* <div className={styles.g__c6}>
                                     <div className={styles.f__left}>
-                                        <div className={styles.product__feature_icon}>
-                                            <img src={require("../icon/7.3.2.png")} />
-                                        </div>
-                                        <div style={{height:"10px"}}></div>
-                                        <div className={styles.sp__left_4}>
-                                            <div className={[styles.t__small,styles.f__bold]}>
-                                                <font>提及其他团队成员</font>
-                                            </div>
-                                            <div className={styles.t__small}>
-                                                <font>
-                                                    通过在聊天对话中提及团队成员，让合适的成员加入当前对话，解决客户问题
-                                                </font>
-                                            </div>
-                                        </div>
+                                    <div className={styles.product__feature_icon}>
+                                    <img src={require("../icon/7.3.2.png")} alt="" />
                                     </div>
-                                </div>
+                                    <div style={{height:"10px"}}></div>
+                                    <div className={styles.sp__left_4}>
+                                    <div className={[styles.t__small,styles.f__bold]}>
+                                    <font>提及其他团队成员</font>
+                                    </div>
+                                    <div className={styles.t__small}>
+                                    <font>
+                                    通过在聊天对话中提及团队成员，让合适的成员加入当前对话，解决客户问题
+                                    </font>
+                                    </div>
+                                    </div>
+                                    </div>
+                                    </div> */}
 
                                 <div className={styles.g__c6}>
                                     <div className={styles.f__left}>
                                         <div className={styles.product__feature_icon}>
-                                            <img src={require("../icon/7.3.3.png")} />
+                                            <img src={require("../icon/7.3.3.png")} alt="" />
                                         </div>
                                         <div style={{height:"10px"}}></div>
                                         <div className={styles.sp__left_4}>
@@ -285,7 +286,7 @@ export default () => (
                                 <div className={styles.g__c6}>
                                     <div className={styles.f__left}>
                                         <div className={styles.product__feature_icon}>
-                                            <img src={require("../icon/7.3.4.png")} />
+                                            <img src={require("../icon/7.3.4.png")} alt="" />
                                         </div>
                                         <div style={{height:"10px"}}></div>
                                         <div className={styles.sp__left_4}>
@@ -367,7 +368,7 @@ export default () => (
                                 <div className={styles.u__inline}>
                                     <div className={styles.gallery}>
                                         <div className={styles.gallery__img}>
-                                            <img width="500" src={require("../images/138.png")} />
+                                            <img style={{width:"500px"}} src={require("../images/138.png")} alt="" />
                                             <a name="quanqudao"></a>
                                         </div>                    
                                     </div>
@@ -377,8 +378,9 @@ export default () => (
 
                         
                         <div className={styles.g__c6} >
-                            <img width="900" src={require("../images/76.png")} />
+                            <img src={require("../images/76.png")} alt="" />
                         </div>
+                        
                         <div className={styles.g__c5_z}>
 
                             
@@ -443,7 +445,7 @@ export default () => (
                     </div>
                     <div className={styles.g__row_z}>
                         <div className={styles.g__c6}>
-                            <img width="900" src={require("../images/71.jpeg")} />
+                            <img src={require("../images/71.jpeg")} alt="" />
                         </div>
                         <div className={styles.g__c5_z}>
 
@@ -479,7 +481,7 @@ export default () => (
                                 <div className={styles.g__c6}>
                                     <div className={styles.f__left}>
                                         <div className={styles.product__feature_icon}>
-                                            <img src={require("../icon/7.3.5.png")}duihui />
+                                            <img src={require("../icon/7.3.5.png")} alt="" />
                                         </div>
                                         <div className={styles.sp__left_4}>
                                             <div className={styles.t__small}>
@@ -495,7 +497,7 @@ export default () => (
                                 <div className={styles.g__c6}>
                                     <div className={styles.f__left}>
                                         <div className={styles.product__feature_icon}>
-                                            <img src={require("../icon/7.3.6.png")} />
+                                            <img src={require("../icon/7.3.6.png")} alt="" />
                                         </div>
                                         <div className={styles.sp__left_4}>
                                             <div className={styles.t__small}>
@@ -512,7 +514,7 @@ export default () => (
                                 <div className={styles.g__c6}>
                                     <div className={styles.f__left}>
                                         <div className={styles.product__feature_icon}>
-                                            <img src={require("../icon/7.3.7.png")} />
+                                            <img src={require("../icon/7.3.7.png")} alt="" />
                                         </div>
                                         <div className={styles.sp__left_4}>
                                             <div className={styles.t__small}>
@@ -581,7 +583,7 @@ export default () => (
                         </font>
                         <div style={{height:"20px"}}></div>
                         <div>
-                            <img src={require("../images/139.png") } />
+                            <img src={require("../images/139.png")} alt="" />
                         </div>
                     </div>
                 </div>           

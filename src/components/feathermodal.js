@@ -2,7 +2,7 @@ import React from 'react'
 
 import "./feathermodal.css"
 
-// {abstract: {icon:, title:, desc}}
+// {abstract: {icon:, title:, desc:, alt:}}
 // children is modal detail
 
 class FeatherModal extends React.Component {
@@ -51,7 +51,7 @@ class FeatherModal extends React.Component {
                 
                 <div className="feather-modal-abstract">
                     <div>
-                        <img width="30px" src={this.props.abstract.icon} />
+                        <img width="30px" src={this.props.abstract.icon} alt={this.props.abstract.alt} />
                     </div>
                     <div>
                         <div className="title_style">{this.props.abstract.title}</div>

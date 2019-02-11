@@ -18,7 +18,6 @@ class TabsControl extends React.Component{
     }
 
     render(  ){
-        let _this = this
         return(
             <div>
                 { /* 动态生成Tab导航 */ }                

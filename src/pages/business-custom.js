@@ -1,5 +1,5 @@
 import React from "react";
-import Button_q from "../components/buttton";
+import PPButton from "../components/buttton";
 import styles from "./about-css-modules.module.css";
 import {Helmet} from "react-helmet";
 import Layout from "./layout";
@@ -20,18 +20,18 @@ export default () => (
                     <div className={styles.g__c6}>
                         <h1>业务定制</h1>
                         <div className={styles.sp__5}>
-                            <h2 style={{margin:'5rem 0rem 0rem 0rem'}}>独有的流程和APP Store,实现业务快速定制
+                            <h2 style={{margin:'5rem 0rem 0rem 0rem'}}>独有的流程实现业务快速定制
                             </h2>
                             <div style={{height:"10px"}}>
                             </div>
-                            <h3 style={{color:'#888'}}><font className={styles.biaoti}>PPMessage流程生成器、工具丰富的APP商店、功能强大的API接口、自定义字段和视图，可按客户要求快速生成符合客户业务特点的定制化解决方案。</font>
+                            <h3 style={{color:'#888'}}><font className={styles.biaoti}>流程生成器、工具丰富的应用商店、功能强大的开发接口、自定义字段和视图，可按客户要求快速生成符合客户业务特点的定制化解决方案。</font>
                             </h3>
                             <div style={{height:"20px"}}>            
                             </div>
                             <div>
                                 <div className={styles.f__center}>
                                     <div className={styles.btn_s}> 
-                                        <Button_q />  
+                                        <PPButton />  
                                     </div>
                                 </div>                            
                             </div>
@@ -39,7 +39,7 @@ export default () => (
                     </div>
                     <div className={styles.g__c6}>
                         <div>
-                            <img src={require("../images/96.png")} />
+                            <img src={require("../images/96.png")} alt="PPMESSAGE 智能客服系统独有的流程生成器，工具丰富的应用商店，功能强大的开发接口，自定义字段和视图，可按客户要求快速生成符合客户业务特点的定制化客服解决方案" />
                         </div>
                     </div>
                 </div>  
@@ -47,7 +47,4 @@ export default () => (
         </div>
 	</Layout>
 );
-
-
-
 

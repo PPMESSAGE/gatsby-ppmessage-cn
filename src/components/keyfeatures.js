@@ -4,8 +4,7 @@ import Slider from 'react-slick'
 
 import "./keyfeatures.css"
 
-// {abstract: {icon:, title:, desc:}}
-// children is modal detail
+// [{title:"", alt:"", image:""}]
 
 class KeyFeatures extends React.Component {
 
@@ -66,7 +65,7 @@ class KeyFeatures extends React.Component {
             let _feature_mobile_list = this.props.features.map((feature, i)=> {
                 return (
                     <div key={i} value={i}>
-                        <img src={feature.image} />
+                        <img src={feature.image} alt={feature.alt} />
                         <div className="feature-title">{feature.title}</div>
                         <div className="feature-desc">{feature.desc}</div>
                     </div>
@@ -81,7 +80,7 @@ class KeyFeatures extends React.Component {
             let _title_class = "feature-title"
             let _desc_class = "feature-desc"
 
-            if (this.state.highlight_item == i) {
+            if (this.state.highlight_item === i) {
                 _class = "feature-item active"
                 _title_class = "feature-title active"
                 _desc_class = "feature-desc active"
@@ -97,18 +96,18 @@ class KeyFeatures extends React.Component {
 
         let feature_image_list = this.props.features.map((feature, i)=> {
             let _class = "feature-image";
-            if (this.state.highlight_item == i) {
+            if (this.state.highlight_item === i) {
                 _class = "feature-image active";
             }
 
             return (
                 <div className={_class} key={i}>
-                    <img src={feature.image}  />
+                    <img src={feature.image} alt={feature.alt}  />
                 </div>
             )
         })
 
-        if (!this.props.rtl || this.props.rtl == "false") {
+        if (!this.props.rtl || this.props.rtl === "false") {
             return (
                 <div className="key-features">
                     <div className="key-features-left">

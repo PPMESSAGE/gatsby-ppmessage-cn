@@ -24,7 +24,7 @@ class EnterYourMobile extends React.Component {
 
 
     resize() {
-        if (this.state.size == "small") {
+        if (this.state.size === "small") {
             return;
         }
 
@@ -33,10 +33,10 @@ class EnterYourMobile extends React.Component {
         }
 
         if (window.innerWidth > 960) {
-            if (this.state.size == "large") {
+            if (this.state.size === "large") {
                 this.setState({size:"middle"});
             }
-            if (this.state.size == "small") {
+            if (this.state.size === "small") {
                 this.setState({size:"small"});
             }
         }
@@ -55,7 +55,7 @@ class EnterYourMobile extends React.Component {
         
         let layoutClass = "input-row"
         
-        if (this.state.size == "large") {
+        if (this.state.size === "large") {
             layoutClass = "input-column"
         }
 

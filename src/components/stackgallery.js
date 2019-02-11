@@ -33,7 +33,7 @@ class StackGallery extends React.Component {
         let image_list = this.props.images.map((image, i) => {
             let _image_class = "";
 
-            if (this.state.highlight_item == i) {
+            if (this.state.highlight_item === i) {
                 _image_class = "stack-gallery-image-1";
             } else {
                 _image_class = "stack-gallery-image-" + (i + 1)
@@ -41,6 +41,7 @@ class StackGallery extends React.Component {
             
             return (<img className={_image_class}
                          src={image.src}
+                         alt={image.alt}
                          key={image.image_id}
                          onClick={this.clickImage.bind(this, image)} />);
         });
@@ -48,7 +49,7 @@ class StackGallery extends React.Component {
         return (
             <div className="stack-gallery">
                 <div>
-                    <img className="stack-gallery-image" src={this.props.images[0].src} />
+                    <img className="stack-gallery-image" src={this.props.images[0].src} alt={this.props.images[0].alt} />
                     {image_list}
                 </div>
             </div>

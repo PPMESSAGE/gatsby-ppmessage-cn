@@ -7,9 +7,9 @@ import "./footer.css"
 
 class Footer extends React.Component {
 
-    constructor(props) {
-        super(props);
-    }
+    /* constructor(props) {
+     *     super(props);
+     * } */
 
     componentDidMount () {
         
@@ -261,16 +261,16 @@ class Footer extends React.Component {
                     "textAlign": "center",
                     "fontSize": "13px",
                     "color": "#888",
-                    "margin-bottom": "5px"
+                    "marginBottom": "5px"
                 }}>
-                    <span style={{"margin-right": "20px"}}>© 北京优锐科技有限公司</span>
+                    <span style={{"marginRight": "20px"}}>© 北京优锐科技有限公司</span>
                     <span>京ICP备13021343号-2</span>
                 </p>
                 <p style={{
                     "textAlign": "center",
                     "fontSize": "13px",
                     "color": "#888",
-                    "margin-bottom": "5px"
+                    "marginBottom": "5px"
                 }}>
                 PPMESSAGE为您提供安全、稳定、易用的
                 <a href="https://ppmessage.cn/product" title="在线客服系统">在线客服系统</a>，
