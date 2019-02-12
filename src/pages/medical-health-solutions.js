@@ -96,7 +96,7 @@ export default () =>{
                 <title>医疗健康客服解决方案-PPMESSAGE-新一代全渠道智能在线客服系统_网站客服系统 </title>
                 <meta name="keywords" content="医院客服，医院在线客服，美容客服，美容在线客服，医院在线客服系统，美容在线客服系统" />
                 <meta name="description" content="PPMESSAGE新一代全渠道在线客服系统为医疗健康行业提供从商机获取、客户互动和客户支持的客户全生命周期解决方案，大幅降低获客成本和提升客户满意度。" />                     
-               
+                
             </Helmet>
             <div className={styles.heiti}>
                 <div style={{height:'72px'}}></div>
@@ -132,6 +132,7 @@ export default () =>{
                         <div className={styles.g__c6}>
                             <div>
                                 <img src={require("../images/118.png")}
+                                     alt="PPMESSAGE新一代全渠道在线客服系统为医疗健康行业提供从商机获取、客户互动和客户支持的客户全生命周期解决方案，大幅降低获客成本和提升客户满意度"
                                 />
                             </div>
                         </div>

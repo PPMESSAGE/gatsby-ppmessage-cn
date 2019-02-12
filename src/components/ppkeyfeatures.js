@@ -2,12 +2,12 @@ import React from 'react'
 
 import Slider from 'react-slick'
 
-import "./keyfeatures_q.css"
+import "./ppkeyfeatures.css"
 
 // {abstract: {icon:, title:, desc:}}
 // children is modal detail
 
-class KeyFeatures_q extends React.Component {
+class PPKeyFeatures extends React.Component {
 
     constructor(props) {
         super(props);
@@ -140,4 +140,4 @@ class KeyFeatures_q extends React.Component {
     }
 }
 
-export default KeyFeatures_q
+export default PPKeyFeatures;

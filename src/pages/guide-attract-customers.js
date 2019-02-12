@@ -33,10 +33,10 @@ export default () =>{
                     <div className={styles.bg__light}>
                         
                         <div className={styles.u__hidden}>
-                            <img  src={require("../images/146.png")} />
+                            <img  src={require("../images/146.png")} alt="将更多注册用户转变为活跃的付费客户" />
                         </div>
                         <div className={styles.u__hidden1}>
-                            <img  src={require("../images/147.png")} />
+                            <img  src={require("../images/147.png")} alt="将更多注册用户转变为活跃的付费客户"/>
                         </div>
                         <div className={styles.u__zfix}>
 
@@ -62,13 +62,11 @@ export default () =>{
                 <section className={styles.section_transform1}>
                     <div className={styles.container}>
                         <div className={styles.g__row}>
-
                             <div>
-
                                 <div className={styles.chuangjian_tranform1}>
                                     <a href="#xifen" className={styles.lianjie}>
                                         <div className={styles.product__breakdown__image}>
-                                            <img src={require("../images/148.png")} width="91px" /></div>
+                                            <img src={require("../images/148.png")} width="91px" alt="根据行为和时间细分客户" /></div>
                                             <div style={{height:"10px"}}></div>
                                             <div className={styles.t__h3}>
                                                 <font>细分</font>
@@ -89,7 +87,7 @@ export default () =>{
                                 <div className={styles.chuangjian_tranform2}>
                                     <a href="#yindao" className={styles.lianjie}>
                                         <div className={styles.product__breakdown__image}>
-                                            <img src={require("../images/149.png")} width="91px" /></div>
+                                            <img src={require("../images/149.png")} width="91px" alt="发送一系列定制化自动消息引导客户使用产品" /></div>
                                             <div style={{height:"10px"}}></div>
                                             <div className={styles.t__h3}>
                                                 <font>培育</font>
@@ -112,7 +110,7 @@ export default () =>{
                                 <div className={styles.chuangjian_tranform3}>
                                     <a href="#fabu" className={styles.lianjie}>
                                         <div className={styles.product__breakdown__image}>
-                                            <img src={require("../images/150.png")} width="91px" /></div>
+                                            <img src={require("../images/150.png")} width="91px" alt="发布产品新特性，提高产品使用率，增加营业额" /></div>
                                             <div style={{height:"10px"}}></div>
                                             <div className={styles.t__h3}>
                                                 <font>发布</font>
@@ -130,21 +128,19 @@ export default () =>{
                                             </div>                
                                     </a>
                                 </div>
-
-                                <a name="xifen"></a>
-
+                                
                                 <div className={styles.chuangjian_tranform4}>
                                     <a href="#pinggu" className={styles.lianjie}>
                                         <div className={styles.product__breakdown__image}>
-                                            <img src={require("../images/151.png")} width="91px" /></div>
+                                            <img src={require("../images/151.png")} width="91px" alt="评估自动消息营销效果，提升营销质量" /></div>
                                             <div style={{height:"10px"}}></div>
                                             <div className={styles.t__h3}>
                                                 <font>评估</font>
                                             </div>
                                             <div className={styles.t__small_s}>
                                                 <font>
-                                                    
-                                                    评估自动消息营销效果，提升营销质量</font>
+                                                    评估自动消息营销效果，提升营销质量
+                                                </font>
                                             </div>
                                             <div className={styles.product__learn_more} style={{margin:"80px"}}>
                                                 <span>
@@ -216,7 +212,7 @@ export default () =>{
                                     <div className={styles.u__inline}>
                                         <div className={styles.gallery}>
                                             <div className={styles.gallery__img}>
-                                                <img width="682" src={require("../images/85.png")} />
+                                                <img width="682" src={require("../images/85.png")} alt="打造全景用户画像，精确细分客群，发送个性化消息" />
                                             </div>                    
                                         </div>
                                     </div>
@@ -233,7 +229,7 @@ export default () =>{
                                     <div className={styles.g__c6}>
                                         <div className={styles.f__left}>
                                             <div className={styles.product__feature_icon}>
-                                                <img src={require("../icon/7.2.1.png")} />
+                                                <img src={require("../icon/7.2.1.png")} alt="根据客户属性、行为和CRM里的数据定位和细分客户" />
                                             </div>
                                             
                                             <div className={styles.sp__left_4}>
@@ -253,7 +249,7 @@ export default () =>{
                                     <div className={styles.g__c6}>
                                         <div className={styles.f__left}>
                                             <div className={styles.product__feature_icon}>
-                                                <img src={require("../icon/7.2.2.png")} />
+                                                <img src={require("../icon/7.2.2.png")} alt="通过应用内消息、邮件、电话、社交软件与客户随时沟通" />
                                             </div>
                                             <div style={{height:"10px"}}></div>
                                             <div className={styles.sp__left_4}>
@@ -272,7 +268,7 @@ export default () =>{
                                     <div className={styles.g__c6}>
                                         <div className={styles.f__left}>
                                             <div className={styles.product__feature_icon}>
-                                                <img src={require("../icon/7.2.3.png")} />
+                                                <img src={require("../icon/7.2.3.png")} alt="通过应用内消息、邮件、电话、社交软件与客户随时沟通" />
                                             </div>
                                             <div style={{height:"10px"}}></div>
                                             <div className={styles.sp__left_4}>
@@ -291,7 +287,7 @@ export default () =>{
                                     <div className={styles.g__c6}>
                                         <div className={styles.f__left}>
                                             <div className={styles.product__feature_icon}>
-                                                <img src={require("../icon/7.2.4.png")} />
+                                                <img src={require("../icon/7.2.4.png")} alt="保证自动消息在最适合您和您的客户的时间节点发送" />
                                             </div>
                                             <div style={{height:"10px"}}></div>
                                             <div className={styles.sp__left_4}>
@@ -313,7 +309,6 @@ export default () =>{
                     </div>           
                 </section>
 
-                <a name="yindao"></a>
                 <div style={{height:"100px"}}></div>
                 
                 <section className={styles.section}>
@@ -321,7 +316,7 @@ export default () =>{
                     <div className={styles.container_z}>
                         <div className={styles.g__row_center}>
                             <div className={styles.g__c6}>
-                                <img width="472" src={require("../images/152.png")} />
+                                <img width="472" src={require("../images/152.png")} alt="将新注册用户转换为长期付费客户" />
                             </div>
                             
                             <div className={styles.g__c5_z}>
@@ -379,8 +374,6 @@ export default () =>{
                     </div>
                 </section>
                 
-                <a name="fabu" ></a>
-
                 <section className={styles.section}>
                     
                     <div className={styles.container_z}>
@@ -439,10 +432,11 @@ export default () =>{
                             </div>
                             <div className={styles.g__row}>
                                 <div className={styles.g__c6_s}>
-                                    <img className={styles.guide_attract_customers_img1} src="https://marketing.intercomassets.com/assets/customer-engagement/v2/announce-email-57a51d326b9b3e252068907c99a05853331e6503ecbe353ce8d4f241263120ad.png" />
+                                    <img className={styles.guide_attract_customers_img1}
+                                         src={require("../images/new_features.png")} alt="新功能提示" />
                                 </div>
                                 <div className={styles.g__c6_s}>
-                                    <img className={styles.guide_attract_customers_img2} src="https://marketing.intercomassets.com/assets/customer-engagement/v2/announce-inapp-8ec39c1163b97052f8a573884b28ff352e9193a734fdfbcdc4b5e2f2323d26b0.png" />
+                                    <img className={styles.guide_attract_customers_img2} src={require("../images/upgrade_new_features.png")} alt="升级新功能" />
                                 </div>
                                 <div>
                                 </div>
@@ -450,9 +444,6 @@ export default () =>{
                         </div>                                             
                     </div>                  
                 </section>
-
-                <a name="pinggu"></a>
-                
 
                 <section className={styles.section}>
                     
@@ -463,7 +454,7 @@ export default () =>{
                                 <div className={styles.g__c12}>
                                     <div className={styles.f__left}>
                                         <div className={styles.product__feature_icon}>
-                                            <img src={require("../icon/7.2.5.png")} />
+                                            <img src={require("../icon/7.2.5.png")} alt="衡量客户收到消息后采取的行动是否达到预期" />
                                         </div>                          
                                         <div className={styles.sp__left_4}>
                                             <div className={styles.t__smallfont}>
@@ -482,7 +473,7 @@ export default () =>{
                                 <div className={styles.g__c12}>
                                     <div className={styles.f__left}>
                                         <div className={styles.product__feature_icon}>
-                                            <img src={require("../icon/7.2.6.png")} />
+                                            <img src={require("../icon/7.2.6.png")} alt="测试消息变量以提高消息性能" />
                                         </div>                          
                                         <div className={styles.sp__left_4}>
                                             <div className={styles.t__smallfont}>
@@ -503,7 +494,7 @@ export default () =>{
                                 <div className={styles.g__c12}>
                                     <div className={styles.f__left}>
                                         <div className={styles.product__feature_icon}>
-                                            <img src={require("../icon/7.2.7.png")} />
+                                            <img src={require("../icon/7.2.7.png")} alt="整套的消息的效能分析报告" />
                                         </div>                          
                                         <div className={styles.sp__left_4}>
                                             <div className={styles.t__smallfont}>
@@ -563,16 +554,17 @@ export default () =>{
                                 </h3>
                                 <div style={{height:"10px"}}></div>
                                 <div className={styles.max__550}>
-                                    <font className={styles.tigongzhichi}>检查结果并测试新想法以不断提高性能。
+                                    <font className={styles.tigongzhichi}>
+                                        检查结果并测试新想法以不断提高性能
                                     </font>
                                 </div>
                                 
                                 <div style={{height:"30px"}}></div>
                                 <div className={styles.customer_engagement_a}>
-                                    <img width="469" className={styles.device__shadow} src="https://marketing.intercomassets.com/assets/customer-engagement/v2/measure-test-a-a0f4592065182cf83249aa8e9fd75b422fccd207d1ceb27d9e1d19a983504e06.png" />
+                                    <img width="469" className={styles.device__shadow} src={require("../images/measure-test-a.png")} alt="检查结果并测试新想法以不断提高性能" />
                                 </div>
                                 <div className={styles.customer_engagement_b}>
-                                    <img width="469" className={styles.device__shadow} src="https://marketing.intercomassets.com/assets/customer-engagement/v2/measure-test-b-ccb3063c074859f382ef59c8684e9a64d65f48ee85b8a5246519bf00059b749e.png" />
+                                    <img width="469" className={styles.device__shadow} src={require("../images/measure-test-b.png")} alt="检查结果并测试新想法以不断提高性能" />
                                 </div>
                             </div>          
                         </div>

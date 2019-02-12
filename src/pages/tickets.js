@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./about-css-modules.module.css";
 import EnterYourMobile from "../components/enteryourmobile";
 import {Helmet} from "react-helmet";
-import KeyFeatures_q from "../components/keyfeatures_q"
+import PPKeyFeatures from "../components/ppkeyfeatures"
 import Layout from "./layout";
 import Free from "../components/free_trial";
 
@@ -12,6 +12,7 @@ export default () => {
         {
             title: "完整归档，强力支撑企业决策",
             desc: "工单从最开始创建到已解决关闭期间发生的所有操作、变更、转派、提醒事件全部记录，方便查询和追责，保证企业业务稳定",
+            alt: "工单从最开始创建到已解决关闭期间发生的所有操作、变更、转派、提醒事件全部记录，方便查询和追责，保证企业业务稳定",
             image: require("../images/101.png")
         },
     ]
@@ -20,6 +21,7 @@ export default () => {
         {
             title: "打通售前售后环节，跨部门无缝流转",
             desc: "工单的使用场景不再局限于客服内部，可以一键将工单高效流转到其他部门。企业内其他业务部门也能通过发起工单来进行跨部门的协作沟通",
+            alt: "工单的使用场景不再局限于客服内部，可以一键将工单高效流转到其他部门。企业内其他业务部门也能通过发起工单来进行跨部门的协作沟通",
             image: require("../images/102.png")
         },
     ]
@@ -28,6 +30,7 @@ export default () => {
         {
             title: "可定制的工单自动化流程",
             desc: "根据您的企业业务特性快速生成定制化工单流程，支持多种自定义字段和无限层级工单分类，自动将工单分配给指定的部门或员工，让合适的人做合适的事",
+            alt: "根据您的企业业务特性快速生成定制化工单流程，支持多种自定义字段和无限层级工单分类，自动将工单分配给指定的部门或员工，让合适的人做合适的事",
             image:require("../images/103.png")
         },
     ]
@@ -36,6 +39,7 @@ export default () => {
         {
             title: "多项SLA监控",
             desc: "SLA服务目标为您特定的客户群体或者特定情形的工单设定服务目标，保障重要的事情优先得到处理，提高企业运营质量和客户满意度",
+            alt: "SLA服务目标为您特定的客户群体或者特定情形的工单设定服务目标，保障重要的事情优先得到处理，提高企业运营质量和客户满意度",
             image:require("../images/104.png")
         },
     ]
@@ -44,6 +48,7 @@ export default () => {
         {
             title: "海量信息，快速检索和分类",
             desc: "用户能够按照工单标题、工单发起人、工单受理人、工单创建时间等多维度的搜索条件查询工单。支持工单无限层级分类，快速形成知识库。支持数据导出服务，以达到信息价值最大化利用",
+            alt: "用户能够按照工单标题、工单发起人、工单受理人、工单创建时间等多维度的搜索条件查询工单。支持工单无限层级分类，快速形成知识库。支持数据导出服务，以达到信息价值最大化利用",
             image:require("../images/105.png")
         },
     ]
@@ -90,8 +95,8 @@ export default () => {
 
                 <section className={styles.section}>
                     <div className={styles.container_z}>
-                        <KeyFeatures_q rtl="false" features={_features}>
-                        </KeyFeatures_q>
+                        <PPKeyFeatures rtl="false" features={_features}>
+                        </PPKeyFeatures>
                     </div>
                 </section>
 
@@ -99,27 +104,27 @@ export default () => {
 
                 <section className={styles.section}>
                     <div className={styles.container_z}>
-                        <KeyFeatures_q rtl="true" features={_features1}>
-                        </KeyFeatures_q>
+                        <PPKeyFeatures rtl="true" features={_features1}>
+                        </PPKeyFeatures>
                     </div>
                 </section>
                 <section >            
                     <div className={styles.container_z}>
-                        <KeyFeatures_q rtl="false" features={_features2}>
-                        </KeyFeatures_q>
+                        <PPKeyFeatures rtl="false" features={_features2}>
+                        </PPKeyFeatures>
                     </div>           
                 </section>
                 
                 <section>                    
                     <div className={styles.container_z} >
-                        <KeyFeatures_q rtl="true" features={_features3}>
-                        </KeyFeatures_q>
+                        <PPKeyFeatures rtl="true" features={_features3}>
+                        </PPKeyFeatures>
                     </div>           
                 </section>               
                 <section className={styles.section}>
                     <div className={styles.container_z}>
-                        <KeyFeatures_q rtl="false" features={_features4}>
-                        </KeyFeatures_q>
+                        <PPKeyFeatures rtl="false" features={_features4}>
+                        </PPKeyFeatures>
                     </div>
                 </section>
                 

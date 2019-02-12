@@ -24,7 +24,9 @@ export default () => (
                             </h2>
                             <div style={{height:"10px"}}>
                             </div>
-                            <h3 style={{color:'#888'}}><font className={styles.biaoti}>整合行业人工智能＋语音大数据＋运营商等资源，利用语音识别(ASR)、语音合成(TTS)、语义理解(NLP)等技术，通过业内独有的流程机制解决全球业务的客服痛点。可实现事件营销、意向筛选、定向销售、问卷调查、产品续费、定向催收、会员关怀、身份认证、产品推荐等多种业务功能，极大降低企业成本。</font>
+                            <h3 style={{color:'#888'}}><font className={styles.biaoti}>
+                                整合行业人工智能＋语音大数据＋运营商等资源，利用语音识别(ASR)、语音合成(TTS)、语义理解(NLP)等技术，通过业内独有的流程机制解决全球业务的客服痛点。可实现事件营销、意向筛选、定向销售、问卷调查、产品续费、定向催收、会员关怀、身份认证、产品推荐等多种业务功能，极大降低企业成本。
+                            </font>
                             </h3>
                             <div style={{height:"20px"}}>            
                             </div>
@@ -37,7 +39,7 @@ export default () => (
                     </div>
                     <div className={styles.g__c6}>
                         <div>
-                            <img src={require("../images/168.png")} />
+                            <img src={require("../images/168.png")} alt="整合行业人工智能＋语音大数据＋运营商等资源，利用语音识别(ASR)、语音合成(TTS)、语义理解(NLP)等技术，通过业内独有的流程机制解决全球业务的客服痛点。可实现事件营销、意向筛选、定向销售、问卷调查、产品续费、定向催收、会员关怀、身份认证、产品推荐等多种业务功能，极大降低企业成本" />
                         </div>
                     </div>
                 </div>  
@@ -56,7 +58,7 @@ export default () => (
                                             <div className={styles.chuangjian} style={{margin:"22px",paddingRight:"0",maxWidth:"200px"}}>
                                                 
                                                 <div className={styles.product__breakdown__image}>
-                                                    <img src={require("../images/111.png") } width="91px" /></div>
+                                                    <img src={require("../images/111.png") } width="91px" alt="实时语音转文字" /></div>
                                                     <div style={{height:"10px"}}></div>
                                                     <div className={styles.t__h3}>
                                                         <font>语音转文字</font>
@@ -75,7 +77,7 @@ export default () => (
                                             <div className={styles.chuangjian} style={{margin:"22px 50px",paddingRight:"0",maxWidth:"200px"}}>
                                                 
                                                 <div className={styles.product__breakdown__image}>
-                                                    <img src={require("../images/112.png") } width="91px" /></div>
+                                                    <img src={require("../images/112.png") } width="91px" alt="实时文字转语音" /></div>
                                                     <div style={{height:"10px"}}></div>
                                                     <div className={styles.t__h3}>
                                                         <font>语音合成</font>
@@ -93,7 +95,7 @@ export default () => (
                                             <div className={styles.chuangjian} style={{margin:"22px 50px",paddingRight:"0",maxWidth:"200px"}}>
                                                 
                                                 <div className={styles.product__breakdown__image}>
-                                                    <img src={require("../images/113.png") } width="91px" /></div>
+                                                    <img alt="语义处理" src={require("../images/113.png") } width="91px" /></div>
                                                     <div style={{height:"10px"}}></div>
                                                     <div className={styles.t__h3}>
                                                         <font>语义处理</font>
@@ -112,7 +114,7 @@ export default () => (
                                             <div className={styles.chuangjian} style={{margin:"22px",paddingRight:"0",maxWidth:"200px"}}>
                                                 
                                                 <div className={styles.product__breakdown__image}>
-                                                    <img src={require("../images/114.png") } width="91px" /></div>
+                                                    <img alt="数据分析" src={require("../images/114.png") } width="91px" /></div>
                                                     <div style={{height:"10px"}}></div>
                                                     <div className={styles.t__h3}>
                                                         <font>数据分析</font>
@@ -143,13 +145,13 @@ export default () => (
                                     语音合成-确保自然
                                 </font>
                             </h3>
-                            <img src={require("../images/17.png") } />
+                            <img alt="语音合成-确保自然" src={require("../images/17.png") } />
                             <div style={{height:"10px"}}></div>
                             <div className={styles.max__600}>
                                 <div className={styles.float}>
                                     <ul className={styles.m2_ul} style={{listStyleType:"none"}}>
                                         <li className={styles.m2_li}>
-                                            <img src={require("../images/111.png") } style={{marginTop:"-3px",marginBottom:"-30px",position:"absolute",left:"-2em",width:"91px"}} />
+                                            <img alt="强大语言分析技术" src={require("../images/111.png") } style={{marginTop:"-3px",marginBottom:"-30px",position:"absolute",left:"-2em",width:"91px"}} />
                                             <div style={{display:"inline-block",paddingLeft:"20px"}}>
                                                 <h6 className={styles.third_h6}>
                                                     强大语言分析技术
@@ -162,7 +164,7 @@ export default () => (
                                         
                                         <li className={styles.m2_li}>
                                             <div style={{height:"42px"}}></div>
-                                            <img src={require("../images/112.png") } style={{marginRight:"-50px",marginTop:"-3px",marginBottom:"-30px",position:"absolute",left:"-2em",width:"91px"}} />
+                                            <img alt="高效音色学习" src={require("../images/112.png") } style={{marginRight:"-50px",marginTop:"-3px",marginBottom:"-30px",position:"absolute",left:"-2em",width:"91px"}} />
                                             <div style={{display:"inline-block",paddingLeft:"20px"}}>
                                                 <h6 className={styles.third_h6}>
                                                     高效音色学习
@@ -175,7 +177,7 @@ export default () => (
 
                                         <li className={styles.m2_li}>
                                             <div style={{height:"42px"}}></div>
-                                            <img src={require("../images/113.png") } style={{marginRight:"-50px",marginTop:"-3px",marginBottom:"-30px",width:"91px",position:"absolute",left:"-2em"}} />
+                                            <img alt="高自然度韵律模型" src={require("../images/113.png") } style={{marginRight:"-50px",marginTop:"-3px",marginBottom:"-30px",width:"91px",position:"absolute",left:"-2em"}} />
                                             <div style={{display:"inline-block",paddingLeft:"20px"}}>
                                                 <h6 className={styles.third_h6}>
                                                     高自然度韵律模型
@@ -195,7 +197,7 @@ export default () => (
                                 <div className={styles.u__inline}>
                                     <div className={styles.gallery}>
                                         <div className={styles.gallery__img}>
-                                            <img width="280" src={require("../images/115.png") } width="146%" style={{marginTop:"10em"}} />
+                                            <img alt="高自然度韵律模型" src={require("../images/115.png") } style={{marginTop:"10em", width: "280px"}} />
                                         </div>                    
                                     </div>
                                 </div>
@@ -214,7 +216,7 @@ export default () => (
                                 <div className={styles.u__inline}>
                                     <div className={styles.gallery}>
                                         <div className={styles.gallery__img}>
-                                            <img width="280" src={require("../images/116.png") } width="146%" style={{marginTop:"10em"}} />
+                                            <img alt="语音识别-确保准确" src={require("../images/116.png") } style={{marginTop:"10em", width: "280px"}} />
                                         </div>                    
                                     </div>
                                 </div>
@@ -228,13 +230,13 @@ export default () => (
                                     语音识别-确保准确
                                 </font>
                             </h3>
-                            <img src={require("../images/17.png") } />
+                            <img src={require("../images/17.png") } alt="抗噪音和远场技术" />
                             <div style={{height:"10px"}}></div>
                             <div className={styles.max__600}>
                                 <div className={styles.float}>
                                     <ul className={styles.m2_ul} style={{listStyleType:"none"}}>
                                         <li className={styles.m2_li}>
-                                            <img src={require("../images/111.png") } style={{marginRight:"-50px",marginTop:"-3px",marginBottom:"-30px",position:"absolute",right:"37em",width:"91px"}} />
+                                            <img alt="抗噪音和远场技术" src={require("../images/111.png") } style={{marginRight:"-50px",marginTop:"-3px",marginBottom:"-30px",position:"absolute",right:"37em",width:"91px"}} />
                                             <div style={{display:"inline-block",paddingLeft:"20px"}}>
                                                 <h6 className={styles.third_h6}>
                                                     抗噪音和远场技术
@@ -247,7 +249,7 @@ export default () => (
                                         
                                         <li className={styles.m2_li}>
                                             <div style={{height:"42px"}}></div>
-                                            <img src={require("../images/112.png") } style={{marginRight:"-50px",marginTop:"-3px",marginBottom:"-30px",position:"absolute",right:"37em",width:"91px"}} />
+                                            <img alt="话语/语音识别和同步处理技术" src={require("../images/112.png") } style={{marginRight:"-50px",marginTop:"-3px",marginBottom:"-30px",position:"absolute",right:"37em",width:"91px"}} />
                                             <div style={{display:"inline-block",paddingLeft:"20px"}}>
                                                 <h6 className={styles.third_h6}>
                                                     话语/语音识别和同步处理技术
@@ -260,7 +262,7 @@ export default () => (
 
                                         <li className={styles.m2_li}>
                                             <div style={{height:"42px"}}></div>
-                                            <img src={require("../images/113.png") } style={{marginRight:"-50px",marginTop:"-3px",marginBottom:"-30px",position:"absolute",right:"37em",width:"91px"}} />
+                                            <img alt="高识别率和识别效率" src={require("../images/113.png") } style={{marginRight:"-50px",marginTop:"-3px",marginBottom:"-30px",position:"absolute",right:"37em",width:"91px"}} />
                                             <div style={{display:"inline-block",paddingLeft:"20px"}}>
                                                 <h6 className={styles.third_h6}>
                                                     高识别率和识别效率
@@ -288,7 +290,7 @@ export default () => (
                             <ul className={styles.clearfix}>
                                 <li className={styles.wow}>
                                     <p className={styles.pic}>
-                                        <img className={styles.section_img} src={require("../images/51.jpg")}  />
+                                        <img alt="事件营销" className={styles.section_img} src={require("../images/51.jpg")}  />
                                     </p>
                                     <p className={styles.txt}>
                                         事件营销
@@ -297,7 +299,7 @@ export default () => (
 
                                 <li className={styles.wow}>
                                     <p className={styles.pic}>
-                                        <img className={styles.section_img} src={require("../images/52.jpg")}  />
+                                        <img alt="意向筛选" className={styles.section_img} src={require("../images/52.jpg")}  />
                                     </p>
                                     <p className={styles.txt}>
                                         意向筛选
@@ -306,7 +308,7 @@ export default () => (
 
                                 <li className={styles.wow}>
                                     <p className={styles.pic}>
-                                        <img className={styles.section_img} src={require("../images/53.jpg")}  />
+                                        <img alt="定向销售" className={styles.section_img} src={require("../images/53.jpg")}  />
                                     </p>
                                     <p className={styles.txt}>
                                         定向销售
@@ -315,7 +317,7 @@ export default () => (
 
                                 <li className={styles.wow}>
                                     <p className={styles.pic}>
-                                        <img className={styles.section_img} src={require("../images/54.jpg")}  />
+                                        <img alt="问卷调查" className={styles.section_img} src={require("../images/54.jpg")}  />
                                     </p>
                                     <p className={styles.txt}>
                                         问卷调查  
@@ -323,7 +325,7 @@ export default () => (
                                 </li>
                                 <li className={styles.wow}>
                                     <p className={styles.pic}>
-                                        <img className={styles.section_img} src={require("../images/55.jpg")}  />
+                                        <img alt="产品续费" className={styles.section_img} src={require("../images/55.jpg")}  />
                                     </p>
                                     <p className={styles.txt}>
                                         产品续费  
@@ -331,7 +333,7 @@ export default () => (
                                 </li>
                                 <li className={styles.wow}>
                                     <p className={styles.pic}>
-                                        <img className={styles.section_img} src={require("../images/56.jpg")}  />
+                                        <img alt="定向催收" className={styles.section_img} src={require("../images/56.jpg")}  />
                                     </p>
                                     <p className={styles.txt}>
                                         定向催收  
@@ -339,7 +341,7 @@ export default () => (
                                 </li>
                                 <li className={styles.wow}>
                                     <p className={styles.pic}>
-                                        <img className={styles.section_img} src={require("../images/57.jpg")}  />
+                                        <img alt="会员关怀" className={styles.section_img} src={require("../images/57.jpg")}  />
                                     </p>
                                     <p className={styles.txt}>
                                         会员关怀  
@@ -347,7 +349,7 @@ export default () => (
                                 </li>
                                 <li className={styles.wow}>
                                     <p className={styles.pic}>
-                                        <img className={styles.section_img} src={require("../images/58.jpg")}  />
+                                        <img alt="身份认证" className={styles.section_img} src={require("../images/58.jpg")}  />
                                     </p>
                                     <p className={styles.txt}>
                                         身份认证  
@@ -355,7 +357,7 @@ export default () => (
                                 </li>
                                 <li className={styles.wow}>
                                     <p className={styles.pic}>
-                                        <img className={styles.section_img} src={require("../images/59.jpg")}  />
+                                        <img alt="产品推荐" className={styles.section_img} src={require("../images/59.jpg")}  />
                                     </p>
                                     <p className={styles.txt}>
                                         产品推荐  
@@ -363,7 +365,7 @@ export default () => (
                                 </li>
                                 <li className={styles.wow}>
                                     <p className={styles.pic}>
-                                        <img className={styles.section_img} src={require("../images/60.jpg")}  />
+                                        <img alt="会议邀约" className={styles.section_img} src={require("../images/60.jpg")}  />
                                     </p>
                                     <p className={styles.txt}>
                                         会议邀约  

@@ -31,10 +31,10 @@ export default () => (
                 <div className={styles.bg__light}>
                     
                     <div className={styles.u__hidden}>
-                        <img  src={require("../images/140.png")} alt="" />
+                        <img  src={require("../images/140.png")} alt="向客户展示您真正关注他们的体验，改变传统的客户支持方法" />
                     </div>
                     <div className={styles.u__hidden1}>
-                        <img  src={require("../images/141.png")} alt="" />
+                        <img  src={require("../images/141.png")} alt="向客户展示您真正关注他们的体验，改变传统的客户支持方法" />
                     </div>
 
                     <div className={styles.u__zfix}>
@@ -63,7 +63,6 @@ export default () => (
                     <div className={styles.g__row}>
 
                         <div>
-                            <a name="hezuo"></a>
 
                             <div className={styles.chuangjian_tranform1}>
                                 <a href="#hezuo" className={styles.lianjie}>
@@ -307,7 +306,7 @@ export default () => (
                 </div>
                 
             </section>
-            <a name="zidonghua"></a><a name="zidonghua"></a>
+
             <div className={styles.index_200px_conversion_businese}></div>
             <section className={styles.section}>        
                 
@@ -358,7 +357,6 @@ export default () => (
                             <div className={styles.max__600}>
                                 <font className={styles.tigongzhichi}>
                                     跨地域、跨时区、多语言，支持语音通话跨地域转接，保障全球客服24小时在线
-
                                 </font>
                             </div>
                         </div>
@@ -368,8 +366,8 @@ export default () => (
                                 <div className={styles.u__inline}>
                                     <div className={styles.gallery}>
                                         <div className={styles.gallery__img}>
-                                            <img style={{width:"500px"}} src={require("../images/138.png")} alt="" />
-                                            <a name="quanqudao"></a>
+                                            <img style={{width:"500px"}} src={require("../images/138.png")} alt="跨地域、跨时区、多语言，支持语音通话跨地域转接，保障全球客服24小时在线" />
+                                            
                                         </div>                    
                                     </div>
                                 </div>
@@ -399,10 +397,7 @@ export default () => (
                                 </font>
                             </div>                                    
                         </div>          
-                    </div>
-
-                    <a name="guimo"></a>
-                    
+                    </div>                    
                 </div> 
                 
             </section>
@@ -510,7 +505,7 @@ export default () => (
                                         </div>
                                     </div>
                                 </div>
-                                <a name="tigao"></a>
+
                                 <div className={styles.g__c6}>
                                     <div className={styles.f__left}>
                                         <div className={styles.product__feature_icon}>

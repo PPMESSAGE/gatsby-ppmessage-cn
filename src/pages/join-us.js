@@ -25,11 +25,13 @@ export default () => (
                     <a href="/about-us" className={styles.a}>关于我们
                     </a>
                 </li>
-                <li className={styles.li}><a href="#lianxiwomen" className={styles.a}>
-                    联系我们</a>
+                <li className={styles.li}>
+                    <a href="#lianxiwomen" className={styles.a}>
+                        联系我们
+                    </a>
                 </li>
                 <li className={styles.active}>
-                    <a href="#" className={styles.a}>加入我们</a>
+                    <a href="/join-us" className={styles.a}>加入我们</a>
                 </li>
                 <li className={styles.li}><a href="/partners" className={styles.a}>合作伙伴</a>
                 </li>

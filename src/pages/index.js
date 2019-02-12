@@ -13,24 +13,28 @@ export default () =>{
         {
             title: "全渠道在线客服",
             desc: "网页、电话、邮件、社交媒体的各种客户对话消息集中接入",
+            alt: "网页、电话、邮件、社交媒体的各种客户对话消息集中接入",
             image: require("../images/94.jpeg") 
         },
+
         {
             title: "单一工作台界面",
             desc: "单一工作台界面统一处理，各种渠道交互无缝切换",
+            alt: "单一工作台界面统一处理，各种渠道交互无缝切换",
             image: require("../images/75.png")
         },
-
-        
 
         {
             title: "可定制化工单系统",
             desc: "打通售前售后环节，工单分配、转派、变更、提醒、业务流和SLA随心定制",
+            alt: "打通售前售后环节，工单分配、转派、变更、提醒、业务流和SLA随心定制",
             image: require("../images/86.png")
         },
+        
         {
             title: "强大统计报表，完善数据分析",
             desc: "跨渠道通用报表机制，支持销售转化率，客户满意度、客户工作量、会话来源等多种报表类型，各项业务数据完美呈现",
+            alt: "跨渠道通用报表机制，支持销售转化率，客户满意度、客户工作量、会话来源等多种报表类型，各项业务数据完美呈现",
             image: require("../images/50.png")
         },      
     ]
@@ -39,23 +43,27 @@ export default () =>{
         {
             title: "客户细分",
             desc: "基于客户属性和行为实施细分目标客户",
+            alt: "基于客户属性和行为实施细分目标客户",
             image: require("../images/92.png")
         },
         {
             title: "外发消息",
             desc: "自动或手动向目标客户发送应用内消息、邮件、短信、微信、语音，或自动提醒业务人员通过电话或视频与客户联系",
+            alt: "自动或手动向目标客户发送应用内消息、邮件、短信、微信、语音，或自动提醒业务人员通过电话或视频与客户联系",
             image: require("../images/外发消息.png")
         },
 
         {
             title: "测试和优化",
             desc: "A/B测试发送的消息内容，获取最佳发送效果，提高客户转化率",
+            alt: "A/B测试发送的消息内容，获取最佳发送效果，提高客户转化率",
             image: require("../images/测试和优化.png")
         },
 
         {
-            title: "APP 商店",
-            desc: "提供与Salesforce，Google Meeting等第三方业务整合，扩展您的营销工具箱",
+            title: "应用集成",
+            desc: "提供与第三方业务整合，扩展您的营销工具",
+            alt: "提供与第三方业务整合，扩展您的营销工具",
             image: require("../images/74.jpeg")
         },        
     ]
@@ -64,52 +72,59 @@ export default () =>{
         {
             title: "销售机器人",
             desc: "24/7随时获取、评估网站上的商机，无需代码定制，加快销售周期，提供超越人类极限的业务增长机会",
+            alt: "24/7随时获取、评估网站上的商机，无需代码定制，加快销售周期，提供超越人类极限的业务增长机会",
             image:require("../images/80.jpeg")
         },
         {
             title: "语音机器人",
             desc: "基于智能语音交互的人机融合平台，替代人工销售，延伸售后服务",
+            alt: "基于智能语音交互的人机融合平台，替代人工销售，延伸售后服务",
             image: require("../images/161.png")
         },
 
         {
             title: "客服机器人",
             desc: "基于NLP， 365天不间断服务，高效率解决重复性问题，大幅降低人工客服成本",
+            alt: "基于NLP， 365天不间断服务，高效率解决重复性问题，大幅降低人工客服成本",
             image: require("../images/79.png")
         },
 
         {
             title: "可定制化",
             desc: "快速设计生成满足您业务需要的机器人组群",
+            alt: "快速设计生成满足您业务需要的机器人组群",
             image: require("../images/82.png")
         },
     ]
 
     let _features3 = [
         {
-            title: "PPMessage流程生成器",
+            title: "流程生成器",
             desc: "业内独有的拖拽式流程设计器，为每一个客户快速生成适应其业务特点的消息流程",
+            alt: "业内独有的拖拽式流程设计器，为每一个客户快速生成适应其业务特点的消息流程",
             image: require("../images/93.png")
         },
-        {
-            title: "丰富的APP商店",
-            desc: "根据业务需要随时增减功能模块，定制客户交互界面",
-            image:require("../images/74.jpeg")
-        },
+
+        /* {
+         *     title: "丰富的应用商店",
+         *     desc: "根据业务需要随时增减功能模块，定制客户交互界面",
+         *     alt: "根据业务需要随时增减功能模块，定制客户交互界面",
+         *     image:require("../images/74.jpeg")
+         * }, */
 
         {
             title: "自定义字段和视图",
             desc: "根据业务特点随时自定义可检索可排序的数据字段及强大的自定义视图功能，迅速满足客户最低层面的定制化需求",
+            alt: "根据业务特点随时自定义可检索可排序的数据字段及强大的自定义视图功能，迅速满足客户最低层面的定制化需求",
             image: require("../images/83.png")
         },
 
         {
-            title: "功能强大的API接口",
-            desc: "提供灵活的API接口和Webhooks，快速满足客户定制需求",
+            title: "功能强大的开发接口",
+            desc: "提供灵活的开发接口，快速满足客户定制需求",
+            alt: "提供灵活的开发接口，快速满足客户定制需求",
             image: require("../images/82.png")
         },
-        
-        
 
     ]
     return(
@@ -128,11 +143,13 @@ export default () =>{
                         <div className={styles.g__c6_index}>
                             <div style={{height:"100px"}}></div>
                             <div className={styles.sp__5}>
-                                <h1 style={{fontSize:"36px",fontWeight:"150"}}>获取，转化和留存客户的新一代智能在线客服系统
+                                <h1 style={{fontSize:"36px",fontWeight:"150"}}>
+                                    获取，转化和留存客户的新一代智能在线客服系统
                                 </h1>
                                 <div style={{height:"10px"}}>
                                 </div>
-                                <h2 style={{color:'#888',fontWeight:"100"}}>跨数字化及语音渠道，将网页、电话、邮件、社交媒体和应用内对话转化为标准消息，并通过消息进行销售、营销和客户支持，打造卓越客户历程，促进企业成长
+                                <h2 style={{color:'#888',fontWeight:"100"}}>
+                                    跨数字化及语音渠道，将网页、电话、邮件、社交媒体和应用内对话转化为标准消息，并通过消息进行销售、营销和客户支持，打造卓越客户历程，促进企业成长
                                 </h2>
                                 <div style={{height:"20px"}}>            
                                 </div>
@@ -144,7 +161,7 @@ export default () =>{
                         </div>
                         <div className={styles.g__c6}>
                             <div>
-                                <img src={require("../images/index.jpeg")} />
+                                <img src={require("../images/index.jpeg")} alt="跨数字化及语音渠道，将网页、电话、邮件、社交媒体和应用内对话转化为标准消息，并通过消息进行销售、营销和客户支持，打造卓越客户历程，促进企业成长" />
                             </div>
                         </div>
                     </div>  
@@ -203,12 +220,14 @@ export default () =>{
                                         <div className={styles.main1}>                                                   <div className={styles.label}>
                                             <h2>支持并提高客户满意度
                                             </h2>
-                                            <font className={styles.ziti}>云呼叫中心，客服机器人及与业务无缝集成的工单系统，在有效降低成本的同时更快的解决客户问题
+                                            <font className={styles.ziti}>
+                                                云呼叫中心，客服机器人及与业务无缝集成的工单系统，在有效降低成本的同时更快的解决客户问题
                                             </font>
                                             <div style={{height:"15px"}}></div>
                                             <div><font>云呼叫中心·工单·客服机器人</font></div>
                                             <div style={{height:"10px"}}></div>
-                                            <a href="/conversion-businese" className={styles.ziti1}>了解更多
+                                            <a href="/conversion-business" className={styles.ziti1}>
+                                                了解更多
                                             </a>  
                                         </div>                                                                       </div>
                                     </div>
@@ -282,13 +301,13 @@ export default () =>{
                     <div style={{height:"10em"}}></div>
                     <div className={styles.container__narrower}>
                         <h2 className={styles.f__center}>
-                            <font>独有的拖拽式流程设计器和APP Store，实现智能客服业务快速定制</font>
+                            <font>独有的拖拽式流程设计器，实现智能客服业务快速定制</font>
                         </h2>
                         <div style={{height:"30px"}}></div>
                         <div className={styles.container__narrower}>
                             <h3 className={styles.f__center1}>
                                 <font>
-                                    PPMessage流程生成器、工具丰富的APP商店、功能强大的API接口、自定义字段和视图，可按客户要求快速生成符合客户业务特点的定制化智能客服解决方案
+                                    流程生成器、工具丰富的应用商店、功能强大的开发接口、自定义字段和视图，可按客户要求快速生成符合客户业务特点的定制化智能客服解决方案
                                 </font>
                             </h3>
                         </div>

@@ -107,7 +107,7 @@ class NavHeader extends React.Component {
                                                 </div>
                                             </a>
                                             <div style={{height:"10px"}}></div>
-                                            <a href="/intlligent-speech-robot" className={styles.f__no_und_aways}>
+                                            <a href="/intelligent-speech-robot" className={styles.f__no_und_aways}>
                                                 <div className={styles.f__medium}>
                                                     <font style={{color:"black",fontSize:"16px"}}>
                                                         智能语音机器人
@@ -248,7 +248,7 @@ class NavHeader extends React.Component {
                                                 </div>
                                             </a>
                                             <div style={{height:"10px"}}></div>                                    
-                                            <a href="/conversion-businese" className={styles.f__no_und_aways}>
+                                            <a href="/conversion-business" className={styles.f__no_und_aways}>
                                                 <div className={styles.f__medium}>
                                                     <font style={{color:"black",fontSize:"16px"}}>
                                                         支持客户并提高客户满意度
@@ -378,7 +378,7 @@ class NavHeader extends React.Component {
                                                 </div>
                                             </a>
 
-                                            <a href="/intlligent-speech-robot" className={styles.f__no_und_aways}>
+                                            <a href="/intelligent-speech-robot" className={styles.f__no_und_aways}>
                                                 <div className={styles.holiday}>
                                                     <div className={styles.t__h4}>
                                                         <font>智能语音机器人</font>
@@ -433,7 +433,7 @@ class NavHeader extends React.Component {
 
                                             <div style={{height:"10px"}}></div>
 
-                                            <a href="/conversion-businese" style={{textDecoration:"none"}}>
+                                            <a href="/conversion-business" style={{textDecoration:"none"}}>
                                                 <div className={styles.holiday}>
                                                     <div className={styles.t__h4}><font style={{color:"black"}}>客户支持并提高客户满意度</font></div>
                                                     <div >通过集成多个渠道，自助服务和自动化的现代服务台提高客户满意度并提高效率</div>

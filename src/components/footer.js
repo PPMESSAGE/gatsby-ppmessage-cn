@@ -91,7 +91,7 @@ class Footer extends React.Component {
                                     </div>
                                     
                                     <div className={styles.footer__link}>
-                                        <a href="/intlligent-speech-robot" className={styles.lianjie}>
+                                        <a href="/intelligent-speech-robot" className={styles.lianjie}>
                                             <font>智能语音机器人</font>
                                         </a>
                                     </div>
@@ -121,7 +121,7 @@ class Footer extends React.Component {
                                     </div>
                                     
                                     <div className={styles.footer__link}>
-                                        <a href="/conversion-businese" className={styles.lianjie}>
+                                        <a href="/conversion-business" className={styles.lianjie}>
                                             <font>客户支持并提高满意度</font>
                                         </a>
                                     </div>

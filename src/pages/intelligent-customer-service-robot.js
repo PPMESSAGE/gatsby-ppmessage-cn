@@ -26,7 +26,10 @@ export default () => (
                             </h2>
                             <div style={{height:"10px"}}>
                             </div>
-                            <h3 style={{color:'#888'}}><font className={styles.biaoti}>提供24/7即时解决方案，通过自动解决常见问题提高客户满意度，让您的客服团队可以专注于需要人工处理的复杂对话。</font>
+                            <h3 style={{color:'#888'}}>
+                                <font className={styles.biaoti}>
+                                    提供24/7即时解决方案，通过自动解决常见问题提高客户满意度，让您的客服团队可以专注于需要人工处理的复杂对话
+                                </font>
                             </h3>
                             <div style={{height:"20px"}}>            
                             </div>
@@ -39,7 +42,7 @@ export default () => (
                     </div>
                     <div className={styles.g__c6}>
                         <div>
-                            <img src={require("../images/167.png")} />
+                            <img src={require("../images/167.png")} alt="提供24/7即时解决方案，通过自动解决常见问题提高客户满意度，让您的客服团队可以专注于需要人工处理的复杂对话" />
                         </div>
                     </div>
                 </div>  

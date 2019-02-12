@@ -50,7 +50,7 @@
     text-align: left;
     vertical-align: middle;
     display: inline-block;
-    overflow: auto;
+    overflow: hide;
     -webkit-overflow-scrolling: touch;
     padding: 35px 30px 0;
     border-bottom: 30px solid transparent;

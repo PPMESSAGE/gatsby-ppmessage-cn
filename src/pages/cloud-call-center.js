@@ -3,7 +3,7 @@ import styles from "./about-css-modules.module.css";
 import EnterYourMobile from "../components/enteryourmobile";
 import Helmet from "react-helmet";
 import Layout from "./layout";
-import KeyFeatures_q from "../components/keyfeatures_q";
+import PPKeyFeatures from "../components/ppkeyfeatures";
 import Free from "../components/free_trial";
 
 export default () =>{
@@ -191,7 +191,6 @@ return(
                                     </div>                
                                 </a>
                             </div>
-                            <a name="quanqiuhua"></a>
                         </div>
                     </div>
                 </div>
@@ -200,40 +199,36 @@ return(
 
             <section >
                 <div className={styles.container_z}>
-                    <KeyFeatures_q rtl="true" features={_features}>
-                    </KeyFeatures_q>
+                    <PPKeyFeatures rtl="true" features={_features}>
+                    </PPKeyFeatures>
                 </div>
-                <a name="quanqudao"></a>
             </section>
 
             <section >
                 <div className={styles.container_z}>
-                    <KeyFeatures_q rtl="false" features={_features1}>
-                    </KeyFeatures_q>
+                    <PPKeyFeatures rtl="false" features={_features1}>
+                    </PPKeyFeatures>
                 </div>
-                <a name="kedingzhi"></a>
             </section>
             <section >
                 <div className={styles.container_z} >
-                    <KeyFeatures_q rtl="true" features={_features2}>
-                    </KeyFeatures_q>
+                    <PPKeyFeatures rtl="true" features={_features2}>
+                    </PPKeyFeatures>
                 </div>
-                <a name="darongliang"></a>
             </section>
             
 
             <section >
                 <div className={styles.container_z}>
-                    <KeyFeatures_q rtl="false" features={_features3}>
-                    </KeyFeatures_q>
+                    <PPKeyFeatures rtl="false" features={_features3}>
+                    </PPKeyFeatures>
                 </div>
             </section>
 
             <section>
-                <a name="rengongzhineng"></a>
                 <div className={styles.container_z} style={{maxWidth:"1300px"}}>
-                    <KeyFeatures_q rtl="true" features={_features4}>
-                    </KeyFeatures_q>                        
+                    <PPKeyFeatures rtl="true" features={_features4}>
+                    </PPKeyFeatures>                        
                 </div>                  
             </section>
         </div>

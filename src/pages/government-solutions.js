@@ -11,48 +11,57 @@ export default () =>{
     let _features = [
         {
             title: "群体细分",
+            alt: "基于市民属性和行为实时细分市民组群",
             desc: "基于市民属性和行为实时细分市民组群",
             image: require("../images/92.png")
         },
         {
             title: "外发消息",
+            alt: "自动或手动向市民发送应用内消息、邮件、短信、微信、语音，或自动提醒业务人员通过电话或视频与客户联系",
             desc: "自动或手动向市民发送应用内消息、邮件、短信、微信、语音，或自动提醒业务人员通过电话或视频与客户联系",
             image: require("../images/88.png")
         },
 
-        {
-            title: "测试和优化",
-            desc: "A/B测试发送的消息内容，获取最佳发送效果，提高客户转化率",
-            image: require("../images/测试和优化.png")
-        },
+        /* {
+         *     title: "测试和优化",
+         *     alt: "A/B测试发送的消息内容，获取最佳发送效果，提高客户转化率",
+         *     desc: "A/B测试发送的消息内容，获取最佳发送效果，提高客户转化率",
+         *     image: require("../images/测试和优化.png")
+         * }, */
 
     ]
 
     let _features2 = [
         {
             title: "全渠道",
+            alt: "网页、电话、邮件、社交媒体的各种客户对话消息集中接入",
             desc: "网页、电话、邮件、社交媒体的各种客户对话消息集中接入",
             image: require("../images/呼叫中心的图.jpg")
         },
         {
             title: "可定制化，可私有部署",
+            alt: "根据业务需求快速定制并私有部署，保障信息安全",
             desc: "根据业务需求快速定制并私有部署，保障信息安全",
             image: require("../images/82.png")
         },
 
         {
             title: "智能客服机器人",
-            desc: "7X24小时无间断服务，回答准确率最高可达97%;强大的知识库体系；基于NLP的智能语音应答系统",
+            alt: "7X24小时无间断服务，强大的知识库体系；基于NLP的智能语音应答系统",
+            desc: "7X24小时无间断服务，强大的知识库体系；基于NLP的智能语音应答系统",
             image: require("../images/64.png")
         },
 
         {
             title: "通过工单实现自动化办公",
+            alt: "根据SLA和业务规则的工单自动流转和进度自动提醒、督办和催办，整体提升服务质量",
             desc: "根据SLA和业务规则的工单自动流转和进度自动提醒、督办和催办，整体提升服务质量",
             image:require("../images/86.png")
         },
+        
         {
             title: "在线质检",
+            alt: "分设质检标准和禁忌项，分类考核客服，提高市民满意度",
             desc: "分设质检标准和禁忌项，分类考核客服，提高市民满意度",
             image:require("../images/90.png")
         },
@@ -99,7 +108,7 @@ export default () =>{
                         </div>
                         <div className={styles.g__c6}>
                             <div>
-                                <img src={require("../images/121.png")} />
+                                <img src={require("../images/121.png")} alt="PPMESSAGE新一代智能全渠道在线客服系统可定制可独立部署，保护政务机关数据安全，为市民提供方便快捷的服务" />
                             </div>
                         </div>
                     </div>  

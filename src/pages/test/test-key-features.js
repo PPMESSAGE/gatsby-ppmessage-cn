@@ -1,7 +1,7 @@
 import React from "react";
 
 import styles from "../about-css-modules.module.css";
-import KeyFeatures_q from "../../components/keyfeatures_q";
+import PPKeyFeatures from "../../components/ppkeyfeatures";
 import KeyFeatures from "../../components/keyfeatures";
 
 
@@ -39,8 +39,8 @@ export default () => {
             <div className={styles.container__narrower}>
                 <div className={styles.g__row}>
                     <h1>test key features_q</h1>
-                    <KeyFeatures_q rtl="true" features={_features}>
-                    </KeyFeatures_q>
+                    <PPKeyFeatures rtl="true" features={_features}>
+                    </PPKeyFeatures>
                 </div>  
             </div>
         
