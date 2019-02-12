@@ -58,6 +58,7 @@ export default () => (
                 </div>
             </div>
             <div style={{height:'200px'}}></div>
+
             <section className={styles.section_transform1}>
                 <div className={styles.container}>
                     <div className={styles.g__row}>
@@ -65,7 +66,7 @@ export default () => (
                         <div>
 
                             <div className={styles.chuangjian_tranform1}>
-                                <a href="#hezuo" className={styles.lianjie}>
+                                <a href="#full-channel" className={styles.lianjie}>
                                     <div className={styles.product__breakdown__image}>
                                         <img src={require("../images/142.png")} alt="将网页、移动端、社交媒体、邮件、电话等渠道的会话转入统一座席工作台，并通过团队协作快速处理客户问题" /></div>
                                         <div style={{height:"10px"}}></div>
@@ -86,7 +87,7 @@ export default () => (
                             </div>
 
                             <div className={styles.chuangjian_tranform2}>
-                                <a href="#zidonghua" className={styles.lianjie}>
+                                <a href="#call-center" className={styles.lianjie}>
                                     <div className={styles.product__breakdown__image}>
                                         <img src={require("../images/143.png")} alt="跨国、跨时区，多语言，分布式部署，灵活扩容，功能稳定，满足各种规模企业需求" /></div>
                                         <div style={{height:"10px"}}></div>
@@ -106,7 +107,7 @@ export default () => (
                                 </a>
                             </div>
                             <div className={styles.chuangjian_tranform3}>
-                                <a href="#guimo" className={styles.lianjie}>
+                                <a href="#tickets" className={styles.lianjie}>
                                     <div className={styles.product__breakdown__image}>
                                         <img src={require("../images/144.png")} alt="打通售前售后环节，根据各种渠道的客户咨询消息创建工单，工单可自动分配、转派、变更、提醒和归档，业务流程和SLA随心定制" /></div>
                                         <div style={{height:"10px"}}></div>
@@ -126,7 +127,7 @@ export default () => (
                                 </a>
                             </div>
                             <div className={styles.chuangjian_tranform4}>
-                                <a href="#tigao" className={styles.lianjie}>
+                                <a href="#nlp" className={styles.lianjie}>
                                     <div className={styles.product__breakdown__image}>
                                         <img src={require("../images/145.png")} alt="基于NLP， 365天不间断服务，高效率解决重复性问题，大幅降低人工客服成本" /></div>
                                         <div style={{height:"10px"}}></div>
@@ -153,46 +154,11 @@ export default () => (
             </section>
 
             
-            <section >
+            <section id="full-channel">
                 
                 <div className={styles.container_z}>  
                     <div className={styles.g__row}>
                         <div className={styles.g__c6}>
-                            <div className={styles.u__inline}>
-                                <div className={styles.g__row}>
-                                    <div className={styles.g__c}>
-                                        <a href=" " className={styles.f__no_und_always}>
-                                            <font className={styles.hezuo1}>
-                                                全渠道客服
-                                            </font>
-                                        </a>
-                                    </div>
-
-                                    <div className={styles.g__c}>
-                                        <a href="#zidonghua" className={styles.f__no_und_always}>
-                                            <font className={styles.zidonghua}>
-                                                全球呼叫中心
-                                            </font>
-                                        </a>
-                                    </div>
-
-                                    <div className={styles.g__c}>
-                                        <a href="#guimo" className={styles.f__no_und_always}>
-                                            <font className={styles.guimo}>
-                                                工单系统
-                                            </font>
-                                        </a>
-                                    </div>
-
-                                    <div className={styles.g__c}>
-                                        <a href="#tigao" className={styles.f__no_und_always}>
-                                            <font className={styles.tigao}>
-                                                智能客服机器人
-                                            </font>
-                                        </a>
-                                    </div>                
-                                </div>
-                            </div>
                             <div style={{height:"20px"}}></div>
                             <h3 className={styles.t__h2}>
                                 <font>
@@ -291,42 +257,10 @@ export default () => (
             </section>
 
             <div className={styles.index_200px_conversion_businese}></div>
-            <section className={styles.section}>        
+
+            <section id="call-center" className={styles.section}>        
                 
                 <div className={styles.container_z}>                
-                    <div className={styles.g__row}>
-                        <div className={styles.g__c_conversion}>
-                            <a href="#hezuo" className={styles.f__no_und_always}>
-                                <font className={styles.hezuo}>
-                                    全渠道客服
-                                </font>
-                            </a>
-                        </div>
-
-                        <div className={styles.g__c_conversion}>
-                            <a href=" " className={styles.f__no_und_always}>
-                                <font className={styles.zidonghua1}>
-                                    全球呼叫中心
-                                </font>
-                            </a>
-                        </div>
-
-                        <div className={styles.g__c_conversion}>
-                            <a href="#guimo" className={styles.f__no_und_always}>
-                                <font className={styles.guimo}>
-                                    工单系统
-                                </font>
-                            </a>
-                        </div>
-
-                        <div className={styles.g__c_conversion}>
-                            <a href="#tigao" className={styles.f__no_und_always}>
-                                <font className={styles.tigao}>
-                                    智能客服机器人
-                                </font>
-                            </a>
-                        </div>                
-                    </div>                
                     
                     <div className={styles.support_automate}>
                         <div className={styles.g__c6}>
@@ -385,42 +319,9 @@ export default () => (
                 
             </section>
 
-            <section className={styles.section}>
+            <section id="tickets" className={styles.section}>
                 
                 <div className={styles.container_z}>
-                    <div className={styles.g__row}>
-                        <div className={styles.g__c_conversion} style={{padding:"20px 15px"}}>
-                            <a href="#hezuo" className={styles.f__no_und_always}>
-                                <font className={styles.hezuo}>
-                                    全渠道客服
-                                </font>
-                            </a>
-                        </div>
-
-                        <div className={styles.g__c_conversion} style={{padding:"20px 15px"}}>
-                            <a href="#zidonghua" className={styles.f__no_und_always}>
-                                <font className={styles.zidonghua}>
-                                    全球呼叫中心
-                                </font>
-                            </a>
-                        </div>
-
-                        <div className={styles.g__c_conversion} style={{padding:"20px 15px"}}>
-                            <a href=" " className={styles.f__no_und_always}>
-                                <font className={styles.guimo1}>
-                                    工单系统
-                                </font>
-                            </a>
-                        </div>
-
-                        <div className={styles.g__c_conversion} style={{padding:"20px 15px"}}>
-                            <a href="#tigao" className={styles.f__no_und_always}>
-                                <font className={styles.tigao}>
-                                    智能客服机器人
-                                </font>
-                            </a>
-                        </div>                
-                    </div>
                     <div className={styles.g__row_z}>
                         <div className={styles.g__c6}>
                             <img src={require("../images/71.jpeg")} alt="新一代全渠道工单系统" />
@@ -498,41 +399,8 @@ export default () => (
             
             <div style={{height:"50px"}}></div>
             
-            <section>
+            <section id="nlp">
                 <div className={styles.container_z}>
-                    <div className={styles.g__row}>
-                        <div className={styles.g__c_conversion}>
-                            <a href="#hezuo" className={styles.f__no_und_always}>
-                                <font className={styles.guimo}>
-                                    全渠道客服
-                                </font>
-                            </a>
-                        </div>
-
-                        <div className={styles.g__c_conversion}>
-                            <a href="#zidonghua" className={styles.f__no_und_always}>
-                                <font className={styles.zidonghua}>
-                                    全球呼叫中心
-                                </font>
-                            </a>
-                        </div>
-
-                        <div className={styles.g__c_conversion}>
-                            <a href="#guimo" className={styles.f__no_und_always}>
-                                <font className={styles.guimo}>
-                                    工单系统
-                                </font>
-                            </a>
-                        </div>
-
-                        <div className={styles.g__c_conversion}>
-                            <a href=" " className={styles.f__no_und_always}>
-                                <font className={styles.tigao1}>
-                                    智能客服机器人
-                                </font>
-                            </a>
-                        </div>                
-                    </div>
                     <div className={styles.u__zfix}>                   
                         <div className={styles.index_100px}></div>
                         <h2 className={styles.t__h2}>
