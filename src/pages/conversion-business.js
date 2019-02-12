@@ -67,7 +67,7 @@ export default () => (
                             <div className={styles.chuangjian_tranform1}>
                                 <a href="#hezuo" className={styles.lianjie}>
                                     <div className={styles.product__breakdown__image}>
-                                        <img src={require("../images/142.png")} style={{width: "91px"}} alt="" /></div>
+                                        <img src={require("../images/142.png")} alt="将网页、移动端、社交媒体、邮件、电话等渠道的会话转入统一座席工作台，并通过团队协作快速处理客户问题" /></div>
                                         <div style={{height:"10px"}}></div>
                                         <div className={styles.t__h3}>
                                             <font>全渠道客服</font>
@@ -88,7 +88,7 @@ export default () => (
                             <div className={styles.chuangjian_tranform2}>
                                 <a href="#zidonghua" className={styles.lianjie}>
                                     <div className={styles.product__breakdown__image}>
-                                        <img src={require("../images/143.png")} style={{"width":"91px"}} alt="" /></div>
+                                        <img src={require("../images/143.png")} alt="跨国、跨时区，多语言，分布式部署，灵活扩容，功能稳定，满足各种规模企业需求" /></div>
                                         <div style={{height:"10px"}}></div>
                                         <div className={styles.t__h3}>
                                             <font>全球呼叫中心</font>
@@ -108,7 +108,7 @@ export default () => (
                             <div className={styles.chuangjian_tranform3}>
                                 <a href="#guimo" className={styles.lianjie}>
                                     <div className={styles.product__breakdown__image}>
-                                        <img src={require("../images/144.png")} style={{"width": "91px"}} alt="" /></div>
+                                        <img src={require("../images/144.png")} alt="打通售前售后环节，根据各种渠道的客户咨询消息创建工单，工单可自动分配、转派、变更、提醒和归档，业务流程和SLA随心定制" /></div>
                                         <div style={{height:"10px"}}></div>
                                         <div className={styles.t__h3}>
                                             <font>工单系统</font>
@@ -128,14 +128,15 @@ export default () => (
                             <div className={styles.chuangjian_tranform4}>
                                 <a href="#tigao" className={styles.lianjie}>
                                     <div className={styles.product__breakdown__image}>
-                                        <img src={require("../images/145.png")} style={{width: "91px"}} alt="" /></div>
+                                        <img src={require("../images/145.png")} alt="基于NLP， 365天不间断服务，高效率解决重复性问题，大幅降低人工客服成本" /></div>
                                         <div style={{height:"10px"}}></div>
                                         <div className={styles.t__h3}>
                                             <font>智能客服机器人</font>
                                         </div>
                                         <div className={styles.t__small_s}>
                                             <font>
-                                                基于NLP， 365天不间断服务，高效率解决重复性问题，大幅降低人工客服成本              </font>
+                                                基于NLP， 365天不间断服务，高效率解决重复性问题，大幅降低人工客服成本
+                                            </font>
                                         </div>
                                         <div className={styles.product__learn_more} style={{margin:"80px"}}>
                                             <span>
@@ -211,7 +212,7 @@ export default () => (
                                 <div className={styles.u__inline}>
                                     <div className={styles.gallery}>
                                         <div className={styles.gallery__img}>
-                                            <img src={require("../images/75.png")} style={{width:"91px"}} alt="" />
+                                            <img src={require("../images/75.png")} alt="迈向真正的多触点深层客户互动解决方案，支持电子邮件、聊天、SMS、电话、协作浏览、内容共享 。各种渠道之间的无缝过渡消除了客户服务过程中的冲突，同时保留背景情境，并能收集相关的宝贵资讯。完整客户体验在您面前一览无遗，向您呈现出整个客户服务过程及相关背景 - 从即时联络到以往互动无所不包" />
                                         </div>                    
                                     </div>
                                 </div>
@@ -228,7 +229,7 @@ export default () => (
                                 <div className={styles.g__c6}>
                                     <div className={styles.f__left}>
                                         <div className={styles.product__feature_icon}>
-                                            <img src={require("../icon/7.3.1.png")} alt="" />
+                                            <img src={require("../icon/7.3.1.png")} alt="团队成员可在同一时间看到和相应新咨询消息，大幅降低首次响应时间" />
                                         </div>
                                         <div style={{height:"10px"}}></div>
                                         <div className={styles.sp__left_4}>
@@ -244,29 +245,11 @@ export default () => (
                                     </div>
                                 </div>
 
-                                {/* <div className={styles.g__c6}>
-                                    <div className={styles.f__left}>
-                                    <div className={styles.product__feature_icon}>
-                                    <img src={require("../icon/7.3.2.png")} alt="" />
-                                    </div>
-                                    <div style={{height:"10px"}}></div>
-                                    <div className={styles.sp__left_4}>
-                                    <div className={[styles.t__small,styles.f__bold]}>
-                                    <font>提及其他团队成员</font>
-                                    </div>
-                                    <div className={styles.t__small}>
-                                    <font>
-                                    通过在聊天对话中提及团队成员，让合适的成员加入当前对话，解决客户问题
-                                    </font>
-                                    </div>
-                                    </div>
-                                    </div>
-                                    </div> */}
 
                                 <div className={styles.g__c6}>
                                     <div className={styles.f__left}>
                                         <div className={styles.product__feature_icon}>
-                                            <img src={require("../icon/7.3.3.png")} alt="" />
+                                            <img src={require("../icon/7.3.3.png")} alt="向团队成员展示客户基本信息和历史记录，便于快速解决客户问题" />
                                         </div>
                                         <div style={{height:"10px"}}></div>
                                         <div className={styles.sp__left_4}>
@@ -285,7 +268,7 @@ export default () => (
                                 <div className={styles.g__c6}>
                                     <div className={styles.f__left}>
                                         <div className={styles.product__feature_icon}>
-                                            <img src={require("../icon/7.3.4.png")} alt="" />
+                                            <img src={require("../icon/7.3.4.png")} alt="与知识库无缝集成，向客服智能建议问题答案，提高客户满意度" />
                                         </div>
                                         <div style={{height:"10px"}}></div>
                                         <div className={styles.sp__left_4}>
@@ -376,7 +359,7 @@ export default () => (
 
                         
                         <div className={styles.g__c6} >
-                            <img src={require("../images/76.png")} alt="" />
+                            <img src={require("../images/76.png")} alt="可扩展、大容量，性能稳定" />
                         </div>
                         
                         <div className={styles.g__c5_z}>
@@ -385,12 +368,12 @@ export default () => (
                             <h3 className={styles.t__h2}>
                                 <font>
                                     可扩展、大容量，性能稳定
-
                                 </font>
                             </h3>
                             <div style={{height:"10px"}}></div>
                             <div>
-                                <font className={styles.tigongzhichi}>支持万级并发呼叫，系统可用性99.99%
+                                <font className={styles.tigongzhichi}>
+                                    支持万级并发呼叫，系统可用性99.99%
                                     海量录音及实时识别
 
 
@@ -440,7 +423,7 @@ export default () => (
                     </div>
                     <div className={styles.g__row_z}>
                         <div className={styles.g__c6}>
-                            <img src={require("../images/71.jpeg")} alt="" />
+                            <img src={require("../images/71.jpeg")} alt="新一代全渠道工单系统" />
                         </div>
                         <div className={styles.g__c5_z}>
 
@@ -476,7 +459,7 @@ export default () => (
                                 <div className={styles.g__c6}>
                                     <div className={styles.f__left}>
                                         <div className={styles.product__feature_icon}>
-                                            <img src={require("../icon/7.3.5.png")} alt="" />
+                                            <img src={require("../icon/7.3.5.png")} alt="无论何时与他们聊天，都可以查看团队收件箱中客户最后三个会话" />
                                         </div>
                                         <div className={styles.sp__left_4}>
                                             <div className={styles.t__small}>
@@ -489,27 +472,11 @@ export default () => (
                                         </div>
                                     </div>
                                 </div>
+     
                                 <div className={styles.g__c6}>
                                     <div className={styles.f__left}>
                                         <div className={styles.product__feature_icon}>
-                                            <img src={require("../icon/7.3.6.png")} alt="" />
-                                        </div>
-                                        <div className={styles.sp__left_4}>
-                                            <div className={styles.t__small}>
-                                                <font>注释和提及</font>
-                                            </div>
-                                            <div style={{height:"10px"}}></div>
-                                            <div className={styles.t__small}>
-                                                通过简单的说明或提及呼叫您的队友，以便合适的人加入对话并更快的回答客户
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div className={styles.g__c6}>
-                                    <div className={styles.f__left}>
-                                        <div className={styles.product__feature_icon}>
-                                            <img src={require("../icon/7.3.7.png")} alt="" />
+                                            <img src={require("../icon/7.3.7.png")} alt="将用户添加到客户对话中，以便每个人都作为一个群组进行交流，从而更快的解决问题" />
                                         </div>
                                         <div className={styles.sp__left_4}>
                                             <div className={styles.t__small}>
@@ -578,7 +545,7 @@ export default () => (
                         </font>
                         <div style={{height:"20px"}}></div>
                         <div>
-                            <img src={require("../images/139.png")} alt="" />
+                            <img src={require("../images/139.png")} alt="基于NLP， 365天不间断服务，高效率解决重复性问题，大幅降低人工客服成本" />
                         </div>
                     </div>
                 </div>           
