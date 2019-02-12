@@ -42,7 +42,7 @@ export default () =>{
         {
             title: "客户细分",
             desc: "基于客户属性和行为实施细分目标客户",
-            image: "https://marketing.intercomassets.com/assets/messages/segmentation-53f2b095305527a75a4082d62ae823fc29e4a09a3c34e1facc147b2046d1ec49.png"
+            image: require("../images/segments.png")
         },
         {
             title: "外发消息",
@@ -57,9 +57,9 @@ export default () =>{
         },
 
         {
-            title: "APP 商店",
-            desc: "提供与Salesforce，Google Meeting等第三方业务整合，扩展您的营销工具箱",
-            image: "https://marketing.intercomassets.com/assets/messages/integrations-c420a951ff2bb5ce602e9149567455760bea13a8f8246701593b577238096f75.png"
+            title: "应用集成",
+            desc: "提供与第三方业务整合，扩展您的营销工具箱",
+            image: require("../images/integrate.png")
         },        
     ]
 
@@ -99,8 +99,8 @@ export default () =>{
                 <title>快消产品客服解决方案-PPMESSAGE-新一代全渠道智能在线客服系统_网站客服系统</title>
                 
                 <meta name="keywords" content="快消品在线客服，快销品客服系统，在线客服系统，智能客服，网站客服系统，在线客服软件" />
-                <meta name="description" content="PPMESSAGE新一代全渠道智能在线客服系统为企业提供跨地域的全渠道云客服和自动营销平台，帮助企业准确把握商机，并向客户及业务伙伴提供全方位支持。" />
-               
+                <meta name="description" content="PPMESSAGE 新一代全渠道智能在线客服系统为企业提供跨地域的全渠道云客服和自动营销平台，帮助企业准确把握商机，并向客户及业务伙伴提供全方位支持。" />
+                
             </Helmet>
             <div className={styles.heiti}>
                 <div style={{height:'72px'}}></div>
@@ -135,7 +135,7 @@ export default () =>{
                         </div>
                         <div className={styles.g__c6}>
                             <div>
-                                <img src={require("../images/124.png")} />
+                                <img src={require("../images/124.png")} alt="PPMESSAGE 新一代全渠道智能在线客服系统为企业提供跨地域的全渠道云客服和自动营销平台，帮助企业准确把握商机，并向客户及业务伙伴提供全方位支持" />
                             </div>
                         </div>
                     </div>  

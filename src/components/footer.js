@@ -39,7 +39,7 @@ class Footer extends React.Component {
                                         <div className={styles.u__inline}>
                                             <div style={{height:'10px'}}></div>
                                             <Free />
-                                            <div className={styles.zihao}>已是客户?<a href="https://ppmessage.cn/ppkefu/#!/app/signin" className={styles.nav__link} ><font className={styles.zizi}>登录</font></a></div>
+                                            
                                         </div>
                                     </div>            
                                 </div>        
@@ -203,11 +203,11 @@ class Footer extends React.Component {
                                         <font color="#888">产品资源</font>
                                     </h4>
                                     
-                                    <div className={styles.footer__link}>
+                                    {/* <div className={styles.footer__link}>
                                         <a href="/tutorial/" className={styles.lianjie}>
-                                            <font>帮助中心</font>
+                                        <font>帮助中心</font>
                                         </a>
-                                    </div>
+                                        </div> */}
                                     <div className={styles.footer__link}>
                                         <a href="/doc/" className={styles.lianjie}>
                                             <font>开发者文档</font>
@@ -238,20 +238,11 @@ class Footer extends React.Component {
                                         </a>
                                     </div>
                                     <div className={styles.footer__link}>
-                                        <a href="/partners" className={styles.lianjie}>
-                                            <font>合作伙伴</font>
-                                        </a>
-                                    </div>
-                                    <div className={styles.footer__link}>
                                         <a href=" " className={styles.lianjie}>
                                             <font>联系我们</font>
                                         </a>
                                     </div>
-                                    <div className={styles.footer__link}>
-                                        <a href="/join-us" className={styles.lianjie}>
-                                            <font>加入我们</font>
-                                        </a>
-                                    </div>
+                                   
                                 </div>        
                             </div>      
                         </div>

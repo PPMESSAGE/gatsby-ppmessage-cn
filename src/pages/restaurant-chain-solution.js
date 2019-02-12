@@ -16,7 +16,7 @@ export default () =>{
         },
         {
             title: "自动获取和评估商机",
-            desc: "PPMessage销售机器人主动与网站访客联系，7X24小时根据设定条件获取合格商机",
+            desc: "销售机器人主动与网站访客联系，7X24小时根据设定条件获取合格商机",
             image: require("../images/80.jpeg")
         },
 
@@ -57,9 +57,9 @@ export default () =>{
         },
 
         {
-            title: "APP 商店",
-            desc: "提供与Salesforce，Google Meeting等第三方业务整合，扩展您的营销工具箱",
-            image: "https://marketing.intercomassets.com/assets/messages/integrations-c420a951ff2bb5ce602e9149567455760bea13a8f8246701593b577238096f75.png"
+            title: "应用集成",
+            desc: "提供与第三方业务整合，扩展您的营销工具箱",
+            image: require("../images/integrate.png")
         },        
     ]
 
@@ -93,11 +93,7 @@ export default () =>{
             <Helmet>
                 <title>餐饮连锁客服解决方案-PPMESSAGE-新一代全渠道智能在线客服系统_网站客服系统</title>       
                 <meta name="keywords" content="餐饮在线客服，餐饮客服系统，餐饮在线客服系统，餐饮智能客服，餐饮网站客服系统，连锁企业在线客服，连锁企业客服系统，连锁企业在线客服系统，连锁企业智能客服，连锁企业网站客服系统" />
-                <meta name="description" content="PPMESSAGE新一代全渠道智能在线客服系统为餐饮及连锁企业提供全渠道智能云客服和营销自动化系统，帮助企业准确把握商机，并向客户与业务伙伴提供全方位支持 " />
-
-
-
-                
+                <meta name="description" content="PPMESSAGE 新一代全渠道智能在线客服系统为餐饮及连锁企业提供全渠道智能云客服和营销自动化系统，帮助企业准确把握商机，并向客户与业务伙伴提供全方位支持 " />
             </Helmet>
             <div className={styles.heiti}>
                 <div style={{height:'72px'}}></div>
@@ -132,7 +128,7 @@ export default () =>{
                         </div>
                         <div className={styles.g__c6}>
                             <div>
-                                <img src={require("../images/123.png")} />
+                                <img src={require("../images/123.png")} alt="PPMESSAGE 智能客服工单系统打通售前售后环节，根据网页、邮件、电话和社交媒体等各种渠道的客户咨询消息创建工单，工单可自动分配、转派、变更、提醒和归档，业务流程和SLA随心定制" />
                             </div>
                         </div>
                     </div>  

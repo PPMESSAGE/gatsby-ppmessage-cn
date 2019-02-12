@@ -59,9 +59,9 @@ export default () => {
             <Helmet>
                 <title>客服工单系统-PPMESSAGE-新一代全渠道智能在线客服系统_网站客服系统</title>
                 <meta name="keywords" content="工单系统,工单管理系统，客服工单系统，工单管理，微信工单，智能客服" />
-                <meta name="description" content="PPMESSAGE智能客服工单系统打通售前售后环节，根据网页、邮件、电话和社交媒体等各种渠道的客户咨询消息创建工单，工单可自动分配、转派、变更、提醒和归档，业务流程和SLA随心定制" />
+                <meta name="description" content="PPMESSAGE 智能客服工单系统打通售前售后环节，根据网页、邮件、电话和社交媒体等各种渠道的客户咨询消息创建工单，工单可自动分配、转派、变更、提醒和归档，业务流程和SLA随心定制" />
 
-    
+                
             </Helmet>
             
             <div className={styles.heiti}>
@@ -87,7 +87,7 @@ export default () => {
                         </div>
                         <div className={styles.g__c6}>
                             <div>
-                                <img src={require("../images/164.png")} />
+                                <img src={require("../images/164.png")} alt="PPMESSAGE 智能客服工单系统打通售前售后环节，根据网页、邮件、电话和社交媒体等各种渠道的客户咨询消息创建工单，工单可自动分配、转派、变更、提醒和归档，业务流程和SLA随心定制" />
                             </div>
                         </div>
                     </div>  

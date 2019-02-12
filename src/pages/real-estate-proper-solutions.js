@@ -42,9 +42,9 @@ export default () =>{
         },
 
         {
-            title: "APP 商店",
-            desc: "提供与Salesforce，Google Meeting等第三方业务整合，扩展您的营销工具箱",
-            image: "https://marketing.intercomassets.com/assets/messages/integrations-c420a951ff2bb5ce602e9149567455760bea13a8f8246701593b577238096f75.png"
+            title: "应用集成",
+            desc: "提供与第三方业务整合，扩展您的营销工具箱",
+            image: require("../images/integrate.png")
         },        
     ]
 
@@ -75,7 +75,7 @@ export default () =>{
             <Helmet>
                 <title>房产物业客服解决方案-PPMESSAGE-新一代全渠道智能在线客服系统_网站客服系统</title>         
                 <meta name="keywords" content="房地产在线客服，房地产客服系统，房地产在线客服系统，房地产智能客服，房地产网站客服系统，物业在线客服，物业客服系统，物业在线客服系统，物业智能客服，物业网站客服系统" />
-                <meta name="description" content="PPMESSAGE新一代全渠道智能在线客服系统为房地产及物业企业提供业务营销、业主互动、自动收费和物业报修的专业客服解决方案，一站解决所有业主沟通和服务问题 " />
+                <meta name="description" content="PPMESSAGE 新一代全渠道智能在线客服系统为房地产及物业企业提供业务营销、业主互动、自动收费和物业报修的专业客服解决方案，一站解决所有业主沟通和服务问题 " />
 
                 
             </Helmet>
@@ -109,7 +109,7 @@ export default () =>{
                         </div>
                         <div className={styles.g__c6}>
                             <div>
-                                <img src={require("../images/119.png")} />
+                                <img src={require("../images/119.png")} alt="PPMESSAGE 新一代全渠道智能在线客服系统为房地产及物业企业提供业务营销、业主互动、自动收费和物业报修的专业客服解决方案，一站解决所有业主沟通和服务问题" />
                             </div>
                         </div>
                     </div>  

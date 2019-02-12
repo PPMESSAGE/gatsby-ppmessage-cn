@@ -51,10 +51,12 @@ export default () =>{
         },
 
         {
-            title: "APP 商店",
-            desc: "提供与Salesforce，Google Meeting等第三方业务整合，扩展您的营销工具箱",
-            image: "https://marketing.intercomassets.com/assets/messages/integrations-c420a951ff2bb5ce602e9149567455760bea13a8f8246701593b577238096f75.png"
+            title: "应用集成",
+            desc: "提供与第三方业务整合，扩展您的营销工具箱",
+            alt: "提供与第三方业务整合，扩展您的营销工具箱",
+            image: require("../images/integrate.png")
         },        
+
     ]
 
     let _features2 = [

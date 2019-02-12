@@ -31,12 +31,6 @@ export default () => (
                             联系我们
                         </a>
                     </li>
-                    <li className={styles.li}>
-                        <a href="/join-us" className={styles.a}>加入我们</a>
-                    </li>
-                    <li className={styles.li}>
-                        <a href="/partners" className={styles.a}>合作伙伴</a>
-                    </li>
                 </ul>
             </div>
             <div className={styles.m1}>
@@ -52,7 +46,7 @@ export default () => (
                         <img src={require("../images/95.png")} alt="PPMESSAGE-新一代全渠道智能在线客服系统_网站客服系统" />
                     </div>
                     <div className={styles.text}>
-                        <p className={styles.text1}>北京优锐科技成立于2010年，是一家基于消息会话提供全新智能客服和自动化营销服务的云服务厂商。目前拥有多项国家发明专利和多项软件著作权。
+                        <p className={styles.text1}>北京优锐科技成立于2010年，是一家基于消息会话提供全新智能客服和自动化营销服务的云服务厂商。拥有多项国家发明专利和多项软件著作权。
 
                             公司的宗旨是为全球各类企业提供可扩展的、可私有部署的消息会话系统，既满足多变的业务需求，又充分保障数据隐私。
 

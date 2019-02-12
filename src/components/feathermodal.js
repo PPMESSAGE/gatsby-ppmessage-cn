@@ -48,7 +48,7 @@ class FeatherModal extends React.Component {
                     <div>
                         <img width="30px"
                              src={this.props.abstract.icon}
-                             alt={this.props.abstract.alt} />
+                             alt={this.props.abstract.alt || this.props.abstract.desc} />
                     </div>
                     <div>
                         <div className="title_style">{this.props.abstract.title}</div>

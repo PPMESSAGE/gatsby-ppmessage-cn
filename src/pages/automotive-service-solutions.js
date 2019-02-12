@@ -57,12 +57,12 @@ export default () =>{
             image: require("../images/测试和优化.png")
         },
 
-        /* {
-         *     title: "APP 商店",
-         *     desc: "提供与第三方业务整合，扩展您的营销工具箱",
-         *     alt: "提供与第三方业务整合，扩展您的营销工具箱",
-         *     image: "https://marketing.intercomassets.com/assets/messages/integrations-c420a951ff2bb5ce602e9149567455760bea13a8f8246701593b577238096f75.png"
-         * },         */
+        {
+            title: "应用集成",
+            desc: "提供与第三方业务整合，扩展您的营销工具箱",
+            alt: "提供与第三方业务整合，扩展您的营销工具箱",
+            image: require("../images/integrate.png")
+        },        
     ]
 
     let _features2 = [
@@ -105,7 +105,7 @@ export default () =>{
             <Helmet>
                 <title>汽车行业客服解决方案-PPMESSAGE-新一代智能全渠道在线客服系统</title>
                 <meta name="keywords" content="汽车行业客服解决方案，汽车行业在线客服，汽车行业呼叫中心，汽车行业营销自动化" />
-                <meta name="description" content="PPMESSAGE提供从精准化市场营销到智能化车主服务的客户全周期客服解决方案，助力企业获取更多商机并达成更多交易" />
+                <meta name="description" content="PPMESSAGE 提供从精准化市场营销到智能化车主服务的客户全周期客服解决方案，助力企业获取更多商机并达成更多交易" />
             </Helmet>
             <div className={styles.heiti}>
                 <div style={{height:'72px'}}></div>

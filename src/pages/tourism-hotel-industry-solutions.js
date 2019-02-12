@@ -57,9 +57,9 @@ export default () =>{
         },
 
         {
-            title: "APP 商店",
-            desc: "提供与Salesforce，Google Meeting等第三方业务整合，扩展您的营销工具箱",
-            image: "https://marketing.intercomassets.com/assets/messages/integrations-c420a951ff2bb5ce602e9149567455760bea13a8f8246701593b577238096f75.png"
+            title: "应用集成",
+            desc: "提供与第三方业务整合，扩展您的营销工具箱",
+            image: require("../images/integrate.png")
         },        
     ]
 
@@ -91,16 +91,13 @@ export default () =>{
             desc: "分设质检标准和禁忌项，分类考核客服，提高客户满意度",
             image:require("../images/90.png")
         },
-        
-        
-
     ]
 
     return(
 	    <Layout>
             <Helmet>
                 <title>旅游酒店行业客服解决方案-PPMESSAGE-新一代全渠道智能在线客服系统_网站客服系统</title>                      <meta name="keywords" content="旅游在线客服，旅游客服系统，旅游在线客服系统，旅游智能客服，旅游网站客服系统，酒店在线客服，酒店客服系统，酒店在线客服系统，酒店智能客服，酒店网站客服系统" />
-                <meta name="description" content="PPMESSAGE新一代全渠道智能在线客服系统针对旅游酒店行业提供从商机获取、客户互动和客户支持的客户全生命周期解决方案，打通线上线下业务，多渠道引流，提高预订效率，降低人工成本" />
+                <meta name="description" content="PPMESSAGE 新一代全渠道智能在线客服系统针对旅游酒店行业提供从商机获取、客户互动和客户支持的客户全生命周期解决方案，打通线上线下业务，多渠道引流，提高预订效率，降低人工成本" />
 
 
                 
@@ -138,7 +135,7 @@ export default () =>{
                         </div>
                         <div className={styles.g__c6}>
                             <div>
-                                <img src={require("../images/120.png")} />
+                                <img src={require("../images/120.png")} alt="PPMESSAGE 新一代全渠道智能在线客服系统针对旅游酒店行业提供从商机获取、客户互动和客户支持的客户全生命周期解决方案，打通线上线下业务，多渠道引流，提高预订效率，降低人工成本" />
                             </div>
                         </div>
                     </div>  

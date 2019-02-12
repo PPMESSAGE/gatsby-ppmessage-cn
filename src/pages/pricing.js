@@ -2,11 +2,10 @@ import React from "react";
 import styles from "./pricing.module.css";
 import EnterYourMobile from "../components/enteryourmobile";
 import TabsControl from "../components/tabscontrol";
-import ReactTooltip from 'react-tooltip';
 import WorthCompany from "../components/worthcompany"
 import {Helmet} from "react-helmet";
 import Layout from "./layout";
-import Button_q from "../components/buttton";
+import PPButton from "../components/buttton";
 
 
 export default () => {
@@ -17,7 +16,7 @@ export default () => {
                 <title>在线客服价格-PPMESSAGE-新一代全渠道智能在线客服系统_网站客服系统</title>
                 <meta name="keywords" content="在线客服价格，网站客服价格，智能客服价格，云呼叫中心价格" />
                 <meta name="description" content="PPMESSAGE新一代全渠道在线客服系统提供满足企业不同需求的客服解决方案，无需下载部署，注册即用，满足您的个性化需求。" />    
-               
+                
             </Helmet>
             <div className={styles.heiti}>
                 <div style={{height:"72px"}}></div>
@@ -34,7 +33,7 @@ export default () => {
                         <div style={{height:"50px"}}></div>
                         <div className={styles.g__row_h_center}>
                             <div className={styles.g__c4_pring}>
-                                <a  href="#xiaoxi"  className={styles.c__black}>
+                                <a  href="#basic"  className={styles.c__black}>
                                     <div className={styles.t__h3}>
                                         <font>
                                             标准版
@@ -55,14 +54,13 @@ export default () => {
                                     <div className={styles.u__inline_block}>
                                         <span className={styles.link__arrow_c_blue}>
                                             <font>了解更多</font>
-                                            
                                         </span>
                                     </div>
                                 </a>
                             </div>
 
                             <div className={styles.g__c4_pring}>
-                                <a  href="#shoujianxiang"  className={styles.c__black}>
+                                <a  href="#enhanced"  className={styles.c__black}>
                                     <div className={styles.t__h3}>
                                         <font>
                                             增强版
@@ -90,7 +88,7 @@ export default () => {
 
 
                             <div className={styles.g__c4_pring}>
-                                <a  href="#yongpin"  className={styles.c__black}>
+                                <a  href="#enterprise"  className={styles.c__black}>
                                     <div className={styles.t__h3}>
                                         <font>
                                             企业版
@@ -138,8 +136,7 @@ export default () => {
                                     <div style={{height:"20px"}}></div>
                                     <div className={styles.u__inline_block} style={{cursor:"pointer"}}>
                                         <span className={styles.link__arrow_c_blue}>
-                                            <Button_q />
-                                            
+                                            <PPButton />
                                         </span>
                                     </div>
                                 </div>
@@ -148,15 +145,15 @@ export default () => {
                         <div style={{height:"60px"}}></div>
                         <div className={styles.g__row_h_center} >
                             <EnterYourMobile size="middle"/> 
-
                         </div>
                         <div style={{height:"40px"}}></div>
                         <div className={styles.g__row_h_center}>
                             <div style={{height:"10px"}}></div>  
-                            
                         </div>
-                        <a name="xiaoxi"></a>
+                        <section id="basic"></section>
+                        
                         <div style={{height:"80px"}}></div>
+
                         <div className={styles.pricing__product_box}>
                             <div className={styles.g__row}>
                                 <div className={styles.g__c3} style={{padding:"40px"}}>
@@ -183,27 +180,29 @@ export default () => {
                                 </div>
                                 <div className={styles.g__c6}>
                                     <TabsControl>
-                                        <div name = "套餐内容">                                                              <table className={styles.pricing__table}>
-                                            
-                                            <tbody>
-                                                <tr>
-                                                    <td style={{borderBottom:"none"}}><font>在线客服（座席）</font>
-                                                    </td>
-                                                    <td style={{borderBottom:"none"}}><font>&le;5人</font>
-                                                    </td>
-                                                    
-                                                </tr>
+                                        <div name = "套餐内容">
+                                            <table className={styles.pricing__table}>
+                                                
+                                                <tbody>
+                                                    <tr>
+                                                        <td style={{borderBottom:"none"}}><font>在线客服（座席）</font>
+                                                        </td>
+                                                        <td style={{borderBottom:"none"}}><font>&le;5人</font>
+                                                        </td>
+                                                        
+                                                    </tr>
 
-                                                <tr>
-                                                    <td style={{borderBottom:"none"}}><font>应用内消息</font>
-                                                    </td>
-                                                    <td style={{borderBottom:"none"}}>
-                                                    </td>
-                                                    
-                                                    
-                                                </tr>                                            
-                                            </tbody>
-                                        </table>
+                                                    <tr>
+                                                        <td style={{borderBottom:"none"}}><font>应用内消息</font>
+                                                        </td>
+                                                        <td style={{borderBottom:"none"}}>
+                                                            <img src={require("../images/checkmark.svg")} alt="checkmark" />
+                                                        </td>
+                                                        
+                                                        
+                                                    </tr>                                            
+                                                </tbody>
+                                            </table>
                                         </div>
                                         <div name = "套餐功能">
 
@@ -214,21 +213,10 @@ export default () => {
                                                             <font>
                                                                 对话记录永久保存
                                                             </font>
-
-                                                            
-                                                            <a data-tip data-for='happyFace'></a>
-                                                            <ReactTooltip place="right" id='happyFace' type='error' type ="light" effect ="solid">
-                                                                
-                                                            </ReactTooltip>
-
-                                                            
                                                         </td>
                                                         
                                                         <td>
-                                                            {/*图片区小对号*/}
-                                                        </td>
-                                                        <td>
-                                                            {/*图片区小对号*/}
+                                                            <img src={require("../images/checkmark.svg")} alt="checkmark" />
                                                         </td>
                                                         
                                                     </tr>
@@ -240,10 +228,7 @@ export default () => {
                                                             </font>
                                                         </td>
                                                         <td>
-                                                            {/*图片区小对号*/}
-                                                        </td>
-                                                        <td>
-                                                            {/*图片区小对号*/}
+                                                            <img src={require("../images/checkmark.svg")} alt="checkmark" />
                                                         </td>
                                                     </tr>
 
@@ -254,10 +239,7 @@ export default () => {
                                                             </font>
                                                         </td>
                                                         <td>
-                                                            {/*图片区小对号*/}
-                                                        </td>
-                                                        <td>
-                                                            {/*图片区小对号*/}
+                                                            <img src={require("../images/checkmark.svg")} alt="checkmark" />
                                                         </td>
                                                     </tr>
 
@@ -268,10 +250,7 @@ export default () => {
                                                             </font>
                                                         </td>
                                                         <td>
-                                                            {/*图片区小对号*/}
-                                                        </td>
-                                                        <td>
-                                                            {/*图片区小对号*/}
+                                                            <img src={require("../images/checkmark.svg")} alt="checkmark" />
                                                         </td>
                                                     </tr>
                                                 </tbody>
@@ -282,8 +261,10 @@ export default () => {
                                 </div>
                             </div>
                         </div>
-                        <a name="shoujianxiang"></a>
+                        
+                        <section id="enhanced"></section>
                         <div style={{height:"80px"}}></div>
+
                         <div className={styles.pricing__product_box}>
                             <div className={styles.g__row}>
                                 <div className={styles.g__c3} style={{padding:"40px"}}>
@@ -315,45 +296,46 @@ export default () => {
                                 </div>
                                 <div className={styles.g__c6}>
                                     <TabsControl>
-                                        <div name = "套餐内容">                                                              <table className={styles.pricing__table}>
-                                            <tbody>
-                                                <tr>
-                                                    <td style={{borderBottom:"none"}}><font>在线客服（座席）</font>
-                                                    </td>
-                                                    <td style={{borderBottom:"none"}}><font>&le;10人</font>
-                                                    </td>
-                                                    <td style={{borderBottom:"none"}}><font> </font>
-                                                    </td>
-                                                </tr>
+                                        <div name = "套餐内容">
+                                            <table className={styles.pricing__table}>
+                                                <tbody>
+                                                    <tr>
+                                                        <td style={{borderBottom:"none"}}><font>在线客服（座席）</font>
+                                                        </td>
+                                                        <td style={{borderBottom:"none"}}><font>&le;10人</font>
+                                                        </td>
+                                                    </tr>
 
-                                                <tr>
-                                                    <td style={{borderBottom:"none"}}><font>应用内消息</font>
-                                                    </td>
-                                                    <td style={{borderBottom:"none"}}><font></font>
-                                                    </td>
-                                                    <td style={{borderBottom:"none"}}><font> </font>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td style={{borderBottom:"none"}}><font>工单系统</font>
-                                                    </td>
-                                                    <td style={{borderBottom:"none"}}><font></font>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td style={{borderBottom:"none"}}><font>邮件、短信消息</font>
-                                                    </td>
-                                                    <td style={{borderBottom:"none"}}><font></font>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td style={{borderBottom:"none"}}><font>客服机器人</font>
-                                                    </td>
-                                                    <td style={{borderBottom:"none"}}><font></font>
-                                                    </td>
-                                                </tr> 
-                                            </tbody>
-                                        </table>
+                                                    <tr>
+                                                        <td style={{borderBottom:"none"}}><font>应用内消息</font>
+                                                        </td>
+                                                        <td style={{borderBottom:"none"}}>
+                                                            <img src={require("../images/checkmark.svg")} alt="checkmark" />
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td style={{borderBottom:"none"}}><font>工单系统</font>
+                                                        </td>
+                                                        <td style={{borderBottom:"none"}}>
+                                                            <img src={require("../images/checkmark.svg")} alt="checkmark" />
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td style={{borderBottom:"none"}}><font>邮件、短信消息</font>
+                                                        </td>
+                                                        <td style={{borderBottom:"none"}}>
+                                                            <img src={require("../images/checkmark.svg")} alt="checkmark" />
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td style={{borderBottom:"none"}}><font>客服机器人</font>
+                                                        </td>
+                                                        <td style={{borderBottom:"none"}}>
+                                                            <img src={require("../images/checkmark.svg")} alt="checkmark" />
+                                                        </td>
+                                                    </tr> 
+                                                </tbody>
+                                            </table>
                                         </div>
                                         <div name = "套餐功能">
                                             <table className={styles.pricing__table}>
@@ -365,8 +347,7 @@ export default () => {
                                                             </font>
                                                         </td>
                                                         <td>
-                                                        </td>
-                                                        <td>
+                                                            <img src={require("../images/checkmark.svg")} alt="checkmark" />
                                                         </td>
                                                     </tr>
                                                     <tr>
@@ -376,8 +357,7 @@ export default () => {
                                                             </font>
                                                         </td>
                                                         <td>
-                                                        </td>
-                                                        <td>
+                                                            <img src={require("../images/checkmark.svg")} alt="checkmark" />
                                                         </td>
                                                     </tr>
 
@@ -388,8 +368,7 @@ export default () => {
                                                             </font>
                                                         </td>
                                                         <td>
-                                                        </td>
-                                                        <td>
+                                                            <img src={require("../images/checkmark.svg")} alt="checkmark" />
                                                         </td>
                                                     </tr>
 
@@ -400,9 +379,7 @@ export default () => {
                                                             </font>
                                                         </td>
                                                         <td>
-                                                        </td>
-                                                        <td>
-                                                            
+                                                            <img src={require("../images/checkmark.svg")} alt="checkmark" />
                                                         </td>
                                                     </tr>
 
@@ -413,10 +390,7 @@ export default () => {
                                                             </font>
                                                         </td>
                                                         <td>
-                                                            
-                                                        </td>
-                                                        <td>
-                                                            
+                                                            <img src={require("../images/checkmark.svg")} alt="checkmark" />
                                                         </td>
                                                     </tr>
                                                     <tr>
@@ -426,8 +400,7 @@ export default () => {
                                                             </font>
                                                         </td>
                                                         <td>
-                                                        </td>
-                                                        <td>
+                                                            <img src={require("../images/checkmark.svg")} alt="checkmark" />
                                                         </td>
                                                     </tr><tr>
                                                         <td>
@@ -436,8 +409,7 @@ export default () => {
                                                             </font>
                                                         </td>
                                                         <td>
-                                                        </td>
-                                                        <td>
+                                                            <img src={require("../images/checkmark.svg")} alt="checkmark" />
                                                         </td>
                                                     </tr>
                                                 </tbody>
@@ -447,14 +419,16 @@ export default () => {
                                 </div>
                             </div>
                         </div>
-                        <a name="yongpin"></a>
+
+                        <section id="enterprise"></section>
                         <div style={{height:"80px"}}></div>
                         <div className={styles.pricing__product_box}>
                             <div className={styles.g__row}>
                                 <div className={styles.g__c3} style={{padding:"40px"}}>
                                     <div className={styles.g__row}>
                                         <div className={styles.t__h3}>
-                                            <span ><font>企业版</font>
+                                            <span >
+                                                <font>企业版</font>
                                             </span>
                                         </div>
                                         <div className={styles.g__c12}>
@@ -488,33 +462,29 @@ export default () => {
                                                 <tr>
                                                     <td style={{borderBottom:"none"}}><font>应用内消息</font>
                                                     </td>
-                                                    <td style={{borderBottom:"none"}}><font></font>
-                                                    </td>
-                                                    <td style={{borderBottom:"none"}}><font></font>
+                                                    <td style={{borderBottom:"none"}}>
+                                                        <img src={require("../images/checkmark.svg")} alt="checkmark" />
                                                     </td>
                                                 </tr>
                                                 <tr>
                                                     <td style={{borderBottom:"none"}}><font>工单系统</font>
                                                     </td>
-                                                    <td style={{borderBottom:"none"}}><font></font>
-                                                    </td>
-                                                    <td style={{borderBottom:"none"}}><font></font>
+                                                    <td style={{borderBottom:"none"}}>
+                                                        <img src={require("../images/checkmark.svg")} alt="checkmark" />
                                                     </td>
                                                 </tr>
                                                 <tr>
                                                     <td style={{borderBottom:"none"}}><font>邮件、短信消息</font>
                                                     </td>
-                                                    <td style={{borderBottom:"none"}}><font></font>
-                                                    </td>
-                                                    <td style={{borderBottom:"none"}}><font></font>
+                                                    <td style={{borderBottom:"none"}}>
+                                                        <img src={require("../images/checkmark.svg")} alt="checkmark" />
                                                     </td>
                                                 </tr>
                                                 <tr>
                                                     <td style={{borderBottom:"none"}}><font>客服机器人</font>
                                                     </td>
-                                                    <td style={{borderBottom:"none"}}><font></font>
-                                                    </td>
-                                                    <td style={{borderBottom:"none"}}><font></font>
+                                                    <td style={{borderBottom:"none"}}>
+                                                        <img src={require("../images/checkmark.svg")} alt="checkmark" />
                                                     </td>
                                                 </tr>
                                             </tbody>
@@ -531,10 +501,7 @@ export default () => {
                                                             </font>
                                                         </td>
                                                         <td>
-                                                            
-                                                        </td>
-                                                        <td>
-                                                            
+                                                            <img src={require("../images/checkmark.svg")} alt="checkmark" />
                                                         </td>
                                                     </tr>
 
@@ -545,9 +512,7 @@ export default () => {
                                                             </font>
                                                         </td>
                                                         <td>
-                                                        </td>
-                                                        <td>
-                                                            
+                                                            <img src={require("../images/checkmark.svg")} alt="checkmark" />
                                                         </td>
                                                     </tr>
 
@@ -557,10 +522,7 @@ export default () => {
                                                             </font>
                                                         </td>
                                                         <td>
-                                                            
-                                                        </td>
-                                                        <td>
-                                                            
+                                                            <img src={require("../images/checkmark.svg")} alt="checkmark" />
                                                         </td>
                                                     </tr>
 
@@ -570,10 +532,7 @@ export default () => {
                                                             </font>
                                                         </td>
                                                         <td>
-                                                            
-                                                        </td>
-                                                        <td>
-                                                            
+                                                            <img src={require("../images/checkmark.svg")} alt="checkmark" />
                                                         </td>
                                                     </tr>
                                                     <tr>
@@ -582,10 +541,7 @@ export default () => {
                                                             </font>
                                                         </td>
                                                         <td>
-                                                            
-                                                        </td>
-                                                        <td>
-                                                            
+                                                            <img src={require("../images/checkmark.svg")} alt="checkmark" />                                                            
                                                         </td>
                                                     </tr>
                                                     <tr>
@@ -595,10 +551,7 @@ export default () => {
                                                             </font>
                                                         </td>
                                                         <td>
-                                                            
-                                                        </td>
-                                                        <td>
-                                                            
+                                                            <img src={require("../images/checkmark.svg")} alt="checkmark" />
                                                         </td>
                                                     </tr>
                                                     <tr>
@@ -608,10 +561,7 @@ export default () => {
                                                             </font>
                                                         </td>
                                                         <td>
-                                                            
-                                                        </td>
-                                                        <td>
-                                                            
+                                                            <img src={require("../images/checkmark.svg")} alt="checkmark" />                                      
                                                         </td>
                                                     </tr>
                                                 </tbody>
