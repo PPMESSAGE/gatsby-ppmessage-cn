@@ -59,11 +59,12 @@ export default () => (
                     </div>
                 </div>
             </div>
+            <section id="lianxiwomen" />
             <div className={styles.m1}>
                 <div style={{height:"80px"}}></div>
                 <div className={styles.title}>
-                    
-                    <p className={styles.p1} style={{marginBottom:"0px"}}>联系我们
+                    <p className={styles.p1} style={{marginBottom:"0px"}}>
+                        联系我们
                     </p>
                     <p className={styles.p2}>Contact us
                     </p>
