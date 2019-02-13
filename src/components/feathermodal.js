@@ -20,7 +20,7 @@ class FeatherModal extends React.Component {
     clickDetail(e) {
         e.preventDefault();
         e.stopPropagation();
-        this.setState({is_clicked:false});
+        //this.setState({is_clicked:false});
     }
 
     clickContent(e) {
