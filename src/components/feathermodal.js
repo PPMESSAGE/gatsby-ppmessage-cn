@@ -33,18 +33,17 @@ class FeatherModal extends React.Component {
 
         let _class = ["feather-modal"]
         
-        if (this.state.is_clicked) {
-            _class = ["feather-modal", "active"];
-        } else {
-            _class = ["feather-modal"]
-        }
+        /* if (this.state.is_clicked) {
+         *     _class = ["feather-modal", "active"];
+         * } else {
+         *     _class = ["feather-modal"]
+         * } */
         
         _class = _class.join(" ")
         
         return (
             <div className={_class}
-                 {/* onClick={(e)=>{this.setState({is_clicked:true})}} */}
-            >
+                 onClick={(e)=>{this.setState({is_clicked:true})}}>
                 <div className="feather-modal-abstract">
                     <div>
                         <img width="30px"
