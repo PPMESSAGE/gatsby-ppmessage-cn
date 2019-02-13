@@ -20,7 +20,7 @@ class FeatherModal extends React.Component {
     clickDetail(e) {
         e.preventDefault();
         e.stopPropagation();
-        //this.setState({is_clicked:false});
+        this.setState({is_clicked:false});
     }
 
     clickContent(e) {
@@ -43,7 +43,8 @@ class FeatherModal extends React.Component {
         
         return (
             <div className={_class}
-                 onClick={(e)=>{this.setState({is_clicked:true})}}>
+                 {/* onClick={(e)=>{this.setState({is_clicked:true})}} */}
+            >
                 <div className="feather-modal-abstract">
                     <div>
                         <img width="30px"
