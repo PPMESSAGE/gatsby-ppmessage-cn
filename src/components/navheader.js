@@ -123,6 +123,7 @@ class NavHeader extends React.Component {
                                                 </div>
                                             </a>
 
+{/*
 
                                             <div style={{height:"30px"}}></div>
                                             <div className={styles.t__h4}>
@@ -255,7 +256,8 @@ class NavHeader extends React.Component {
                                                     </font>
                                                 </div>
                                             </a>
-                                            
+*/}
+
                                             <div style={{height:"30px"}}></div>
 
                                             <div className={styles.t__h4}>
@@ -445,6 +447,7 @@ class NavHeader extends React.Component {
 
                             </div>
 
+{/*
                             <div className={styles.nav__link}>
                                 <NavDropdown title="行业解决方案">
                                     <div className={styles.g__row}>
@@ -568,11 +571,8 @@ class NavHeader extends React.Component {
                                     </div>
 
                                 </NavDropdown>
-
-
-
-
                             </div>
+                            */}
 
                             <div className={styles.nav__link}>
 
