@@ -254,7 +254,7 @@ export default () =>{
                         </div>
                     </div>      
                 </section>
-
+                {/*
                 <section>
                     <div style={{height:"10em"}}></div>
                     <div className={styles.container__narrower}>
@@ -276,6 +276,7 @@ export default () =>{
                         </div>
                     </div>      
                 </section>
+                */}
                 <section>
                     <div style={{height:"10em"}}></div>
                     <div className={styles.container__narrower}>
