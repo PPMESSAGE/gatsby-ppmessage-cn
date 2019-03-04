@@ -67,34 +67,10 @@ class NavHeader extends React.Component {
                                                 </div>
                                             </a>
                                             <div style={{height:"10px"}}></div>
-                                            <a href="/marketing" className={styles.f__no_und_aways}>
-                                                <div className={styles.f__medium}>
-                                                    <font style={{color:"black",fontSize:"16px"}}>
-                                                        营销自动化
-                                                    </font>
-                                                </div>
-                                            </a>
-                                            <div style={{height:"10px"}}></div>
-                                            <a href="/tickets" className={styles.f__no_und_aways}>
-                                                <div className={styles.f__medium}>
-                                                    <font style={{color:"black",fontSize:"16px"}}>
-                                                        工单系统
-                                                    </font>
-                                                </div>
-                                            </a>
-                                            <div style={{height:"10px"}}></div>
                                             <a href="/cloud-call-center" className={styles.f__no_und_aways}>
                                                 <div className={styles.f__medium}>
                                                     <font style={{color:"black",fontSize:"16px"}}>
                                                         云呼叫中心
-                                                    </font>
-                                                </div>
-                                            </a>
-                                            <div style={{height:"10px"}}></div>
-                                            <a href="/robot-of-sale" className={styles.f__no_und_aways}>
-                                                <div className={styles.f__medium}>
-                                                    <font style={{color:"black",fontSize:"16px"}}>
-                                                        智能销售机器人
                                                     </font>
                                                 </div>
                                             </a>
@@ -303,9 +279,6 @@ class NavHeader extends React.Component {
                             <div className={styles.nav__link}>
                                 <NavDropdown title="产品">
                                     <div className={styles.g__row}>
-                                        <div className={styles.g__c6_yetou}>
-
-
                                             <a href="/product" className={styles.f__no_und_aways}>
                                                 <div className={styles.holiday}>
                                                     <div className={styles.t__h4}>
@@ -319,28 +292,6 @@ class NavHeader extends React.Component {
 
                                             <div style={{width:"720px"}}></div>
 
-                                            <a href="/marketing" className={styles.f__no_und_aways}>
-                                                <div className={styles.holiday}>
-                                                    <div className={styles.t__h4}>
-                                                        <font>营销自动化</font>
-                                                    </div>
-                                                    <div className={styles.heise}>
-                                                        <font>根据用户属性和行为在特定时间发送有针对性的邮件、短信和应用内消息，并评估效果</font>
-                                                    </div>
-                                                </div>
-                                            </a>
-
-                                            <a href="/tickets" className={styles.f__no_und_aways}>
-                                                <div className={styles.holiday}>
-                                                    <div className={styles.t__h4}>
-                                                        <font>工单系统</font>
-                                                    </div>
-                                                    <div >
-                                                        <font>打通售前售后环节，工单分配、转派、变更、提醒、业务流和SLA随心定制</font>
-                                                    </div>
-                                                </div>
-                                            </a>
-
                                             <a href="/cloud-call-center" className={styles.f__no_und_aways}>
                                                 <div className={styles.holiday}>
                                                     <div className={styles.t__h4}>
@@ -351,23 +302,6 @@ class NavHeader extends React.Component {
                                                     </div>
                                                 </div>
                                             </a>
-
-                                        </div>
-                                        <div className={styles.g__c6_yetou}>
-
-
-                                            <a href="/robot-of-sale" className={styles.f__no_und_aways}>
-                                                <div className={styles.holiday}>
-                                                    <div className={styles.t__h4}>
-                                                        <font>智能销售机器人</font>
-                                                    </div>
-                                                    <div>
-                                                        <font>24/7随时获取、评估网站上的商机，无需代码定制，加快销售周期，提供超越人类极限的业务增长机会</font>
-                                                    </div>
-                                                </div>
-                                            </a>
-
-
 
                                             <a href="/intelligent-customer-service-robot" className={styles.f__no_und_aways}>
                                                 <div className={styles.holiday}>
@@ -402,7 +336,6 @@ class NavHeader extends React.Component {
                                                     </div>
                                                 </div>
                                             </a>
-                                        </div>
                                     </div>
 
                                 </NavDropdown>
