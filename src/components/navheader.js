@@ -330,7 +330,7 @@ class NavHeader extends React.Component {
                                                         <font>业务定制</font>
                                                     </div>
                                                     <div>
-                                                        <font>独有的流程生成器与APP Store结合，快速满足企业业务定制需求</font>
+                                                        <font>独有的流程生成器与应用集成结合，快速满足企业业务定制需求</font>
                                                     </div>
                                                 </div>
                                             </a>
