@@ -290,8 +290,6 @@ class NavHeader extends React.Component {
                                                 </div>
                                             </a>
 
-                                            <div style={{width:"720px"}}></div>
-
                                             <a href="/cloud-call-center" className={styles.f__no_und_aways}>
                                                 <div className={styles.holiday}>
                                                     <div className={styles.t__h4}>
@@ -346,7 +344,7 @@ class NavHeader extends React.Component {
 
                                 <NavDropdown title="应用场景">
                                     <div className={styles.g__row}>
-                                        <div style={{marginLeft:"20px"}}>
+                                        <div>
                                             <a href="/transform-customs" className={styles.f__no_und_aways}>
                                                 <div className={styles.holiday}>
                                                     <div className={styles.t__h4}>
@@ -511,7 +509,7 @@ class NavHeader extends React.Component {
 
                                 <NavDropdown title="产品资源">
                                     <div className={styles.g__row}>
-                                        <div style={{marginLeft:"20px"}}>
+                                        <div>
                                             {/* <a href="/tutorial/" style={{textDecoration:"none"}}>
                                                 <div className={styles.holiday}>
                                                 <div className={styles.t__h4}>
