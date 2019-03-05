@@ -18,9 +18,8 @@ class Footer extends React.Component {
             server_url: 'https://ppmessage.cn'
         };
 
-        (function(){var d=document;function l(){var a=d.createElement('script');a.type='text/javascript';a.async=!0;a.charset='utf-8';a.src='https://ppmessage.cn/ppcom/assets/pp-library.min.js';var b=d.getElementsByTagName('script')[0];b.parentNode.insertBefore(a,b)}l();})();
-        
-
+        /* (function(){var d=document;function l(){var a=d.createElement('script');a.type='text/javascript';a.async=!0;a.charset='utf-8';a.src='https://ppmessage.cn/ppcom/assets/pp-library.min.js';var b=d.getElementsByTagName('script')[0];b.parentNode.insertBefore(a,b)}l();})();
+         *  */
         
         (function(){
             var d=document;
@@ -33,15 +32,15 @@ class Footer extends React.Component {
             }
             function m(j){
                 var a=d.createElement('link');
-                a.rel='stylesheet';a.async=!0;a.charset='utf-8';
+                a.rel='stylesheet';
                 a.href=j;
                 var b=d.getElementsByTagName('head')[0];
                 b.append(a)
             }
-            l('https://ppmessage.cn/ppcom/assets/build/static/js/runtime~main.9eb600ee.js');
+            m('https://ppmessage.cn/ppcom/assets/build/static/css/main.880c7ad6.chunk.css');
+            l('https://ppmessage.cn/ppcom/assets/build/static/js/runtime~main.1b204b05.js');
             l('https://ppmessage.cn/ppcom/assets/build/static/js/2.e49945de.chunk.js');
-            l('https://ppmessage.cn/ppcom/assets/build/static/js/main.2f32f516.chunk.js');
-            //m('https://ppmessage.cn/ppcom/assets/build/static/css/main.e88b17f4.chunk.css');
+            l('https://ppmessage.cn/ppcom/assets/build/static/js/main.778a0932.chunk.js');
         })();
         
     }
