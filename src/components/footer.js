@@ -27,8 +27,8 @@ class Footer extends React.Component {
                 var a=d.createElement('script');
                 a.type='text/javascript';a.charset='utf-8';
                 a.src=j;
-                var b=d.getElementsByTagName('script')[0];
-                b.parentNode.insertBefore(a,b)
+                var b=d.getElementsByTagName('head')[0];
+                b.append(a)
             }
             function m(j){
                 var a=d.createElement('link');
