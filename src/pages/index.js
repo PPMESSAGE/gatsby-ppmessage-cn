@@ -131,8 +131,8 @@ export default () =>{
 	    <Layout>
             <Helmet>
                 <title>PPMESSAGE-新一代全渠道智能在线客服系统_网站客服系统</title>
-                <meta name="keywords" content="在线客服系统，网站客服系统，智能客服系统，在线客服，工单系统，云呼叫中心，销售机器人，客服机器人，语音机器人" />
-                <meta name="description" content="PPMESSAGE是业界领先的新一代全渠道在线客服系统，为企业提供在线客服，网站客服，工单系统,云呼叫中心,营销自动化,销售机器人,客服机器人和语音机器人的一体化解决方案。电商、教育、金融、互联网、医疗、智能制造、旅游餐饮等行业领袖的选择。" />
+                <meta name="keywords" content="在线客服系统，网站客服系统，智能客服系统，在线客服，云呼叫中心，客服机器人，语音机器人" />
+                <meta name="description" content="PPMESSAGE是业界领先的新一代全渠道在线客服系统，为企业提供在线客服，网站客服,云呼叫中心,销售机器人,客服机器人和语音机器人的一体化解决方案。电商、教育、金融、互联网、医疗、智能制造、旅游餐饮等行业领袖的选择。" />
 
             </Helmet>
             
@@ -221,10 +221,10 @@ export default () =>{
                                             <h2>支持并提高客户满意度
                                             </h2>
                                             <font className={styles.ziti}>
-                                                云呼叫中心，客服机器人及与业务无缝集成的工单系统，在有效降低成本的同时更快的解决客户问题
+                                                云呼叫中心，客服机器人及与业务无缝集成，在有效降低成本的同时更快的解决客户问题
                                             </font>
                                             <div style={{height:"15px"}}></div>
-                                            <div><font>云呼叫中心·工单·客服机器人</font></div>
+                                            <div><font>云呼叫中心·客服机器人</font></div>
                                             <div style={{height:"10px"}}></div>
                                             <a href="/conversion-business" className={styles.ziti1}>
                                                 了解更多
