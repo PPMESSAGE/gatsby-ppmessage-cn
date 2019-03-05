@@ -39,7 +39,7 @@ class Footer extends React.Component {
             l('https://ppmessage.cn/ppcom/assets/build/static/js/runtime~main.9eb600ee.js');
             l('https://ppmessage.cn/ppcom/assets/build/static/js/2.e49945de.chunk.js');
             l('https://ppmessage.cn/ppcom/assets/build/static/js/main.2f32f516.chunk.js');
-            m('https://ppmessage.cn/ppcom/assets/build/static/css/main.e88b17f4.chunk.css');
+            //m('https://ppmessage.cn/ppcom/assets/build/static/css/main.e88b17f4.chunk.css');
         })();
         
     }
