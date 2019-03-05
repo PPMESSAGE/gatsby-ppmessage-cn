@@ -3,7 +3,7 @@ import Footer from "../components/footer.js";
 import NavHeader from "../components/navheader"
 
 export default ({ children }) => (    
-    <div>
+    <div style={"background":"white !important"}>
         <NavHeader />
         {children}
         <Footer />
