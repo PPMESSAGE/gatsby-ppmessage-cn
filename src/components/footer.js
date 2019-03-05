@@ -59,28 +59,9 @@ class Footer extends React.Component {
                                             <font>智能客服</font>
                                         </a>
                                     </div>
-                                    
-                                    <div className={styles.footer__link}>
-                                        <a href="/marketing" className={styles.lianjie}>
-                                            <font>营销自动化</font>
-                                        </a>
-                                    </div>
-                                    
-                                    <div className={styles.footer__link}>
-                                        <a href="/tickets" className={styles.lianjie}>
-                                            <font>工单系统</font>
-                                        </a>
-                                    </div>
-                                    
                                     <div className={styles.footer__link}>
                                         <a href="/cloud-call-center" className={styles.lianjie}>
                                             <font>云呼叫中心</font>
-                                        </a>
-                                    </div>
-                                    
-                                    <div className={styles.footer__link}>
-                                        <a href="/robot-of-sale" className={styles.lianjie}>
-                                            <font>智能销售机器人</font>
                                         </a>
                                     </div>
                                     
@@ -128,76 +109,6 @@ class Footer extends React.Component {
                                     
                                 </div>
                                 
-                                <div className={styles.footer__links}>
-                                    <h4 className={styles.footer__heading}>
-                                        <font color="#888">解决方案</font>
-                                    </h4>
-                                    <div className={styles.footer__link}>
-                                        <a href="/commerce-solutions" className={styles.lianjie}>
-                                            <font>电商行业解决方案</font>
-                                        </a>
-                                    </div>
-                                    
-                                    <div className={styles.footer__link}>
-                                        <a href="/education-training-solutions" className={styles.lianjie}>
-                                            <font>教育培训解决方案</font>
-                                        </a>
-                                    </div>
-                                    
-                                    <div className={styles.footer__link}>
-                                        <a href="/finacial-insurance-solutions" className={styles.lianjie}>
-                                            <font>金融保险解决方案</font>
-                                        </a>
-                                    </div>
-                                    
-                                    <div className={styles.footer__link}>
-                                        <a href="/medical-health-solutions" className={styles.lianjie}>
-                                            <font>医疗健康解决方案</font>
-                                        </a>
-                                    </div>
-                                    
-                                    <div className={styles.footer__link}>
-                                        <a href="/tourism-hotel-industry-solutions" className={styles.lianjie}>
-                                            <font>旅游行业解决方案</font>
-                                        </a>
-                                    </div>
-                                    
-                                    <div className={styles.footer__link}>
-                                        <a href="/automotive-service-solutions" className={styles.lianjie}>
-                                            <font>汽车服务行业解决方案</font>
-                                        </a>
-                                    </div>
-                                    <div className={styles.footer__link}>
-                                        <a href="/restaurant-chain-solution" className={styles.lianjie}>
-                                            <font>餐饮连锁解决方案</font>
-                                        </a>
-                                    </div>
-                                    <div className={styles.footer__link}>
-                                        <a href="/quick-sale-product-solutions" className={styles.lianjie}>
-                                            <font>快销品解决方案</font>
-                                        </a>
-                                    </div>
-                                    <div className={styles.footer__link}>
-                                        <a href="/manufacturing-sulotions" className={styles.lianjie} >
-                                            <font >制造业解决方案</font>
-                                        </a>
-                                    </div>
-                                    <div className={styles.footer__link}>
-                                        <a href="/local-living-solution" className={styles.lianjie}>
-                                            <font>本地生活解决方案</font>
-                                        </a>
-                                    </div>
-                                    <div className={styles.footer__link}>
-                                        <a href="/government-solutions" className={styles.lianjie}>
-                                            <font>政府与事业单位解决方案</font>
-                                        </a>
-                                    </div>
-                                    <div className={styles.footer__link}>
-                                        <a href="/real-estate-proper-solutions" className={styles.lianjie}>
-                                            <font>房地产物业解决方案</font>
-                                        </a>
-                                    </div>
-                                </div>
                                 <div className={styles.footer__links}>
                                     <h4 className={styles.footer__heading}>
                                         <font color="#888">产品资源</font>
@@ -262,7 +173,6 @@ class Footer extends React.Component {
                 <a href="https://ppmessage.cn/product" title="在线客服系统">在线客服系统</a>，
                 <a href="https://ppmessage.cn/product" title="网站客服系统">网站客服系统</a>，
                 <a href="https://ppmessage.cn/marketing/" title="营销自动化">营销自动化</a>，
-                <a href="https://ppmessage.cn/tickets/" title="工单系统">工单系统</a>，
                 <a href="https://ppmessage.cn/cloud-call-center/" title="云呼叫中心">云呼叫中心</a>，
                 <a href="https://ppmessage.cn/intelligent-customer-service-robot/" title="客服机器人">客服机器人</a>，
                 <a href="https://ppmessage.cn/ppkefu/" title="免费试用">免费试用</a>
