@@ -33,8 +33,8 @@ class Footer extends React.Component {
                 var a=d.createElement('link');
                 a.rel='stylesheet';a.async=!0;a.charset='utf-8';
                 a.href=j;
-                var b=d.getElementsByTagName('link')[0];
-                b.parentNode.insertBefore(a,b)
+                var b=d.getElementsByTagName('head')[0];
+                b.append(a)
             }
             l('https://ppmessage.cn/ppcom/assets/build/static/js/runtime~main.9eb600ee.js');
             l('https://ppmessage.cn/ppcom/assets/build/static/js/2.e49945de.chunk.js');
