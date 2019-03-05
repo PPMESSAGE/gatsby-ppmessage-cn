@@ -24,7 +24,7 @@ class Footer extends React.Component {
             var d=document;
             function l(j){
                 var a=d.createElement('script');
-                a.type='text/javascript';a.async=!0;a.charset='utf-8';
+                a.type='text/javascript';a.charset='utf-8';
                 a.src=j;
                 var b=d.getElementsByTagName('script')[0];
                 b.parentNode.insertBefore(a,b)
