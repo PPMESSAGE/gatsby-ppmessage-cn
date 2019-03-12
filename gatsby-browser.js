@@ -15,7 +15,6 @@ const ReactDOM = require('react-dom');
 // Import global styles
 require('normalize.css');
 require('./src/css/reset.css');
-require('./src/prism-styles');
 require('./src/css/algolia.css');
 
 // Expose React and ReactDOM as globals for console playground

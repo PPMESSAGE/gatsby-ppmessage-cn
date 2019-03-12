@@ -4,4 +4,11 @@
  * See: https://www.gatsbyjs.org/docs/node-apis/
  */
 
- // You can delete this file if you're not using it
+// You can delete this file if you're not using it
+
+'use strict';
+
+exports.onCreateWebpackConfig = require('./gatsby/onCreateWebpackConfig');
+exports.createPages = require('./gatsby/createPages');
+exports.onCreateNode = require('./gatsby/onCreateNode');
+exports.onCreatePage = require('./gatsby/onCreatePage');
