@@ -139,11 +139,11 @@ class Footer extends React.Component {
                                         <font>帮助中心</font>
                                         </a>
                                         </div> */}
-                                    <div className={styles.footer__link}>
+                                    {/* <div className={styles.footer__link}>
                                         <a href="/doc/" className={styles.lianjie}>
-                                            <font>开发者文档</font>
+                                        <font>开发者文档</font>
                                         </a>
-                                    </div>
+                                        </div> */}
 
                                     <div className={styles.footer__link}>
                                         <a href="http://qiniu.ppmessage.cn/desktop/macos/PPMESSAGE-2.2.1.dmg" className={styles.lianjie}>
