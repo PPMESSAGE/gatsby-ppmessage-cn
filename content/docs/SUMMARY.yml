@@ -1,0 +1,113 @@
+- title: 什么是PPMESSAGE
+  items:
+    - id: what-can-ppmessage-do
+      title: 可以用PPMESSAGE做什么？
+    - id: who-should-use-ppmessage
+      title: 谁应该使用PPMESSAGE？
+    - id: unique-features
+      title: PPMESSAGE有哪些独特的功能？
+- title: PPMESSAGE产品简介
+  items:
+    - id: intelligent-customers-service-system
+      title: 智能客服系统
+    - id: marketing-autommation-system
+      title: 营销自动化系统
+    - id: ticket-system
+      title: 工单系统
+    - id: cloude-call-center
+      title: 云呼叫中心
+    - id: cloude-call-center
+      title: 智能销售机器人
+    - id: cloude-call-center
+      title: 智能语音机器人
+    - id: cloude-call-center
+      title: 智能客服机器人
+- title: PPMESSAGE安装指南
+  items:
+    - id: installation
+      title: 在网站上安装PPMESSAGE
+    - id: register-team-for-wechat
+      title: 为微信公众号提供在线客服
+- title: PPMESSAGE配置指南
+  items:
+    - id: basic-customize-chat-widget
+      title: 自定义PPMESSAGE聊天组件
+    - id: display-customize-on-chat-widget
+      title: 设置聊天组件上显示的团队信息
+    - id: advanced-customize-chat-widget
+      title: 聊天组件的高级定制方法
+    - id: configure-customer-service-team
+      title: 配置客服团队
+    - id: configure-customer-information
+      title: 配置客户信息
+      subitems:
+        - id: set-custom-fields
+          title: 设置定制字段
+        - id: automatica-updates-field-variables
+          title: 设置自动更新字段变量
+        - id: tracked-event
+          title: 设置应用中要跟踪的事件
+        - id: set-client-type
+          title: 设置客户类型
+    - id: offline-message
+      title: 设置通过座席人员微信接收离线消息
+- title: PPMESSAGE操作指南
+  items:
+    - id: component-operational
+      title: 聊天组件操作指南
+      subitems:
+          - id: voice-prompt
+          title: 键入指示和声音提示
+          - id: team-information
+          title: 团队资料
+    - id: introduction-to-information-interface
+      title: 会话界面
+      subitems:
+        - id: visitor-session-list
+          title: 会话列表
+        - id: session-area
+          title: 会话区域
+        - id: customer-information
+          title: 客户信息
+        - id: introduction-to-session-interface
+          title: 会话界面
+    - id: introduction-to-visitor-interface
+      title: 访客界面
+      subitems:
+        - id: filter-conditions
+          title: 过滤条件
+        - id: customer-segmentation
+          title: 客户细分
+        - id: create-niche
+          title: 创建细分
+        - id: set-client-type
+          title: adjust-the-visitor-field-displed
+- title: PPMESSAGE流程管理
+  items:
+    - id: introduction-to-process-configuration-interface
+      title: 流程配置界面简介
+    - id: create-a-process
+      title: 创建流程
+    - id: understand-the-variables-in-the-process
+      title: 理解流程中的变量
+      subitems:
+          - id: voice-prompt
+          title: 系统内置字段变量
+          - id: team-information
+          title: 定制字段变量
+          - id: event-field-variable
+          title: 事件字段变量 
+          - id: reference-a-variable-in-the-text
+          title: 在文本中引用变量
+          - id: reference-a-variable-in-an-expression
+          title: 在表达式中引用变量
+
+    - id: understand-the-nodes-in-the-process
+      title: 理解流程中的节点 
+    - id: web-message-flow
+      title: 网页消息流程 
+    - id: wechat-process
+      title: 微信消息流程
+    - id: event-process
+      title: 事件消息流程 
+                    

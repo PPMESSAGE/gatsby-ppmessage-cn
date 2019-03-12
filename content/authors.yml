@@ -1,0 +1,10 @@
+# Map of short name to more information. `name` will be used but if you don't
+# want to use your real name, just use whatever. If url is included, your name
+# will be a link to the provided url.
+dingguijin:
+  name: Guijin Ding
+  url: https://github.com/dingguijin
+  icon: https://avatars2.githubusercontent.com/u/1137917?s=400&u=d8e9f243c224d88681139cb4c528a921706508fa&v=4
+suntiecheng:
+  name: Steven Sun
+  url: https://github.com/SUNTCB
